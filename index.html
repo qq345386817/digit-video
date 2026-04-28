@@ -4,33 +4,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta name="description" content="Dig It helps you extract cleaner, more useful keyframes from video, locally and without uploading your clips to a server." data-i18n-content="metaDescription">
+  <link rel="canonical" href="http://luopeike.com/digit-video/index.html">
+  <link rel="alternate" hreflang="en" href="http://luopeike.com/digit-video/index.html?lang=en">
+  <link rel="alternate" hreflang="zh-Hans" href="http://luopeike.com/digit-video/index.html?lang=zh-Hans">
+  <link rel="alternate" hreflang="zh-Hant" href="http://luopeike.com/digit-video/index.html?lang=zh-Hant">
+  <link rel="alternate" hreflang="x-default" href="http://luopeike.com/digit-video/index.html?lang=en">
+  <meta property="og:site_name" content="Dig It">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dig It" data-i18n-content="ogTitle">
+  <meta property="og:description" content="Dig It helps you extract cleaner, more useful keyframes from video, locally and without uploading your clips to a server." data-i18n-content="metaDescription">
+  <meta property="og:url" content="http://luopeike.com/digit-video/index.html">
+  <meta property="og:image" content="http://luopeike.com/digit-video/favicon/android-chrome-512x512.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dig It" data-i18n-content="ogTitle">
+  <meta name="twitter:description" content="Dig It helps you extract cleaner, more useful keyframes from video, locally and without uploading your clips to a server." data-i18n-content="metaDescription">
+  <meta name="twitter:image" content="http://luopeike.com/digit-video/favicon/android-chrome-512x512.png">
+
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
-  
+
   <link rel="stylesheet" href="style/base.css">
-  <title>DigIt->Video</title>
+  <title data-i18n-title="title">Dig It</title>
   <style>
     body {
+      min-height: 100vh;
       display: flex;
-      align-items: center;
-      flex-direction: column;
+      justify-content: center;
     }
+
+    .page {
+      padding: 48px 0 72px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 6vw, 60px);
+      line-height: 1.02;
+    }
+
+    .subhead {
+      margin: 16px 0 0;
+      max-width: 720px;
+      font-size: 18px;
+      line-height: 1.65;
+      color: var(--text-secondary);
+    }
+
   </style>
+  <script defer src="script/i18n.js"></script>
 </head>
 
 <body>
-  <h2>DigIt->Video</h2>
-  <video width="960" height="540" controls autoplay>
-    <source src="./videos/iPad-en-1600_1200.mov" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <main class="page">
+    <div class="site-header">
+      <nav class="site-nav" aria-label="Site">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="help.html" data-i18n="navHelp">Help & Support</a>
+        <a href="privacy-policy.html" data-i18n="navPrivacy">Privacy Policy</a>
+      </nav>
 
-  <br />
-  <div>If you have any questions, don’t hesitate to contact our Support service -
-    cameoshell09@gmail.com</div>
+      <label class="lang-switcher">
+        <span data-i18n="langLabel">Language</span>
+        <select id="language-switcher" aria-label="Language switcher">
+          <option value="en">English</option>
+          <option value="zh-Hans">简体中文</option>
+          <option value="zh-Hant">繁體中文</option>
+        </select>
+      </label>
+    </div>
+
+    <section class="hero">
+      <p class="eyebrow" data-i18n="heroEyebrow">Dig It</p>
+      <h1 data-i18n="heroTitle">Extract better keyframes from video.</h1>
+      <p class="subhead" data-i18n="heroSubhead">
+        Dig It helps you turn a video into a cleaner, more useful set of frames for covers, product stills,
+        tutorials, and reusable visuals, processed locally without uploading your clip.
+      </p>
+
+      <div class="actions">
+        <a class="button primary" href="help.html" data-i18n="ctaHelp">Help & Support</a>
+        <a class="button secondary" href="privacy-policy.html" data-i18n="ctaPrivacy">Privacy Policy</a>
+        <a class="button secondary" href="mailto:cameoshell09@gmail.com" data-i18n="ctaContact">Contact Support</a>
+      </div>
+
+      <section class="mini-faq" aria-labelledby="quick-faq-title">
+        <h2 id="quick-faq-title" data-i18n="quickFaqTitle">Quick SEO FAQ</h2>
+        <div class="grid">
+          <article class="card">
+            <h3 data-i18n="quickFaq1q">What is Dig It for?</h3>
+            <p data-i18n="quickFaq1a">Dig It is for extracting cleaner keyframes from video so you can review covers, thumbnails, stills, and tutorial frames faster.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="quickFaq2q">Does Dig It upload videos?</h3>
+            <p data-i18n="quickFaq2a">No, it is designed to process video locally on your device without uploading clips to a server.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="quickFaq3q">Who should use it?</h3>
+            <p data-i18n="quickFaq3a">Creators, editors, and product teams who need useful video stills for previews, docs, and reusable visuals.</p>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2 data-i18n="cardWhatTitle">What it does</h2>
+        <p data-i18n="cardWhatBody">
+          Import a clip once, then review the frames most worth keeping instead of digging through a noisy frame dump. Processing stays on your device.
+        </p>
+      </article>
+      <article class="card">
+        <h2 data-i18n="cardBestTitle">Best for</h2>
+        <p data-i18n="cardBestBody">
+          Cover picks, product stills, tutorial steps, and quick content assets you want to reuse elsewhere.
+        </p>
+      </article>
+      <article class="card">
+        <h2 data-i18n="cardHelpTitle">Need help?</h2>
+        <p>
+          <span data-i18n="cardHelpBodyPrefix">Visit the </span><a href="help.html" data-i18n="cardHelpBodyLink">Help & Support</a><span data-i18n="cardHelpBodyMiddle"> page, or email us directly at </span><a href="mailto:cameoshell09@gmail.com">cameoshell09@gmail.com</a><span data-i18n="cardHelpBodySuffix">.</span>
+        </p>
+      </article>
+    </section>
+
+    <footer class="site-footer">
+      <p class="footer" data-i18n="footerHome">Dig It, support and product information.</p>
+    </footer>
+  </main>
 </body>
 
 </html>
