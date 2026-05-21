@@ -1,246 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Help and support for Dig It, including local-first video processing and privacy-friendly keyframe extraction." data-i18n-content="helpMetaDescription">
-  <link rel="canonical" href="http://luopeike.com/digit-video/help.html">
-  <link rel="alternate" hreflang="en" href="http://luopeike.com/digit-video/help.html?lang=en">
-  <link rel="alternate" hreflang="zh-Hans" href="http://luopeike.com/digit-video/help.html?lang=zh-Hans">
-  <link rel="alternate" hreflang="zh-Hant" href="http://luopeike.com/digit-video/help.html?lang=zh-Hant">
-  <link rel="alternate" hreflang="es" href="http://luopeike.com/digit-video/help.html?lang=es">
-  <link rel="alternate" hreflang="id" href="http://luopeike.com/digit-video/help.html?lang=id">
-  <link rel="alternate" hreflang="x-default" href="http://luopeike.com/digit-video/help.html?lang=en">
+  <meta name="description" content="Help for Dig It keyframe extraction, local video processing, export, history, and troubleshooting.">
+  <meta name="robots" content="index,follow">
   <meta property="og:site_name" content="Dig It">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Dig It Help" data-i18n-content="helpTitle">
-  <meta property="og:description" content="Help and support for Dig It, including local-first video processing and privacy-friendly keyframe extraction." data-i18n-content="helpMetaDescription">
-  <meta property="og:url" content="http://luopeike.com/digit-video/help.html">
-  <meta property="og:image" content="http://luopeike.com/digit-video/favicon/android-chrome-512x512.png">
+  <meta property="og:title" content="Dig It Help &amp; Support">
+  <meta property="og:description" content="Help for Dig It keyframe extraction, local video processing, export, history, and troubleshooting.">
+  <meta property="og:url" content="https://digit-video.luopeike.com/help.html">
+  <meta property="og:image" content="https://digit-video.luopeike.com/images/app-icon.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dig It Help" data-i18n-content="helpTitle">
-  <meta name="twitter:description" content="Help and support for Dig It, including local-first video processing and privacy-friendly keyframe extraction." data-i18n-content="helpMetaDescription">
-  <meta name="twitter:image" content="http://luopeike.com/digit-video/favicon/android-chrome-512x512.png">
-
+  <meta name="twitter:image" content="https://digit-video.luopeike.com/images/app-icon.png">
+  <link rel="canonical" href="https://digit-video.luopeike.com/help.html">
+  <link rel="alternate" hreflang="en" href="https://digit-video.luopeike.com/help.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://digit-video.luopeike.com/zh-Hans/help.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://digit-video.luopeike.com/zh-Hant/help.html">
+  <link rel="alternate" hreflang="es" href="https://digit-video.luopeike.com/es-ES/help.html">
+  <link rel="alternate" hreflang="id" href="https://digit-video.luopeike.com/id/help.html">
+  <link rel="alternate" hreflang="ja" href="https://digit-video.luopeike.com/ja/help.html">
+  <link rel="alternate" hreflang="ko" href="https://digit-video.luopeike.com/ko/help.html">
+  <link rel="alternate" hreflang="de" href="https://digit-video.luopeike.com/de-DE/help.html">
+  <link rel="alternate" hreflang="fr" href="https://digit-video.luopeike.com/fr-FR/help.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://digit-video.luopeike.com/pt-BR/help.html">
+  <link rel="alternate" hreflang="x-default" href="https://digit-video.luopeike.com/help.html">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
-
+  <meta name="theme-color" content="#5C2E7D">
   <link rel="stylesheet" href="style/base.css">
-  <title data-i18n-title="helpTitle">Dig It Help</title>
-  <style>
-    .lead {
-      margin-top: 14px;
-      max-width: 760px;
-      line-height: 1.72;
-      color: var(--text-secondary);
-    }
-
-    section {
-      margin-top: 28px;
-    }
-
-    ul {
-      padding-left: 20px;
-      margin: 12px 0 0;
-    }
-
-    .faq {
-      display: grid;
-      gap: 16px;
-      margin-top: 16px;
-    }
-
-    .item {
-      padding: 18px 20px;
-      border-radius: 20px;
-      background: var(--chip-bg);
-      border: 1px solid var(--panel-stroke);
-    }
-
-    .item h3 {
-      margin: 0 0 8px;
-      font-size: 17px;
-    }
-
-    .search-panel {
-      margin-top: 22px;
-      padding: 18px 20px;
-      border-radius: 20px;
-      background: var(--chip-bg);
-      border: 1px solid var(--panel-stroke);
-    }
-
-    .search-row {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 10px;
-    }
-
-    .search-input {
-      flex: 1 1 280px;
-      min-height: 44px;
-      padding: 0 14px;
-      border-radius: 14px;
-      border: 1px solid var(--panel-stroke);
-      background: var(--field-bg);
-      color: var(--text-primary);
-      font: inherit;
-    }
-
-    .search-button {
-      min-height: 44px;
-      padding: 0 18px;
-      border: 0;
-      border-radius: 999px;
-      background: var(--button-gradient);
-      color: #fff;
-      font: inherit;
-      font-weight: 600;
-      cursor: pointer;
-    }
-
-    .search-status {
-      margin-top: 10px;
-      color: var(--text-secondary);
-      font-size: 14px;
-    }
-
-    .search-empty {
-      margin-top: 16px;
-      padding: 18px 20px;
-      border-radius: 18px;
-      background: var(--chip-bg);
-      color: var(--text-secondary);
-    }
-
-    mark {
-      background: var(--highlight-bg);
-      color: inherit;
-      padding: 0 2px;
-      border-radius: 4px;
-    }
-  </style>
-  <script defer src="script/i18n.js"></script>
+  <title>Dig It Help &amp; Support</title>
 </head>
-
-<body>
-  <main class="page">
-    <div class="site-header">
-      <nav class="site-nav" aria-label="Site">
-        <a href="index.html" data-i18n="navHome">Home</a>
-        <a href="https://apps.apple.com/app/id6508171056" data-i18n="navDownload">Download</a>
-        <a href="help.html" data-i18n="navHelp">Help & Support</a>
-        <a href="privacy-policy.html" data-i18n="navPrivacy">Privacy Policy</a>
-      </nav>
-
-      <label class="lang-switcher">
-        <span data-i18n="langLabel">Language</span>
-        <select id="language-switcher" aria-label="Language switcher">
-          <option value="en">English</option>
-          <option value="zh-Hans">简体中文</option>
-          <option value="zh-Hant">繁體中文</option>
-          <option value="es">Español</option>
-          <option value="id">Bahasa Indonesia</option>
-        </select>
-      </label>
-    </div>
-
-    <div class="panel">
-      <p class="eyebrow" data-i18n="heroEyebrow">Dig It</p>
-      <h1 data-i18n="helpHeading">Help & Support</h1>
-      <p class="lead" data-i18n="helpLead">
-        Dig It is designed to make keyframe extraction feel simple. It processes your video locally on your device, without uploading it to a server. If you need a quick guide, troubleshooting help, or a support contact, this page is the best place to start.
-      </p>
-
-      <section class="search-panel" aria-labelledby="help-search-title">
-        <h2 id="help-search-title" data-i18n="searchTitle">Search help</h2>
-        <p data-i18n="searchLead">Search this page for setup, export, privacy, cover mode, or workflow questions.</p>
-        <form id="help-search-form" class="search-row" role="search">
-          <input id="help-search-input" class="search-input" type="search" name="query" placeholder="Search help topics" data-i18n-placeholder="searchPlaceholder" aria-label="Search help topics">
-          <button class="search-button" type="submit" data-i18n="searchButton">Search</button>
-        </form>
-        <div id="help-search-status" class="search-status" aria-live="polite"></div>
-      </section>
-
-      <section class="searchable-block">
-        <h2 data-i18n="gettingStartedTitle">Getting started</h2>
-        <ul>
-          <li data-i18n="gettingStarted1">Import a video.</li>
-          <li data-i18n="gettingStarted2">Choose the extraction mode that best fits your goal.</li>
-          <li data-i18n="gettingStarted3">Review the selected frames.</li>
-          <li data-i18n="gettingStarted4">Export the frames you want to keep.</li>
-        </ul>
-      </section>
-
-      <section class="searchable-block">
-        <h2 data-i18n="modesTitle">What the main modes are for</h2>
-        <ul>
-          <li data-i18n="modeBalanced">Balanced: a compact set of distinct frames for general review.</li>
-          <li data-i18n="modeCover">Cover: fewer, stronger frames for cover candidates and hero images.</li>
-          <li data-i18n="modeSteps">Steps: more change points for tutorials, workflows, and process content.</li>
-        </ul>
-      </section>
-
-      <section class="searchable-block">
-        <h2 data-i18n="faqTitle">Search-friendly FAQ</h2>
-        <div class="faq">
-          <div class="item searchable-item">
-            <h3 data-i18n="faq1q">Why does the app ask for file or photo access?</h3>
-            <p data-i18n="faq1a">
-              Dig It needs access only so it can import your selected media and export the results you choose to save.
-            </p>
-          </div>
-          <div class="item searchable-item">
-            <h3 data-i18n="faq2q">Does my video leave my device?</h3>
-            <p data-i18n="faq2a">
-              Dig It processes your media locally on your device and does not upload your video to a server unless you explicitly export or share files yourself.
-            </p>
-          </div>
-          <div class="item searchable-item">
-            <h3 data-i18n="faq3q">Why can't an older saved project fully reopen?</h3>
-            <p data-i18n="faq3a">
-              Some saved projects keep metadata only, or keep only a lightweight preview set, which may not be enough to rebuild the full working result set.
-            </p>
-          </div>
-          <div class="item searchable-item">
-            <h3 data-i18n="faq4q">What should I do if export fails?</h3>
-            <p data-i18n="faq4a">
-              Try importing the file again, confirm the source file is still accessible, and make sure there is enough free storage available on your device.
-            </p>
-          </div>
-          <div class="item searchable-item">
-            <h3 data-i18n="faq5q">What is the best mode for cover images?</h3>
-            <p data-i18n="faq5a">
-              Use Cover mode when you want fewer but stronger keyframes that are better suited to thumbnails, hero images, and social previews.
-            </p>
-          </div>
-          <div class="item searchable-item">
-            <h3 data-i18n="faq6q">What is the best mode for tutorials or workflow videos?</h3>
-            <p data-i18n="faq6a">
-              Use Steps mode when you want more visible change points, which makes it easier to document process steps and sequence changes.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="searchable-block">
-        <h2 data-i18n="moreHelpTitle">Need more help?</h2>
-        <p>
-          <span data-i18n="moreHelpBodyPrefix">For support, feedback, or bug reports, email </span><a href="mailto:cameoshell09@gmail.com">cameoshell09@gmail.com</a><span data-i18n="moreHelpBodySuffix">.</span>
-        </p>
-      </section>
-      <div id="help-search-empty" class="search-empty" data-i18n="searchEmpty" hidden>No matching help topics found. Try another keyword.</div>
-    </div>
-
-    <footer class="site-footer">
-      <p class="footer" data-i18n="footerHelp">Dig It help, support, and troubleshooting.</p>
-    </footer>
-  </main>
-  <script defer src="script/help-search.js"></script>
-</body>
-
+<body><div class="page"><div class="container"><header class="topbar"><a class="brand" href="index.html" aria-label="Dig It home"><img src="images/app-icon.png" alt=""><span>Dig It</span></a><nav class="nav" aria-label="Primary"><a href="index.html">Home</a><a href="help.html">Help</a><a href="support.html">Support</a><a href="privacy-policy.html">Privacy</a><label class="language-switch"><span>Language</span><select aria-label="Language" onchange="if (this.value) window.location.href=this.value"><option value="help.html" selected>English</option><option value="zh-Hans/help.html">简体中文</option><option value="zh-Hant/help.html">繁體中文</option><option value="es-ES/help.html">Español</option><option value="id/help.html">Bahasa Indonesia</option><option value="ja/help.html">日本語</option><option value="ko/help.html">한국어</option><option value="de-DE/help.html">Deutsch</option><option value="fr-FR/help.html">Français</option><option value="pt-BR/help.html">Português (Brasil)</option></select></label></nav></header><main><section class="section"><p class="kicker">Dig It</p><h1>Dig It Help &amp; Support</h1><p class="lead">Use this guide to start extracting keyframes, choose a mode, export selected frames, and understand how local processing works.</p><div class="actions"><a class="button primary" href="https://apps.apple.com/app/id6508171056"><img class="store-icon" src="images/app-store-icon.svg" alt="">App Store</a></div></section><section class="section"><h2>Getting started</h2><ol><li>Import a video from Files or Photos.</li><li>Choose Balanced, Cover, or Steps.</li><li>Review the extracted frames and select the ones worth keeping.</li><li>Export selected PNG images or save the project to history.</li></ol></section><section class="section"><h2>Choosing an extraction mode</h2><ul><li>Balanced: a clean medium-sized set for most videos.</li><li>Cover: fewer stronger frames for thumbnails, covers, and hero images.</li><li>Steps: more change points for tutorials, workflows, and process content.</li></ul></section><section class="section"><h2>FAQ</h2><div class="feature-grid two"><article class="feature"><strong>Does Dig It upload videos?</strong><p>No. Dig It is designed to process video locally on your device unless you explicitly export or share files yourself.</p></article><article class="feature"><strong>Why does it ask for Photos access?</strong><p>Dig It uses Photos access only so you can choose source media and save exported results when you ask it to.</p></article><article class="feature"><strong>Can I reopen old projects?</strong><p>Saved projects can reopen when lightweight previews are available. Metadata-only records preserve run details but cannot rebuild a full result set.</p></article></div></section></main><footer class="footer">Dig It - local video keyframes and still image export.</footer></div></div></body>
 </html>
