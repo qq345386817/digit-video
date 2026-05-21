@@ -1,28 +1,10 @@
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      "name": "Dig It",
-      "applicationCategory": "MultimediaApplication",
-      "operatingSystem": "iOS, macOS",
-      "description": "Dig It helps you extract cleaner, more useful keyframes from video, locally and without uploading your clips to a server.",
-      "url": "http://luopeike.com/digit-video/index.html",
-      "image": "http://luopeike.com/digit-video/favicon/android-chrome-512x512.png",
-      "author": {
-        "@type": "Organization",
-        "name": "Dig It"
-      }
-    },
-    {
-      "@type": "WebSite",
-      "name": "Dig It",
-      "url": "http://luopeike.com/digit-video/index.html",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "http://luopeike.com/digit-video/help.html?query={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  ]
+  "@type": "SoftwareApplication",
+  "name": "Dig It",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "iOS, iPadOS, macOS",
+  "url": "https://digit-video.luopeike.com/index.html",
+  "downloadUrl": "https://apps.apple.com/app/id6508171056",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
 }

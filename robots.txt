@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: http://luopeike.com/digit-video/sitemap.xml
+Sitemap: https://digit-video.luopeike.com/sitemap.xml
