@@ -2,6 +2,12 @@
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "Dig It",
+  "alternateName": [
+    "DigIt",
+    "DigIt Video",
+    "DigIt->Video",
+    "Dig It Video Keyframes"
+  ],
   "description": "Dig It extracts keyframes, cover stills, and step-by-step images from local videos on iPhone, iPad, and Mac.",
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "iOS, iPadOS, macOS",
