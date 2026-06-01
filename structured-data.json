@@ -6,13 +6,18 @@
     "DigIt",
     "DigIt Video",
     "DigIt->Video",
-    "Dig It Video Keyframes"
+    "Dig It Video Keyframes",
+    "DigIt keyframes"
   ],
-  "description": "Dig It extracts keyframes, cover stills, and step-by-step images from local videos on iPhone, iPad, and Mac.",
+  "description": "Dig It extracts video keyframes, cover stills, and tutorial step images locally on iPhone, iPad, and Mac.",
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "iOS, iPadOS, macOS",
   "url": "https://digit-video.luopeike.com/index.html",
   "downloadUrl": "https://apps.apple.com/app/id6508171056",
   "image": "https://digit-video.luopeike.com/images/app-icon.png",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
 }
