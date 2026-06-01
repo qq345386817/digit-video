@@ -5,3 +5,8 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 Redirect 301 /digit-video/index.html https://digit-video.luopeike.com/index.html
 Redirect 301 /digit-video/help.html https://digit-video.luopeike.com/help.html
 Redirect 301 /digit-video/privacy-policy.html https://digit-video.luopeike.com/privacy-policy.html
+
+Redirect 301 /en-US/index.html https://digit-video.luopeike.com/index.html
+Redirect 301 /en-US/help.html https://digit-video.luopeike.com/help.html
+Redirect 301 /en-US/support.html https://digit-video.luopeike.com/support.html
+Redirect 301 /en-US/privacy-policy.html https://digit-video.luopeike.com/privacy-policy.html
