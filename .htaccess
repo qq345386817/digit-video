@@ -2,11 +2,24 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-Redirect 301 /digit-video/index.html https://digit-video.luopeike.com/index.html
+Redirect 301 /digit-video/index.html https://digit-video.luopeike.com/
 Redirect 301 /digit-video/help.html https://digit-video.luopeike.com/help.html
 Redirect 301 /digit-video/privacy-policy.html https://digit-video.luopeike.com/privacy-policy.html
 
-Redirect 301 /en-US/index.html https://digit-video.luopeike.com/index.html
+Redirect 301 /index.html https://digit-video.luopeike.com/
+Redirect 301 /zh-Hans/index.html https://digit-video.luopeike.com/zh-Hans/
+Redirect 301 /zh-Hant/index.html https://digit-video.luopeike.com/zh-Hant/
+Redirect 301 /es-ES/index.html https://digit-video.luopeike.com/es-ES/
+Redirect 301 /id/index.html https://digit-video.luopeike.com/id/
+Redirect 301 /it/index.html https://digit-video.luopeike.com/it/
+Redirect 301 /ar-SA/index.html https://digit-video.luopeike.com/ar-SA/
+Redirect 301 /ja/index.html https://digit-video.luopeike.com/ja/
+Redirect 301 /ko/index.html https://digit-video.luopeike.com/ko/
+Redirect 301 /de-DE/index.html https://digit-video.luopeike.com/de-DE/
+Redirect 301 /fr-FR/index.html https://digit-video.luopeike.com/fr-FR/
+Redirect 301 /pt-BR/index.html https://digit-video.luopeike.com/pt-BR/
+
+Redirect 301 /en-US/index.html https://digit-video.luopeike.com/
 Redirect 301 /en-US/help.html https://digit-video.luopeike.com/help.html
 Redirect 301 /en-US/support.html https://digit-video.luopeike.com/support.html
 Redirect 301 /en-US/privacy-policy.html https://digit-video.luopeike.com/privacy-policy.html
