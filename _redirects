@@ -1,0 +1,10 @@
+/digit-video/index.html  /  301
+/digit-video/index       /  301
+/digit-video/help.html   /help  301
+/digit-video/help        /help  301
+/digit-video/privacy-policy.html  /privacy-policy  301
+/digit-video/privacy-policy       /privacy-policy  301
+/en-US/                  /  301
+/en-US/index.html        /  301
+/en-US/index             /  301
+/en-US/*                 /:splat  301
