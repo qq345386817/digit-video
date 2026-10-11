@@ -1,0 +1,14 @@
+Workflow examples
+
+mac-batch-workspace.webp and mac-frame-review.webp show the Dig It Mac app
+with demonstration data. video-contact-sheet.webp shows an exported overview.
+
+The video stills are from Big Buck Bunny:
+Copyright 2008, Blender Foundation / www.bigbuckbunny.org
+Licensed under Creative Commons Attribution 3.0.
+https://peach.blender.org/about/
+https://creativecommons.org/licenses/by/3.0/
+
+The frames were extracted and arranged in Dig It; screenshots and the PNG
+overview were converted to WebP for the website. Keep the attribution next
+to these examples when using them in new pages.
