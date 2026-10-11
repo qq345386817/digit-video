@@ -10,7 +10,7 @@ A contact sheet combines video stills into one PNG overview. Use it to compare c
 
 [Help](https://digit-video.luopeike.com/help)
 
-Updated: 2026-10-11
+Updated: 2026-10-12
 
 ## Getting started
 
@@ -22,9 +22,9 @@ Updated: 2026-10-11
 
 4. Save or share the generated PNG. Export Selected creates separate PNG files instead; choose that option when each still needs further editing.
 
-## Up to 40 frames per result-page contact sheet
+## PNG contact sheets: up to 40 frames
 
-The result page accepts at most 40 frames for one contact sheet. For a larger collection, select a smaller group and make several exports. The sheet is an overview, not a replacement for separately exported images. The Mac batch preset also offers optional contact-sheet output.
+A PNG contact sheet accepts up to 40 frames. For a larger printable overview, use PDF Contact Sheet: up to 120 frames with automatic pagination. The Mac batch workspace can also export PNG sheets and PDFs.
 
 [![An exported PNG contact sheet with eight stills and their timestamps.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig
 ## Use the overview alongside individual images
 
 For a product video, compare cover candidates before exporting one still. For a tutorial, share the overview with a collaborator, then export the chosen step images separately. Save the project explicitly if you want to revisit and edit the same frame set later; exporting a sheet does not save a history record.
+
+## Export cover images and printable PDF contact sheets
+
+These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available.
+
+On Mac, iPhone or iPad, select one result and choose Export → Export Cover. Choose the original ratio, 16:9, 9:16, 1:1 or 4:3, adjust the crop position and maximum edge, then save PNG or JPEG. JPEG can be limited to 2 MB; if it cannot fit, choose smaller dimensions. Images are never upscaled. For a printable overview, choose Export → PDF Contact Sheet, A4 or Letter, and 2–4 columns. Up to 120 selected frames are ordered chronologically and paginated automatically, with the video name and timestamps. With no selection, all remaining results are used. A PNG contact sheet still accepts at most 40 frames.
 
 ## What is different on Mac, iPhone and iPad?
 

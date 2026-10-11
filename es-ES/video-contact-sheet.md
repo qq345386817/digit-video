@@ -10,7 +10,7 @@ Una hoja de contacto combina imágenes del vídeo en un único PNG. Sirve para c
 
 [Ayuda](https://digit-video.luopeike.com/es-ES/help)
 
-Actualizado: 2026-10-11
+Actualizado: 2026-10-12
 
 ## Primeros pasos
 
@@ -22,9 +22,9 @@ Actualizado: 2026-10-11
 
 4. Guarda o comparte el PNG. Exportar seleccionados crea PNG independientes; elige esa opción si necesitas editar cada imagen por separado.
 
-## Hasta 40 fotogramas por hoja desde los resultados
+## Hojas PNG: hasta 40 fotogramas
 
-La página de resultados admite un máximo de 40 fotogramas por hoja. Para colecciones mayores, selecciona grupos más pequeños y realiza varias exportaciones. La hoja es una vista general, no sustituye las imágenes individuales. Los ajustes por lotes de Mac también ofrecen hojas de contacto opcionales.
+Una hoja PNG admite hasta 40 fotogramas. Para una vista imprimible más amplia, elige PDF: hasta 120 fotogramas con paginación automática. El espacio de Mac también puede exportar hojas PNG y PDF.
 
 [![Una hoja de contacto PNG exportada con ocho imágenes y sus marcas de tiempo.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organiz
 ## Combina la vista general con las imágenes individuales
 
 En un vídeo de producto, compara las portadas antes de exportar una imagen. En un tutorial, comparte la hoja con un colaborador y después exporta los pasos elegidos. Guarda el proyecto explícitamente para volver a editar el mismo conjunto; exportar una hoja no crea un registro en el historial.
+
+## Exporta portadas y hojas de contacto PDF imprimibles
+
+Estas novedades requieren la versión 1.4.3 o posterior. Si aún no está disponible en tu App Store, puedes seguir usando las opciones de exportación anteriores.
+
+En Mac, iPhone o iPad, selecciona un resultado y elige Exportar → Exportar portada. Usa la proporción original, 16:9, 9:16, 1:1 o 4:3, ajusta el recorte y el lado máximo, y guarda PNG/JPEG. El JPEG puede limitarse a 2 MB; reduce las dimensiones si no cabe. Las imágenes no se amplían. Para una hoja PDF, elige A4/Letter y 2–4 columnas. Hasta 120 fotogramas se ordenan cronológicamente y se reparten en páginas con el nombre del vídeo y los tiempos. Sin selección se usan todos los resultados restantes. La hoja PNG sigue limitada a 40 fotogramas.
 
 ## ¿Qué cambia entre Mac, iPhone y iPad?
 

@@ -10,7 +10,7 @@ Füge Videodateien oder einen Ordner hinzu, wähle eine Extraktionsvorlage und p
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-10-11
+Aktualisiert: 2026-10-12
 
 ## Erste Schritte
 
@@ -41,6 +41,16 @@ Die Modi wählen repräsentative Momente statt jedes Videoframes. Titelbild bevo
 Mac-Ergebnisse und Quellframe-Prüfung mit einem Beispielvideo. Oberfläche auf Englisch.
 
 Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It angeordnet. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Video-Frames auf dem Mac nach Intervall oder Zeitpunkt extrahieren
+
+Diese neuen Funktionen benötigen Version 1.4.3 oder neuer. Falls das Update noch nicht im App Store verfügbar ist, kannst du die bisherigen Exportoptionen weiter nutzen.
+
+Wähle vor dem Hinzufügen von Videos im Mac-Arbeitsbereich automatische Keyframes, festes Intervall, bestimmte Zeitpunkte oder gleichmäßige Verteilung und ein Limit von 1–120 Frames. Festes Intervall stoppt am Limit; gleichmäßige Verteilung deckt die ganze Zeitleiste ab. Zeitpunkte akzeptieren Sekunden oder HH:MM:SS, z. B. 5, 00:12.5, 01:30. Aktiviere Quellauflösung für automatische Exporte oder wähle Ergebnisse und Exportieren → In Quellauflösung exportieren → PNG/JPEG. Originalframes werden einzeln dekodiert und gespeichert, ohne Hochskalierung. 4K-Ausgabe benötigt eine 4K-Quelle; das Quellvideo muss im Arbeitsbereich verfügbar bleiben.
+
+## Coverbilder und druckbare PDF-Kontaktbögen exportieren
+
+Wähle auf Mac, iPhone oder iPad ein Ergebnis und Exportieren → Cover exportieren. Nutze Original, 16:9, 9:16, 1:1 oder 4:3, passe Zuschnittposition und maximale Kantenlänge an und speichere PNG/JPEG. JPEG lässt sich auf 2 MB begrenzen; wähle kleinere Abmessungen, wenn es nicht passt. Bilder werden nicht hochskaliert. Für PDF-Kontaktbögen wähle A4/Letter und 2–4 Spalten. Bis zu 120 Frames werden chronologisch mit Videoname und Zeitpunkten auf Seiten verteilt. Ohne Auswahl werden alle übrigen Ergebnisse verwendet. PNG-Kontaktbögen bleiben auf 40 Frames begrenzt.
 
 ## Was unterscheidet Mac, iPhone und iPad?
 

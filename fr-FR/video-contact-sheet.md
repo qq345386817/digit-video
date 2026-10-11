@@ -10,7 +10,7 @@ Une planche-contact réunit des images vidéo dans un aperçu PNG. Comparez des 
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-10-11
+Mis à jour: 2026-10-12
 
 ## Premiers pas
 
@@ -22,9 +22,9 @@ Mis à jour: 2026-10-11
 
 4. Enregistrez ou partagez le PNG. Exporter la sélection crée des PNG séparés : choisissez cette option pour modifier chaque image indépendamment.
 
-## Jusqu'à 40 images par planche depuis les résultats
+## Planches PNG : jusqu’à 40 images
 
-La page des résultats accepte au maximum 40 images dans une planche. Pour une collection plus grande, sélectionnez des groupes plus petits et effectuez plusieurs exports. La planche est un aperçu et ne remplace pas les images individuelles. Les préréglages par lots sur Mac proposent également des planches-contact facultatives.
+Une planche PNG accepte jusqu’à 40 images. Pour une vue imprimable plus grande, choisissez PDF : jusqu’à 120 images avec pagination automatique. L’espace Mac peut aussi exporter des planches PNG et des PDF.
 
 [![Une planche-contact PNG exportée avec huit images et leurs horodatages.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisée
 ## Associez aperçu et images individuelles
 
 Pour une vidéo produit, comparez les couvertures avant d'exporter une image. Pour un tutoriel, partagez la planche avec un collaborateur puis exportez les étapes choisies séparément. Enregistrez explicitement le projet pour revenir au même ensemble et le modifier ; exporter une planche ne crée pas d'entrée dans l'historique.
+
+## Exporter des couvertures et des planches contact PDF imprimables
+
+Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles.
+
+Sur Mac, iPhone ou iPad, sélectionnez une image puis Exporter → Exporter une couverture. Choisissez le format original, 16:9, 9:16, 1:1 ou 4:3, ajustez le cadrage et la longueur maximale, puis enregistrez en PNG/JPEG. Le JPEG peut être limité à 2 Mo ; réduisez les dimensions si nécessaire. Les images ne sont jamais agrandies. Pour une planche PDF, choisissez A4/Letter et 2 à 4 colonnes. Jusqu’à 120 images sont classées chronologiquement et paginées avec le nom de la vidéo et les horodatages. Sans sélection, tous les résultats restants sont utilisés. La planche PNG reste limitée à 40 images.
 
 ## Quelles différences entre Mac, iPhone et iPad ?
 

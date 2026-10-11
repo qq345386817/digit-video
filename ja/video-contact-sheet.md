@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ja/video-contact-sheet
 
 [ヘルプ](https://digit-video.luopeike.com/ja/help)
 
-更新日: 2026-10-11
+更新日: 2026-10-12
 
 ## はじめに
 
@@ -22,9 +22,9 @@ Canonical page: https://digit-video.luopeike.com/ja/video-contact-sheet
 
 4. 生成したPNGを保存または共有します。選択画像の書き出しは個別のPNGを作るため、画像を別々に編集したい場合はこちらを使います。
 
-## 結果画面のシートは最大40フレーム
+## PNG シート：最大 40 フレーム
 
-結果画面では1枚のシートに最大40フレームを指定できます。それ以上は少数ずつ選んで複数回出力してください。シートは概要確認用で、個別画像の代わりではありません。Macの一括プリセットにも任意のコンタクトシート出力があります。
+PNG シートは最大 40 フレームです。より多くの画像を印刷する場合は、最大 120 フレームを自動ページ分けする PDF コンタクトシートを使ってください。Mac のバッチ処理でも PNG シートと PDF を出力できます。
 
 [![8枚の静止画と時刻を含むPNGコンタクトシートの出力例。](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Canonical page: https://digit-video.luopeike.com/ja/video-contact-sheet
 ## 概要と個別画像を組み合わせる
 
 商品動画ではカバー候補を比較してから1枚を出力します。チュートリアルでは共同作業者にシートを送り、選んだ手順画像を個別に出力します。後から同じセットを確認・編集するにはプロジェクトを明示的に保存してください。シートの出力だけでは履歴に保存されません。
+
+## カバー画像と印刷用 PDF コンタクトシートを書き出す
+
+新しい機能にはバージョン 1.4.3 以降が必要です。App Store でまだ更新できない場合も、従来の書き出し機能は利用できます。
+
+Mac、iPhone、iPad で結果を 1 枚選び、「書き出す → カバーを書き出す」を使います。元の比率、16:9、9:16、1:1、4:3、切り抜き位置、最大辺を設定して PNG/JPEG を保存できます。JPEG は 2 MB 以下に制限できます。収まらない場合は画像サイズを小さくしてください。画像は拡大しません。「PDF コンタクトシート」では A4/Letter と 2〜4 列を選べます。最大 120 枚を時刻順に自動でページ分けし、動画名と時刻を付けます。選択がなければ残りの全結果を使用します。PNG シートは引き続き最大 40 枚です。
 
 ## MacとiPhone・iPadの違いは？
 

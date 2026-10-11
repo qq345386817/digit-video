@@ -10,7 +10,7 @@ Aggiungi file video o una cartella, scegli un preset e rivedi ogni risultato o e
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-10-11
+Aggiornato: 2026-10-12
 
 ## Per iniziare
 
@@ -41,6 +41,16 @@ Le modalità scelgono momenti rappresentativi, non tutti i fotogrammi. Copertina
 Risultati Mac e revisione sorgente con un video di esempio. Interfaccia in inglese.
 
 Video di esempio: Big Buck Bunny. © 2008 Blender Foundation. Fotogrammi disposti con Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Estrai fotogrammi per intervallo o tempo su Mac
+
+Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti.
+
+Prima di aggiungere video allo spazio Mac, scegli fotogrammi chiave automatici, intervallo fisso, tempi specifici o distribuzione uniforme e un limite di 1–120 fotogrammi. L’intervallo fisso si ferma al limite; la distribuzione uniforme copre l’intero video. I tempi accettano secondi o HH:MM:SS, ad esempio 5, 00:12.5, 01:30. Attiva Risoluzione originale per l’esportazione automatica oppure seleziona i risultati e usa Esporta → Esporta a risoluzione originale → PNG/JPEG. Gli originali sono decodificati e salvati uno alla volta, senza ingrandimento. Il 4K richiede una sorgente 4K e il video deve rimanere disponibile nello spazio di lavoro.
+
+## Esporta copertine e provini PDF stampabili
+
+Su Mac, iPhone o iPad, seleziona un risultato e usa Esporta → Esporta copertina. Scegli proporzioni originali, 16:9, 9:16, 1:1 o 4:3, regola ritaglio e lato massimo, poi salva PNG/JPEG. Il JPEG può essere limitato a 2 MB; riduci le dimensioni se non rientra. Le immagini non vengono ingrandite. Per un provino PDF scegli A4/Letter e 2–4 colonne. Fino a 120 fotogrammi sono ordinati cronologicamente e impaginati con nome del video e tempi. Senza selezione si usano tutti i risultati rimanenti. Il provino PNG rimane limitato a 40 fotogrammi.
 
 ## Cosa cambia tra Mac, iPhone e iPad?
 

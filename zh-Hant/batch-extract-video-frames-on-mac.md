@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/batch-extract-video-fra
 
 [幫助](https://digit-video.luopeike.com/zh-Hant/help)
 
-更新日期: 2026-10-11
+更新日期: 2026-10-12
 
 ## 快速開始
 
@@ -41,6 +41,16 @@ Mac 批次工作區，展示範例佇列與擷取結果。截圖為英文介面�
 使用範例影片的 Mac 結果頁與來源畫面檢視。截圖為英文介面。
 
 範例影片：Big Buck Bunny。© 2008 Blender Foundation。畫面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## 在 Mac 上按間隔或時間點擷取影片圖片
+
+這些新工作流程需要 1.4.3 或更新版本。若所在地的 App Store 尚未提供更新，仍可使用原有的匯出功能。
+
+在 Mac 工作區加入影片前，先選擇「影格選擇」：自動關鍵影格、固定間隔、指定時間點或均勻取樣，並設定 1–120 個影格的上限。固定間隔達到上限後停止；均勻取樣涵蓋完整時間軸。時間點支援秒數或 HH:MM:SS，例如 5, 00:12.5, 01:30。自動匯出時可開啟「來源影片解析度」，或在結果頁選取圖片，使用「匯出 → 匯出原畫 → PNG/JPEG」。原畫逐格解碼並儲存，不會放大圖片；4K 輸出需要 4K 來源影片。原畫匯出需要目前工作區中的來源影片仍可使用。
+
+## 匯出封面圖片與可列印的 PDF 聯絡表
+
+在 Mac、iPhone 或 iPad 上，選取一張結果，使用「匯出 → 匯出封面」。支援原始比例、16:9、9:16、1:1、4:3，可調整裁切位置和最大邊長，並儲存為 PNG 或 JPEG。JPEG 可限制為 2 MB，無法符合限制時請選擇較小的尺寸。圖片不會被放大。需要列印總覽時，使用「匯出 → PDF 聯絡表」，選擇 A4 或 Letter 和 2–4 欄。最多 120 張所選圖片按時間排列，自動分頁，並附有影片名稱和時間戳記。未選取圖片時使用全部剩餘結果；PNG 聯絡表仍最多包含 40 個影格。
 
 ## Mac、iPhone 和 iPad 有什麼不同？
 

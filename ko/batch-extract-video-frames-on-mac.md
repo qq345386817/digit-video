@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ko/batch-extract-video-frames-o
 
 [도움말](https://digit-video.luopeike.com/ko/help)
 
-업데이트: 2026-10-11
+업데이트: 2026-10-12
 
 ## 시작하기
 
@@ -41,6 +41,16 @@ Canonical page: https://digit-video.luopeike.com/ko/batch-extract-video-frames-o
 예시 동영상으로 보는 Mac 결과와 원본 프레임 검토입니다. 영어 인터페이스를 표시합니다.
 
 예시 동영상: Big Buck Bunny. © 2008 Blender Foundation. Dig It에서 프레임을 배치했습니다. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Mac에서 간격 또는 타임스탬프로 프레임 추출
+
+새 기능은 1.4.3 이상에서 사용할 수 있습니다. App Store에 업데이트가 아직 없더라도 기존 내보내기 기능을 사용할 수 있습니다.
+
+Mac 작업 공간에 동영상을 추가하기 전에 프레임 선택에서 자동 키프레임, 고정 간격, 지정 타임스탬프 또는 균등 샘플링을 선택하고 1–120개 한도를 설정하세요. 고정 간격은 한도에서 멈추고 균등 샘플링은 전체 동영상을 다룹니다. 시간은 초 또는 HH:MM:SS 형식(예: 5, 00:12.5, 01:30)으로 입력합니다. 자동 내보내기에서 원본 해상도를 켜거나 결과를 선택해 내보내기 → 원본 해상도로 내보내기 → PNG/JPEG를 사용하세요. 원본 프레임은 하나씩 디코딩하고 저장하며 확대하지 않습니다. 4K 출력에는 4K 원본이 필요하고 작업 공간의 원본 동영상을 사용할 수 있어야 합니다.
+
+## 커버 이미지와 인쇄용 PDF 콘택트 시트 내보내기
+
+Mac, iPhone 또는 iPad에서 결과 하나를 선택하고 내보내기 → 커버 내보내기를 사용하세요. 원본 비율, 16:9, 9:16, 1:1 또는 4:3, 자르기 위치, 최대 변 길이를 선택해 PNG/JPEG로 저장합니다. JPEG는 2 MB 이하로 제한할 수 있으며 맞지 않으면 크기를 줄이세요. 이미지는 확대하지 않습니다. PDF 콘택트 시트에서는 A4/Letter와 2–4개 열을 선택합니다. 최대 120개 프레임을 시간순으로 자동 분할하고 동영상 이름과 타임스탬프를 표시합니다. 선택하지 않으면 남은 모든 결과를 사용합니다. PNG 시트는 여전히 최대 40개입니다.
 
 ## Mac과 iPhone·iPad의 차이는 무엇인가요?
 

@@ -42,6 +42,16 @@ Wähle auf iPhone und iPad ein Video aus Fotos oder Dateien, prüfe Bilder, expo
 
 [Einen Kontaktbogen aus einem Video erstellen Ein Kontaktbogen vereint Videobilder in einer PNG-Übersicht. Vergleiche Titelbilder, teile Szenenzusammenfassungen oder sammle Tutorial-Schritte, ohne das Originalvideo zu versenden. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-contact-sheet)
 
+## Video-Frames auf dem Mac nach Intervall oder Zeitpunkt extrahieren
+
+Diese neuen Funktionen benötigen Version 1.4.3 oder neuer. Falls das Update noch nicht im App Store verfügbar ist, kannst du die bisherigen Exportoptionen weiter nutzen.
+
+Wähle vor dem Hinzufügen von Videos im Mac-Arbeitsbereich automatische Keyframes, festes Intervall, bestimmte Zeitpunkte oder gleichmäßige Verteilung und ein Limit von 1–120 Frames. Festes Intervall stoppt am Limit; gleichmäßige Verteilung deckt die ganze Zeitleiste ab. Zeitpunkte akzeptieren Sekunden oder HH:MM:SS, z. B. 5, 00:12.5, 01:30. Aktiviere Quellauflösung für automatische Exporte oder wähle Ergebnisse und Exportieren → In Quellauflösung exportieren → PNG/JPEG. Originalframes werden einzeln dekodiert und gespeichert, ohne Hochskalierung. 4K-Ausgabe benötigt eine 4K-Quelle; das Quellvideo muss im Arbeitsbereich verfügbar bleiben.
+
+## Coverbilder und druckbare PDF-Kontaktbögen exportieren
+
+Wähle auf Mac, iPhone oder iPad ein Ergebnis und Exportieren → Cover exportieren. Nutze Original, 16:9, 9:16, 1:1 oder 4:3, passe Zuschnittposition und maximale Kantenlänge an und speichere PNG/JPEG. JPEG lässt sich auf 2 MB begrenzen; wähle kleinere Abmessungen, wenn es nicht passt. Bilder werden nicht hochskaliert. Für PDF-Kontaktbögen wähle A4/Letter und 2–4 Spalten. Bis zu 120 Frames werden chronologisch mit Videoname und Zeitpunkten auf Seiten verteilt. Ohne Auswahl werden alle übrigen Ergebnisse verwendet. PNG-Kontaktbögen bleiben auf 40 Frames begrenzt.
+
 ## Ein Standbild aus benachbarten Quellframes wählen
 
 Wähle auf Mac ein Ergebnis, gehe durch benachbarte Quellframes und füge ein Bild hinzu oder ersetze die Auswahl. Das Quellvideo muss im aktuellen Arbeitsbereich weiterhin verfügbar sein.
@@ -56,9 +66,9 @@ Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It ang
 
 Speichern erhält aktuelle Ergebnisbilder und verfügbare Zeitstempel und Bewertungen im lokalen Verlauf. Öffne ein Projekt erneut, um Bilder zu prüfen, zu löschen, zu exportieren und Änderungen im selben Eintrag zu speichern. Das Quellvideo wird nicht gespeichert; alte reine Metadateneinträge können fehlende Bilder nicht wiederherstellen.
 
-## Bis zu 40 Bilder pro Kontaktbogen der Ergebnisseite
+## PNG-Kontaktbögen: bis zu 40 Frames
 
-Die Ergebnisseite erlaubt höchstens 40 Bilder in einem Kontaktbogen. Größere Sammlungen lassen sich in kleineren Gruppen mehrfach exportieren. Der Bogen ist eine Übersicht und ersetzt keine Einzelbilder. Die Mac-Stapelvorlagen bieten ebenfalls optionale Kontaktbögen.
+Ein PNG-Kontaktbogen umfasst bis zu 40 Frames. Für größere druckbare Übersichten bietet PDF bis zu 120 Frames mit automatischer Seitenaufteilung. Der Mac-Arbeitsbereich kann auch PNG-Kontaktbögen und PDFs exportieren.
 
 ## Häufige Fragen
 
@@ -80,7 +90,7 @@ Nein. Er enthält ausdrücklich gespeicherte Bilder und Metadaten, nicht das Que
 
 ### Bleibt bei allen Bildern die Originalauflösung erhalten?
 
-Automatisch extrahierte Bilder passen derzeit bei gleichem Seitenverhältnis in 720 × 720 Pixel. Über die Mac-Quellframe-Prüfung hinzugefügte Bilder verwenden die Quellauflösung. PNG-Export vergrößert kleinere Frames nicht.
+Vorschauen passen in 720 × 720 Pixel. Quellauflösung auf dem Mac dekodiert das Originalvideo bei Bedarf und erhält die Bildabmessungen. Mac-Cover verwenden eine verfügbare Quelle, sonst die gespeicherte Bildauflösung. Kleine Bilder werden nicht hochskaliert.
 
 ### Ist die CLI im App-Store-Download enthalten?
 
@@ -105,6 +115,10 @@ digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40
 
 ```sh
 digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json
+```
+
+```sh
+digit extract video.mp4 --output ./originals --resolution source --json originals.json
 ```
 
 ```sh

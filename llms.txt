@@ -5,16 +5,19 @@ Dig It is currently free on the App Store. Follow the official download link for
 No. Video analysis and frame extraction run on your device. You choose whether to share exported files; an internet connection is not required for local extraction.
 Mac adds a batch queue, folder import, extraction presets, automatic PNG/JPEG export and nearby source-frame review. Choose an output folder before enabling automatic export.
 On iPhone and iPad, choose one video from Photos or Files, review the extracted images, export selected PNGs or a contact sheet, and explicitly save results to History.
-The result page accepts at most 40 frames for one contact sheet. For a larger collection, select a smaller group and make several exports. The sheet is an overview, not a replacement for separately exported images. The Mac batch preset also offers optional contact-sheet output.
+A PNG contact sheet accepts up to 40 frames. For a larger printable overview, use PDF Contact Sheet: up to 120 frames with automatic pagination. The Mac batch workspace can also export PNG sheets and PDFs.
 Save keeps the current result images and their available timestamps and scores in local History. Reopen a saved project to review, delete, export and save changes to the same record. The source video is not stored with the history record; older metadata-only records cannot recreate missing images.
-Automatically extracted frames currently fit within 720 × 720 pixels while preserving aspect ratio. A frame added through Mac source-frame review uses the source image resolution. PNG export does not upscale a smaller extracted frame.
+Previews fit within 720 × 720 pixels. On Mac, Source Resolution exports decode the original video on demand and preserve its image dimensions. Mac covers use an available source; otherwise covers use the saved image resolution. Output never upscales a preview or a low-resolution source.
 The digit CLI is separate from the App Store app and is not currently distributed publicly. Contact support about access. The examples below are for users who already have the standalone tool installed.
+These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available.
+Before adding videos to the Mac workspace, choose Frame Selection: Automatic Keyframes, Fixed Interval, Specific Timestamps or Evenly Spaced. Set a limit of 1–120 frames. Fixed Interval stops at that limit; Evenly Spaced covers the full timeline. Timestamps accept seconds or HH:MM:SS, for example 5, 00:12.5, 01:30. Enable Source Resolution for automatic export, or select results and use Export → Export Source Resolution → PNG/JPEG. Original-size frames are decoded and saved one at a time, without upscaling; 4K output requires a 4K source. Source export requires the original video to remain available in the workspace.
+On Mac, iPhone or iPad, select one result and choose Export → Export Cover. Choose the original ratio, 16:9, 9:16, 1:1 or 4:3, adjust the crop position and maximum edge, then save PNG or JPEG. JPEG can be limited to 2 MB; if it cannot fit, choose smaller dimensions. Images are never upscaled. For a printable overview, choose Export → PDF Contact Sheet, A4 or Letter, and 2–4 columns. Up to 120 selected frames are ordered chronologically and paginated automatically, with the video name and timestamps. With no selection, all remaining results are used. A PNG contact sheet still accepts at most 40 frames.
 MCP integration is not provided.
 
 ## Official documentation
 - [Help and product facts](https://digit-video.luopeike.com/help.md): Platform differences, local processing, saved projects, limits and CLI availability.
 - [Batch extract video frames on Mac](https://digit-video.luopeike.com/batch-extract-video-frames-on-mac.md): Queue files or folders, choose presets, review and export.
-- [Create a video contact sheet](https://digit-video.luopeike.com/video-contact-sheet.md): Select stills, export a PNG overview and understand the 40-frame limit.
+- [Create a video contact sheet](https://digit-video.luopeike.com/video-contact-sheet.md): PNG overviews (up to 40 frames) and printable paginated PDF sheets (up to 120 frames).
 - [App Store download](https://apps.apple.com/app/id6508171056): Official pricing and device compatibility.
 - [Support](https://digit-video.luopeike.com/support): Contact the developer, including questions about the separate CLI.
 - [Privacy policy](https://digit-video.luopeike.com/privacy-policy): The published privacy policy.

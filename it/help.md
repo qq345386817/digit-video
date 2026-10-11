@@ -42,6 +42,16 @@ Su iPhone e iPad, scegli un video da Foto o File, rivedi le immagini, esporta PN
 
 [Creare un provino a contatto da un video Un provino a contatto riunisce immagini video in un'unica panoramica PNG. Usalo per confrontare copertine, condividere un riepilogo delle scene o raccogliere i passaggi di un tutorial senza inviare il video originale. Leggi la guida →](https://digit-video.luopeike.com/it/video-contact-sheet)
 
+## Estrai fotogrammi per intervallo o tempo su Mac
+
+Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti.
+
+Prima di aggiungere video allo spazio Mac, scegli fotogrammi chiave automatici, intervallo fisso, tempi specifici o distribuzione uniforme e un limite di 1–120 fotogrammi. L’intervallo fisso si ferma al limite; la distribuzione uniforme copre l’intero video. I tempi accettano secondi o HH:MM:SS, ad esempio 5, 00:12.5, 01:30. Attiva Risoluzione originale per l’esportazione automatica oppure seleziona i risultati e usa Esporta → Esporta a risoluzione originale → PNG/JPEG. Gli originali sono decodificati e salvati uno alla volta, senza ingrandimento. Il 4K richiede una sorgente 4K e il video deve rimanere disponibile nello spazio di lavoro.
+
+## Esporta copertine e provini PDF stampabili
+
+Su Mac, iPhone o iPad, seleziona un risultato e usa Esporta → Esporta copertina. Scegli proporzioni originali, 16:9, 9:16, 1:1 o 4:3, regola ritaglio e lato massimo, poi salva PNG/JPEG. Il JPEG può essere limitato a 2 MB; riduci le dimensioni se non rientra. Le immagini non vengono ingrandite. Per un provino PDF scegli A4/Letter e 2–4 colonne. Fino a 120 fotogrammi sono ordinati cronologicamente e impaginati con nome del video e tempi. Senza selezione si usano tutti i risultati rimanenti. Il provino PNG rimane limitato a 40 fotogrammi.
+
 ## Scegli un'immagine tra i fotogrammi sorgente vicini
 
 Su Mac, seleziona un risultato, scorri i fotogrammi sorgente vicini e aggiungi un'immagine o sostituisci quella selezionata. Il video sorgente deve essere ancora disponibile nello spazio di lavoro attuale.
@@ -56,9 +66,9 @@ Video di esempio: Big Buck Bunny. © 2008 Blender Foundation. Fotogrammi dispost
 
 Salva conserva le immagini attuali e i timestamp e punteggi disponibili nella cronologia locale. Riapri un progetto per rivedere, eliminare, esportare e salvare modifiche nella stessa voce. Il video originale non viene salvato; le vecchie voci con soli metadati non possono ricreare immagini mancanti.
 
-## Fino a 40 fotogrammi per provino dalla pagina dei risultati
+## Provini PNG: fino a 40 fotogrammi
 
-La pagina dei risultati accetta al massimo 40 fotogrammi per provino. Per raccolte più grandi, seleziona gruppi più piccoli ed effettua più esportazioni. Il provino è una panoramica, non sostituisce le immagini separate. I preset batch di Mac offrono anche provini a contatto opzionali.
+Un provino PNG accetta fino a 40 fotogrammi. Per una panoramica stampabile più ampia scegli PDF: fino a 120 fotogrammi con paginazione automatica. Lo spazio Mac può anche esportare provini PNG e PDF.
 
 ## Domande frequenti
 
@@ -80,7 +90,7 @@ No. Conserva immagini salvate esplicitamente e metadati, non il video sorgente. 
 
 ### Tutte le immagini mantengono la risoluzione originale?
 
-I fotogrammi estratti automaticamente rientrano attualmente in 720 × 720 pixel, mantenendo le proporzioni. Un fotogramma aggiunto tramite la revisione sorgente Mac usa la risoluzione sorgente. L'esportazione PNG non ingrandisce un fotogramma più piccolo.
+Le anteprime rientrano in 720 × 720 pixel. L’esportazione originale su Mac decodifica il video su richiesta e conserva le dimensioni. Le copertine Mac usano la sorgente disponibile o la risoluzione salvata. Le immagini a bassa risoluzione non vengono ingrandite.
 
 ### La CLI è inclusa nel download da App Store?
 
@@ -105,6 +115,10 @@ digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40
 
 ```sh
 digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json
+```
+
+```sh
+digit extract video.mp4 --output ./originals --resolution source --json originals.json
 ```
 
 ```sh

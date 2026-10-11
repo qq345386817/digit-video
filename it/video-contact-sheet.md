@@ -10,7 +10,7 @@ Un provino a contatto riunisce immagini video in un'unica panoramica PNG. Usalo 
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-10-11
+Aggiornato: 2026-10-12
 
 ## Per iniziare
 
@@ -22,9 +22,9 @@ Aggiornato: 2026-10-11
 
 4. Salva o condividi il PNG. Esporta selezionati crea PNG separati: scegli questa opzione quando ogni immagine richiede ulteriori modifiche.
 
-## Fino a 40 fotogrammi per provino dalla pagina dei risultati
+## Provini PNG: fino a 40 fotogrammi
 
-La pagina dei risultati accetta al massimo 40 fotogrammi per provino. Per raccolte più grandi, seleziona gruppi più piccoli ed effettua più esportazioni. Il provino è una panoramica, non sostituisce le immagini separate. I preset batch di Mac offrono anche provini a contatto opzionali.
+Un provino PNG accetta fino a 40 fotogrammi. Per una panoramica stampabile più ampia scegli PDF: fino a 120 fotogrammi con paginazione automatica. Lo spazio Mac può anche esportare provini PNG e PDF.
 
 [![Un provino a contatto PNG esportato con otto immagini e timestamp.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Video di esempio: Big Buck Bunny. © 2008 Blender Foundation. Fotogrammi dispost
 ## Usa la panoramica insieme alle singole immagini
 
 Per un video prodotto, confronta le copertine prima di esportare un'immagine. Per un tutorial, condividi il provino con un collaboratore e poi esporta i passaggi scelti. Salva esplicitamente il progetto per rivedere e modificare lo stesso insieme; esportare un provino non crea una voce nella cronologia.
+
+## Esporta copertine e provini PDF stampabili
+
+Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti.
+
+Su Mac, iPhone o iPad, seleziona un risultato e usa Esporta → Esporta copertina. Scegli proporzioni originali, 16:9, 9:16, 1:1 o 4:3, regola ritaglio e lato massimo, poi salva PNG/JPEG. Il JPEG può essere limitato a 2 MB; riduci le dimensioni se non rientra. Le immagini non vengono ingrandite. Per un provino PDF scegli A4/Letter e 2–4 colonne. Fino a 120 fotogrammi sono ordinati cronologicamente e impaginati con nome del video e tempi. Senza selezione si usano tutti i risultati rimanenti. Il provino PNG rimane limitato a 40 fotogrammi.
 
 ## Cosa cambia tra Mac, iPhone e iPad?
 

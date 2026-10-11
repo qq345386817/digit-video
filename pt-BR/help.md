@@ -42,6 +42,16 @@ No iPhone e iPad, escolha um vídeo em Fotos ou Arquivos, revise as imagens, exp
 
 [Criar uma folha de contato de vídeo Uma folha de contato reúne imagens de vídeo em uma visão geral PNG. Compare capas, compartilhe um resumo de cenas ou junte etapas de tutorial sem enviar o vídeo original. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-contact-sheet)
 
+## Extraia quadros por intervalo ou tempo no Mac
+
+As novidades exigem a versão 1.4.3 ou posterior. Se a atualização ainda não estiver na sua App Store, você pode continuar usando as opções anteriores de exportação.
+
+Antes de adicionar vídeos ao espaço do Mac, escolha quadros-chave automáticos, intervalo fixo, tempos específicos ou distribuição uniforme e um limite de 1–120 quadros. O intervalo fixo para no limite; a distribuição uniforme cobre todo o vídeo. Os tempos aceitam segundos ou HH:MM:SS, por exemplo 5, 00:12.5, 01:30. Ative Resolução original para exportação automática ou selecione resultados e use Exportar → Exportar na resolução original → PNG/JPEG. Os originais são decodificados e salvos um por vez, sem ampliação. A saída 4K exige uma fonte 4K e o vídeo original deve permanecer disponível no espaço de trabalho.
+
+## Exporte capas e folhas de contato PDF para impressão
+
+No Mac, iPhone ou iPad, selecione um resultado e use Exportar → Exportar capa. Escolha proporção original, 16:9, 9:16, 1:1 ou 4:3, ajuste o corte e o lado máximo e salve PNG/JPEG. O JPEG pode ter limite de 2 MB; reduza as dimensões se não couber. As imagens não são ampliadas. Para uma folha PDF, escolha A4/Letter e 2–4 colunas. Até 120 quadros são ordenados cronologicamente e paginados com nome do vídeo e tempos. Sem seleção, todos os resultados restantes são usados. A folha PNG continua limitada a 40 quadros.
+
 ## Escolha uma imagem entre quadros próximos da fonte
 
 No Mac, selecione um resultado, percorra quadros próximos da fonte e adicione uma imagem ou substitua a selecionada. O vídeo original precisa continuar disponível no espaço de trabalho atual.
@@ -56,9 +66,9 @@ Vídeo de exemplo: Big Buck Bunny. © 2008 Blender Foundation. Quadros organizad
 
 Salvar mantém as imagens atuais e os tempos e pontuações disponíveis no Histórico local. Reabra um projeto para revisar, excluir, exportar e salvar alterações no mesmo registro. O vídeo original não é armazenado; registros antigos apenas com metadados não podem recriar imagens ausentes.
 
-## Até 40 quadros por folha na página de resultados
+## Folhas PNG: até 40 quadros
 
-A página de resultados aceita no máximo 40 quadros em uma folha. Para conjuntos maiores, selecione grupos menores e faça várias exportações. A folha é uma visão geral, não substitui as imagens separadas. As predefinições em lote do Mac também oferecem folhas de contato opcionais.
+Uma folha PNG aceita até 40 quadros. Para uma visão maior para impressão, escolha PDF: até 120 quadros com paginação automática. O espaço do Mac também exporta folhas PNG e PDF.
 
 ## Perguntas frequentes
 
@@ -80,7 +90,7 @@ Não. Guarda as imagens salvas explicitamente e seus metadados, não o vídeo or
 
 ### Todas as imagens mantêm a resolução original?
 
-Os quadros extraídos automaticamente cabem atualmente em 720 × 720 pixels, mantendo a proporção. Um quadro adicionado pela revisão da fonte no Mac usa a resolução original. A exportação PNG não amplia quadros menores.
+As prévias cabem em 720 × 720 pixels. A exportação original no Mac decodifica o vídeo sob demanda e mantém suas dimensões. Capas no Mac usam a fonte disponível ou a resolução da imagem salva. Imagens de baixa resolução não são ampliadas.
 
 ### A CLI vem no download da App Store?
 
@@ -105,6 +115,10 @@ digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40
 
 ```sh
 digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json
+```
+
+```sh
+digit extract video.mp4 --output ./originals --resolution source --json originals.json
 ```
 
 ```sh

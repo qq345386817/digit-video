@@ -42,6 +42,16 @@ Di iPhone dan iPad, pilih satu video dari Foto atau File, tinjau gambar, ekspor 
 
 [Buat lembar kontak video Lembar kontak menggabungkan gambar video menjadi satu ikhtisar PNG. Gunakan untuk membandingkan sampul, berbagi ringkasan adegan, atau menyatukan langkah tutorial tanpa mengirim video asli. Baca panduan →](https://digit-video.luopeike.com/id/video-contact-sheet)
 
+## Ekstrak frame berdasarkan interval atau waktu di Mac
+
+Fitur baru ini memerlukan versi 1.4.3 atau lebih baru. Jika pembaruan belum tersedia di App Store Anda, opsi ekspor sebelumnya tetap bisa digunakan.
+
+Sebelum menambah video ke ruang kerja Mac, pilih Keyframe Otomatis, Interval Tetap, Waktu Tertentu, atau Jarak Merata dan batas 1–120 frame. Interval Tetap berhenti pada batas; Jarak Merata mencakup seluruh video. Waktu dapat berupa detik atau HH:MM:SS, misalnya 5, 00:12.5, 01:30. Aktifkan Resolusi Sumber untuk ekspor otomatis atau pilih hasil lalu Ekspor → Ekspor Resolusi Sumber → PNG/JPEG. Frame asli didekode dan disimpan satu per satu tanpa diperbesar. Output 4K memerlukan sumber 4K dan video sumber harus tetap tersedia di ruang kerja.
+
+## Ekspor sampul dan contact sheet PDF siap cetak
+
+Di Mac, iPhone, atau iPad, pilih satu hasil lalu Ekspor → Ekspor Sampul. Pilih rasio asli, 16:9, 9:16, 1:1, atau 4:3, sesuaikan posisi potong dan sisi maksimum, lalu simpan PNG/JPEG. JPEG bisa dibatasi 2 MB; pilih dimensi lebih kecil jika tidak muat. Gambar tidak diperbesar. Untuk contact sheet PDF, pilih A4/Letter dan 2–4 kolom. Hingga 120 frame diurutkan menurut waktu dan dibagi otomatis ke halaman, dengan nama video dan waktu. Tanpa pilihan, semua hasil tersisa digunakan. Contact sheet PNG tetap dibatasi 40 frame.
+
 ## Pilih gambar dari frame sumber terdekat
 
 Di Mac, pilih satu hasil, telusuri frame sumber di sekitarnya, lalu tambahkan gambar atau ganti gambar terpilih. Video sumber harus tetap tersedia di ruang kerja saat ini.
@@ -56,9 +66,9 @@ Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan D
 
 Simpan mempertahankan gambar hasil saat ini beserta stempel waktu dan skor yang tersedia di Riwayat lokal. Buka kembali proyek untuk meninjau, menghapus, mengekspor, dan menyimpan perubahan pada catatan yang sama. Video sumber tidak disimpan; catatan lama yang hanya berisi metadata tidak dapat membuat ulang gambar yang hilang.
 
-## Maksimal 40 frame per lembar kontak di halaman hasil
+## Contact sheet PNG: maksimal 40 frame
 
-Halaman hasil menerima paling banyak 40 frame untuk satu lembar. Untuk kumpulan lebih besar, pilih kelompok kecil dan lakukan beberapa ekspor. Lembar kontak adalah ikhtisar, bukan pengganti gambar terpisah. Preset batch Mac juga menyediakan keluaran lembar kontak opsional.
+Contact sheet PNG menerima hingga 40 frame. Untuk tampilan cetak lebih besar, pilih PDF: hingga 120 frame dengan halaman otomatis. Ruang kerja Mac juga dapat mengekspor contact sheet PNG dan PDF.
 
 ## Pertanyaan umum
 
@@ -80,7 +90,7 @@ Tidak. Riwayat menyimpan gambar hasil yang disimpan secara eksplisit beserta met
 
 ### Apakah semua gambar mempertahankan resolusi asli?
 
-Frame yang diekstrak otomatis saat ini disesuaikan ke dalam 720 × 720 piksel dengan rasio tetap. Frame yang ditambahkan melalui tinjauan sumber Mac memakai resolusi sumber. Ekspor PNG tidak memperbesar frame yang lebih kecil.
+Pratinjau muat dalam 720 × 720 piksel. Ekspor Resolusi Sumber di Mac mendekode video asli sesuai kebutuhan dan menjaga dimensinya. Sampul Mac memakai sumber yang tersedia atau resolusi gambar tersimpan. Gambar resolusi rendah tidak diperbesar.
 
 ### Apakah CLI termasuk dalam unduhan App Store?
 
@@ -105,6 +115,10 @@ digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40
 
 ```sh
 digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json
+```
+
+```sh
+digit extract video.mp4 --output ./originals --resolution source --json originals.json
 ```
 
 ```sh

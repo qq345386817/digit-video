@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-contact-sheet
 
 [幫助](https://digit-video.luopeike.com/zh-Hant/help)
 
-更新日期: 2026-10-11
+更新日期: 2026-10-12
 
 ## 快速開始
 
@@ -22,9 +22,9 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-contact-sheet
 
 4. 儲存或分享產生的 PNG。需要分別編輯圖片時，使用「匯出所選」，它會產生多個獨立 PNG 檔案。
 
-## 結果頁每張聯絡表最多 40 格
+## PNG 聯絡表：最多 40 個影格
 
-結果頁的一張聯絡表最多包含 40 個影格。更多圖片可分組選取並多次匯出。聯絡表用於總覽，不能取代個別匯出的圖片。Mac 批次擷取預設也提供可選的聯絡表輸出。
+每張 PNG 聯絡表最多包含 40 個影格。更多畫面可選擇「PDF 聯絡表」，最多支援 120 個影格並自動分頁。Mac 批量工作區也可自動匯出 PNG 聯絡表及 PDF。
 
 [![匯出的 PNG 聯絡表，包含八張靜態影格及對應時間戳記。](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-contact-sheet
 ## 搭配個別圖片使用總覽圖
 
 處理商品影片時，先比較封面候選，再匯出合適的一張。處理教學時，可傳送總覽圖給協作者，再個別匯出選定的步驟圖片。若要日後再次檢視與編輯同一結果集，請明確按下「儲存」；匯出聯絡表不會自動建立歷史紀錄。
+
+## 匯出封面圖片與可列印的 PDF 聯絡表
+
+這些新工作流程需要 1.4.3 或更新版本。若所在地的 App Store 尚未提供更新，仍可使用原有的匯出功能。
+
+在 Mac、iPhone 或 iPad 上，選取一張結果，使用「匯出 → 匯出封面」。支援原始比例、16:9、9:16、1:1、4:3，可調整裁切位置和最大邊長，並儲存為 PNG 或 JPEG。JPEG 可限制為 2 MB，無法符合限制時請選擇較小的尺寸。圖片不會被放大。需要列印總覽時，使用「匯出 → PDF 聯絡表」，選擇 A4 或 Letter 和 2–4 欄。最多 120 張所選圖片按時間排列，自動分頁，並附有影片名稱和時間戳記。未選取圖片時使用全部剩餘結果；PNG 聯絡表仍最多包含 40 個影格。
 
 ## Mac、iPhone 和 iPad 有什麼不同？
 

@@ -42,6 +42,16 @@ On iPhone and iPad, choose one video from Photos or Files, review the extracted 
 
 [Create a video contact sheet A contact sheet combines video stills into one PNG overview. Use it to compare covers, share a scene summary or keep tutorial steps together without sending the original video. Read the guide →](https://digit-video.luopeike.com/video-contact-sheet)
 
+## Sample video frames by interval or timestamp on Mac
+
+These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available.
+
+Before adding videos to the Mac workspace, choose Frame Selection: Automatic Keyframes, Fixed Interval, Specific Timestamps or Evenly Spaced. Set a limit of 1–120 frames. Fixed Interval stops at that limit; Evenly Spaced covers the full timeline. Timestamps accept seconds or HH:MM:SS, for example 5, 00:12.5, 01:30. Enable Source Resolution for automatic export, or select results and use Export → Export Source Resolution → PNG/JPEG. Original-size frames are decoded and saved one at a time, without upscaling; 4K output requires a 4K source. Source export requires the original video to remain available in the workspace.
+
+## Export cover images and printable PDF contact sheets
+
+On Mac, iPhone or iPad, select one result and choose Export → Export Cover. Choose the original ratio, 16:9, 9:16, 1:1 or 4:3, adjust the crop position and maximum edge, then save PNG or JPEG. JPEG can be limited to 2 MB; if it cannot fit, choose smaller dimensions. Images are never upscaled. For a printable overview, choose Export → PDF Contact Sheet, A4 or Letter, and 2–4 columns. Up to 120 selected frames are ordered chronologically and paginated automatically, with the video name and timestamps. With no selection, all remaining results are used. A PNG contact sheet still accepts at most 40 frames.
+
 ## Pick a still from nearby source frames
 
 On Mac, select one result, move through nearby source frames, and add a new still or replace the selected image. This review needs the source video to remain available in the current workspace.
@@ -56,9 +66,9 @@ Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig
 
 Save keeps the current result images and their available timestamps and scores in local History. Reopen a saved project to review, delete, export and save changes to the same record. The source video is not stored with the history record; older metadata-only records cannot recreate missing images.
 
-## Up to 40 frames per result-page contact sheet
+## PNG contact sheets: up to 40 frames
 
-The result page accepts at most 40 frames for one contact sheet. For a larger collection, select a smaller group and make several exports. The sheet is an overview, not a replacement for separately exported images. The Mac batch preset also offers optional contact-sheet output.
+A PNG contact sheet accepts up to 40 frames. For a larger printable overview, use PDF Contact Sheet: up to 120 frames with automatic pagination. The Mac batch workspace can also export PNG sheets and PDFs.
 
 ## Frequently asked questions
 
@@ -80,7 +90,7 @@ No. History keeps explicitly saved result images and metadata, not the source vi
 
 ### Do all exported frames keep the original resolution?
 
-Automatically extracted frames currently fit within 720 × 720 pixels while preserving aspect ratio. A frame added through Mac source-frame review uses the source image resolution. PNG export does not upscale a smaller extracted frame.
+Previews fit within 720 × 720 pixels. On Mac, Source Resolution exports decode the original video on demand and preserve its image dimensions. Mac covers use an available source; otherwise covers use the saved image resolution. Output never upscales a preview or a low-resolution source.
 
 ### Is the CLI included in the App Store download?
 
@@ -105,6 +115,10 @@ digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40
 
 ```sh
 digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json
+```
+
+```sh
+digit extract video.mp4 --output ./originals --resolution source --json originals.json
 ```
 
 ```sh

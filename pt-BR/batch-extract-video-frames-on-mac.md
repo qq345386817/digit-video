@@ -10,7 +10,7 @@ Adicione vídeos ou uma pasta, escolha uma predefinição e revise cada resultad
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-10-11
+Atualizado: 2026-10-12
 
 ## Primeiros passos
 
@@ -41,6 +41,16 @@ Os modos escolhem momentos representativos em vez de exportar todos os quadros. 
 Resultados do Mac e revisão da fonte com um vídeo de exemplo. Interface em inglês.
 
 Vídeo de exemplo: Big Buck Bunny. © 2008 Blender Foundation. Quadros organizados com Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Extraia quadros por intervalo ou tempo no Mac
+
+As novidades exigem a versão 1.4.3 ou posterior. Se a atualização ainda não estiver na sua App Store, você pode continuar usando as opções anteriores de exportação.
+
+Antes de adicionar vídeos ao espaço do Mac, escolha quadros-chave automáticos, intervalo fixo, tempos específicos ou distribuição uniforme e um limite de 1–120 quadros. O intervalo fixo para no limite; a distribuição uniforme cobre todo o vídeo. Os tempos aceitam segundos ou HH:MM:SS, por exemplo 5, 00:12.5, 01:30. Ative Resolução original para exportação automática ou selecione resultados e use Exportar → Exportar na resolução original → PNG/JPEG. Os originais são decodificados e salvos um por vez, sem ampliação. A saída 4K exige uma fonte 4K e o vídeo original deve permanecer disponível no espaço de trabalho.
+
+## Exporte capas e folhas de contato PDF para impressão
+
+No Mac, iPhone ou iPad, selecione um resultado e use Exportar → Exportar capa. Escolha proporção original, 16:9, 9:16, 1:1 ou 4:3, ajuste o corte e o lado máximo e salve PNG/JPEG. O JPEG pode ter limite de 2 MB; reduza as dimensões se não couber. As imagens não são ampliadas. Para uma folha PDF, escolha A4/Letter e 2–4 colunas. Até 120 quadros são ordenados cronologicamente e paginados com nome do vídeo e tempos. Sem seleção, todos os resultados restantes são usados. A folha PNG continua limitada a 40 quadros.
 
 ## O que muda entre Mac, iPhone e iPad?
 

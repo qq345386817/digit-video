@@ -10,7 +10,7 @@ Lembar kontak menggabungkan gambar video menjadi satu ikhtisar PNG. Gunakan untu
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-10-11
+Diperbarui: 2026-10-12
 
 ## Mulai
 
@@ -22,9 +22,9 @@ Diperbarui: 2026-10-11
 
 4. Simpan atau bagikan PNG yang dibuat. Ekspor Terpilih menghasilkan file PNG terpisah; gunakan pilihan itu jika setiap gambar perlu diedit sendiri.
 
-## Maksimal 40 frame per lembar kontak di halaman hasil
+## Contact sheet PNG: maksimal 40 frame
 
-Halaman hasil menerima paling banyak 40 frame untuk satu lembar. Untuk kumpulan lebih besar, pilih kelompok kecil dan lakukan beberapa ekspor. Lembar kontak adalah ikhtisar, bukan pengganti gambar terpisah. Preset batch Mac juga menyediakan keluaran lembar kontak opsional.
+Contact sheet PNG menerima hingga 40 frame. Untuk tampilan cetak lebih besar, pilih PDF: hingga 120 frame dengan halaman otomatis. Ruang kerja Mac juga dapat mengekspor contact sheet PNG dan PDF.
 
 [![Lembar kontak PNG hasil ekspor dengan delapan gambar dan stempel waktu.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan D
 ## Gunakan ikhtisar bersama gambar individual
 
 Untuk video produk, bandingkan kandidat sampul sebelum mengekspor satu gambar. Untuk tutorial, bagikan ikhtisar kepada rekan lalu ekspor langkah yang dipilih secara terpisah. Simpan proyek secara eksplisit untuk meninjau dan mengeditnya lagi; mengekspor lembar tidak menyimpan catatan riwayat.
+
+## Ekspor sampul dan contact sheet PDF siap cetak
+
+Fitur baru ini memerlukan versi 1.4.3 atau lebih baru. Jika pembaruan belum tersedia di App Store Anda, opsi ekspor sebelumnya tetap bisa digunakan.
+
+Di Mac, iPhone, atau iPad, pilih satu hasil lalu Ekspor → Ekspor Sampul. Pilih rasio asli, 16:9, 9:16, 1:1, atau 4:3, sesuaikan posisi potong dan sisi maksimum, lalu simpan PNG/JPEG. JPEG bisa dibatasi 2 MB; pilih dimensi lebih kecil jika tidak muat. Gambar tidak diperbesar. Untuk contact sheet PDF, pilih A4/Letter dan 2–4 kolom. Hingga 120 frame diurutkan menurut waktu dan dibagi otomatis ke halaman, dengan nama video dan waktu. Tanpa pilihan, semua hasil tersisa digunakan. Contact sheet PNG tetap dibatasi 40 frame.
 
 ## Apa perbedaan Mac, iPhone, dan iPad?
 

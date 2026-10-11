@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-contact-sheet
 
 [帮助](https://digit-video.luopeike.com/zh-Hans/help)
 
-更新日期: 2026-10-11
+更新日期: 2026-10-12
 
 ## 快速开始
 
@@ -22,9 +22,9 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-contact-sheet
 
 4. 保存或分享生成的 PNG。需要分别编辑图片时，使用“导出所选”，它会生成多个独立的 PNG 文件。
 
-## 结果页每张联系表最多 40 帧
+## PNG 联系表：最多 40 帧
 
-结果页的一张联系表最多包含 40 帧。更多图片可以分组选中并多次导出。联系表用于总览，不能替代单独导出的图片。Mac 批量提取预设也提供可选的联系表输出。
+每张 PNG 联系表最多包含 40 帧。更多画面可以选择“PDF 联系表”，最多支持 120 帧并自动分页。Mac 批量工作区也可自动导出 PNG 联系表和 PDF。
 
 [![导出的 PNG 联系表，包含八张静帧及对应时间戳。](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-contact-sheet
 ## 配合独立图片使用总览图
 
 处理商品视频时，可先比较封面候选，再导出合适的一张。处理教程时，可把总览图发给协作者，再单独导出选定的步骤图片。希望以后再次查看和编辑同一结果集，需要明确点击“保存”；导出联系表不会自动生成历史记录。
+
+## 导出封面图片与可打印的 PDF 联系表
+
+这些新工作流需要 1.4.3 或更高版本。如果所在 App Store 尚未提供更新，仍可使用之前的导出功能。
+
+在 Mac、iPhone 或 iPad 上，选中一张结果，使用“导出 → 导出封面”。支持原始比例、16:9、9:16、1:1、4:3，可调整裁切位置和最大边长，并保存为 PNG 或 JPEG。JPEG 可限制为 2 MB，无法满足限制时需要选择更小的尺寸。图片不会被放大。需要打印总览时，使用“导出 → PDF 联系表”，选择 A4 或 Letter 和 2–4 列。最多 120 张所选图片按时间排列，自动分页，并附有视频名和时间戳。未选择图片时使用全部剩余结果；PNG 联系表仍最多包含 40 帧。
 
 ## Mac、iPhone 和 iPad 有什么区别？
 

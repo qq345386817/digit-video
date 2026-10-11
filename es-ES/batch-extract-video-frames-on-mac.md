@@ -10,7 +10,7 @@ Añade archivos o una carpeta, elige un ajuste de extracción y revisa cada resu
 
 [Ayuda](https://digit-video.luopeike.com/es-ES/help)
 
-Actualizado: 2026-10-11
+Actualizado: 2026-10-12
 
 ## Primeros pasos
 
@@ -41,6 +41,16 @@ Los modos eligen momentos representativos, no todos los fotogramas. Portada prio
 Resultados de Mac y revisión del vídeo de origen con un clip de ejemplo. Interfaz en inglés.
 
 Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organizadas con Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Extrae fotogramas por intervalo o tiempo en Mac
+
+Estas novedades requieren la versión 1.4.3 o posterior. Si aún no está disponible en tu App Store, puedes seguir usando las opciones de exportación anteriores.
+
+Antes de añadir vídeos al espacio de Mac, elige fotogramas clave automáticos, intervalo fijo, tiempos específicos o distribución uniforme, con un límite de 1–120 fotogramas. El intervalo fijo se detiene en el límite; la distribución uniforme cubre todo el vídeo. Los tiempos aceptan segundos o HH:MM:SS, por ejemplo 5, 00:12.5, 01:30. Activa Resolución original para la exportación automática o selecciona resultados y usa Exportar → Exportar a resolución original → PNG/JPEG. Los originales se decodifican y guardan uno a uno, sin ampliarlos. La salida 4K requiere una fuente 4K y el vídeo original debe seguir disponible en el espacio de trabajo.
+
+## Exporta portadas y hojas de contacto PDF imprimibles
+
+En Mac, iPhone o iPad, selecciona un resultado y elige Exportar → Exportar portada. Usa la proporción original, 16:9, 9:16, 1:1 o 4:3, ajusta el recorte y el lado máximo, y guarda PNG/JPEG. El JPEG puede limitarse a 2 MB; reduce las dimensiones si no cabe. Las imágenes no se amplían. Para una hoja PDF, elige A4/Letter y 2–4 columnas. Hasta 120 fotogramas se ordenan cronológicamente y se reparten en páginas con el nombre del vídeo y los tiempos. Sin selección se usan todos los resultados restantes. La hoja PNG sigue limitada a 40 fotogramas.
 
 ## ¿Qué cambia entre Mac, iPhone y iPad?
 

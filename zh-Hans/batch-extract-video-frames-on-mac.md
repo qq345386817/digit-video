@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/batch-extract-video-fra
 
 [帮助](https://digit-video.luopeike.com/zh-Hans/help)
 
-更新日期: 2026-10-11
+更新日期: 2026-10-12
 
 ## 快速开始
 
@@ -41,6 +41,16 @@ Mac 批量工作区，展示示例队列与提取结果。截图为英文界面�
 使用示例视频的 Mac 结果页与源画面查看。截图为英文界面。
 
 示例视频：Big Buck Bunny。© 2008 Blender Foundation。画面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## 在 Mac 上按间隔或时间点提取视频图片
+
+这些新工作流需要 1.4.3 或更高版本。如果所在 App Store 尚未提供更新，仍可使用之前的导出功能。
+
+在 Mac 工作区添加视频前，先选择“画面选择”：自动关键帧、固定间隔、指定时间点或均匀采样，并设置 1–120 帧的上限。固定间隔达到上限后停止；均匀采样覆盖完整时间线。时间点支持秒数或 HH:MM:SS，例如 5, 00:12.5, 01:30。自动导出时可开启“源视频分辨率”，或在结果页选中图片，使用“导出 → 导出原画 → PNG/JPEG”。原画逐帧解码并保存，不会放大图片；4K 输出需要 4K 源视频。原画导出要求当前工作区中的源视频仍然可用。
+
+## 导出封面图片与可打印的 PDF 联系表
+
+在 Mac、iPhone 或 iPad 上，选中一张结果，使用“导出 → 导出封面”。支持原始比例、16:9、9:16、1:1、4:3，可调整裁切位置和最大边长，并保存为 PNG 或 JPEG。JPEG 可限制为 2 MB，无法满足限制时需要选择更小的尺寸。图片不会被放大。需要打印总览时，使用“导出 → PDF 联系表”，选择 A4 或 Letter 和 2–4 列。最多 120 张所选图片按时间排列，自动分页，并附有视频名和时间戳。未选择图片时使用全部剩余结果；PNG 联系表仍最多包含 40 帧。
 
 ## Mac、iPhone 和 iPad 有什么区别？
 

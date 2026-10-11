@@ -10,7 +10,7 @@ Ein Kontaktbogen vereint Videobilder in einer PNG-Übersicht. Vergleiche Titelbi
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-10-11
+Aktualisiert: 2026-10-12
 
 ## Erste Schritte
 
@@ -22,9 +22,9 @@ Aktualisiert: 2026-10-11
 
 4. Speichere oder teile die PNG. Auswahl exportieren erstellt einzelne PNG-Dateien; nutze dies, wenn jedes Bild weiter bearbeitet werden soll.
 
-## Bis zu 40 Bilder pro Kontaktbogen der Ergebnisseite
+## PNG-Kontaktbögen: bis zu 40 Frames
 
-Die Ergebnisseite erlaubt höchstens 40 Bilder in einem Kontaktbogen. Größere Sammlungen lassen sich in kleineren Gruppen mehrfach exportieren. Der Bogen ist eine Übersicht und ersetzt keine Einzelbilder. Die Mac-Stapelvorlagen bieten ebenfalls optionale Kontaktbögen.
+Ein PNG-Kontaktbogen umfasst bis zu 40 Frames. Für größere druckbare Übersichten bietet PDF bis zu 120 Frames mit automatischer Seitenaufteilung. Der Mac-Arbeitsbereich kann auch PNG-Kontaktbögen und PDFs exportieren.
 
 [![Ein exportierter PNG-Kontaktbogen mit acht Standbildern und Zeitstempeln.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It ang
 ## Übersicht und Einzelbilder gemeinsam verwenden
 
 Vergleiche bei Produktvideos die Titelbild-Kandidaten vor dem Export eines Bildes. Teile bei Tutorials die Übersicht mit anderen und exportiere gewählte Schritte einzeln. Speichere das Projekt ausdrücklich, um dieselben Ergebnisse später zu bearbeiten; der Kontaktbogenexport speichert keinen Verlaufseintrag.
+
+## Coverbilder und druckbare PDF-Kontaktbögen exportieren
+
+Diese neuen Funktionen benötigen Version 1.4.3 oder neuer. Falls das Update noch nicht im App Store verfügbar ist, kannst du die bisherigen Exportoptionen weiter nutzen.
+
+Wähle auf Mac, iPhone oder iPad ein Ergebnis und Exportieren → Cover exportieren. Nutze Original, 16:9, 9:16, 1:1 oder 4:3, passe Zuschnittposition und maximale Kantenlänge an und speichere PNG/JPEG. JPEG lässt sich auf 2 MB begrenzen; wähle kleinere Abmessungen, wenn es nicht passt. Bilder werden nicht hochskaliert. Für PDF-Kontaktbögen wähle A4/Letter und 2–4 Spalten. Bis zu 120 Frames werden chronologisch mit Videoname und Zeitpunkten auf Seiten verteilt. Ohne Auswahl werden alle übrigen Ergebnisse verwendet. PNG-Kontaktbögen bleiben auf 40 Frames begrenzt.
 
 ## Was unterscheidet Mac, iPhone und iPad?
 

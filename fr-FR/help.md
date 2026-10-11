@@ -42,6 +42,16 @@ Sur iPhone et iPad, choisissez une vidéo dans Photos ou Fichiers, examinez les 
 
 [Créer une planche-contact à partir d'une vidéo Une planche-contact réunit des images vidéo dans un aperçu PNG. Comparez des couvertures, partagez un résumé des scènes ou rassemblez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
 
+## Extraire des images par intervalle ou horodatage sur Mac
+
+Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles.
+
+Avant d’ajouter les vidéos à l’espace Mac, choisissez images clés automatiques, intervalle fixe, horodatages précis ou répartition uniforme, avec une limite de 1 à 120 images. L’intervalle fixe s’arrête à la limite ; la répartition uniforme couvre toute la vidéo. Saisissez des secondes ou HH:MM:SS, par exemple 5, 00:12.5, 01:30. Activez Résolution source pour l’export automatique ou sélectionnez les résultats puis Exporter → Exporter à la résolution source → PNG/JPEG. Les images originales sont décodées et enregistrées une par une, sans agrandissement. La 4K exige une source 4K et la vidéo source doit rester disponible dans l’espace de travail.
+
+## Exporter des couvertures et des planches contact PDF imprimables
+
+Sur Mac, iPhone ou iPad, sélectionnez une image puis Exporter → Exporter une couverture. Choisissez le format original, 16:9, 9:16, 1:1 ou 4:3, ajustez le cadrage et la longueur maximale, puis enregistrez en PNG/JPEG. Le JPEG peut être limité à 2 Mo ; réduisez les dimensions si nécessaire. Les images ne sont jamais agrandies. Pour une planche PDF, choisissez A4/Letter et 2 à 4 colonnes. Jusqu’à 120 images sont classées chronologiquement et paginées avec le nom de la vidéo et les horodatages. Sans sélection, tous les résultats restants sont utilisés. La planche PNG reste limitée à 40 images.
+
 ## Choisissez une image parmi les images sources voisines
 
 Sur Mac, sélectionnez un résultat, parcourez les images sources voisines et ajoutez une image ou remplacez la sélection. La vidéo source doit rester disponible dans l'espace de travail actuel.
@@ -56,9 +66,9 @@ Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisée
 
 Enregistrer conserve les images actuelles ainsi que les horodatages et scores disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
 
-## Jusqu'à 40 images par planche depuis les résultats
+## Planches PNG : jusqu’à 40 images
 
-La page des résultats accepte au maximum 40 images dans une planche. Pour une collection plus grande, sélectionnez des groupes plus petits et effectuez plusieurs exports. La planche est un aperçu et ne remplace pas les images individuelles. Les préréglages par lots sur Mac proposent également des planches-contact facultatives.
+Une planche PNG accepte jusqu’à 40 images. Pour une vue imprimable plus grande, choisissez PDF : jusqu’à 120 images avec pagination automatique. L’espace Mac peut aussi exporter des planches PNG et des PDF.
 
 ## Questions fréquentes
 
@@ -80,7 +90,7 @@ Non. Il conserve les images explicitement enregistrées et leurs métadonnées, 
 
 ### Toutes les images gardent-elles la résolution originale ?
 
-Les images extraites automatiquement tiennent actuellement dans 720 × 720 pixels en conservant leurs proportions. Une image ajoutée par la révision source sur Mac utilise la résolution source. L'export PNG n'agrandit pas une petite image extraite.
+Les aperçus tiennent dans 720 × 720 pixels. Sur Mac, l’export à la résolution source décode la vidéo originale à la demande et conserve ses dimensions. Les couvertures Mac utilisent la source disponible, sinon l’image enregistrée. Aucun aperçu ni source basse résolution n’est agrandi.
 
 ### La CLI est-elle incluse dans le téléchargement App Store ?
 
@@ -105,6 +115,10 @@ digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40
 
 ```sh
 digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json
+```
+
+```sh
+digit extract video.mp4 --output ./originals --resolution source --json originals.json
 ```
 
 ```sh

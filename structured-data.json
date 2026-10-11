@@ -9,7 +9,7 @@
     "DigIt Video",
     "DigIt keyframes"
   ],
-  "description": "Extract video stills locally with Dig It. Batch videos on Mac, review individual frames, export contact sheets, and reopen saved projects on Mac, iPhone and iPad.",
+  "description": "Extract video frames on Mac, iPhone and iPad. Version 1.4.3 adds Mac source-resolution sampling, cropped PNG/JPEG covers and printable PDF contact sheets.",
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "iOS, iPadOS, macOS",
   "url": "https://digit-video.luopeike.com/",

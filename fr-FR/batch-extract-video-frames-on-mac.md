@@ -10,7 +10,7 @@ Ajoutez des vidéos ou un dossier, choisissez un préréglage, puis examinez cha
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-10-11
+Mis à jour: 2026-10-12
 
 ## Premiers pas
 
@@ -41,6 +41,16 @@ Les modes sélectionnent des moments représentatifs plutôt que toutes les imag
 Résultats Mac et révision de la source avec une vidéo d'exemple. Interface en anglais.
 
 Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisées avec Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Extraire des images par intervalle ou horodatage sur Mac
+
+Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles.
+
+Avant d’ajouter les vidéos à l’espace Mac, choisissez images clés automatiques, intervalle fixe, horodatages précis ou répartition uniforme, avec une limite de 1 à 120 images. L’intervalle fixe s’arrête à la limite ; la répartition uniforme couvre toute la vidéo. Saisissez des secondes ou HH:MM:SS, par exemple 5, 00:12.5, 01:30. Activez Résolution source pour l’export automatique ou sélectionnez les résultats puis Exporter → Exporter à la résolution source → PNG/JPEG. Les images originales sont décodées et enregistrées une par une, sans agrandissement. La 4K exige une source 4K et la vidéo source doit rester disponible dans l’espace de travail.
+
+## Exporter des couvertures et des planches contact PDF imprimables
+
+Sur Mac, iPhone ou iPad, sélectionnez une image puis Exporter → Exporter une couverture. Choisissez le format original, 16:9, 9:16, 1:1 ou 4:3, ajustez le cadrage et la longueur maximale, puis enregistrez en PNG/JPEG. Le JPEG peut être limité à 2 Mo ; réduisez les dimensions si nécessaire. Les images ne sont jamais agrandies. Pour une planche PDF, choisissez A4/Letter et 2 à 4 colonnes. Jusqu’à 120 images sont classées chronologiquement et paginées avec le nom de la vidéo et les horodatages. Sans sélection, tous les résultats restants sont utilisés. La planche PNG reste limitée à 40 images.
 
 ## Quelles différences entre Mac, iPhone et iPad ?
 

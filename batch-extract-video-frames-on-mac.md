@@ -10,7 +10,7 @@ Queue video files or a folder, choose a reusable extraction preset, and review e
 
 [Help](https://digit-video.luopeike.com/help)
 
-Updated: 2026-10-11
+Updated: 2026-10-12
 
 ## Getting started
 
@@ -41,6 +41,16 @@ Extraction modes select representative moments rather than exporting every video
 Mac results and source-frame review using a sample video. English interface shown.
 
 Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Sample video frames by interval or timestamp on Mac
+
+These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available.
+
+Before adding videos to the Mac workspace, choose Frame Selection: Automatic Keyframes, Fixed Interval, Specific Timestamps or Evenly Spaced. Set a limit of 1–120 frames. Fixed Interval stops at that limit; Evenly Spaced covers the full timeline. Timestamps accept seconds or HH:MM:SS, for example 5, 00:12.5, 01:30. Enable Source Resolution for automatic export, or select results and use Export → Export Source Resolution → PNG/JPEG. Original-size frames are decoded and saved one at a time, without upscaling; 4K output requires a 4K source. Source export requires the original video to remain available in the workspace.
+
+## Export cover images and printable PDF contact sheets
+
+On Mac, iPhone or iPad, select one result and choose Export → Export Cover. Choose the original ratio, 16:9, 9:16, 1:1 or 4:3, adjust the crop position and maximum edge, then save PNG or JPEG. JPEG can be limited to 2 MB; if it cannot fit, choose smaller dimensions. Images are never upscaled. For a printable overview, choose Export → PDF Contact Sheet, A4 or Letter, and 2–4 columns. Up to 120 selected frames are ordered chronologically and paginated automatically, with the video name and timestamps. With no selection, all remaining results are used. A PNG contact sheet still accepts at most 40 frames.
 
 ## What is different on Mac, iPhone and iPad?
 

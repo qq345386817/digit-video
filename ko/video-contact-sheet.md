@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ko/video-contact-sheet
 
 [도움말](https://digit-video.luopeike.com/ko/help)
 
-업데이트: 2026-10-11
+업데이트: 2026-10-12
 
 ## 시작하기
 
@@ -22,9 +22,9 @@ Canonical page: https://digit-video.luopeike.com/ko/video-contact-sheet
 
 4. 만들어진 PNG를 저장하거나 공유하세요. 선택 항목 내보내기는 개별 PNG 파일을 만드므로 각각 편집해야 할 때 사용하세요.
 
-## 결과 페이지 시트당 최대 40프레임
+## PNG 시트: 최대 40개 프레임
 
-결과 페이지에서는 한 시트에 최대 40프레임을 넣을 수 있습니다. 더 많은 이미지는 작은 그룹으로 나누어 여러 번 내보내세요. 시트는 전체 보기용이며 개별 이미지를 대신하지 않습니다. Mac 일괄 프리셋에서도 콘택트 시트 출력을 선택할 수 있습니다.
+PNG 시트는 최대 40개 프레임입니다. 더 큰 인쇄용 개요는 최대 120개를 자동 분할하는 PDF 콘택트 시트를 사용하세요. Mac 일괄 작업 공간에서도 PNG 시트와 PDF를 내보낼 수 있습니다.
 
 [![8개의 정지 이미지와 타임스탬프를 담은 내보낸 PNG 콘택트 시트입니다.](https://digit-video.luopeike.com/images/video-contact-sheet.webp)](https://digit-video.luopeike.com/images/video-contact-sheet.webp)
 
@@ -35,6 +35,12 @@ Canonical page: https://digit-video.luopeike.com/ko/video-contact-sheet
 ## 전체 보기와 개별 이미지를 함께 사용하세요
 
 상품 동영상은 표지 후보를 비교한 뒤 한 장을 내보내세요. 튜토리얼은 협업자에게 시트를 공유한 뒤 필요한 단계 이미지를 개별로 내보내세요. 나중에 같은 결과를 다시 검토하고 편집하려면 프로젝트를 직접 저장해야 합니다. 시트 내보내기만으로는 기록이 저장되지 않습니다.
+
+## 커버 이미지와 인쇄용 PDF 콘택트 시트 내보내기
+
+새 기능은 1.4.3 이상에서 사용할 수 있습니다. App Store에 업데이트가 아직 없더라도 기존 내보내기 기능을 사용할 수 있습니다.
+
+Mac, iPhone 또는 iPad에서 결과 하나를 선택하고 내보내기 → 커버 내보내기를 사용하세요. 원본 비율, 16:9, 9:16, 1:1 또는 4:3, 자르기 위치, 최대 변 길이를 선택해 PNG/JPEG로 저장합니다. JPEG는 2 MB 이하로 제한할 수 있으며 맞지 않으면 크기를 줄이세요. 이미지는 확대하지 않습니다. PDF 콘택트 시트에서는 A4/Letter와 2–4개 열을 선택합니다. 최대 120개 프레임을 시간순으로 자동 분할하고 동영상 이름과 타임스탬프를 표시합니다. 선택하지 않으면 남은 모든 결과를 사용합니다. PNG 시트는 여전히 최대 40개입니다.
 
 ## Mac과 iPhone·iPad의 차이는 무엇인가요?
 

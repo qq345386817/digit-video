@@ -10,7 +10,7 @@ Tambahkan file video atau folder, pilih preset ekstraksi, lalu tinjau hasil atau
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-10-11
+Diperbarui: 2026-10-12
 
 ## Mulai
 
@@ -41,6 +41,16 @@ Mode ekstraksi memilih momen representatif, bukan mengekspor setiap frame video.
 Hasil Mac dan tinjauan frame sumber menggunakan video contoh. Antarmuka berbahasa Inggris.
 
 Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+## Ekstrak frame berdasarkan interval atau waktu di Mac
+
+Fitur baru ini memerlukan versi 1.4.3 atau lebih baru. Jika pembaruan belum tersedia di App Store Anda, opsi ekspor sebelumnya tetap bisa digunakan.
+
+Sebelum menambah video ke ruang kerja Mac, pilih Keyframe Otomatis, Interval Tetap, Waktu Tertentu, atau Jarak Merata dan batas 1–120 frame. Interval Tetap berhenti pada batas; Jarak Merata mencakup seluruh video. Waktu dapat berupa detik atau HH:MM:SS, misalnya 5, 00:12.5, 01:30. Aktifkan Resolusi Sumber untuk ekspor otomatis atau pilih hasil lalu Ekspor → Ekspor Resolusi Sumber → PNG/JPEG. Frame asli didekode dan disimpan satu per satu tanpa diperbesar. Output 4K memerlukan sumber 4K dan video sumber harus tetap tersedia di ruang kerja.
+
+## Ekspor sampul dan contact sheet PDF siap cetak
+
+Di Mac, iPhone, atau iPad, pilih satu hasil lalu Ekspor → Ekspor Sampul. Pilih rasio asli, 16:9, 9:16, 1:1, atau 4:3, sesuaikan posisi potong dan sisi maksimum, lalu simpan PNG/JPEG. JPEG bisa dibatasi 2 MB; pilih dimensi lebih kecil jika tidak muat. Gambar tidak diperbesar. Untuk contact sheet PDF, pilih A4/Letter dan 2–4 kolom. Hingga 120 frame diurutkan menurut waktu dan dibagi otomatis ke halaman, dengan nama video dan waktu. Tanpa pilihan, semua hasil tersisa digunakan. Contact sheet PNG tetap dibatasi 40 frame.
 
 ## Apa perbedaan Mac, iPhone, dan iPad?
 
