@@ -1,0 +1,34 @@
+# Dig It: Video Keyframes
+> Official documentation for Dig It (DigIt), a local video-to-stills app for macOS, iPhone and iPad.
+
+Dig It is currently free on the App Store. Follow the official download link for current pricing and device compatibility.
+No. Video analysis and frame extraction run on your device. You choose whether to share exported files; an internet connection is not required for local extraction.
+Mac adds a batch queue, folder import, extraction presets, automatic PNG/JPEG export and nearby source-frame review. Choose an output folder before enabling automatic export.
+On iPhone and iPad, choose one video from Photos or Files, review the extracted images, export selected PNGs or a contact sheet, and explicitly save results to History.
+The result page accepts at most 40 frames for one contact sheet. For a larger collection, select a smaller group and make several exports. The sheet is an overview, not a replacement for separately exported images. The Mac batch preset also offers optional contact-sheet output.
+Save keeps the current result images and their available timestamps and scores in local History. Reopen a saved project to review, delete, export and save changes to the same record. The source video is not stored with the history record; older metadata-only records cannot recreate missing images.
+Automatically extracted frames currently fit within 720 × 720 pixels while preserving aspect ratio. A frame added through Mac source-frame review uses the source image resolution. PNG export does not upscale a smaller extracted frame.
+The digit CLI is separate from the App Store app and is not currently distributed publicly. Contact support about access. The examples below are for users who already have the standalone tool installed.
+MCP integration is not provided.
+
+## Official documentation
+- [Help and product facts](https://digit-video.luopeike.com/help.md): Platform differences, local processing, saved projects, limits and CLI availability.
+- [Batch extract video frames on Mac](https://digit-video.luopeike.com/batch-extract-video-frames-on-mac.md): Queue files or folders, choose presets, review and export.
+- [Create a video contact sheet](https://digit-video.luopeike.com/video-contact-sheet.md): Select stills, export a PNG overview and understand the 40-frame limit.
+- [App Store download](https://apps.apple.com/app/id6508171056): Official pricing and device compatibility.
+- [Support](https://digit-video.luopeike.com/support): Contact the developer, including questions about the separate CLI.
+- [Privacy policy](https://digit-video.luopeike.com/privacy-policy): The published privacy policy.
+
+## Localized documentation
+- [English](https://digit-video.luopeike.com/help.md): Localized help and links to workflow guides.
+- [简体中文](https://digit-video.luopeike.com/zh-Hans/help.md): Localized help and links to workflow guides.
+- [繁體中文](https://digit-video.luopeike.com/zh-Hant/help.md): Localized help and links to workflow guides.
+- [Español](https://digit-video.luopeike.com/es-ES/help.md): Localized help and links to workflow guides.
+- [Bahasa Indonesia](https://digit-video.luopeike.com/id/help.md): Localized help and links to workflow guides.
+- [Italiano](https://digit-video.luopeike.com/it/help.md): Localized help and links to workflow guides.
+- [العربية](https://digit-video.luopeike.com/ar-SA/help.md): Localized help and links to workflow guides.
+- [日本語](https://digit-video.luopeike.com/ja/help.md): Localized help and links to workflow guides.
+- [한국어](https://digit-video.luopeike.com/ko/help.md): Localized help and links to workflow guides.
+- [Deutsch](https://digit-video.luopeike.com/de-DE/help.md): Localized help and links to workflow guides.
+- [Français](https://digit-video.luopeike.com/fr-FR/help.md): Localized help and links to workflow guides.
+- [Português (Brasil)](https://digit-video.luopeike.com/pt-BR/help.md): Localized help and links to workflow guides.

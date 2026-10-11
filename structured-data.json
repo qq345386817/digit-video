@@ -1,15 +1,15 @@
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Dig It",
+  "@id": "https://digit-video.luopeike.com/#app",
+  "name": "Dig It: Video Keyframes",
   "alternateName": [
+    "Dig It",
     "DigIt",
     "DigIt Video",
-    "DigIt->Video",
-    "Dig It Video Keyframes",
     "DigIt keyframes"
   ],
-  "description": "Dig It extracts video keyframes, cover stills, and tutorial step images locally on iPhone, iPad, and Mac.",
+  "description": "Extract video stills locally with Dig It. Batch videos on Mac, review individual frames, export contact sheets, and reopen saved projects on Mac, iPhone and iPad.",
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "iOS, iPadOS, macOS",
   "url": "https://digit-video.luopeike.com/",
