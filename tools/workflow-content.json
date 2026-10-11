@@ -1,7 +1,7 @@
 {
   "en": {
-    "homeTitle": "Dig It | Video Frames & Contact Sheets for Mac and iPhone",
-    "homeDescription": "Extract video stills locally with Dig It. Batch videos on Mac, review individual frames, export contact sheets, and reopen saved projects on Mac, iPhone and iPad.",
+    "homeTitle": "Dig It | Video Frames, Covers & PDF Contact Sheets",
+    "homeDescription": "Extract video frames on Mac, iPhone and iPad. Version 1.4.3 adds Mac source-resolution sampling, cropped PNG/JPEG covers and printable PDF contact sheets.",
     "workflowTitle": "A local video-to-images workflow",
     "workflowIntro": "Dig It: Video Keyframes, also called DigIt, helps you turn video into reusable still images. Use the Mac workspace for batches and closer frame review, or extract images from a single video on iPhone and iPad.",
     "batchTitle": "Batch extract video frames on Mac",
@@ -26,8 +26,8 @@
       "Open Export and choose Contact Sheet. The result-page sheet includes frame numbers and timestamps, helping you find the corresponding moment in the source video.",
       "Save or share the generated PNG. Export Selected creates separate PNG files instead; choose that option when each still needs further editing."
     ],
-    "contactLimitTitle": "Up to 40 frames per result-page contact sheet",
-    "contactLimit": "The result page accepts at most 40 frames for one contact sheet. For a larger collection, select a smaller group and make several exports. The sheet is an overview, not a replacement for separately exported images. The Mac batch preset also offers optional contact-sheet output.",
+    "contactLimitTitle": "PNG contact sheets: up to 40 frames",
+    "contactLimit": "A PNG contact sheet accepts up to 40 frames. For a larger printable overview, use PDF Contact Sheet: up to 120 frames with automatic pagination. The Mac batch workspace can also export PNG sheets and PDFs.",
     "contactUseTitle": "Use the overview alongside individual images",
     "contactUse": "For a product video, compare cover candidates before exporting one still. For a tutorial, share the overview with a collaborator, then export the chosen step images separately. Save the project explicitly if you want to revisit and edit the same frame set later; exporting a sheet does not save a history record.",
     "platformTitle": "What is different on Mac, iPhone and iPad?",
@@ -54,7 +54,7 @@
       ],
       [
         "Do all exported frames keep the original resolution?",
-        "Automatically extracted frames currently fit within 720 × 720 pixels while preserving aspect ratio. A frame added through Mac source-frame review uses the source image resolution. PNG export does not upscale a smaller extracted frame."
+        "Previews fit within 720 × 720 pixels. On Mac, Source Resolution exports decode the original video on demand and preserve its image dimensions. Mac covers use an available source; otherwise covers use the saved image resolution. Output never upscales a preview or a low-resolution source."
       ],
       [
         "Is the CLI included in the App Store download?",
@@ -92,11 +92,16 @@
       "Cover: fewer stronger frames for thumbnails, covers, and hero images.",
       "Steps: more change points for tutorials, workflows, and process content."
     ],
-    "helpLabel": "Help"
+    "helpLabel": "Help",
+    "samplingTitle": "Sample video frames by interval or timestamp on Mac",
+    "samplingBody": "Before adding videos to the Mac workspace, choose Frame Selection: Automatic Keyframes, Fixed Interval, Specific Timestamps or Evenly Spaced. Set a limit of 1–120 frames. Fixed Interval stops at that limit; Evenly Spaced covers the full timeline. Timestamps accept seconds or HH:MM:SS, for example 5, 00:12.5, 01:30. Enable Source Resolution for automatic export, or select results and use Export → Export Source Resolution → PNG/JPEG. Original-size frames are decoded and saved one at a time, without upscaling; 4K output requires a 4K source. Source export requires the original video to remain available in the workspace.",
+    "deliveryTitle": "Export cover images and printable PDF contact sheets",
+    "deliveryBody": "On Mac, iPhone or iPad, select one result and choose Export → Export Cover. Choose the original ratio, 16:9, 9:16, 1:1 or 4:3, adjust the crop position and maximum edge, then save PNG or JPEG. JPEG can be limited to 2 MB; if it cannot fit, choose smaller dimensions. Images are never upscaled. For a printable overview, choose Export → PDF Contact Sheet, A4 or Letter, and 2–4 columns. Up to 120 selected frames are ordered chronologically and paginated automatically, with the video name and timestamps. With no selection, all remaining results are used. A PNG contact sheet still accepts at most 40 frames.",
+    "availability": "These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available."
   },
   "zh-Hans": {
-    "homeTitle": "Dig It | Mac、iPhone 视频抽帧与联系表工具",
-    "homeDescription": "用 Dig It 在本地提取视频图片：Mac 批量抽帧、精确选帧、导出联系表，保存并再次编辑结果。支持 Mac、iPhone 和 iPad。",
+    "homeTitle": "Dig It | 视频抽帧、封面图片与 PDF 联系表",
+    "homeDescription": "用 Dig It 在 Mac、iPhone 和 iPad 本地提取视频图片。1.4.3 新增 Mac 原画采样、PNG/JPEG 封面裁切和可打印的 PDF 联系表。",
     "workflowTitle": "把视频变成可复用图片的本地工作流",
     "workflowIntro": "Dig It: Video Keyframes，也称 DigIt，帮助你从视频中获取可复用的静帧。Mac 工作区适合批量处理和细致选帧，iPhone 与 iPad 适合从单个视频提取图片。",
     "batchTitle": "在 Mac 上批量提取视频图片",
@@ -121,8 +126,8 @@
       "打开“导出”菜单并选择“联系表”。结果页生成的联系表包含帧序号和时间戳，便于回到原视频查找对应时刻。",
       "保存或分享生成的 PNG。需要分别编辑图片时，使用“导出所选”，它会生成多个独立的 PNG 文件。"
     ],
-    "contactLimitTitle": "结果页每张联系表最多 40 帧",
-    "contactLimit": "结果页的一张联系表最多包含 40 帧。更多图片可以分组选中并多次导出。联系表用于总览，不能替代单独导出的图片。Mac 批量提取预设也提供可选的联系表输出。",
+    "contactLimitTitle": "PNG 联系表：最多 40 帧",
+    "contactLimit": "每张 PNG 联系表最多包含 40 帧。更多画面可以选择“PDF 联系表”，最多支持 120 帧并自动分页。Mac 批量工作区也可自动导出 PNG 联系表和 PDF。",
     "contactUseTitle": "配合独立图片使用总览图",
     "contactUse": "处理商品视频时，可先比较封面候选，再导出合适的一张。处理教程时，可把总览图发给协作者，再单独导出选定的步骤图片。希望以后再次查看和编辑同一结果集，需要明确点击“保存”；导出联系表不会自动生成历史记录。",
     "platformTitle": "Mac、iPhone 和 iPad 有什么区别？",
@@ -149,7 +154,7 @@
       ],
       [
         "导出的每张图片都保持原视频分辨率吗？",
-        "自动提取的图片目前按比例缩放到 720 × 720 像素以内。在 Mac 源画面查看中新增的图片使用源图像分辨率。PNG 导出不会放大较小的抽帧图片。"
+        "预览图片保持在 720 × 720 像素内。Mac 的“源视频分辨率”导出会按需解码原视频并保留源画面尺寸。Mac 封面优先使用可用的源视频，否则使用已保存图片的分辨率。不会把预览图片或低分辨率源视频放大为原画。"
       ],
       [
         "从 App Store 下载后就能使用 CLI 吗？",
@@ -187,11 +192,16 @@
       "封面：更少但更强的封面、缩略图和主视觉候选。",
       "步骤：保留更多变化点，适合教程、流程和操作内容。"
     ],
-    "helpLabel": "帮助"
+    "helpLabel": "帮助",
+    "samplingTitle": "在 Mac 上按间隔或时间点提取视频图片",
+    "samplingBody": "在 Mac 工作区添加视频前，先选择“画面选择”：自动关键帧、固定间隔、指定时间点或均匀采样，并设置 1–120 帧的上限。固定间隔达到上限后停止；均匀采样覆盖完整时间线。时间点支持秒数或 HH:MM:SS，例如 5, 00:12.5, 01:30。自动导出时可开启“源视频分辨率”，或在结果页选中图片，使用“导出 → 导出原画 → PNG/JPEG”。原画逐帧解码并保存，不会放大图片；4K 输出需要 4K 源视频。原画导出要求当前工作区中的源视频仍然可用。",
+    "deliveryTitle": "导出封面图片与可打印的 PDF 联系表",
+    "deliveryBody": "在 Mac、iPhone 或 iPad 上，选中一张结果，使用“导出 → 导出封面”。支持原始比例、16:9、9:16、1:1、4:3，可调整裁切位置和最大边长，并保存为 PNG 或 JPEG。JPEG 可限制为 2 MB，无法满足限制时需要选择更小的尺寸。图片不会被放大。需要打印总览时，使用“导出 → PDF 联系表”，选择 A4 或 Letter 和 2–4 列。最多 120 张所选图片按时间排列，自动分页，并附有视频名和时间戳。未选择图片时使用全部剩余结果；PNG 联系表仍最多包含 40 帧。",
+    "availability": "这些新工作流需要 1.4.3 或更高版本。如果所在 App Store 尚未提供更新，仍可使用之前的导出功能。"
   },
   "zh-Hant": {
-    "homeTitle": "Dig It | Mac、iPhone 影片擷取與聯絡表工具",
-    "homeDescription": "用 Dig It 在本機擷取影片圖片：Mac 批次擷取、精確選取影格、匯出聯絡表，儲存並再次編輯結果。支援 Mac、iPhone 和 iPad。",
+    "homeTitle": "Dig It | 影片擷取影格、封面與 PDF 聯絡表",
+    "homeDescription": "用 Dig It 在 Mac、iPhone 和 iPad 本機擷取影片圖片。1.4.3 新增 Mac 原畫取樣、PNG/JPEG 封面裁切及可列印的 PDF 聯絡表。",
     "workflowTitle": "將影片轉為可重用圖片的本機工作流程",
     "workflowIntro": "Dig It: Video Keyframes，也稱 DigIt，幫助你從影片取得可重用的靜態影格。Mac 工作區適合批次處理和細緻選取影格，iPhone 與 iPad 適合從單一影片擷取圖片。",
     "batchTitle": "在 Mac 上批次擷取影片圖片",
@@ -216,8 +226,8 @@
       "開啟「匯出」選單並選擇「聯絡表」。結果頁產生的聯絡表包含影格序號與時間戳記，方便回到原影片找出對應時刻。",
       "儲存或分享產生的 PNG。需要分別編輯圖片時，使用「匯出所選」，它會產生多個獨立 PNG 檔案。"
     ],
-    "contactLimitTitle": "結果頁每張聯絡表最多 40 格",
-    "contactLimit": "結果頁的一張聯絡表最多包含 40 個影格。更多圖片可分組選取並多次匯出。聯絡表用於總覽，不能取代個別匯出的圖片。Mac 批次擷取預設也提供可選的聯絡表輸出。",
+    "contactLimitTitle": "PNG 聯絡表：最多 40 個影格",
+    "contactLimit": "每張 PNG 聯絡表最多包含 40 個影格。更多畫面可選擇「PDF 聯絡表」，最多支援 120 個影格並自動分頁。Mac 批量工作區也可自動匯出 PNG 聯絡表及 PDF。",
     "contactUseTitle": "搭配個別圖片使用總覽圖",
     "contactUse": "處理商品影片時，先比較封面候選，再匯出合適的一張。處理教學時，可傳送總覽圖給協作者，再個別匯出選定的步驟圖片。若要日後再次檢視與編輯同一結果集，請明確按下「儲存」；匯出聯絡表不會自動建立歷史紀錄。",
     "platformTitle": "Mac、iPhone 和 iPad 有什麼不同？",
@@ -244,7 +254,7 @@
       ],
       [
         "匯出圖片都保留原影片解析度嗎？",
-        "自動擷取圖片目前按比例縮放至 720 × 720 像素以內。透過 Mac 來源畫面檢視新增的圖片使用來源影像解析度。PNG 匯出不會放大較小的擷取圖片。"
+        "預覽圖片維持在 720 × 720 像素內。Mac 的「來源影片解析度」匯出會按需解碼原影片並保留來源畫面尺寸。Mac 封面優先使用可用的來源影片，否則使用已儲存圖片的解析度。不會把預覽圖片或低解析度來源影片放大為原畫。"
       ],
       [
         "從 App Store 下載後就能使用 CLI 嗎？",
@@ -282,11 +292,16 @@
       "封面：更少但更強的封面、縮圖和主視覺候選。",
       "步驟：保留更多變化點，適合教學、流程和操作內容。"
     ],
-    "helpLabel": "幫助"
+    "helpLabel": "幫助",
+    "samplingTitle": "在 Mac 上按間隔或時間點擷取影片圖片",
+    "samplingBody": "在 Mac 工作區加入影片前，先選擇「影格選擇」：自動關鍵影格、固定間隔、指定時間點或均勻取樣，並設定 1–120 個影格的上限。固定間隔達到上限後停止；均勻取樣涵蓋完整時間軸。時間點支援秒數或 HH:MM:SS，例如 5, 00:12.5, 01:30。自動匯出時可開啟「來源影片解析度」，或在結果頁選取圖片，使用「匯出 → 匯出原畫 → PNG/JPEG」。原畫逐格解碼並儲存，不會放大圖片；4K 輸出需要 4K 來源影片。原畫匯出需要目前工作區中的來源影片仍可使用。",
+    "deliveryTitle": "匯出封面圖片與可列印的 PDF 聯絡表",
+    "deliveryBody": "在 Mac、iPhone 或 iPad 上，選取一張結果，使用「匯出 → 匯出封面」。支援原始比例、16:9、9:16、1:1、4:3，可調整裁切位置和最大邊長，並儲存為 PNG 或 JPEG。JPEG 可限制為 2 MB，無法符合限制時請選擇較小的尺寸。圖片不會被放大。需要列印總覽時，使用「匯出 → PDF 聯絡表」，選擇 A4 或 Letter 和 2–4 欄。最多 120 張所選圖片按時間排列，自動分頁，並附有影片名稱和時間戳記。未選取圖片時使用全部剩餘結果；PNG 聯絡表仍最多包含 40 個影格。",
+    "availability": "這些新工作流程需要 1.4.3 或更新版本。若所在地的 App Store 尚未提供更新，仍可使用原有的匯出功能。"
   },
   "es-ES": {
-    "homeTitle": "Dig It | Fotogramas y hojas de contacto para Mac y iPhone",
-    "homeDescription": "Extrae imágenes de vídeo localmente con Dig It. Procesa lotes en Mac, revisa fotogramas, exporta hojas de contacto y reabre proyectos en Mac, iPhone y iPad.",
+    "homeTitle": "Dig It | Fotogramas, portadas y hojas de contacto PDF",
+    "homeDescription": "Extrae imágenes en Mac, iPhone y iPad. La versión 1.4.3 añade resolución original en Mac, portadas PNG/JPEG recortadas y hojas de contacto PDF imprimibles.",
     "workflowTitle": "Un flujo local de vídeo a imágenes",
     "workflowIntro": "Dig It: Video Keyframes, también llamado DigIt, convierte vídeos en imágenes reutilizables. Usa el espacio de trabajo de Mac para lotes y revisión detallada, o extrae imágenes de un vídeo en iPhone y iPad.",
     "batchTitle": "Extraer fotogramas de vídeo por lotes en Mac",
@@ -311,8 +326,8 @@
       "Abre Exportar y elige Hoja de contacto. La hoja de la página de resultados incluye números de fotograma y marcas de tiempo para localizar cada momento en el vídeo original.",
       "Guarda o comparte el PNG. Exportar seleccionados crea PNG independientes; elige esa opción si necesitas editar cada imagen por separado."
     ],
-    "contactLimitTitle": "Hasta 40 fotogramas por hoja desde los resultados",
-    "contactLimit": "La página de resultados admite un máximo de 40 fotogramas por hoja. Para colecciones mayores, selecciona grupos más pequeños y realiza varias exportaciones. La hoja es una vista general, no sustituye las imágenes individuales. Los ajustes por lotes de Mac también ofrecen hojas de contacto opcionales.",
+    "contactLimitTitle": "Hojas PNG: hasta 40 fotogramas",
+    "contactLimit": "Una hoja PNG admite hasta 40 fotogramas. Para una vista imprimible más amplia, elige PDF: hasta 120 fotogramas con paginación automática. El espacio de Mac también puede exportar hojas PNG y PDF.",
     "contactUseTitle": "Combina la vista general con las imágenes individuales",
     "contactUse": "En un vídeo de producto, compara las portadas antes de exportar una imagen. En un tutorial, comparte la hoja con un colaborador y después exporta los pasos elegidos. Guarda el proyecto explícitamente para volver a editar el mismo conjunto; exportar una hoja no crea un registro en el historial.",
     "platformTitle": "¿Qué cambia entre Mac, iPhone y iPad?",
@@ -339,7 +354,7 @@
       ],
       [
         "¿Todas las imágenes mantienen la resolución original?",
-        "Las imágenes extraídas automáticamente se ajustan actualmente a 720 × 720 píxeles conservando la proporción. Un fotograma añadido desde la revisión del vídeo en Mac usa la resolución de origen. Exportar PNG no amplía una imagen extraída más pequeña."
+        "Las vistas previas caben en 720 × 720 píxeles. En Mac, la exportación a resolución original decodifica el vídeo bajo demanda y mantiene sus dimensiones. Las portadas Mac usan la fuente disponible o la resolución guardada. No se amplían imágenes de baja resolución."
       ],
       [
         "¿La descarga de App Store incluye la CLI?",
@@ -377,11 +392,16 @@
       "Portada: menos fotogramas, más fuertes, para miniaturas y portadas.",
       "Pasos: más puntos de cambio para tutoriales y flujos de trabajo."
     ],
-    "helpLabel": "Ayuda"
+    "helpLabel": "Ayuda",
+    "samplingTitle": "Extrae fotogramas por intervalo o tiempo en Mac",
+    "samplingBody": "Antes de añadir vídeos al espacio de Mac, elige fotogramas clave automáticos, intervalo fijo, tiempos específicos o distribución uniforme, con un límite de 1–120 fotogramas. El intervalo fijo se detiene en el límite; la distribución uniforme cubre todo el vídeo. Los tiempos aceptan segundos o HH:MM:SS, por ejemplo 5, 00:12.5, 01:30. Activa Resolución original para la exportación automática o selecciona resultados y usa Exportar → Exportar a resolución original → PNG/JPEG. Los originales se decodifican y guardan uno a uno, sin ampliarlos. La salida 4K requiere una fuente 4K y el vídeo original debe seguir disponible en el espacio de trabajo.",
+    "deliveryTitle": "Exporta portadas y hojas de contacto PDF imprimibles",
+    "deliveryBody": "En Mac, iPhone o iPad, selecciona un resultado y elige Exportar → Exportar portada. Usa la proporción original, 16:9, 9:16, 1:1 o 4:3, ajusta el recorte y el lado máximo, y guarda PNG/JPEG. El JPEG puede limitarse a 2 MB; reduce las dimensiones si no cabe. Las imágenes no se amplían. Para una hoja PDF, elige A4/Letter y 2–4 columnas. Hasta 120 fotogramas se ordenan cronológicamente y se reparten en páginas con el nombre del vídeo y los tiempos. Sin selección se usan todos los resultados restantes. La hoja PNG sigue limitada a 40 fotogramas.",
+    "availability": "Estas novedades requieren la versión 1.4.3 o posterior. Si aún no está disponible en tu App Store, puedes seguir usando las opciones de exportación anteriores."
   },
   "id": {
-    "homeTitle": "Dig It | Frame Video dan Lembar Kontak untuk Mac dan iPhone",
-    "homeDescription": "Ekstrak gambar video secara lokal dengan Dig It. Proses video secara batch di Mac, tinjau frame, ekspor lembar kontak, dan buka proyek di Mac, iPhone, serta iPad.",
+    "homeTitle": "Dig It | Frame Video, Sampul & Contact Sheet PDF",
+    "homeDescription": "Ekstrak gambar di Mac, iPhone, dan iPad. Versi 1.4.3 menambah resolusi sumber Mac, sampul PNG/JPEG yang dipotong, dan contact sheet PDF siap cetak.",
     "workflowTitle": "Alur kerja lokal dari video ke gambar",
     "workflowIntro": "Dig It: Video Keyframes, juga disebut DigIt, membantu mengubah video menjadi gambar yang bisa digunakan kembali. Gunakan ruang kerja Mac untuk batch dan tinjauan detail, atau ekstrak gambar dari satu video di iPhone dan iPad.",
     "batchTitle": "Ekstrak frame video secara batch di Mac",
@@ -406,8 +426,8 @@
       "Buka Ekspor dan pilih Lembar Kontak. Lembar dari halaman hasil menyertakan nomor frame dan stempel waktu agar momen yang sama mudah ditemukan di video sumber.",
       "Simpan atau bagikan PNG yang dibuat. Ekspor Terpilih menghasilkan file PNG terpisah; gunakan pilihan itu jika setiap gambar perlu diedit sendiri."
     ],
-    "contactLimitTitle": "Maksimal 40 frame per lembar kontak di halaman hasil",
-    "contactLimit": "Halaman hasil menerima paling banyak 40 frame untuk satu lembar. Untuk kumpulan lebih besar, pilih kelompok kecil dan lakukan beberapa ekspor. Lembar kontak adalah ikhtisar, bukan pengganti gambar terpisah. Preset batch Mac juga menyediakan keluaran lembar kontak opsional.",
+    "contactLimitTitle": "Contact sheet PNG: maksimal 40 frame",
+    "contactLimit": "Contact sheet PNG menerima hingga 40 frame. Untuk tampilan cetak lebih besar, pilih PDF: hingga 120 frame dengan halaman otomatis. Ruang kerja Mac juga dapat mengekspor contact sheet PNG dan PDF.",
     "contactUseTitle": "Gunakan ikhtisar bersama gambar individual",
     "contactUse": "Untuk video produk, bandingkan kandidat sampul sebelum mengekspor satu gambar. Untuk tutorial, bagikan ikhtisar kepada rekan lalu ekspor langkah yang dipilih secara terpisah. Simpan proyek secara eksplisit untuk meninjau dan mengeditnya lagi; mengekspor lembar tidak menyimpan catatan riwayat.",
     "platformTitle": "Apa perbedaan Mac, iPhone, dan iPad?",
@@ -434,7 +454,7 @@
       ],
       [
         "Apakah semua gambar mempertahankan resolusi asli?",
-        "Frame yang diekstrak otomatis saat ini disesuaikan ke dalam 720 × 720 piksel dengan rasio tetap. Frame yang ditambahkan melalui tinjauan sumber Mac memakai resolusi sumber. Ekspor PNG tidak memperbesar frame yang lebih kecil."
+        "Pratinjau muat dalam 720 × 720 piksel. Ekspor Resolusi Sumber di Mac mendekode video asli sesuai kebutuhan dan menjaga dimensinya. Sampul Mac memakai sumber yang tersedia atau resolusi gambar tersimpan. Gambar resolusi rendah tidak diperbesar."
       ],
       [
         "Apakah CLI termasuk dalam unduhan App Store?",
@@ -472,11 +492,16 @@
       "Cover: frame lebih sedikit namun lebih kuat untuk thumbnail dan cover.",
       "Langkah: lebih banyak titik perubahan untuk tutorial dan alur kerja."
     ],
-    "helpLabel": "Bantuan"
+    "helpLabel": "Bantuan",
+    "samplingTitle": "Ekstrak frame berdasarkan interval atau waktu di Mac",
+    "samplingBody": "Sebelum menambah video ke ruang kerja Mac, pilih Keyframe Otomatis, Interval Tetap, Waktu Tertentu, atau Jarak Merata dan batas 1–120 frame. Interval Tetap berhenti pada batas; Jarak Merata mencakup seluruh video. Waktu dapat berupa detik atau HH:MM:SS, misalnya 5, 00:12.5, 01:30. Aktifkan Resolusi Sumber untuk ekspor otomatis atau pilih hasil lalu Ekspor → Ekspor Resolusi Sumber → PNG/JPEG. Frame asli didekode dan disimpan satu per satu tanpa diperbesar. Output 4K memerlukan sumber 4K dan video sumber harus tetap tersedia di ruang kerja.",
+    "deliveryTitle": "Ekspor sampul dan contact sheet PDF siap cetak",
+    "deliveryBody": "Di Mac, iPhone, atau iPad, pilih satu hasil lalu Ekspor → Ekspor Sampul. Pilih rasio asli, 16:9, 9:16, 1:1, atau 4:3, sesuaikan posisi potong dan sisi maksimum, lalu simpan PNG/JPEG. JPEG bisa dibatasi 2 MB; pilih dimensi lebih kecil jika tidak muat. Gambar tidak diperbesar. Untuk contact sheet PDF, pilih A4/Letter dan 2–4 kolom. Hingga 120 frame diurutkan menurut waktu dan dibagi otomatis ke halaman, dengan nama video dan waktu. Tanpa pilihan, semua hasil tersisa digunakan. Contact sheet PNG tetap dibatasi 40 frame.",
+    "availability": "Fitur baru ini memerlukan versi 1.4.3 atau lebih baru. Jika pembaruan belum tersedia di App Store Anda, opsi ekspor sebelumnya tetap bisa digunakan."
   },
   "it": {
-    "homeTitle": "Dig It | Fotogrammi e provini a contatto per Mac e iPhone",
-    "homeDescription": "Estrai immagini video in locale con Dig It. Elabora video in batch su Mac, rivedi fotogrammi, esporta provini a contatto e riapri progetti su Mac, iPhone e iPad.",
+    "homeTitle": "Dig It | Fotogrammi, copertine e provini PDF",
+    "homeDescription": "Estrai immagini su Mac, iPhone e iPad. La versione 1.4.3 aggiunge risoluzione originale Mac, copertine PNG/JPEG ritagliate e provini PDF stampabili.",
     "workflowTitle": "Un flusso locale dal video alle immagini",
     "workflowIntro": "Dig It: Video Keyframes, chiamato anche DigIt, trasforma i video in immagini riutilizzabili. Usa lo spazio di lavoro Mac per batch e revisione dettagliata, oppure estrai immagini da un video su iPhone e iPad.",
     "batchTitle": "Estrarre fotogrammi video in batch su Mac",
@@ -501,8 +526,8 @@
       "Apri Esporta e scegli Provino a contatto. Il provino della pagina dei risultati include numeri dei fotogrammi e timestamp per ritrovare i momenti nel video originale.",
       "Salva o condividi il PNG. Esporta selezionati crea PNG separati: scegli questa opzione quando ogni immagine richiede ulteriori modifiche."
     ],
-    "contactLimitTitle": "Fino a 40 fotogrammi per provino dalla pagina dei risultati",
-    "contactLimit": "La pagina dei risultati accetta al massimo 40 fotogrammi per provino. Per raccolte più grandi, seleziona gruppi più piccoli ed effettua più esportazioni. Il provino è una panoramica, non sostituisce le immagini separate. I preset batch di Mac offrono anche provini a contatto opzionali.",
+    "contactLimitTitle": "Provini PNG: fino a 40 fotogrammi",
+    "contactLimit": "Un provino PNG accetta fino a 40 fotogrammi. Per una panoramica stampabile più ampia scegli PDF: fino a 120 fotogrammi con paginazione automatica. Lo spazio Mac può anche esportare provini PNG e PDF.",
     "contactUseTitle": "Usa la panoramica insieme alle singole immagini",
     "contactUse": "Per un video prodotto, confronta le copertine prima di esportare un'immagine. Per un tutorial, condividi il provino con un collaboratore e poi esporta i passaggi scelti. Salva esplicitamente il progetto per rivedere e modificare lo stesso insieme; esportare un provino non crea una voce nella cronologia.",
     "platformTitle": "Cosa cambia tra Mac, iPhone e iPad?",
@@ -529,7 +554,7 @@
       ],
       [
         "Tutte le immagini mantengono la risoluzione originale?",
-        "I fotogrammi estratti automaticamente rientrano attualmente in 720 × 720 pixel, mantenendo le proporzioni. Un fotogramma aggiunto tramite la revisione sorgente Mac usa la risoluzione sorgente. L'esportazione PNG non ingrandisce un fotogramma più piccolo."
+        "Le anteprime rientrano in 720 × 720 pixel. L’esportazione originale su Mac decodifica il video su richiesta e conserva le dimensioni. Le copertine Mac usano la sorgente disponibile o la risoluzione salvata. Le immagini a bassa risoluzione non vengono ingrandite."
       ],
       [
         "La CLI è inclusa nel download da App Store?",
@@ -567,11 +592,16 @@
       "Copertina: meno fotogrammi ma più forti per miniature e copertine.",
       "Passaggi: più punti di cambiamento per tutorial e flussi di lavoro."
     ],
-    "helpLabel": "Aiuto"
+    "helpLabel": "Aiuto",
+    "samplingTitle": "Estrai fotogrammi per intervallo o tempo su Mac",
+    "samplingBody": "Prima di aggiungere video allo spazio Mac, scegli fotogrammi chiave automatici, intervallo fisso, tempi specifici o distribuzione uniforme e un limite di 1–120 fotogrammi. L’intervallo fisso si ferma al limite; la distribuzione uniforme copre l’intero video. I tempi accettano secondi o HH:MM:SS, ad esempio 5, 00:12.5, 01:30. Attiva Risoluzione originale per l’esportazione automatica oppure seleziona i risultati e usa Esporta → Esporta a risoluzione originale → PNG/JPEG. Gli originali sono decodificati e salvati uno alla volta, senza ingrandimento. Il 4K richiede una sorgente 4K e il video deve rimanere disponibile nello spazio di lavoro.",
+    "deliveryTitle": "Esporta copertine e provini PDF stampabili",
+    "deliveryBody": "Su Mac, iPhone o iPad, seleziona un risultato e usa Esporta → Esporta copertina. Scegli proporzioni originali, 16:9, 9:16, 1:1 o 4:3, regola ritaglio e lato massimo, poi salva PNG/JPEG. Il JPEG può essere limitato a 2 MB; riduci le dimensioni se non rientra. Le immagini non vengono ingrandite. Per un provino PDF scegli A4/Letter e 2–4 colonne. Fino a 120 fotogrammi sono ordinati cronologicamente e impaginati con nome del video e tempi. Senza selezione si usano tutti i risultati rimanenti. Il provino PNG rimane limitato a 40 fotogrammi.",
+    "availability": "Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti."
   },
   "ar-SA": {
-    "homeTitle": "Dig It | إطارات الفيديو وأوراق الصور على Mac وiPhone",
-    "homeDescription": "استخرج صور الفيديو محليًا مع Dig It. عالج عدة فيديوهات على Mac، وراجع الإطارات وصدّر أوراق الصور وأعد فتح المشاريع على Mac وiPhone وiPad.",
+    "homeTitle": "Dig It | إطارات فيديو وأغلفة وأوراق معاينة PDF",
+    "homeDescription": "استخرج صور الفيديو على Mac وiPhone وiPad. يضيف 1.4.3 دقة المصدر على Mac وأغلفة PNG/JPEG مقصوصة وأوراق معاينة PDF للطباعة.",
     "workflowTitle": "سير عمل محلي لتحويل الفيديو إلى صور",
     "workflowIntro": "يساعدك Dig It: Video Keyframes، المعروف أيضًا باسم DigIt، على تحويل الفيديو إلى صور قابلة لإعادة الاستخدام. استخدم مساحة عمل Mac للدفعات والمراجعة الدقيقة، أو استخرج صور فيديو واحد على iPhone وiPad.",
     "batchTitle": "استخراج إطارات الفيديو على Mac على دفعات",
@@ -596,8 +626,8 @@
       "افتح قائمة التصدير واختر ورقة الصور. تتضمن الورقة من صفحة النتائج أرقام الإطارات والطوابع الزمنية لتسهيل العثور على اللحظة المقابلة في المصدر.",
       "احفظ صورة PNG أو شاركها. ينشئ تصدير المحدد ملفات PNG منفصلة؛ استخدمه عندما تحتاج إلى تعديل كل صورة على حدة."
     ],
-    "contactLimitTitle": "حتى 40 إطارًا لكل ورقة من صفحة النتائج",
-    "contactLimit": "تقبل صفحة النتائج 40 إطارًا كحد أقصى في ورقة واحدة. للمجموعات الأكبر، حدد مجموعات أصغر وصدّر عدة أوراق. الورقة نظرة عامة وليست بديلًا عن الصور المنفصلة. توفر إعدادات دفعات Mac أيضًا إخراجًا اختياريًا لأوراق الصور.",
+    "contactLimitTitle": "أوراق PNG: حتى 40 إطارًا",
+    "contactLimit": "تقبل ورقة PNG حتى 40 إطارًا. لعرض أكبر للطباعة اختر PDF: حتى 120 إطارًا مع تقسيم تلقائي للصفحات. يمكن لمساحة Mac أيضًا تصدير أوراق PNG وPDF.",
     "contactUseTitle": "استخدم النظرة العامة إلى جانب الصور المنفصلة",
     "contactUse": "لفيديو منتج، قارن صور الغلاف قبل تصدير صورة واحدة. ولشرح، شارك الورقة مع متعاون ثم صدّر صور الخطوات المختارة منفصلة. احفظ المشروع صراحةً للعودة إلى مجموعة الإطارات وتعديلها لاحقًا؛ تصدير الورقة لا ينشئ سجلًا في المحفوظات.",
     "platformTitle": "ما الفرق بين Mac وiPhone وiPad؟",
@@ -624,7 +654,7 @@
       ],
       [
         "هل تحتفظ كل الصور المصدّرة بالدقة الأصلية؟",
-        "تُضبط الإطارات المستخرجة تلقائيًا حاليًا ضمن 720 × 720 بكسل مع الحفاظ على النسبة. يستخدم الإطار المضاف من مراجعة المصدر على Mac دقة المصدر. لا يكبّر تصدير PNG الإطار الأصغر."
+        "تكون المعاينات ضمن 720 × 720 بكسل. يفك تصدير دقة المصدر على Mac الفيديو الأصلي عند الطلب ويحافظ على أبعاده. تستخدم أغلفة Mac المصدر المتاح أو دقة الصورة المحفوظة. لا تُكبّر الصور منخفضة الدقة."
       ],
       [
         "هل تتضمن نسخة App Store أداة CLI؟",
@@ -662,11 +692,16 @@
       "غلاف: إطارات أقل وأقوى للصور المصغرة والأغلفة.",
       "خطوات: نقاط تغيير أكثر للدروس وسير العمل."
     ],
-    "helpLabel": "المساعدة"
+    "helpLabel": "المساعدة",
+    "samplingTitle": "استخراج إطارات الفيديو بفاصل أو وقت محدد على Mac",
+    "samplingBody": "قبل إضافة الفيديوهات إلى مساحة Mac، اختر إطارات مفتاحية تلقائية أو فاصلًا ثابتًا أو أوقاتًا محددة أو توزيعًا متساويًا، وحدد 1–120 إطارًا. يتوقف الفاصل الثابت عند الحد؛ ويغطي التوزيع المتساوي الفيديو كاملًا. أدخل ثواني أو HH:MM:SS، مثل 5, 00:12.5, 01:30. فعّل دقة المصدر للتصدير التلقائي، أو اختر النتائج ثم تصدير ← تصدير بدقة المصدر ← PNG/JPEG. تُفك إطارات المصدر وتُحفظ واحدًا تلو الآخر دون تكبير. يتطلب إخراج 4K مصدرًا بدقة 4K، ويجب أن يظل الفيديو المصدر متاحًا في مساحة العمل.",
+    "deliveryTitle": "تصدير أغلفة وأوراق معاينة PDF قابلة للطباعة",
+    "deliveryBody": "على Mac أو iPhone أو iPad، اختر نتيجة واحدة ثم تصدير ← تصدير الغلاف. اختر النسبة الأصلية أو 16:9 أو 9:16 أو 1:1 أو 4:3، واضبط القص وأقصى ضلع، ثم احفظ PNG/JPEG. يمكن تحديد JPEG بأقل من 2 ميغابايت؛ اختر أبعادًا أصغر إذا لم يلائم الحد. لا تُكبّر الصور. لورقة PDF اختر A4/Letter و2–4 أعمدة. تُرتب حتى 120 صورة زمنيًا وتُقسم تلقائيًا إلى صفحات مع اسم الفيديو والأوقات. دون تحديد، تُستخدم كل النتائج المتبقية. يظل حد ورقة PNG هو 40 إطارًا.",
+    "availability": "تتطلب الميزات الجديدة الإصدار 1.4.3 أو أحدث. إذا لم يظهر التحديث في App Store بعد، يمكنك الاستمرار باستخدام خيارات التصدير السابقة."
   },
   "ja": {
-    "homeTitle": "Dig It | Mac・iPhoneの動画フレームとコンタクトシート",
-    "homeDescription": "Dig Itで動画の静止画をローカル抽出。Macで一括処理、フレーム確認、コンタクトシート出力、保存済みプロジェクトの再編集。iPhone・iPadにも対応。",
+    "homeTitle": "Dig It | 動画フレーム・カバー・PDF コンタクトシート",
+    "homeDescription": "Mac、iPhone、iPad で動画から画像を抽出。1.4.3 では Mac の元解像度サンプリング、PNG/JPEG カバーの切り抜き、印刷用 PDF シートに対応。",
     "workflowTitle": "動画を画像にするローカルワークフロー",
     "workflowIntro": "Dig It: Video Keyframes（DigIt）は、動画から再利用できる静止画を取り出すアプリです。Macでは一括処理と細かな確認、iPhone・iPadでは1本の動画からの画像抽出に使えます。",
     "batchTitle": "Macで動画フレームを一括抽出する",
@@ -691,8 +726,8 @@
       "書き出しメニューからコンタクトシートを選びます。結果画面のシートにはフレーム番号と時刻が付き、元動画の同じ瞬間を探せます。",
       "生成したPNGを保存または共有します。選択画像の書き出しは個別のPNGを作るため、画像を別々に編集したい場合はこちらを使います。"
     ],
-    "contactLimitTitle": "結果画面のシートは最大40フレーム",
-    "contactLimit": "結果画面では1枚のシートに最大40フレームを指定できます。それ以上は少数ずつ選んで複数回出力してください。シートは概要確認用で、個別画像の代わりではありません。Macの一括プリセットにも任意のコンタクトシート出力があります。",
+    "contactLimitTitle": "PNG シート：最大 40 フレーム",
+    "contactLimit": "PNG シートは最大 40 フレームです。より多くの画像を印刷する場合は、最大 120 フレームを自動ページ分けする PDF コンタクトシートを使ってください。Mac のバッチ処理でも PNG シートと PDF を出力できます。",
     "contactUseTitle": "概要と個別画像を組み合わせる",
     "contactUse": "商品動画ではカバー候補を比較してから1枚を出力します。チュートリアルでは共同作業者にシートを送り、選んだ手順画像を個別に出力します。後から同じセットを確認・編集するにはプロジェクトを明示的に保存してください。シートの出力だけでは履歴に保存されません。",
     "platformTitle": "MacとiPhone・iPadの違いは？",
@@ -719,7 +754,7 @@
       ],
       [
         "出力画像は元動画の解像度を維持しますか？",
-        "自動抽出画像は現在、縦横比を維持して720 × 720ピクセル以内に収まります。Macの元動画確認で追加した画像は元画像の解像度を使います。PNG出力は小さい抽出画像を拡大しません。"
+        "プレビューは 720 × 720 ピクセル以内です。Mac の元の解像度での書き出しは必要に応じて元動画をデコードし、元画像の寸法を維持します。Mac のカバーは利用できる元動画を使い、なければ保存画像の解像度を使います。低解像度の画像を拡大しません。"
       ],
       [
         "App Store版にCLIは含まれますか？",
@@ -757,11 +792,16 @@
       "カバー：サムネイルやカバー向けの少数で強いフレーム。",
       "手順：チュートリアルや作業手順向けに変化点を多めに保持。"
     ],
-    "helpLabel": "ヘルプ"
+    "helpLabel": "ヘルプ",
+    "samplingTitle": "Mac で間隔や時刻を指定して動画フレームを抽出",
+    "samplingBody": "Mac のワークスペースに動画を追加する前に、フレーム選択で自動キーフレーム、一定間隔、指定した時刻、均等にサンプリングを選び、上限を 1〜120 に設定します。一定間隔は上限で停止し、均等サンプリングは動画全体をカバーします。時刻は秒数や HH:MM:SS（例：5, 00:12.5, 01:30）で指定できます。自動書き出しでは元動画の解像度を有効にするか、結果を選択して「書き出す → 元の解像度で書き出す → PNG/JPEG」を使います。元画像は 1 枚ずつデコードして保存し、拡大しません。4K 出力には 4K の元動画が必要です。元の解像度での書き出しにはワークスペース内の元動画が必要です。",
+    "deliveryTitle": "カバー画像と印刷用 PDF コンタクトシートを書き出す",
+    "deliveryBody": "Mac、iPhone、iPad で結果を 1 枚選び、「書き出す → カバーを書き出す」を使います。元の比率、16:9、9:16、1:1、4:3、切り抜き位置、最大辺を設定して PNG/JPEG を保存できます。JPEG は 2 MB 以下に制限できます。収まらない場合は画像サイズを小さくしてください。画像は拡大しません。「PDF コンタクトシート」では A4/Letter と 2〜4 列を選べます。最大 120 枚を時刻順に自動でページ分けし、動画名と時刻を付けます。選択がなければ残りの全結果を使用します。PNG シートは引き続き最大 40 枚です。",
+    "availability": "新しい機能にはバージョン 1.4.3 以降が必要です。App Store でまだ更新できない場合も、従来の書き出し機能は利用できます。"
   },
   "ko": {
-    "homeTitle": "Dig It | Mac·iPhone 동영상 프레임 및 콘택트 시트",
-    "homeDescription": "Dig It으로 동영상 이미지를 로컬 추출하세요. Mac 일괄 처리, 프레임 검토, 콘택트 시트 내보내기와 저장 프로젝트 재편집을 지원합니다. iPhone·iPad에서도 사용하세요.",
+    "homeTitle": "Dig It | 동영상 프레임, 커버 및 PDF 콘택트 시트",
+    "homeDescription": "Mac, iPhone, iPad에서 동영상 이미지를 추출하세요. 1.4.3은 Mac 원본 해상도 샘플링, PNG/JPEG 커버 자르기, 인쇄용 PDF 시트를 추가합니다.",
     "workflowTitle": "동영상을 이미지로 바꾸는 로컬 작업 흐름",
     "workflowIntro": "Dig It: Video Keyframes(DigIt)은 동영상에서 재사용할 정지 이미지를 추출합니다. Mac 작업 공간에서 일괄 처리와 세밀한 검토를 하거나, iPhone·iPad에서 하나의 동영상 이미지를 추출하세요.",
     "batchTitle": "Mac에서 동영상 프레임 일괄 추출하기",
@@ -786,8 +826,8 @@
       "내보내기 메뉴에서 콘택트 시트를 선택하세요. 결과 페이지의 시트에는 프레임 번호와 타임스탬프가 있어 원본의 해당 순간을 찾기 쉽습니다.",
       "만들어진 PNG를 저장하거나 공유하세요. 선택 항목 내보내기는 개별 PNG 파일을 만드므로 각각 편집해야 할 때 사용하세요."
     ],
-    "contactLimitTitle": "결과 페이지 시트당 최대 40프레임",
-    "contactLimit": "결과 페이지에서는 한 시트에 최대 40프레임을 넣을 수 있습니다. 더 많은 이미지는 작은 그룹으로 나누어 여러 번 내보내세요. 시트는 전체 보기용이며 개별 이미지를 대신하지 않습니다. Mac 일괄 프리셋에서도 콘택트 시트 출력을 선택할 수 있습니다.",
+    "contactLimitTitle": "PNG 시트: 최대 40개 프레임",
+    "contactLimit": "PNG 시트는 최대 40개 프레임입니다. 더 큰 인쇄용 개요는 최대 120개를 자동 분할하는 PDF 콘택트 시트를 사용하세요. Mac 일괄 작업 공간에서도 PNG 시트와 PDF를 내보낼 수 있습니다.",
     "contactUseTitle": "전체 보기와 개별 이미지를 함께 사용하세요",
     "contactUse": "상품 동영상은 표지 후보를 비교한 뒤 한 장을 내보내세요. 튜토리얼은 협업자에게 시트를 공유한 뒤 필요한 단계 이미지를 개별로 내보내세요. 나중에 같은 결과를 다시 검토하고 편집하려면 프로젝트를 직접 저장해야 합니다. 시트 내보내기만으로는 기록이 저장되지 않습니다.",
     "platformTitle": "Mac과 iPhone·iPad의 차이는 무엇인가요?",
@@ -814,7 +854,7 @@
       ],
       [
         "모든 이미지가 원본 해상도를 유지하나요?",
-        "자동 추출 프레임은 현재 비율을 유지하면서 720 × 720픽셀 이내로 맞춥니다. Mac 원본 프레임 검토로 추가한 이미지는 원본 해상도를 사용합니다. PNG 내보내기로 작은 프레임이 확대되지는 않습니다."
+        "미리보기는 720 × 720픽셀 이내입니다. Mac의 원본 해상도 내보내기는 원본 동영상을 필요할 때 디코딩해 원래 크기를 유지합니다. Mac 커버는 사용 가능한 원본을 사용하며 없으면 저장 이미지 해상도를 사용합니다. 저해상도 이미지를 확대하지 않습니다."
       ],
       [
         "App Store 다운로드에 CLI가 포함되나요?",
@@ -852,11 +892,16 @@
       "커버: 썸네일과 커버를 위한 적고 강한 프레임.",
       "단계: 튜토리얼과 워크플로를 위해 변화점을 더 많이 유지."
     ],
-    "helpLabel": "도움말"
+    "helpLabel": "도움말",
+    "samplingTitle": "Mac에서 간격 또는 타임스탬프로 프레임 추출",
+    "samplingBody": "Mac 작업 공간에 동영상을 추가하기 전에 프레임 선택에서 자동 키프레임, 고정 간격, 지정 타임스탬프 또는 균등 샘플링을 선택하고 1–120개 한도를 설정하세요. 고정 간격은 한도에서 멈추고 균등 샘플링은 전체 동영상을 다룹니다. 시간은 초 또는 HH:MM:SS 형식(예: 5, 00:12.5, 01:30)으로 입력합니다. 자동 내보내기에서 원본 해상도를 켜거나 결과를 선택해 내보내기 → 원본 해상도로 내보내기 → PNG/JPEG를 사용하세요. 원본 프레임은 하나씩 디코딩하고 저장하며 확대하지 않습니다. 4K 출력에는 4K 원본이 필요하고 작업 공간의 원본 동영상을 사용할 수 있어야 합니다.",
+    "deliveryTitle": "커버 이미지와 인쇄용 PDF 콘택트 시트 내보내기",
+    "deliveryBody": "Mac, iPhone 또는 iPad에서 결과 하나를 선택하고 내보내기 → 커버 내보내기를 사용하세요. 원본 비율, 16:9, 9:16, 1:1 또는 4:3, 자르기 위치, 최대 변 길이를 선택해 PNG/JPEG로 저장합니다. JPEG는 2 MB 이하로 제한할 수 있으며 맞지 않으면 크기를 줄이세요. 이미지는 확대하지 않습니다. PDF 콘택트 시트에서는 A4/Letter와 2–4개 열을 선택합니다. 최대 120개 프레임을 시간순으로 자동 분할하고 동영상 이름과 타임스탬프를 표시합니다. 선택하지 않으면 남은 모든 결과를 사용합니다. PNG 시트는 여전히 최대 40개입니다.",
+    "availability": "새 기능은 1.4.3 이상에서 사용할 수 있습니다. App Store에 업데이트가 아직 없더라도 기존 내보내기 기능을 사용할 수 있습니다."
   },
   "de-DE": {
-    "homeTitle": "Dig It | Videobilder und Kontaktbögen für Mac und iPhone",
-    "homeDescription": "Videobilder lokal mit Dig It extrahieren: Stapelverarbeitung am Mac, Frames prüfen, Kontaktbögen exportieren und Projekte auf Mac, iPhone und iPad erneut öffnen.",
+    "homeTitle": "Dig It | Video-Frames, Cover & PDF-Kontaktbögen",
+    "homeDescription": "Video-Frames auf Mac, iPhone und iPad extrahieren. 1.4.3 bietet Mac-Quellauflösung, zugeschnittene PNG/JPEG-Cover und druckbare PDF-Kontaktbögen.",
     "workflowTitle": "Ein lokaler Workflow vom Video zum Bild",
     "workflowIntro": "Dig It: Video Keyframes, auch DigIt genannt, macht aus Videos wiederverwendbare Standbilder. Der Mac-Arbeitsbereich bietet Stapelverarbeitung und genaue Prüfung; auf iPhone und iPad extrahierst du Bilder aus einem einzelnen Video.",
     "batchTitle": "Videobilder auf dem Mac im Stapel extrahieren",
@@ -881,8 +926,8 @@
       "Öffne Exportieren und wähle Kontaktbogen. Der Kontaktbogen der Ergebnisseite enthält Bildnummern und Zeitstempel zum Wiederfinden im Quellvideo.",
       "Speichere oder teile die PNG. Auswahl exportieren erstellt einzelne PNG-Dateien; nutze dies, wenn jedes Bild weiter bearbeitet werden soll."
     ],
-    "contactLimitTitle": "Bis zu 40 Bilder pro Kontaktbogen der Ergebnisseite",
-    "contactLimit": "Die Ergebnisseite erlaubt höchstens 40 Bilder in einem Kontaktbogen. Größere Sammlungen lassen sich in kleineren Gruppen mehrfach exportieren. Der Bogen ist eine Übersicht und ersetzt keine Einzelbilder. Die Mac-Stapelvorlagen bieten ebenfalls optionale Kontaktbögen.",
+    "contactLimitTitle": "PNG-Kontaktbögen: bis zu 40 Frames",
+    "contactLimit": "Ein PNG-Kontaktbogen umfasst bis zu 40 Frames. Für größere druckbare Übersichten bietet PDF bis zu 120 Frames mit automatischer Seitenaufteilung. Der Mac-Arbeitsbereich kann auch PNG-Kontaktbögen und PDFs exportieren.",
     "contactUseTitle": "Übersicht und Einzelbilder gemeinsam verwenden",
     "contactUse": "Vergleiche bei Produktvideos die Titelbild-Kandidaten vor dem Export eines Bildes. Teile bei Tutorials die Übersicht mit anderen und exportiere gewählte Schritte einzeln. Speichere das Projekt ausdrücklich, um dieselben Ergebnisse später zu bearbeiten; der Kontaktbogenexport speichert keinen Verlaufseintrag.",
     "platformTitle": "Was unterscheidet Mac, iPhone und iPad?",
@@ -909,7 +954,7 @@
       ],
       [
         "Bleibt bei allen Bildern die Originalauflösung erhalten?",
-        "Automatisch extrahierte Bilder passen derzeit bei gleichem Seitenverhältnis in 720 × 720 Pixel. Über die Mac-Quellframe-Prüfung hinzugefügte Bilder verwenden die Quellauflösung. PNG-Export vergrößert kleinere Frames nicht."
+        "Vorschauen passen in 720 × 720 Pixel. Quellauflösung auf dem Mac dekodiert das Originalvideo bei Bedarf und erhält die Bildabmessungen. Mac-Cover verwenden eine verfügbare Quelle, sonst die gespeicherte Bildauflösung. Kleine Bilder werden nicht hochskaliert."
       ],
       [
         "Ist die CLI im App-Store-Download enthalten?",
@@ -947,11 +992,16 @@
       "Cover: weniger, stärkere Frames für Thumbnails und Cover.",
       "Schritte: mehr Änderungspunkte für Tutorials und Workflows."
     ],
-    "helpLabel": "Hilfe"
+    "helpLabel": "Hilfe",
+    "samplingTitle": "Video-Frames auf dem Mac nach Intervall oder Zeitpunkt extrahieren",
+    "samplingBody": "Wähle vor dem Hinzufügen von Videos im Mac-Arbeitsbereich automatische Keyframes, festes Intervall, bestimmte Zeitpunkte oder gleichmäßige Verteilung und ein Limit von 1–120 Frames. Festes Intervall stoppt am Limit; gleichmäßige Verteilung deckt die ganze Zeitleiste ab. Zeitpunkte akzeptieren Sekunden oder HH:MM:SS, z. B. 5, 00:12.5, 01:30. Aktiviere Quellauflösung für automatische Exporte oder wähle Ergebnisse und Exportieren → In Quellauflösung exportieren → PNG/JPEG. Originalframes werden einzeln dekodiert und gespeichert, ohne Hochskalierung. 4K-Ausgabe benötigt eine 4K-Quelle; das Quellvideo muss im Arbeitsbereich verfügbar bleiben.",
+    "deliveryTitle": "Coverbilder und druckbare PDF-Kontaktbögen exportieren",
+    "deliveryBody": "Wähle auf Mac, iPhone oder iPad ein Ergebnis und Exportieren → Cover exportieren. Nutze Original, 16:9, 9:16, 1:1 oder 4:3, passe Zuschnittposition und maximale Kantenlänge an und speichere PNG/JPEG. JPEG lässt sich auf 2 MB begrenzen; wähle kleinere Abmessungen, wenn es nicht passt. Bilder werden nicht hochskaliert. Für PDF-Kontaktbögen wähle A4/Letter und 2–4 Spalten. Bis zu 120 Frames werden chronologisch mit Videoname und Zeitpunkten auf Seiten verteilt. Ohne Auswahl werden alle übrigen Ergebnisse verwendet. PNG-Kontaktbögen bleiben auf 40 Frames begrenzt.",
+    "availability": "Diese neuen Funktionen benötigen Version 1.4.3 oder neuer. Falls das Update noch nicht im App Store verfügbar ist, kannst du die bisherigen Exportoptionen weiter nutzen."
   },
   "fr-FR": {
-    "homeTitle": "Dig It | Images vidéo et planches-contact pour Mac et iPhone",
-    "homeDescription": "Extrayez vos images vidéo localement avec Dig It : lots sur Mac, révision d'images, planches-contact et projets rééditables sur Mac, iPhone et iPad.",
+    "homeTitle": "Dig It | Images vidéo, couvertures et planches PDF",
+    "homeDescription": "Extrayez des images sur Mac, iPhone et iPad. La version 1.4.3 ajoute la résolution source Mac, le recadrage PNG/JPEG et les planches contact PDF imprimables.",
     "workflowTitle": "Un flux local de la vidéo aux images",
     "workflowIntro": "Dig It: Video Keyframes, aussi appelé DigIt, transforme vos vidéos en images réutilisables. Utilisez l'espace Mac pour les lots et la révision détaillée, ou extrayez les images d'une vidéo sur iPhone et iPad.",
     "batchTitle": "Extraire des images vidéo par lots sur Mac",
@@ -976,8 +1026,8 @@
       "Ouvrez Exporter et choisissez Planche-contact. La planche de la page des résultats comprend numéros d'images et horodatages pour retrouver les moments dans la source.",
       "Enregistrez ou partagez le PNG. Exporter la sélection crée des PNG séparés : choisissez cette option pour modifier chaque image indépendamment."
     ],
-    "contactLimitTitle": "Jusqu'à 40 images par planche depuis les résultats",
-    "contactLimit": "La page des résultats accepte au maximum 40 images dans une planche. Pour une collection plus grande, sélectionnez des groupes plus petits et effectuez plusieurs exports. La planche est un aperçu et ne remplace pas les images individuelles. Les préréglages par lots sur Mac proposent également des planches-contact facultatives.",
+    "contactLimitTitle": "Planches PNG : jusqu’à 40 images",
+    "contactLimit": "Une planche PNG accepte jusqu’à 40 images. Pour une vue imprimable plus grande, choisissez PDF : jusqu’à 120 images avec pagination automatique. L’espace Mac peut aussi exporter des planches PNG et des PDF.",
     "contactUseTitle": "Associez aperçu et images individuelles",
     "contactUse": "Pour une vidéo produit, comparez les couvertures avant d'exporter une image. Pour un tutoriel, partagez la planche avec un collaborateur puis exportez les étapes choisies séparément. Enregistrez explicitement le projet pour revenir au même ensemble et le modifier ; exporter une planche ne crée pas d'entrée dans l'historique.",
     "platformTitle": "Quelles différences entre Mac, iPhone et iPad ?",
@@ -1004,7 +1054,7 @@
       ],
       [
         "Toutes les images gardent-elles la résolution originale ?",
-        "Les images extraites automatiquement tiennent actuellement dans 720 × 720 pixels en conservant leurs proportions. Une image ajoutée par la révision source sur Mac utilise la résolution source. L'export PNG n'agrandit pas une petite image extraite."
+        "Les aperçus tiennent dans 720 × 720 pixels. Sur Mac, l’export à la résolution source décode la vidéo originale à la demande et conserve ses dimensions. Les couvertures Mac utilisent la source disponible, sinon l’image enregistrée. Aucun aperçu ni source basse résolution n’est agrandi."
       ],
       [
         "La CLI est-elle incluse dans le téléchargement App Store ?",
@@ -1042,11 +1092,16 @@
       "Couverture : moins d’images, plus fortes, pour miniatures et couvertures.",
       "Étapes : plus de points de changement pour tutoriels et workflows."
     ],
-    "helpLabel": "Aide"
+    "helpLabel": "Aide",
+    "samplingTitle": "Extraire des images par intervalle ou horodatage sur Mac",
+    "samplingBody": "Avant d’ajouter les vidéos à l’espace Mac, choisissez images clés automatiques, intervalle fixe, horodatages précis ou répartition uniforme, avec une limite de 1 à 120 images. L’intervalle fixe s’arrête à la limite ; la répartition uniforme couvre toute la vidéo. Saisissez des secondes ou HH:MM:SS, par exemple 5, 00:12.5, 01:30. Activez Résolution source pour l’export automatique ou sélectionnez les résultats puis Exporter → Exporter à la résolution source → PNG/JPEG. Les images originales sont décodées et enregistrées une par une, sans agrandissement. La 4K exige une source 4K et la vidéo source doit rester disponible dans l’espace de travail.",
+    "deliveryTitle": "Exporter des couvertures et des planches contact PDF imprimables",
+    "deliveryBody": "Sur Mac, iPhone ou iPad, sélectionnez une image puis Exporter → Exporter une couverture. Choisissez le format original, 16:9, 9:16, 1:1 ou 4:3, ajustez le cadrage et la longueur maximale, puis enregistrez en PNG/JPEG. Le JPEG peut être limité à 2 Mo ; réduisez les dimensions si nécessaire. Les images ne sont jamais agrandies. Pour une planche PDF, choisissez A4/Letter et 2 à 4 colonnes. Jusqu’à 120 images sont classées chronologiquement et paginées avec le nom de la vidéo et les horodatages. Sans sélection, tous les résultats restants sont utilisés. La planche PNG reste limitée à 40 images.",
+    "availability": "Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles."
   },
   "pt-BR": {
-    "homeTitle": "Dig It | Quadros e folhas de contato para Mac e iPhone",
-    "homeDescription": "Extraia imagens de vídeo localmente com Dig It. Processe lotes no Mac, revise quadros, exporte folhas de contato e reabra projetos no Mac, iPhone e iPad.",
+    "homeTitle": "Dig It | Quadros de vídeo, capas e folhas PDF",
+    "homeDescription": "Extraia imagens no Mac, iPhone e iPad. A versão 1.4.3 traz resolução original no Mac, capas PNG/JPEG recortadas e folhas de contato PDF para impressão.",
     "workflowTitle": "Um fluxo local de vídeo para imagens",
     "workflowIntro": "Dig It: Video Keyframes, também chamado DigIt, transforma vídeos em imagens reutilizáveis. Use o espaço do Mac para lotes e revisão detalhada, ou extraia imagens de um vídeo no iPhone e iPad.",
     "batchTitle": "Extrair quadros de vídeo em lote no Mac",
@@ -1071,8 +1126,8 @@
       "Abra Exportar e escolha Folha de contato. A folha da página de resultados inclui números e tempos para localizar o mesmo momento no vídeo original.",
       "Salve ou compartilhe o PNG. Exportar selecionados cria arquivos PNG separados; escolha essa opção quando precisar editar cada imagem individualmente."
     ],
-    "contactLimitTitle": "Até 40 quadros por folha na página de resultados",
-    "contactLimit": "A página de resultados aceita no máximo 40 quadros em uma folha. Para conjuntos maiores, selecione grupos menores e faça várias exportações. A folha é uma visão geral, não substitui as imagens separadas. As predefinições em lote do Mac também oferecem folhas de contato opcionais.",
+    "contactLimitTitle": "Folhas PNG: até 40 quadros",
+    "contactLimit": "Uma folha PNG aceita até 40 quadros. Para uma visão maior para impressão, escolha PDF: até 120 quadros com paginação automática. O espaço do Mac também exporta folhas PNG e PDF.",
     "contactUseTitle": "Use a visão geral junto com imagens individuais",
     "contactUse": "Em um vídeo de produto, compare as capas antes de exportar uma imagem. Em um tutorial, compartilhe a folha com um colaborador e depois exporte as etapas escolhidas separadamente. Salve o projeto explicitamente para rever e editar o mesmo conjunto; exportar uma folha não cria um registro no histórico.",
     "platformTitle": "O que muda entre Mac, iPhone e iPad?",
@@ -1099,7 +1154,7 @@
       ],
       [
         "Todas as imagens mantêm a resolução original?",
-        "Os quadros extraídos automaticamente cabem atualmente em 720 × 720 pixels, mantendo a proporção. Um quadro adicionado pela revisão da fonte no Mac usa a resolução original. A exportação PNG não amplia quadros menores."
+        "As prévias cabem em 720 × 720 pixels. A exportação original no Mac decodifica o vídeo sob demanda e mantém suas dimensões. Capas no Mac usam a fonte disponível ou a resolução da imagem salva. Imagens de baixa resolução não são ampliadas."
       ],
       [
         "A CLI vem no download da App Store?",
@@ -1137,6 +1192,11 @@
       "Capa: menos quadros, mais fortes, para miniaturas e capas.",
       "Passos: mais pontos de mudança para tutoriais e fluxos de trabalho."
     ],
-    "helpLabel": "Ajuda"
+    "helpLabel": "Ajuda",
+    "samplingTitle": "Extraia quadros por intervalo ou tempo no Mac",
+    "samplingBody": "Antes de adicionar vídeos ao espaço do Mac, escolha quadros-chave automáticos, intervalo fixo, tempos específicos ou distribuição uniforme e um limite de 1–120 quadros. O intervalo fixo para no limite; a distribuição uniforme cobre todo o vídeo. Os tempos aceitam segundos ou HH:MM:SS, por exemplo 5, 00:12.5, 01:30. Ative Resolução original para exportação automática ou selecione resultados e use Exportar → Exportar na resolução original → PNG/JPEG. Os originais são decodificados e salvos um por vez, sem ampliação. A saída 4K exige uma fonte 4K e o vídeo original deve permanecer disponível no espaço de trabalho.",
+    "deliveryTitle": "Exporte capas e folhas de contato PDF para impressão",
+    "deliveryBody": "No Mac, iPhone ou iPad, selecione um resultado e use Exportar → Exportar capa. Escolha proporção original, 16:9, 9:16, 1:1 ou 4:3, ajuste o corte e o lado máximo e salve PNG/JPEG. O JPEG pode ter limite de 2 MB; reduza as dimensões se não couber. As imagens não são ampliadas. Para uma folha PDF, escolha A4/Letter e 2–4 colunas. Até 120 quadros são ordenados cronologicamente e paginados com nome do vídeo e tempos. Sem seleção, todos os resultados restantes são usados. A folha PNG continua limitada a 40 quadros.",
+    "availability": "As novidades exigem a versão 1.4.3 ou posterior. Se a atualização ainda não estiver na sua App Store, você pode continuar usando as opções anteriores de exportação."
   }
 }

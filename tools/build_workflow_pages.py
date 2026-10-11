@@ -119,6 +119,15 @@ def platform(content):
     )
 
 
+def delivery_workflows(content, sampling=True):
+    note = '<p class="availability-note">' + escape(content['availability']) + '</p>'
+    blocks = ''
+    if sampling:
+        blocks += section(content['samplingTitle'], note + paragraph(content['samplingBody']), 'frame-sampling')
+    blocks += section(content['deliveryTitle'], ('' if sampling else note) + paragraph(content['deliveryBody']), 'frame-delivery')
+    return blocks
+
+
 def home_block(locale, content):
     cards = '<div class="feature-grid">' + "".join(
         f'<article class="feature"><h3>{escape(content[title])}</h3>{paragraph(content[body])}</article>'
@@ -126,7 +135,7 @@ def home_block(locale, content):
             ("batchTitle", "batchIntro"), ("reviewTitle", "reviewBody"), ("contactTitle", "contactIntro")
         )
     ) + '</div>'
-    return START + section(content["workflowTitle"], paragraph(content["workflowIntro"]) + cards, "mac-workflow") + platform(content) + section(content["guidesTitle"], guide_cards(locale, content), "workflow-guides") + END
+    return START + section(content["workflowTitle"], paragraph(content["workflowIntro"]) + cards, "mac-workflow") + platform(content) + delivery_workflows(content) + section(content["guidesTitle"], guide_cards(locale, content), "workflow-guides") + END
 
 
 def faq(content, title):
@@ -153,6 +162,7 @@ def help_main(locale, content, original):
         "digit extract video.mp4 --output ./frames --mode balanced --json frames.json",
         "digit contact-sheet video.mp4 --output sheet.png --columns 4 --limit 40",
         "digit sample video.mp4 --output ./samples --every 10 --max 30 --json samples.json",
+        "digit extract video.mp4 --output ./originals --resolution source --json originals.json",
         "digit preset-template --output workflow.json",
         "digit extract video.mp4 --output ./frames --preset workflow.json",
     ]
@@ -168,6 +178,7 @@ def help_main(locale, content, original):
         + section(content['startTitle'], '<ol class="workflow-steps">' + ''.join('<li>' + escape(step) + '</li>' for step in content['startSteps']) + '</ol>', 'getting-started')
         + section(content['modeTitle'], '<ul>' + ''.join('<li>' + escape(item) + '</li>' for item in content['modeItems']) + '</ul>', 'extraction-modes')
         + section(content["guidesTitle"], guide_cards(locale, content), "workflow-guides")
+        + delivery_workflows(content)
         + section(content["reviewTitle"], paragraph(content["reviewBody"]) + figure(content, "mac-frame-review.webp", content["reviewCaption"]), "source-frame-review")
         + section(content["saveTitle"], paragraph(content["saveBody"]), "saved-projects")
         + section(content["contactLimitTitle"], paragraph(content["contactLimit"]), "contact-sheet-limit")
@@ -269,7 +280,7 @@ def guide_page(locale, content, kind, template, date):
                       + figure(content, "video-contact-sheet.webp", content["contactCaption"], 1550, 554), "limits")
             + section(content["contactUseTitle"], paragraph(content["contactUse"]), "use-the-results")
         )
-    body += platform(content) + section(content["saveTitle"], paragraph(content["saveBody"]), "saved-projects")
+    body += delivery_workflows(content, sampling=is_batch) + platform(content) + section(content["saveTitle"], paragraph(content["saveBody"]), "saved-projects")
     body += section(content["related"], guide_cards(locale, content, exclude=kind) + f'<p><a href="{url(locale, kind + ".md")}">{escape(content["markdownLabel"])}</a></p>', "related-guides")
     html = MAIN_RE.sub(lambda _: '<main>' + intro_section + body + '</main>', template)
     html = metadata(html, title + ' | Dig It', intro)
@@ -420,11 +431,12 @@ def build(date):
         content['en']['macBody'], content['en']['iosBody'],
         content['en']['contactLimit'], content['en']['saveBody'],
         content['en']['faq'][4][1], content['en']['cliStatus'],
+        content['en']['availability'], content['en']['samplingBody'], content['en']['deliveryBody'],
         'MCP integration is not provided.',
         '', '## Official documentation',
         f'- [Help and product facts]({BASE}/help.md): Platform differences, local processing, saved projects, limits and CLI availability.',
         f'- [Batch extract video frames on Mac]({BASE}/{BATCH}.md): Queue files or folders, choose presets, review and export.',
-        f'- [Create a video contact sheet]({BASE}/{CONTACT}.md): Select stills, export a PNG overview and understand the 40-frame limit.',
+        f'- [Create a video contact sheet]({BASE}/{CONTACT}.md): PNG overviews (up to 40 frames) and printable paginated PDF sheets (up to 120 frames).',
         f'- [App Store download]({STORE}): Official pricing and device compatibility.',
         f'- [Support]({BASE}/support): Contact the developer, including questions about the separate CLI.',
         f'- [Privacy policy]({BASE}/privacy-policy): The published privacy policy.',
