@@ -1,0 +1,14 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {"v": 1, "at": "2026-10-25T10:00:00Z"},
+  "title": "Dig It",
+  "namespace": "DigIt",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": {"readme": "README.md", "sections": []},
+  "lastChange": {"by": "Codex", "at": "2026-10-25T10:00:00Z", "via": "Codex", "note": "Document native-app colors and reusable website foundations; no component runtime."}
+}

@@ -1,0 +1,11 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-25T09:58:54Z"},
+  "title": "Dig It Website",
+  "launch": {"view": "focused", "file": "Main.dc.html"},
+  "pages": [],
+  "boards": {"Main.dc.html": {"x": 0, "y": 0, "w": 1440, "h": 1080, "expand": "fill", "title": "Video To Useful Stills"}},
+  "order": ["Main.dc.html"],
+  "notes": {},
+  "designSystems": [{"title": "Dig It", "namespace": "digit", "artifact": "../design-system", "version": null, "copiedAt": "2026-10-25T09:58:54Z"}]
+}
