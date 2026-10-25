@@ -1,7 +1,7 @@
 {
   "en": {
-    "homeTitle": "Dig It | Video Frames, Covers & PDF Contact Sheets",
-    "homeDescription": "Extract video frames on Mac, iPhone and iPad. Version 1.4.3 adds Mac source-resolution sampling, cropped PNG/JPEG covers and printable PDF contact sheets.",
+    "homeTitle": "Dig It | Extract Video Frames on Mac, iPhone & iPad",
+    "homeDescription": "Extract useful still images from video without uploading it. Batch process videos on Mac, choose cover images and export PNG/JPEG frames or contact sheets.",
     "workflowTitle": "A local video-to-images workflow",
     "workflowIntro": "Dig It: Video Keyframes, also called DigIt, helps you turn video into reusable still images. Use the Mac workspace for batches and closer frame review, or extract images from a single video on iPhone and iPad.",
     "batchTitle": "Batch extract video frames on Mac",
@@ -100,8 +100,8 @@
     "availability": "These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available."
   },
   "zh-Hans": {
-    "homeTitle": "Dig It | 视频抽帧、封面图片与 PDF 联系表",
-    "homeDescription": "用 Dig It 在 Mac、iPhone 和 iPad 本地提取视频图片。1.4.3 新增 Mac 原画采样、PNG/JPEG 封面裁切和可打印的 PDF 联系表。",
+    "homeTitle": "Dig It | Mac、iPhone 与 iPad 本地视频抽帧",
+    "homeDescription": "无需上传视频，即可提取实用图片。在 Mac 上批量处理视频、挑选封面，导出 PNG/JPEG 图片或联系表；也支持 iPhone 和 iPad。",
     "workflowTitle": "把视频变成可复用图片的本地工作流",
     "workflowIntro": "Dig It: Video Keyframes，也称 DigIt，帮助你从视频中获取可复用的静帧。Mac 工作区适合批量处理和细致选帧，iPhone 与 iPad 适合从单个视频提取图片。",
     "batchTitle": "在 Mac 上批量提取视频图片",
@@ -200,8 +200,8 @@
     "availability": "这些新工作流需要 1.4.3 或更高版本。如果所在 App Store 尚未提供更新，仍可使用之前的导出功能。"
   },
   "zh-Hant": {
-    "homeTitle": "Dig It | 影片擷取影格、封面與 PDF 聯絡表",
-    "homeDescription": "用 Dig It 在 Mac、iPhone 和 iPad 本機擷取影片圖片。1.4.3 新增 Mac 原畫取樣、PNG/JPEG 封面裁切及可列印的 PDF 聯絡表。",
+    "homeTitle": "Dig It | Mac、iPhone 與 iPad 本機影片擷取影格",
+    "homeDescription": "無須上傳影片，即可擷取實用圖片。在 Mac 上批次處理影片、挑選封面，匯出 PNG/JPEG 圖片或聯絡表；也支援 iPhone 和 iPad。",
     "workflowTitle": "將影片轉為可重用圖片的本機工作流程",
     "workflowIntro": "Dig It: Video Keyframes，也稱 DigIt，幫助你從影片取得可重用的靜態影格。Mac 工作區適合批次處理和細緻選取影格，iPhone 與 iPad 適合從單一影片擷取圖片。",
     "batchTitle": "在 Mac 上批次擷取影片圖片",
@@ -300,8 +300,8 @@
     "availability": "這些新工作流程需要 1.4.3 或更新版本。若所在地的 App Store 尚未提供更新，仍可使用原有的匯出功能。"
   },
   "es-ES": {
-    "homeTitle": "Dig It | Fotogramas, portadas y hojas de contacto PDF",
-    "homeDescription": "Extrae imágenes en Mac, iPhone y iPad. La versión 1.4.3 añade resolución original en Mac, portadas PNG/JPEG recortadas y hojas de contacto PDF imprimibles.",
+    "homeTitle": "Dig It | Extrae fotogramas en Mac, iPhone y iPad",
+    "homeDescription": "Extrae imágenes de tus vídeos sin subirlos a internet. Procesa vídeos por lotes en Mac, elige portadas y exporta imágenes PNG/JPEG u hojas de contacto.",
     "workflowTitle": "Un flujo local de vídeo a imágenes",
     "workflowIntro": "Dig It: Video Keyframes, también llamado DigIt, convierte vídeos en imágenes reutilizables. Usa el espacio de trabajo de Mac para lotes y revisión detallada, o extrae imágenes de un vídeo en iPhone y iPad.",
     "batchTitle": "Extraer fotogramas de vídeo por lotes en Mac",
@@ -400,8 +400,8 @@
     "availability": "Estas novedades requieren la versión 1.4.3 o posterior. Si aún no está disponible en tu App Store, puedes seguir usando las opciones de exportación anteriores."
   },
   "id": {
-    "homeTitle": "Dig It | Frame Video, Sampul & Contact Sheet PDF",
-    "homeDescription": "Ekstrak gambar di Mac, iPhone, dan iPad. Versi 1.4.3 menambah resolusi sumber Mac, sampul PNG/JPEG yang dipotong, dan contact sheet PDF siap cetak.",
+    "homeTitle": "Dig It | Ekstrak Frame Video di Mac, iPhone, dan iPad",
+    "homeDescription": "Ekstrak gambar dari video tanpa mengunggahnya. Proses banyak video di Mac, pilih sampul, dan ekspor gambar PNG/JPEG atau lembar kontak.",
     "workflowTitle": "Alur kerja lokal dari video ke gambar",
     "workflowIntro": "Dig It: Video Keyframes, juga disebut DigIt, membantu mengubah video menjadi gambar yang bisa digunakan kembali. Gunakan ruang kerja Mac untuk batch dan tinjauan detail, atau ekstrak gambar dari satu video di iPhone dan iPad.",
     "batchTitle": "Ekstrak frame video secara batch di Mac",
@@ -500,8 +500,8 @@
     "availability": "Fitur baru ini memerlukan versi 1.4.3 atau lebih baru. Jika pembaruan belum tersedia di App Store Anda, opsi ekspor sebelumnya tetap bisa digunakan."
   },
   "it": {
-    "homeTitle": "Dig It | Fotogrammi, copertine e provini PDF",
-    "homeDescription": "Estrai immagini su Mac, iPhone e iPad. La versione 1.4.3 aggiunge risoluzione originale Mac, copertine PNG/JPEG ritagliate e provini PDF stampabili.",
+    "homeTitle": "Dig It | Estrai fotogrammi su Mac, iPhone e iPad",
+    "homeDescription": "Estrai immagini dai video senza caricarli online. Elabora più video sul Mac, scegli copertine ed esporta immagini PNG/JPEG o provini a contatto.",
     "workflowTitle": "Un flusso locale dal video alle immagini",
     "workflowIntro": "Dig It: Video Keyframes, chiamato anche DigIt, trasforma i video in immagini riutilizzabili. Usa lo spazio di lavoro Mac per batch e revisione dettagliata, oppure estrai immagini da un video su iPhone e iPad.",
     "batchTitle": "Estrarre fotogrammi video in batch su Mac",
@@ -600,8 +600,8 @@
     "availability": "Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti."
   },
   "ar-SA": {
-    "homeTitle": "Dig It | إطارات فيديو وأغلفة وأوراق معاينة PDF",
-    "homeDescription": "استخرج صور الفيديو على Mac وiPhone وiPad. يضيف 1.4.3 دقة المصدر على Mac وأغلفة PNG/JPEG مقصوصة وأوراق معاينة PDF للطباعة.",
+    "homeTitle": "Dig It | استخراج إطارات الفيديو على Mac وiPhone وiPad",
+    "homeDescription": "استخرج صورًا من الفيديو دون رفعه إلى الإنترنت. عالج عدة فيديوهات على Mac واختر الأغلفة وصدّر صور PNG/JPEG أو أوراق الصور المصغرة.",
     "workflowTitle": "سير عمل محلي لتحويل الفيديو إلى صور",
     "workflowIntro": "يساعدك Dig It: Video Keyframes، المعروف أيضًا باسم DigIt، على تحويل الفيديو إلى صور قابلة لإعادة الاستخدام. استخدم مساحة عمل Mac للدفعات والمراجعة الدقيقة، أو استخرج صور فيديو واحد على iPhone وiPad.",
     "batchTitle": "استخراج إطارات الفيديو على Mac على دفعات",
@@ -700,8 +700,8 @@
     "availability": "تتطلب الميزات الجديدة الإصدار 1.4.3 أو أحدث. إذا لم يظهر التحديث في App Store بعد، يمكنك الاستمرار باستخدام خيارات التصدير السابقة."
   },
   "ja": {
-    "homeTitle": "Dig It | 動画フレーム・カバー・PDF コンタクトシート",
-    "homeDescription": "Mac、iPhone、iPad で動画から画像を抽出。1.4.3 では Mac の元解像度サンプリング、PNG/JPEG カバーの切り抜き、印刷用 PDF シートに対応。",
+    "homeTitle": "Dig It | Mac・iPhone・iPad で動画から画像を抽出",
+    "homeDescription": "動画をアップロードせず、使える静止画を抽出。Mac での一括処理やカバー選び、PNG/JPEG 画像・コンタクトシートの書き出しに対応。",
     "workflowTitle": "動画を画像にするローカルワークフロー",
     "workflowIntro": "Dig It: Video Keyframes（DigIt）は、動画から再利用できる静止画を取り出すアプリです。Macでは一括処理と細かな確認、iPhone・iPadでは1本の動画からの画像抽出に使えます。",
     "batchTitle": "Macで動画フレームを一括抽出する",
@@ -800,8 +800,8 @@
     "availability": "新しい機能にはバージョン 1.4.3 以降が必要です。App Store でまだ更新できない場合も、従来の書き出し機能は利用できます。"
   },
   "ko": {
-    "homeTitle": "Dig It | 동영상 프레임, 커버 및 PDF 콘택트 시트",
-    "homeDescription": "Mac, iPhone, iPad에서 동영상 이미지를 추출하세요. 1.4.3은 Mac 원본 해상도 샘플링, PNG/JPEG 커버 자르기, 인쇄용 PDF 시트를 추가합니다.",
+    "homeTitle": "Dig It | Mac, iPhone, iPad에서 동영상 프레임 추출",
+    "homeDescription": "동영상을 업로드하지 않고 이미지를 추출하세요. Mac에서 일괄 처리하고 표지를 고른 뒤 PNG/JPEG 이미지나 콘택트 시트로 내보낼 수 있습니다.",
     "workflowTitle": "동영상을 이미지로 바꾸는 로컬 작업 흐름",
     "workflowIntro": "Dig It: Video Keyframes(DigIt)은 동영상에서 재사용할 정지 이미지를 추출합니다. Mac 작업 공간에서 일괄 처리와 세밀한 검토를 하거나, iPhone·iPad에서 하나의 동영상 이미지를 추출하세요.",
     "batchTitle": "Mac에서 동영상 프레임 일괄 추출하기",
@@ -900,8 +900,8 @@
     "availability": "새 기능은 1.4.3 이상에서 사용할 수 있습니다. App Store에 업데이트가 아직 없더라도 기존 내보내기 기능을 사용할 수 있습니다."
   },
   "de-DE": {
-    "homeTitle": "Dig It | Video-Frames, Cover & PDF-Kontaktbögen",
-    "homeDescription": "Video-Frames auf Mac, iPhone und iPad extrahieren. 1.4.3 bietet Mac-Quellauflösung, zugeschnittene PNG/JPEG-Cover und druckbare PDF-Kontaktbögen.",
+    "homeTitle": "Dig It | Videobilder auf Mac, iPhone und iPad extrahieren",
+    "homeDescription": "Extrahiere Bilder aus Videos ohne Upload. Verarbeite mehrere Videos auf dem Mac, wähle Cover und exportiere PNG/JPEG-Bilder oder Kontaktabzüge.",
     "workflowTitle": "Ein lokaler Workflow vom Video zum Bild",
     "workflowIntro": "Dig It: Video Keyframes, auch DigIt genannt, macht aus Videos wiederverwendbare Standbilder. Der Mac-Arbeitsbereich bietet Stapelverarbeitung und genaue Prüfung; auf iPhone und iPad extrahierst du Bilder aus einem einzelnen Video.",
     "batchTitle": "Videobilder auf dem Mac im Stapel extrahieren",
@@ -1000,8 +1000,8 @@
     "availability": "Diese neuen Funktionen benötigen Version 1.4.3 oder neuer. Falls das Update noch nicht im App Store verfügbar ist, kannst du die bisherigen Exportoptionen weiter nutzen."
   },
   "fr-FR": {
-    "homeTitle": "Dig It | Images vidéo, couvertures et planches PDF",
-    "homeDescription": "Extrayez des images sur Mac, iPhone et iPad. La version 1.4.3 ajoute la résolution source Mac, le recadrage PNG/JPEG et les planches contact PDF imprimables.",
+    "homeTitle": "Dig It | Extraire des images vidéo sur Mac, iPhone et iPad",
+    "homeDescription": "Extrayez des images sans envoyer vos vidéos en ligne. Traitez des lots sur Mac, choisissez une couverture et exportez en PNG/JPEG ou en planche-contact.",
     "workflowTitle": "Un flux local de la vidéo aux images",
     "workflowIntro": "Dig It: Video Keyframes, aussi appelé DigIt, transforme vos vidéos en images réutilisables. Utilisez l'espace Mac pour les lots et la révision détaillée, ou extrayez les images d'une vidéo sur iPhone et iPad.",
     "batchTitle": "Extraire des images vidéo par lots sur Mac",
@@ -1100,8 +1100,8 @@
     "availability": "Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles."
   },
   "pt-BR": {
-    "homeTitle": "Dig It | Quadros de vídeo, capas e folhas PDF",
-    "homeDescription": "Extraia imagens no Mac, iPhone e iPad. A versão 1.4.3 traz resolução original no Mac, capas PNG/JPEG recortadas e folhas de contato PDF para impressão.",
+    "homeTitle": "Dig It | Extraia quadros de vídeo no Mac, iPhone e iPad",
+    "homeDescription": "Extraia imagens de vídeos sem enviá-los à internet. Processe vários vídeos no Mac, escolha capas e exporte imagens PNG/JPEG ou folhas de contato.",
     "workflowTitle": "Um fluxo local de vídeo para imagens",
     "workflowIntro": "Dig It: Video Keyframes, também chamado DigIt, transforma vídeos em imagens reutilizáveis. Use o espaço do Mac para lotes e revisão detalhada, ou extraia imagens de um vídeo no iPhone e iPad.",
     "batchTitle": "Extrair quadros de vídeo em lote no Mac",

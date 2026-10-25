@@ -10,7 +10,7 @@ Uma folha de contato reúne imagens de vídeo em uma visão geral PNG. Compare c
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-10-12
+Atualizado: 2026-10-25
 
 ## Primeiros passos
 

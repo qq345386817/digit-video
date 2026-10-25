@@ -10,7 +10,7 @@ Adicione vídeos ou uma pasta, escolha uma predefinição e revise cada resultad
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-10-12
+Atualizado: 2026-10-25
 
 ## Primeiros passos
 

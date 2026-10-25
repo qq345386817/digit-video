@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-contact-sheet
 
 [帮助](https://digit-video.luopeike.com/zh-Hans/help)
 
-更新日期: 2026-10-12
+更新日期: 2026-10-25
 
 ## 快速开始
 

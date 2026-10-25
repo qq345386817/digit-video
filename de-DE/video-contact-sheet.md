@@ -10,7 +10,7 @@ Ein Kontaktbogen vereint Videobilder in einer PNG-Übersicht. Vergleiche Titelbi
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-10-12
+Aktualisiert: 2026-10-25
 
 ## Erste Schritte
 

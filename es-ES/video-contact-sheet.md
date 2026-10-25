@@ -10,7 +10,7 @@ Una hoja de contacto combina imágenes del vídeo en un único PNG. Sirve para c
 
 [Ayuda](https://digit-video.luopeike.com/es-ES/help)
 
-Actualizado: 2026-10-12
+Actualizado: 2026-10-25
 
 ## Primeros pasos
 

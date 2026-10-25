@@ -2,6 +2,7 @@
 """Render localized workflow docs and their Markdown from one content source."""
 
 import argparse
+import hashlib
 import json
 import re
 import xml.etree.ElementTree as ET
@@ -32,7 +33,7 @@ BATCH = "batch-extract-video-frames-on-mac"
 CONTACT = "video-contact-sheet"
 START = "<!-- digit-workflows:start -->"
 END = "<!-- digit-workflows:end -->"
-MAIN_RE = re.compile(r"<main>(.*?)</main>", re.S)
+MAIN_RE = re.compile(r"<main(?:\s[^>]*)?>(.*?)</main>", re.S)
 SCHEMA_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
 BLOCK_RE = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
 OUTPUTS = {}
@@ -128,14 +129,115 @@ def delivery_workflows(content, sampling=True):
     return blocks
 
 
-def home_block(locale, content):
-    cards = '<div class="feature-grid">' + "".join(
-        f'<article class="feature"><h3>{escape(content[title])}</h3>{paragraph(content[body])}</article>'
-        for title, body in (
-            ("batchTitle", "batchIntro"), ("reviewTitle", "reviewBody"), ("contactTitle", "contactIntro")
-        )
-    ) + '</div>'
-    return START + section(content["workflowTitle"], paragraph(content["workflowIntro"]) + cards, "mac-workflow") + platform(content) + delivery_workflows(content) + section(content["guidesTitle"], guide_cards(locale, content), "workflow-guides") + END
+def download_action(copy):
+    return (
+        f'<a class="button primary" href="{STORE}">'
+        '<img class="store-icon" src="/images/app-store-icon.svg" width="22" height="22" alt="">'
+        + escape(copy['download']) + '</a>'
+    )
+
+
+def image_credit(content):
+    return (
+        '<span class="image-credit">' + escape(content['credits'])
+        + ' <a href="https://peach.blender.org/about/">Big Buck Bunny</a> · '
+        '<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></span>'
+    )
+
+
+def home_main(locale, content, copy):
+    title = ''.join('<span>' + escape(line) + '</span>' for line in copy['title'])
+    steps = ''.join(
+        f'<li><span class="step-number" aria-hidden="true">0{index}</span>'
+        f'<h3>{escape(title)}</h3>{paragraph(body)}</li>'
+        for index, (title, body) in enumerate(copy['steps'], 1)
+    )
+    features = ''.join(
+        f'<article class="feature"><span class="feature-index" aria-hidden="true">0{index}</span>'
+        f'<h3>{escape(content[title])}</h3>{paragraph(content[body])}</article>'
+        for index, (title, body) in enumerate((
+            ('batchTitle', 'batchIntro'), ('reviewTitle', 'reviewBody'), ('contactTitle', 'contactIntro')
+        ), 1)
+    )
+    return (
+        '<section class="hero"><div class="hero-copy">'
+        f'<p class="kicker">{escape(copy["eyebrow"])}</p><h1>{title}</h1>'
+        f'<p class="lead">{escape(copy["intro"])}</p><div class="actions">'
+        + download_action(copy)
+        + f'<a class="text-action" href="#workflow">{escape(copy["secondary"])} <span aria-hidden="true">↗</span></a></div>'
+        + f'<p class="device-note">{escape(copy["note"])}</p></div>'
+        '<figure class="product-stage"><div class="stage-heading">'
+        f'<span>{escape(content["batchTitle"])}</span><span class="stage-device" dir="ltr">macOS</span></div>'
+        '<img class="hero-screenshot" src="/images/mac-batch-workspace.webp" width="1208" height="948" '
+        f'alt="{escape(content["workspaceCaption"], quote=True)}" fetchpriority="high" decoding="async">'
+        f'<figcaption>{escape(content["workspaceCaption"])}{image_credit(content)}</figcaption></figure></section>'
+        '<section class="landing-section" id="workflow"><div class="section-heading">'
+        f'<h2>{escape(copy["stepsTitle"])}</h2>{paragraph(copy["stepsIntro"])}</div>'
+        f'<ol class="step-grid">{steps}</ol></section>'
+        '<section class="landing-section" id="mac-workflow"><div class="section-heading">'
+        f'<p class="kicker">{escape(copy["platformKicker"])}</p>'
+        f'<h2>{escape(content["workflowTitle"])}</h2>{paragraph(content["workflowIntro"])}</div>'
+        f'<div class="feature-grid">{features}</div></section>'
+        '<section class="landing-section contact-showcase"><div class="section-heading">'
+        f'<h2>{escape(copy["showcaseTitle"])}</h2>{paragraph(copy["showcaseBody"])}</div>'
+        '<figure class="contact-example"><a href="/images/video-contact-sheet.webp">'
+        '<img src="/images/video-contact-sheet.webp" width="1550" height="554" '
+        f'alt="{escape(content["contactCaption"], quote=True)}" loading="lazy" decoding="async"></a>'
+        f'<figcaption>{escape(content["contactCaption"])}{image_credit(content)}</figcaption></figure></section>'
+        + platform(content)
+        + '<section class="landing-section technical"><details><summary>'
+        + escape(copy['detailsLabel']) + '</summary>' + delivery_workflows(content) + '</details></section>'
+        + '<section class="landing-section" id="workflow-guides"><div class="section-heading">'
+        f'<p class="kicker">{escape(copy["guideKicker"])}</p><h2>{escape(content["guidesTitle"])}</h2></div>'
+        + guide_cards(locale, content) + '</section>'
+        + faq(content, copy['faqTitle'])
+        + '<section class="download-section"><img src="/images/app-icon.png" width="64" height="64" alt="">'
+        f'<h2>{escape(copy["ctaTitle"])}</h2>{paragraph(copy["ctaBody"])}'
+        + download_action(copy) + '</section>'
+    )
+
+
+def site_shell(html, locale, landing):
+    """Keep generated pages, old guides and localized navigation on one visual shell."""
+    def remove_styles(match):
+        tag = Tag()
+        tag.feed(match[0])
+        if tag.attrs.get('rel') == 'stylesheet' and re.search(
+            r'(?:^|/)style/(?:base|tokens)\.css(?:\?|$)', tag.attrs.get('href', '')
+        ):
+            return ''
+        return match[0]
+    html = re.sub(r'<link\b[^>]*>', remove_styles, html)
+    html = re.sub(r'\n[ \t]*\n+', '\n', html)
+    styles = ''
+    for filename in ('tokens.css', 'base.css'):
+        digest = hashlib.sha256((ROOT / 'style' / filename).read_bytes()).hexdigest()[:12]
+        styles += f'  <link rel="stylesheet" href="/style/{filename}?v={digest}">\n'
+    html = html.replace('</head>', styles + '</head>')
+    html = re.sub(r'<a class="skip-link"[^>]*>.*?</a>', '', html)
+    html = re.sub(r'(<body[^>]*>)', lambda m: m[1] + '<a class="skip-link" href="#main-content">'
+                  + escape(landing[locale]['skip']) + '</a>', html, count=1)
+    html = html.replace('<main>', '<main id="main-content">')
+    # Give the current navigation item a visible and semantic active state.
+    canonical = None
+    for tag_text in re.findall(r'<link\b[^>]*>', html):
+        tag = Tag()
+        tag.feed(tag_text)
+        if tag.attrs.get('rel') == 'canonical':
+            canonical = tag.attrs['href']
+            break
+    if canonical is None:
+        raise ValueError('Cannot style a page without its canonical URL')
+    page_path = canonical.removeprefix(BASE)
+    def navigation(match):
+        def active(link):
+            href = link.group(1)
+            target = urljoin(canonical, href).removeprefix(BASE)
+            return '<a href="' + href + '"' + (' aria-current="page"' if target == page_path else '') + '>'
+        nav = re.sub(r'<a href="([^"]+)"(?: aria-current="page")?>', active, match[0])
+        return nav
+    html = re.sub(r'<nav class="nav"[^>]*>.*?</nav>', navigation, html, flags=re.S)
+    return re.sub(r'[ \t]+\n', '\n', html)
 
 
 def faq(content, title):
@@ -379,16 +481,17 @@ class Markdown(HTMLParser):
 
 def build(date):
     content = json.loads((ROOT / 'tools/workflow-content.json').read_text(encoding='utf-8'))
+    landing = json.loads((ROOT / 'tools/landing-copy.json').read_text(encoding='utf-8'))
     assert set(content) == set(LOCALES), 'Every locale needs translated content'
+    assert set(landing) == set(LOCALES), 'Every locale needs landing-page translations'
     expected = set(content['en'])
     for locale, copy in content.items():
         assert set(copy) == expected, f'Incomplete translations: {locale}'
         home_path = local_path(locale)
         home = home_path.read_text(encoding='utf-8')
-        body = BLOCK_RE.sub('', MAIN_RE.search(home)[1])
-        anchor = re.search(r'</section>', body)
-        body = body[:anchor.end()] + home_block(locale, copy) + body[anchor.end():]
+        body = home_main(locale, copy, landing[locale])
         home = MAIN_RE.sub(lambda _: '<main>' + body + '</main>', home)
+        home = home.replace('<body>', '<body class="home">')
         home = metadata(home, copy['homeTitle'], copy['homeDescription'])
         home = update_schema(home, copy, copy['homeTitle'], copy['homeDescription'], date)
         OUTPUTS[home_path] = machine_links(home, locale)
@@ -416,6 +519,8 @@ def build(date):
             OUTPUTS[path] = machine_links(update_schema(html, copy, date=date), locale)
 
     for path in ROOT.rglob('*.html'):
+        if 'tools' in path.relative_to(ROOT).parts:
+            continue
         if path in OUTPUTS:
             continue
         locale = next((key for key, (prefix, _, _) in LOCALES.items() if prefix and path.parent.name == prefix), 'en')
@@ -464,11 +569,17 @@ def build(date):
     OUTPUTS[ROOT / 'sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(sitemap, encoding='unicode') + '\n'
     for path, value in list(OUTPUTS.items()):
         if path.suffix == '.html':
+            value = site_shell(value, locale_for_path(path), landing)
             head, body = value.split('</head>', 1)
             # Same-origin links work on production and on local/staging previews.
             body = body.replace('href="' + BASE + '/', 'href="/')
             body = body.replace('value="' + BASE + '/', 'value="/')
             OUTPUTS[path] = head + '</head>' + body
+
+
+def locale_for_path(path):
+    return next((key for key, (prefix, _, _) in LOCALES.items()
+                 if prefix and path.parent.name == prefix), 'en')
 
 
 def main():

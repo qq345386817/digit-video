@@ -10,7 +10,7 @@ Queue video files or a folder, choose a reusable extraction preset, and review e
 
 [Help](https://digit-video.luopeike.com/help)
 
-Updated: 2026-10-12
+Updated: 2026-10-25
 
 ## Getting started
 

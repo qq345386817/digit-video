@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ko/batch-extract-video-frames-o
 
 [도움말](https://digit-video.luopeike.com/ko/help)
 
-업데이트: 2026-10-12
+업데이트: 2026-10-25
 
 ## 시작하기
 

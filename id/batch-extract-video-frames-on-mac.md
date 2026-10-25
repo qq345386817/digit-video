@@ -10,7 +10,7 @@ Tambahkan file video atau folder, pilih preset ekstraksi, lalu tinjau hasil atau
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-10-12
+Diperbarui: 2026-10-25
 
 ## Mulai
 

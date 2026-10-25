@@ -9,7 +9,7 @@
     "DigIt Video",
     "DigIt keyframes"
   ],
-  "description": "Extract video frames on Mac, iPhone and iPad. Version 1.4.3 adds Mac source-resolution sampling, cropped PNG/JPEG covers and printable PDF contact sheets.",
+  "description": "Extract useful still images from video without uploading it. Batch process videos on Mac, choose cover images and export PNG/JPEG frames or contact sheets.",
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "iOS, iPadOS, macOS",
   "url": "https://digit-video.luopeike.com/",

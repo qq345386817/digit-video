@@ -10,7 +10,7 @@ Une planche-contact réunit des images vidéo dans un aperçu PNG. Comparez des 
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-10-12
+Mis à jour: 2026-10-25
 
 ## Premiers pas
 

@@ -1,0 +1,134 @@
+{
+  "en": {
+    "eyebrow": "VIDEO TO IMAGES · ON YOUR DEVICE",
+    "title": ["Your video.", "The frames worth keeping."],
+    "intro": "Find the stills that tell the story. Extract video frames, pick a cover and turn a clip into useful images, without uploading it.",
+    "download": "Download on the App Store", "secondary": "Explore the workflow", "note": "Mac, iPhone and iPad. Local video processing.",
+    "stepsTitle": "From a clip to something useful.", "stepsIntro": "Less scrubbing. More creating.",
+    "steps": [["Bring your video", "Choose a clip on any device, or queue files and folders on Mac."], ["Find your moments", "Extract a focused set of frames. Review, select and fine-tune on Mac."], ["Make them yours", "Export stills, crop a cover or share a contact sheet. Save a result to revisit it."]],
+    "showcaseTitle": "One video. A whole new perspective.", "showcaseBody": "A contact sheet puts the story in one place. Compare moments, plan a cover or share a visual overview without sending the original clip.",
+    "platformKicker": "MADE FOR YOUR WORKFLOW", "guideKicker": "A LITTLE GUIDANCE", "detailsLabel": "Sampling and export details", "faqTitle": "Good questions.",
+    "ctaTitle": "Your next still is already in your video.", "ctaBody": "Get Dig It: Video Keyframes and put it to work.", "skip": "Skip to content"
+  },
+  "zh-Hans": {
+    "eyebrow": "视频转图片 · 全程本地处理",
+    "title": ["你的视频，", "值得留下的每一帧。"],
+    "intro": "找到能讲好故事的画面。提取视频关键帧、挑选封面，把一段视频变成实用图片，无需上传素材。",
+    "download": "在 App Store 下载", "secondary": "了解使用流程", "note": "适用于 Mac、iPhone 和 iPad。视频在本机处理。",
+    "stepsTitle": "从一段视频，到一组好图片。", "stepsIntro": "少一点拖动进度，多一点专注创作。",
+    "steps": [["导入视频", "在各设备上选择单个视频，或在 Mac 上添加多个文件和文件夹。"], ["找到精彩瞬间", "提取一组有代表性的画面，查看并选择，还可在 Mac 上细调具体帧。"], ["用到你的作品中", "导出图片、裁切封面或分享联系表，也可保存结果以便再次编辑。"]],
+    "showcaseTitle": "一段视频，换个角度看全貌。", "showcaseBody": "把画面放进一张联系表，比较不同瞬间、挑选封面，或分享视频概览，无需发送原始视频。",
+    "platformKicker": "贴合你的工作方式", "guideKicker": "轻松开始", "detailsLabel": "采样与导出详细说明", "faqTitle": "你可能想知道。",
+    "ctaTitle": "下一张好图片，已经在你的视频里。", "ctaBody": "下载 Dig It: Video Keyframes，让视频素材发挥更多价值。", "skip": "跳转到正文"
+  },
+  "zh-Hant": {
+    "eyebrow": "影片轉圖片 · 全程本機處理",
+    "title": ["你的影片，", "值得留下的每一格。"],
+    "intro": "找到能說好故事的畫面。擷取影片關鍵影格、挑選封面，把一段影片變成實用圖片，無須上傳素材。",
+    "download": "在 App Store 下載", "secondary": "了解使用流程", "note": "適用於 Mac、iPhone 和 iPad。影片在本機處理。",
+    "stepsTitle": "從一段影片，到一組好圖片。", "stepsIntro": "少一點拖動進度，多一點專注創作。",
+    "steps": [["匯入影片", "在各裝置上選擇單一影片，或在 Mac 上加入多個檔案和資料夾。"], ["找到精彩瞬間", "擷取一組有代表性的畫面，檢視並選取，還可在 Mac 上微調影格。"], ["用到你的作品中", "匯出圖片、裁切封面或分享聯絡表，也可儲存結果以便再次編輯。"]],
+    "showcaseTitle": "一段影片，換個角度看全貌。", "showcaseBody": "把畫面放進一張聯絡表，比較不同瞬間、挑選封面，或分享影片概覽，無須傳送原始影片。",
+    "platformKicker": "貼合你的工作方式", "guideKicker": "輕鬆開始", "detailsLabel": "取樣與匯出詳細說明", "faqTitle": "你可能想知道。",
+    "ctaTitle": "下一張好圖片，已經在你的影片裡。", "ctaBody": "下載 Dig It: Video Keyframes，讓影片素材發揮更多價值。", "skip": "跳至正文"
+  },
+  "es-ES": {
+    "eyebrow": "DE VÍDEO A IMÁGENES · EN TU DISPOSITIVO",
+    "title": ["Tu vídeo.", "Los fotogramas que merecen quedarse."],
+    "intro": "Encuentra las imágenes que cuentan la historia. Extrae fotogramas, elige una portada y aprovecha tus vídeos sin subirlos a ningún servidor.",
+    "download": "Descargar en el App Store", "secondary": "Descubre cómo funciona", "note": "Mac, iPhone y iPad. Procesamiento local del vídeo.",
+    "stepsTitle": "De un clip a imágenes útiles.", "stepsIntro": "Menos buscar. Más crear.",
+    "steps": [["Importa tu vídeo", "Elige un clip en cualquier dispositivo o añade archivos y carpetas en Mac."], ["Encuentra tus momentos", "Extrae un conjunto de fotogramas, revísalos y selecciónalos. Afina la selección en Mac."], ["Dales un nuevo uso", "Exporta imágenes, recorta una portada o comparte una hoja de contacto. Guarda el resultado para retomarlo."]],
+    "showcaseTitle": "Un vídeo. Una nueva perspectiva.", "showcaseBody": "Una hoja de contacto reúne la historia en un solo lugar. Compara momentos, elige una portada o comparte un resumen visual sin enviar el vídeo original.",
+    "platformKicker": "PARA TU FORMA DE TRABAJAR", "guideKicker": "UN POCO DE AYUDA", "detailsLabel": "Detalles de muestreo y exportación", "faqTitle": "Buenas preguntas.",
+    "ctaTitle": "Tu próxima imagen ya está en tu vídeo.", "ctaBody": "Descarga Dig It: Video Keyframes y aprovecha tus clips.", "skip": "Ir al contenido"
+  },
+  "id": {
+    "eyebrow": "VIDEO JADI GAMBAR · DI PERANGKAT ANDA",
+    "title": ["Video Anda.", "Frame yang layak disimpan."],
+    "intro": "Temukan gambar yang bercerita. Ekstrak frame video, pilih sampul, dan ubah klip menjadi gambar berguna tanpa mengunggahnya.",
+    "download": "Unduh di App Store", "secondary": "Lihat alur kerja", "note": "Mac, iPhone, dan iPad. Pemrosesan video secara lokal.",
+    "stepsTitle": "Dari klip menjadi gambar berguna.", "stepsIntro": "Kurangi mencari. Perbanyak berkarya.",
+    "steps": [["Masukkan video", "Pilih satu klip di perangkat Anda, atau antrekan file dan folder di Mac."], ["Temukan momen Anda", "Ekstrak kumpulan frame, tinjau, dan pilih. Sempurnakan pilihan di Mac."], ["Gunakan hasilnya", "Ekspor gambar, potong sampul, atau bagikan lembar kontak. Simpan hasil untuk dibuka lagi."]],
+    "showcaseTitle": "Satu video. Sudut pandang baru.", "showcaseBody": "Lembar kontak menyatukan cerita dalam satu tampilan. Bandingkan momen, pilih sampul, atau bagikan ringkasan visual tanpa mengirim video asli.",
+    "platformKicker": "UNTUK ALUR KERJA ANDA", "guideKicker": "PANDUAN SINGKAT", "detailsLabel": "Detail pengambilan sampel dan ekspor", "faqTitle": "Pertanyaan yang sering muncul.",
+    "ctaTitle": "Gambar Anda berikutnya sudah ada di video.", "ctaBody": "Unduh Dig It: Video Keyframes dan manfaatkan klip Anda.", "skip": "Lewati ke konten"
+  },
+  "it": {
+    "eyebrow": "DA VIDEO A IMMAGINI · SUL TUO DISPOSITIVO",
+    "title": ["Il tuo video.", "I fotogrammi da tenere."],
+    "intro": "Trova le immagini che raccontano la storia. Estrai fotogrammi, scegli una copertina e trasforma un video in immagini utili, senza caricarlo online.",
+    "download": "Scarica su App Store", "secondary": "Scopri come funziona", "note": "Mac, iPhone e iPad. Elaborazione video locale.",
+    "stepsTitle": "Da un video a qualcosa di utile.", "stepsIntro": "Meno ricerche. Più creatività.",
+    "steps": [["Importa il video", "Scegli un video su qualsiasi dispositivo o aggiungi file e cartelle in coda sul Mac."], ["Trova i tuoi momenti", "Estrai una selezione di fotogrammi, esaminali e scegli i migliori. Perfeziona la scelta sul Mac."], ["Usali come vuoi", "Esporta immagini, ritaglia una copertina o condividi un provino. Salva il risultato per riprenderlo."]],
+    "showcaseTitle": "Un video. Una prospettiva nuova.", "showcaseBody": "Un provino riunisce la storia in un solo posto. Confronta i momenti, scegli una copertina o condividi una panoramica senza inviare il video originale.",
+    "platformKicker": "PER IL TUO FLUSSO DI LAVORO", "guideKicker": "UN PICCOLO AIUTO", "detailsLabel": "Dettagli di campionamento ed esportazione", "faqTitle": "Domande utili.",
+    "ctaTitle": "La prossima immagine è già nel tuo video.", "ctaBody": "Scarica Dig It: Video Keyframes e sfrutta i tuoi video.", "skip": "Vai al contenuto"
+  },
+  "ar-SA": {
+    "eyebrow": "من الفيديو إلى الصور · على جهازك",
+    "title": ["الفيديو لك.", "واللقطات تستحق الاحتفاظ بها."],
+    "intro": "اعثر على الصور التي تحكي القصة. استخرج إطارات الفيديو واختر غلافًا وحوّل المقطع إلى صور مفيدة، دون رفعه إلى الإنترنت.",
+    "download": "تنزيل من App Store", "secondary": "اكتشف طريقة العمل", "note": "لأجهزة Mac وiPhone وiPad. معالجة الفيديو محليًا.",
+    "stepsTitle": "من مقطع فيديو إلى صور مفيدة.", "stepsIntro": "بحث أقل. إبداع أكثر.",
+    "steps": [["أضف الفيديو", "اختر مقطعًا على جهازك، أو أضف ملفات ومجلدات إلى قائمة المعالجة على Mac."], ["اعثر على لحظاتك", "استخرج مجموعة مختارة من الإطارات وراجعها وحدد ما تريد. دقّق الاختيار على Mac."], ["استخدم النتائج", "صدّر الصور أو اقتصص غلافًا أو شارك ورقة صور مصغرة. احفظ النتيجة للعودة إليها."]],
+    "showcaseTitle": "فيديو واحد. منظور جديد.", "showcaseBody": "تجمع ورقة الصور المصغرة القصة في مكان واحد. قارن اللحظات أو اختر غلافًا أو شارك نظرة عامة مرئية دون إرسال الفيديو الأصلي.",
+    "platformKicker": "مصمم لطريقة عملك", "guideKicker": "إرشادات تساعدك", "detailsLabel": "تفاصيل أخذ العينات والتصدير", "faqTitle": "أسئلة مهمة.",
+    "ctaTitle": "صورتك التالية موجودة بالفعل في الفيديو.", "ctaBody": "نزّل Dig It: Video Keyframes واستفد من مقاطعك.", "skip": "انتقل إلى المحتوى"
+  },
+  "ja": {
+    "eyebrow": "動画から画像へ · デバイス内で処理",
+    "title": ["あなたの動画から、", "残したくなる一枚を。"],
+    "intro": "伝えたい場面を、静止画に。動画のフレーム抽出、カバー選び、画像の活用まで。動画のアップロードは不要です。",
+    "download": "App Store からダウンロード", "secondary": "使い方を見る", "note": "Mac、iPhone、iPad に対応。動画はデバイス内で処理。",
+    "stepsTitle": "一本の動画から、使える画像へ。", "stepsIntro": "探す時間を減らして、作る時間を。",
+    "steps": [["動画を読み込む", "各デバイスで動画を選択。Mac なら複数のファイルやフォルダをキューに追加できます。"], ["場面を選ぶ", "代表的なフレームを抽出し、確認・選択。Mac では前後のフレームも細かく調整できます。"], ["作品に活かす", "静止画の書き出し、カバーの切り抜き、一覧画像の共有。結果を保存して後から見直せます。"]],
+    "showcaseTitle": "一本の動画を、新しい視点で。", "showcaseBody": "コンタクトシートなら、動画の流れを一か所で確認。場面の比較やカバー選び、概要の共有に。元の動画を送る必要はありません。",
+    "platformKicker": "あなたの作業に合わせて", "guideKicker": "使い方のヒント", "detailsLabel": "サンプリングと書き出しの詳細", "faqTitle": "よくある質問。",
+    "ctaTitle": "次の一枚は、もう動画の中に。", "ctaBody": "Dig It: Video Keyframes で動画をもっと活用しましょう。", "skip": "本文へ移動"
+  },
+  "ko": {
+    "eyebrow": "동영상에서 이미지로 · 기기 안에서 처리",
+    "title": ["당신의 동영상에서,", "간직할 만한 장면을."],
+    "intro": "이야기를 담은 장면을 찾아보세요. 프레임을 추출하고 표지를 고르고, 동영상을 업로드하지 않고도 유용한 이미지로 바꿀 수 있습니다.",
+    "download": "App Store에서 다운로드", "secondary": "사용 흐름 살펴보기", "note": "Mac, iPhone, iPad 지원. 동영상은 기기에서 처리합니다.",
+    "stepsTitle": "동영상 한 편에서 유용한 이미지로.", "stepsIntro": "찾는 시간은 줄이고, 만드는 시간은 늘리세요.",
+    "steps": [["동영상 가져오기", "기기에서 동영상 하나를 선택하거나 Mac에서 파일과 폴더를 대기열에 추가하세요."], ["장면 고르기", "대표 프레임을 추출하고 확인한 뒤 선택하세요. Mac에서는 앞뒤 프레임도 세밀하게 조정할 수 있습니다."], ["작업에 활용하기", "이미지를 내보내고 표지를 자르거나 이미지 모음을 공유하세요. 결과를 저장하면 다시 열 수 있습니다."]],
+    "showcaseTitle": "동영상 하나, 새로운 시선.", "showcaseBody": "콘택트 시트로 이야기를 한눈에 살펴보세요. 장면을 비교하고 표지를 고르거나 원본 동영상 대신 시각적 요약을 공유할 수 있습니다.",
+    "platformKicker": "작업 방식에 맞게", "guideKicker": "도움이 되는 안내", "detailsLabel": "샘플링 및 내보내기 상세 안내", "faqTitle": "자주 묻는 질문.",
+    "ctaTitle": "다음 이미지는 이미 동영상 속에 있습니다.", "ctaBody": "Dig It: Video Keyframes로 동영상을 더 다양하게 활용하세요.", "skip": "본문으로 이동"
+  },
+  "de-DE": {
+    "eyebrow": "VOM VIDEO ZUM BILD · AUF DEINEM GERÄT",
+    "title": ["Dein Video.", "Die Bilder, die bleiben."],
+    "intro": "Finde die Bilder, die deine Geschichte erzählen. Extrahiere Einzelbilder, wähle ein Cover und mache mehr aus deinen Videos, ganz ohne Upload.",
+    "download": "Im App Store laden", "secondary": "So funktioniert es", "note": "Mac, iPhone und iPad. Lokale Videoverarbeitung.",
+    "stepsTitle": "Vom Clip zu brauchbaren Bildern.", "stepsIntro": "Weniger suchen. Mehr gestalten.",
+    "steps": [["Video hinzufügen", "Wähle einen Clip auf deinem Gerät oder reihe Dateien und Ordner auf dem Mac ein."], ["Momente finden", "Extrahiere eine gezielte Auswahl, prüfe und wähle deine Bilder. Auf dem Mac geht es bildgenau."], ["Bilder nutzen", "Exportiere Bilder, schneide ein Cover zu oder teile einen Kontaktabzug. Speichere das Ergebnis für später."]],
+    "showcaseTitle": "Ein Video. Ein neuer Blickwinkel.", "showcaseBody": "Ein Kontaktabzug zeigt die Geschichte auf einen Blick. Vergleiche Momente, plane ein Cover oder teile eine Übersicht, ohne das Originalvideo zu versenden.",
+    "platformKicker": "FÜR DEINEN WORKFLOW", "guideKicker": "EIN WENIG ORIENTIERUNG", "detailsLabel": "Details zu Auswahl und Export", "faqTitle": "Gute Fragen.",
+    "ctaTitle": "Dein nächstes Bild steckt schon im Video.", "ctaBody": "Lade Dig It: Video Keyframes und mache mehr aus deinen Clips.", "skip": "Zum Inhalt springen"
+  },
+  "fr-FR": {
+    "eyebrow": "DE LA VIDÉO À L’IMAGE · SUR VOTRE APPAREIL",
+    "title": ["Votre vidéo.", "Les images à garder."],
+    "intro": "Trouvez les images qui racontent l’histoire. Extrayez des images, choisissez une couverture et exploitez vos vidéos, sans les envoyer en ligne.",
+    "download": "Télécharger sur l’App Store", "secondary": "Découvrir le fonctionnement", "note": "Mac, iPhone et iPad. Traitement vidéo en local.",
+    "stepsTitle": "D’un clip à des images utiles.", "stepsIntro": "Moins de recherche. Plus de création.",
+    "steps": [["Importez votre vidéo", "Choisissez un clip sur votre appareil ou ajoutez des fichiers et dossiers à la file sur Mac."], ["Trouvez vos moments", "Extrayez une sélection d’images, examinez-les et choisissez. Affinez la sélection sur Mac."], ["Donnez-leur vie", "Exportez les images, recadrez une couverture ou partagez une planche-contact. Enregistrez le résultat pour y revenir."]],
+    "showcaseTitle": "Une vidéo. Un nouveau regard.", "showcaseBody": "Une planche-contact rassemble l’histoire en un seul endroit. Comparez les moments, choisissez une couverture ou partagez un aperçu sans envoyer la vidéo originale.",
+    "platformKicker": "POUR VOTRE FAÇON DE TRAVAILLER", "guideKicker": "UN PEU D’AIDE", "detailsLabel": "Détails de l’échantillonnage et de l’export", "faqTitle": "Les bonnes questions.",
+    "ctaTitle": "Votre prochaine image est déjà dans votre vidéo.", "ctaBody": "Téléchargez Dig It: Video Keyframes et exploitez vos clips.", "skip": "Aller au contenu"
+  },
+  "pt-BR": {
+    "eyebrow": "DE VÍDEO A IMAGENS · NO SEU DISPOSITIVO",
+    "title": ["Seu vídeo.", "Os quadros que vale guardar."],
+    "intro": "Encontre as imagens que contam a história. Extraia quadros, escolha uma capa e transforme um vídeo em imagens úteis, sem enviá-lo à internet.",
+    "download": "Baixar na App Store", "secondary": "Conheça o fluxo de trabalho", "note": "Mac, iPhone e iPad. Processamento local de vídeo.",
+    "stepsTitle": "De um clipe a imagens úteis.", "stepsIntro": "Menos procura. Mais criação.",
+    "steps": [["Importe seu vídeo", "Escolha um clipe no seu dispositivo ou adicione arquivos e pastas à fila no Mac."], ["Encontre seus momentos", "Extraia uma seleção de quadros, revise e escolha. Ajuste a seleção com precisão no Mac."], ["Aproveite as imagens", "Exporte imagens, recorte uma capa ou compartilhe uma folha de contato. Salve o resultado para retomar depois."]],
+    "showcaseTitle": "Um vídeo. Uma nova perspectiva.", "showcaseBody": "Uma folha de contato reúne a história em um só lugar. Compare momentos, escolha uma capa ou compartilhe um resumo visual sem enviar o vídeo original.",
+    "platformKicker": "PARA O SEU FLUXO DE TRABALHO", "guideKicker": "UMA AJUDA PARA COMEÇAR", "detailsLabel": "Detalhes de amostragem e exportação", "faqTitle": "Boas perguntas.",
+    "ctaTitle": "Sua próxima imagem já está no seu vídeo.", "ctaBody": "Baixe Dig It: Video Keyframes e aproveite seus clipes.", "skip": "Pular para o conteúdo"
+  }
+}

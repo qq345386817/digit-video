@@ -10,7 +10,7 @@ Lembar kontak menggabungkan gambar video menjadi satu ikhtisar PNG. Gunakan untu
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-10-12
+Diperbarui: 2026-10-25
 
 ## Mulai
 

@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ja/batch-extract-video-frames-o
 
 [ヘルプ](https://digit-video.luopeike.com/ja/help)
 
-更新日: 2026-10-12
+更新日: 2026-10-25
 
 ## はじめに
 

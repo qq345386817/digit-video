@@ -10,7 +10,7 @@ Aggiungi file video o una cartella, scegli un preset e rivedi ogni risultato o e
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-10-12
+Aggiornato: 2026-10-25
 
 ## Per iniziare
 

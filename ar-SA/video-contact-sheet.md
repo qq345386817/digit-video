@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-contact-sheet
 
 [المساعدة](https://digit-video.luopeike.com/ar-SA/help)
 
-آخر تحديث: 2026-10-12
+آخر تحديث: 2026-10-25
 
 ## البدء
 

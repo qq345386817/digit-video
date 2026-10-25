@@ -85,6 +85,8 @@ def file_for_url(url):
 def main():
     pages = {}
     for path in sorted(ROOT.rglob('*.html')):
+        if 'tools' in path.relative_to(ROOT).parts:
+            continue
         page = Page()
         page.path = path
         page.feed(path.read_text(encoding='utf-8'))
@@ -141,7 +143,7 @@ def main():
     for canonical in pages:
         if canonical not in locations: ERRORS.append(('sitemap.xml', 'Missing canonical URL: ' + canonical))
 
-    docs = [path for path in ROOT.rglob('*.md') if path.parent.name != 'tools']
+    docs = [path for path in ROOT.rglob('*.md') if 'tools' not in path.relative_to(ROOT).parts]
     for path in docs:
         text = path.read_text(encoding='utf-8')
         canonical_match = re.match(r'Canonical page: (\S+)', text)

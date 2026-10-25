@@ -10,7 +10,7 @@ Un provino a contatto riunisce immagini video in un'unica panoramica PNG. Usalo 
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-10-12
+Aggiornato: 2026-10-25
 
 ## Per iniziare
 

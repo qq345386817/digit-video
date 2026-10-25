@@ -10,7 +10,7 @@ Füge Videodateien oder einen Ordner hinzu, wähle eine Extraktionsvorlage und p
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-10-12
+Aktualisiert: 2026-10-25
 
 ## Erste Schritte
 

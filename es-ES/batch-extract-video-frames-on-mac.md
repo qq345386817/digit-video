@@ -10,7 +10,7 @@ Añade archivos o una carpeta, elige un ajuste de extracción y revisa cada resu
 
 [Ayuda](https://digit-video.luopeike.com/es-ES/help)
 
-Actualizado: 2026-10-12
+Actualizado: 2026-10-25
 
 ## Primeros pasos
 
