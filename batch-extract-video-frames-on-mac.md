@@ -10,7 +10,7 @@ Queue video files or a folder, choose a reusable extraction preset, and review e
 
 [Help](https://digit-video.luopeike.com/help)
 
-Updated: 2026-10-25
+Updated: 2026-11-07
 
 ## Getting started
 
@@ -44,7 +44,7 @@ Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig
 
 ## Sample video frames by interval or timestamp on Mac
 
-These new workflows require version 1.4.3 or later. If the update is not available in your App Store yet, the previous export options remain available.
+Frame sampling, source-resolution export, cropped covers and PDF contact sheets require Dig It 1.4.3 or later. Sampling and source-resolution export are Mac-only; covers and PDF contact sheets are available on Mac, iPhone and iPad.
 
 Before adding videos to the Mac workspace, choose Frame Selection: Automatic Keyframes, Fixed Interval, Specific Timestamps or Evenly Spaced. Set a limit of 1–120 frames. Fixed Interval stops at that limit; Evenly Spaced covers the full timeline. Timestamps accept seconds or HH:MM:SS, for example 5, 00:12.5, 01:30. Enable Source Resolution for automatic export, or select results and use Export → Export Source Resolution → PNG/JPEG. Original-size frames are decoded and saved one at a time, without upscaling; 4K output requires a 4K source. Source export requires the original video to remain available in the workspace.
 
@@ -64,11 +64,15 @@ On iPhone and iPad, choose one video from Photos or Files, review the extracted 
 
 ## Save a frame set you can return to
 
-Save keeps the current result images and their available timestamps and scores in local History. Reopen a saved project to review, delete, export and save changes to the same record. The source video is not stored with the history record; older metadata-only records cannot recreate missing images.
+Use Save to keep the full current result set and available timestamps in local History. Reopen a saved project to review, delete, export and save changes to the same record. The source video is not stored with the history record; older metadata-only records cannot recreate missing images.
 
 ## Related guides
 
-[Create a video contact sheet A contact sheet combines video stills into one PNG overview. Use it to compare covers, share a scene summary or keep tutorial steps together without sending the original video. Read the guide →](https://digit-video.luopeike.com/video-contact-sheet)
+[Create a video contact sheet Arrange video stills with timestamps in a PNG overview or an automatically paginated PDF contact sheet. Compare cover candidates, share a scene summary or collect tutorial steps without sending the original video. Read the guide →](https://digit-video.luopeike.com/video-contact-sheet)
+
+[Create a PNG or JPEG cover from video Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
+
+[Turn a video into tutorial step images Use Steps mode to collect useful changes from a tutorial or screen recording. Review and export selected PNG images for your notes, documentation or presentations; use a PDF contact sheet for a timestamped overview. Read the guide →](https://digit-video.luopeike.com/turn-video-into-step-images)
 
 [Help Learn Dig It's Mac batch workflow, frame review, contact-sheet export, saved projects and platform differences. Find CLI availability and practical examples.](https://digit-video.luopeike.com/help)
 

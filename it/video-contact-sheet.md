@@ -4,13 +4,13 @@ Guida al flusso di lavoro
 
 # Creare un provino a contatto da un video
 
-Un provino a contatto riunisce immagini video in un'unica panoramica PNG. Usalo per confrontare copertine, condividere un riepilogo delle scene o raccogliere i passaggi di un tutorial senza inviare il video originale.
+Disponi immagini video con i tempi in una panoramica PNG o un provino PDF con pagine automatiche. Confronta copertine, condividi scene o raccogli passaggi di un tutorial senza inviare il video originale.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-10-25
+Aggiornato: 2026-11-07
 
 ## Per iniziare
 
@@ -38,7 +38,7 @@ Per un video prodotto, confronta le copertine prima di esportare un'immagine. Pe
 
 ## Esporta copertine e provini PDF stampabili
 
-Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti.
+Campionamento, esportazione alla risoluzione originale, ritaglio copertine e provini PDF richiedono Dig It 1.4.3 o successivo. Campionamento e risoluzione originale sono solo per Mac; copertine e PDF sono disponibili su Mac, iPhone e iPad.
 
 Su Mac, iPhone o iPad, seleziona un risultato e usa Esporta → Esporta copertina. Scegli proporzioni originali, 16:9, 9:16, 1:1 o 4:3, regola ritaglio e lato massimo, poi salva PNG/JPEG. Il JPEG può essere limitato a 2 MB; riduci le dimensioni se non rientra. Le immagini non vengono ingrandite. Per un provino PDF scegli A4/Letter e 2–4 colonne. Fino a 120 fotogrammi sono ordinati cronologicamente e impaginati con nome del video e tempi. Senza selezione si usano tutti i risultati rimanenti. Il provino PNG rimane limitato a 40 fotogrammi.
 
@@ -54,11 +54,15 @@ Su iPhone e iPad, scegli un video da Foto o File, rivedi le immagini, esporta PN
 
 ## Salva un insieme di fotogrammi da modificare ancora
 
-Salva conserva le immagini attuali e i timestamp e punteggi disponibili nella cronologia locale. Riapri un progetto per rivedere, eliminare, esportare e salvare modifiche nella stessa voce. Il video originale non viene salvato; le vecchie voci con soli metadati non possono ricreare immagini mancanti.
+Usa Salva per conservare tutti i risultati attuali e i tempi disponibili nella cronologia locale. Riapri un progetto per rivedere, eliminare, esportare e salvare modifiche nella stessa voce. Il video originale non viene salvato; le vecchie voci con soli metadati non possono ricreare immagini mancanti.
 
 ## Guide correlate
 
 [Estrarre fotogrammi video in batch su Mac Aggiungi file video o una cartella, scegli un preset e rivedi ogni risultato o esporta immagini PNG/JPEG automaticamente. L'elaborazione rimane sul Mac. Leggi la guida →](https://digit-video.luopeike.com/it/batch-extract-video-frames-on-mac)
+
+[Crea una copertina PNG o JPEG da un video Seleziona un fotogramma e usa Esporta copertina per ritagliarlo, scegliere PNG o JPEG e limitare eventualmente il JPEG a 2 MB. Prepara una miniatura per prodotti, presentazioni o post senza caricare il video online. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
+
+[Trasforma un video in immagini dei passaggi Usa la modalità Passaggi per raccogliere i cambiamenti di un tutorial o di una registrazione dello schermo. Esamina ed esporta PNG per appunti, documenti o presentazioni; crea un provino PDF con tempi per una panoramica. Leggi la guida →](https://digit-video.luopeike.com/it/turn-video-into-step-images)
 
 [Aiuto Scopri batch Mac, revisione fotogrammi, esportazione di provini a contatto, progetti salvati e differenze tra piattaforme di Dig It. Consulta la disponibilità della CLI.](https://digit-video.luopeike.com/it/help)
 

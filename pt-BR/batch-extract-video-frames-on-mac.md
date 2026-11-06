@@ -10,7 +10,7 @@ Adicione vídeos ou uma pasta, escolha uma predefinição e revise cada resultad
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-10-25
+Atualizado: 2026-11-07
 
 ## Primeiros passos
 
@@ -44,7 +44,7 @@ Vídeo de exemplo: Big Buck Bunny. © 2008 Blender Foundation. Quadros organizad
 
 ## Extraia quadros por intervalo ou tempo no Mac
 
-As novidades exigem a versão 1.4.3 ou posterior. Se a atualização ainda não estiver na sua App Store, você pode continuar usando as opções anteriores de exportação.
+Amostragem, exportação na resolução original, recorte de capas e folhas PDF exigem Dig It 1.4.3 ou posterior. Amostragem e resolução original são exclusivas do Mac; capas e PDFs estão disponíveis no Mac, iPhone e iPad.
 
 Antes de adicionar vídeos ao espaço do Mac, escolha quadros-chave automáticos, intervalo fixo, tempos específicos ou distribuição uniforme e um limite de 1–120 quadros. O intervalo fixo para no limite; a distribuição uniforme cobre todo o vídeo. Os tempos aceitam segundos ou HH:MM:SS, por exemplo 5, 00:12.5, 01:30. Ative Resolução original para exportação automática ou selecione resultados e use Exportar → Exportar na resolução original → PNG/JPEG. Os originais são decodificados e salvos um por vez, sem ampliação. A saída 4K exige uma fonte 4K e o vídeo original deve permanecer disponível no espaço de trabalho.
 
@@ -64,11 +64,15 @@ No iPhone e iPad, escolha um vídeo em Fotos ou Arquivos, revise as imagens, exp
 
 ## Salve um conjunto de quadros para editar novamente
 
-Salvar mantém as imagens atuais e os tempos e pontuações disponíveis no Histórico local. Reabra um projeto para revisar, excluir, exportar e salvar alterações no mesmo registro. O vídeo original não é armazenado; registros antigos apenas com metadados não podem recriar imagens ausentes.
+Use Salvar para manter o conjunto completo de resultados atuais e os horários disponíveis no Histórico local. Reabra um projeto para revisar, excluir, exportar e salvar alterações no mesmo registro. O vídeo original não é armazenado; registros antigos apenas com metadados não podem recriar imagens ausentes.
 
 ## Guias relacionados
 
-[Criar uma folha de contato de vídeo Uma folha de contato reúne imagens de vídeo em uma visão geral PNG. Compare capas, compartilhe um resumo de cenas ou junte etapas de tutorial sem enviar o vídeo original. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-contact-sheet)
+[Criar uma folha de contato de vídeo Organize imagens do vídeo com horários em um resumo PNG ou folha PDF com paginação automática. Compare capas, compartilhe cenas ou reúna etapas de um tutorial sem enviar o vídeo original. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-contact-sheet)
+
+[Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
+
+[Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
 [Ajuda Conheça os lotes no Mac, revisão de quadros, folhas de contato, projetos salvos e diferenças entre plataformas do Dig It, além da disponibilidade da CLI.](https://digit-video.luopeike.com/pt-BR/help)
 

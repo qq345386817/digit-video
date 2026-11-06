@@ -40,11 +40,15 @@ Sur iPhone et iPad, choisissez une vidéo dans Photos ou Fichiers, examinez les 
 
 [Extraire des images vidéo par lots sur Mac Ajoutez des vidéos ou un dossier, choisissez un préréglage, puis examinez chaque résultat ou exportez des PNG/JPEG automatiquement. Le traitement reste sur votre Mac. Lire le guide →](https://digit-video.luopeike.com/fr-FR/batch-extract-video-frames-on-mac)
 
-[Créer une planche-contact à partir d'une vidéo Une planche-contact réunit des images vidéo dans un aperçu PNG. Comparez des couvertures, partagez un résumé des scènes ou rassemblez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
+[Créer une planche-contact à partir d'une vidéo Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une planche PDF à pagination automatique. Comparez des couvertures, partagez des scènes ou réunissez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
+
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+
+[Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
 ## Extraire des images par intervalle ou horodatage sur Mac
 
-Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles.
+L'échantillonnage, l'export à résolution source, le recadrage des couvertures et les planches PDF nécessitent Dig It 1.4.3 ou ultérieur. Échantillonnage et résolution source sont réservés au Mac ; couvertures et PDF sont disponibles sur Mac, iPhone et iPad.
 
 Avant d’ajouter les vidéos à l’espace Mac, choisissez images clés automatiques, intervalle fixe, horodatages précis ou répartition uniforme, avec une limite de 1 à 120 images. L’intervalle fixe s’arrête à la limite ; la répartition uniforme couvre toute la vidéo. Saisissez des secondes ou HH:MM:SS, par exemple 5, 00:12.5, 01:30. Activez Résolution source pour l’export automatique ou sélectionnez les résultats puis Exporter → Exporter à la résolution source → PNG/JPEG. Les images originales sont décodées et enregistrées une par une, sans agrandissement. La 4K exige une source 4K et la vidéo source doit rester disponible dans l’espace de travail.
 
@@ -64,7 +68,7 @@ Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisée
 
 ## Enregistrez un ensemble d'images à rééditer
 
-Enregistrer conserve les images actuelles ainsi que les horodatages et scores disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
+Utilisez Enregistrer pour conserver tous les résultats actuels et les horodatages disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
 
 ## Planches PNG : jusqu’à 40 images
 
@@ -99,6 +103,10 @@ Non. digit est un outil Mac séparé sans téléchargement public actuellement. 
 ### Why does it ask for Photos access?
 
 Dig It uses Photos access only so you can choose source media and save exported results when you ask it to.
+
+### Quels formats puis-je exporter pour les images et les aperçus ?
+
+Les images sélectionnées sont exportées en PNG séparés. Exporter la couverture recadre une image en PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Une planche PNG accepte jusqu'à 40 images ; un PDF A4 ou Letter jusqu'à 120, avec horodatages et pagination automatique. L'export automatique par lots sur Mac prend aussi en charge PNG/JPEG et des métadonnées JSON facultatives. Exporter n'enregistre pas le projet dans l'historique : utilisez Enregistrer.
 
 ## Outils de ligne de commande facultatifs pour Mac
 

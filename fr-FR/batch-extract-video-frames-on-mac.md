@@ -10,7 +10,7 @@ Ajoutez des vidéos ou un dossier, choisissez un préréglage, puis examinez cha
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-10-25
+Mis à jour: 2026-11-07
 
 ## Premiers pas
 
@@ -44,7 +44,7 @@ Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisée
 
 ## Extraire des images par intervalle ou horodatage sur Mac
 
-Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles.
+L'échantillonnage, l'export à résolution source, le recadrage des couvertures et les planches PDF nécessitent Dig It 1.4.3 ou ultérieur. Échantillonnage et résolution source sont réservés au Mac ; couvertures et PDF sont disponibles sur Mac, iPhone et iPad.
 
 Avant d’ajouter les vidéos à l’espace Mac, choisissez images clés automatiques, intervalle fixe, horodatages précis ou répartition uniforme, avec une limite de 1 à 120 images. L’intervalle fixe s’arrête à la limite ; la répartition uniforme couvre toute la vidéo. Saisissez des secondes ou HH:MM:SS, par exemple 5, 00:12.5, 01:30. Activez Résolution source pour l’export automatique ou sélectionnez les résultats puis Exporter → Exporter à la résolution source → PNG/JPEG. Les images originales sont décodées et enregistrées une par une, sans agrandissement. La 4K exige une source 4K et la vidéo source doit rester disponible dans l’espace de travail.
 
@@ -64,11 +64,15 @@ Sur iPhone et iPad, choisissez une vidéo dans Photos ou Fichiers, examinez les 
 
 ## Enregistrez un ensemble d'images à rééditer
 
-Enregistrer conserve les images actuelles ainsi que les horodatages et scores disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
+Utilisez Enregistrer pour conserver tous les résultats actuels et les horodatages disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
 
 ## Guides associés
 
-[Créer une planche-contact à partir d'une vidéo Une planche-contact réunit des images vidéo dans un aperçu PNG. Comparez des couvertures, partagez un résumé des scènes ou rassemblez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
+[Créer une planche-contact à partir d'une vidéo Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une planche PDF à pagination automatique. Comparez des couvertures, partagez des scènes ou réunissez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
+
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+
+[Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
 [Aide Découvrez les lots Mac, la révision des images, les planches-contact, les projets enregistrés et les différences entre plateformes de Dig It, ainsi que la disponibilité de la CLI.](https://digit-video.luopeike.com/fr-FR/help)
 

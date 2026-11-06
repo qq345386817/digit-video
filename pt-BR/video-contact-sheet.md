@@ -4,13 +4,13 @@ Guia de fluxo de trabalho
 
 # Criar uma folha de contato de vídeo
 
-Uma folha de contato reúne imagens de vídeo em uma visão geral PNG. Compare capas, compartilhe um resumo de cenas ou junte etapas de tutorial sem enviar o vídeo original.
+Organize imagens do vídeo com horários em um resumo PNG ou folha PDF com paginação automática. Compare capas, compartilhe cenas ou reúna etapas de um tutorial sem enviar o vídeo original.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-10-25
+Atualizado: 2026-11-07
 
 ## Primeiros passos
 
@@ -38,7 +38,7 @@ Em um vídeo de produto, compare as capas antes de exportar uma imagem. Em um tu
 
 ## Exporte capas e folhas de contato PDF para impressão
 
-As novidades exigem a versão 1.4.3 ou posterior. Se a atualização ainda não estiver na sua App Store, você pode continuar usando as opções anteriores de exportação.
+Amostragem, exportação na resolução original, recorte de capas e folhas PDF exigem Dig It 1.4.3 ou posterior. Amostragem e resolução original são exclusivas do Mac; capas e PDFs estão disponíveis no Mac, iPhone e iPad.
 
 No Mac, iPhone ou iPad, selecione um resultado e use Exportar → Exportar capa. Escolha proporção original, 16:9, 9:16, 1:1 ou 4:3, ajuste o corte e o lado máximo e salve PNG/JPEG. O JPEG pode ter limite de 2 MB; reduza as dimensões se não couber. As imagens não são ampliadas. Para uma folha PDF, escolha A4/Letter e 2–4 colunas. Até 120 quadros são ordenados cronologicamente e paginados com nome do vídeo e tempos. Sem seleção, todos os resultados restantes são usados. A folha PNG continua limitada a 40 quadros.
 
@@ -54,11 +54,15 @@ No iPhone e iPad, escolha um vídeo em Fotos ou Arquivos, revise as imagens, exp
 
 ## Salve um conjunto de quadros para editar novamente
 
-Salvar mantém as imagens atuais e os tempos e pontuações disponíveis no Histórico local. Reabra um projeto para revisar, excluir, exportar e salvar alterações no mesmo registro. O vídeo original não é armazenado; registros antigos apenas com metadados não podem recriar imagens ausentes.
+Use Salvar para manter o conjunto completo de resultados atuais e os horários disponíveis no Histórico local. Reabra um projeto para revisar, excluir, exportar e salvar alterações no mesmo registro. O vídeo original não é armazenado; registros antigos apenas com metadados não podem recriar imagens ausentes.
 
 ## Guias relacionados
 
 [Extrair quadros de vídeo em lote no Mac Adicione vídeos ou uma pasta, escolha uma predefinição e revise cada resultado ou exporte PNG/JPEG automaticamente. Todo o processamento acontece no Mac. Ler o guia →](https://digit-video.luopeike.com/pt-BR/batch-extract-video-frames-on-mac)
+
+[Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
+
+[Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
 [Ajuda Conheça os lotes no Mac, revisão de quadros, folhas de contato, projetos salvos e diferenças entre plataformas do Dig It, além da disponibilidade da CLI.](https://digit-video.luopeike.com/pt-BR/help)
 

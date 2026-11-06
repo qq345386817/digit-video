@@ -4,13 +4,13 @@ Guide de travail
 
 # Créer une planche-contact à partir d'une vidéo
 
-Une planche-contact réunit des images vidéo dans un aperçu PNG. Comparez des couvertures, partagez un résumé des scènes ou rassemblez les étapes d'un tutoriel sans envoyer la vidéo originale.
+Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une planche PDF à pagination automatique. Comparez des couvertures, partagez des scènes ou réunissez les étapes d'un tutoriel sans envoyer la vidéo originale.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-10-25
+Mis à jour: 2026-11-07
 
 ## Premiers pas
 
@@ -38,7 +38,7 @@ Pour une vidéo produit, comparez les couvertures avant d'exporter une image. Po
 
 ## Exporter des couvertures et des planches contact PDF imprimables
 
-Ces nouveautés nécessitent la version 1.4.3 ou ultérieure. Si la mise à jour n’est pas encore disponible dans votre App Store, les exports précédents restent disponibles.
+L'échantillonnage, l'export à résolution source, le recadrage des couvertures et les planches PDF nécessitent Dig It 1.4.3 ou ultérieur. Échantillonnage et résolution source sont réservés au Mac ; couvertures et PDF sont disponibles sur Mac, iPhone et iPad.
 
 Sur Mac, iPhone ou iPad, sélectionnez une image puis Exporter → Exporter une couverture. Choisissez le format original, 16:9, 9:16, 1:1 ou 4:3, ajustez le cadrage et la longueur maximale, puis enregistrez en PNG/JPEG. Le JPEG peut être limité à 2 Mo ; réduisez les dimensions si nécessaire. Les images ne sont jamais agrandies. Pour une planche PDF, choisissez A4/Letter et 2 à 4 colonnes. Jusqu’à 120 images sont classées chronologiquement et paginées avec le nom de la vidéo et les horodatages. Sans sélection, tous les résultats restants sont utilisés. La planche PNG reste limitée à 40 images.
 
@@ -54,11 +54,15 @@ Sur iPhone et iPad, choisissez une vidéo dans Photos ou Fichiers, examinez les 
 
 ## Enregistrez un ensemble d'images à rééditer
 
-Enregistrer conserve les images actuelles ainsi que les horodatages et scores disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
+Utilisez Enregistrer pour conserver tous les résultats actuels et les horodatages disponibles dans l'historique local. Rouvrez un projet pour examiner, supprimer, exporter et enregistrer les changements dans la même entrée. La vidéo source n'est pas conservée ; les anciennes entrées contenant uniquement des métadonnées ne peuvent pas recréer les images manquantes.
 
 ## Guides associés
 
 [Extraire des images vidéo par lots sur Mac Ajoutez des vidéos ou un dossier, choisissez un préréglage, puis examinez chaque résultat ou exportez des PNG/JPEG automatiquement. Le traitement reste sur votre Mac. Lire le guide →](https://digit-video.luopeike.com/fr-FR/batch-extract-video-frames-on-mac)
+
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+
+[Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
 [Aide Découvrez les lots Mac, la révision des images, les planches-contact, les projets enregistrés et les différences entre plateformes de Dig It, ainsi que la disponibilité de la CLI.](https://digit-video.luopeike.com/fr-FR/help)
 

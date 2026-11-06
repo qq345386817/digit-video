@@ -10,7 +10,7 @@ Aggiungi file video o una cartella, scegli un preset e rivedi ogni risultato o e
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-10-25
+Aggiornato: 2026-11-07
 
 ## Per iniziare
 
@@ -44,7 +44,7 @@ Video di esempio: Big Buck Bunny. © 2008 Blender Foundation. Fotogrammi dispost
 
 ## Estrai fotogrammi per intervallo o tempo su Mac
 
-Le novità richiedono la versione 1.4.3 o successiva. Se l’aggiornamento non è ancora disponibile nel tuo App Store, puoi usare le opzioni di esportazione precedenti.
+Campionamento, esportazione alla risoluzione originale, ritaglio copertine e provini PDF richiedono Dig It 1.4.3 o successivo. Campionamento e risoluzione originale sono solo per Mac; copertine e PDF sono disponibili su Mac, iPhone e iPad.
 
 Prima di aggiungere video allo spazio Mac, scegli fotogrammi chiave automatici, intervallo fisso, tempi specifici o distribuzione uniforme e un limite di 1–120 fotogrammi. L’intervallo fisso si ferma al limite; la distribuzione uniforme copre l’intero video. I tempi accettano secondi o HH:MM:SS, ad esempio 5, 00:12.5, 01:30. Attiva Risoluzione originale per l’esportazione automatica oppure seleziona i risultati e usa Esporta → Esporta a risoluzione originale → PNG/JPEG. Gli originali sono decodificati e salvati uno alla volta, senza ingrandimento. Il 4K richiede una sorgente 4K e il video deve rimanere disponibile nello spazio di lavoro.
 
@@ -64,11 +64,15 @@ Su iPhone e iPad, scegli un video da Foto o File, rivedi le immagini, esporta PN
 
 ## Salva un insieme di fotogrammi da modificare ancora
 
-Salva conserva le immagini attuali e i timestamp e punteggi disponibili nella cronologia locale. Riapri un progetto per rivedere, eliminare, esportare e salvare modifiche nella stessa voce. Il video originale non viene salvato; le vecchie voci con soli metadati non possono ricreare immagini mancanti.
+Usa Salva per conservare tutti i risultati attuali e i tempi disponibili nella cronologia locale. Riapri un progetto per rivedere, eliminare, esportare e salvare modifiche nella stessa voce. Il video originale non viene salvato; le vecchie voci con soli metadati non possono ricreare immagini mancanti.
 
 ## Guide correlate
 
-[Creare un provino a contatto da un video Un provino a contatto riunisce immagini video in un'unica panoramica PNG. Usalo per confrontare copertine, condividere un riepilogo delle scene o raccogliere i passaggi di un tutorial senza inviare il video originale. Leggi la guida →](https://digit-video.luopeike.com/it/video-contact-sheet)
+[Creare un provino a contatto da un video Disponi immagini video con i tempi in una panoramica PNG o un provino PDF con pagine automatiche. Confronta copertine, condividi scene o raccogli passaggi di un tutorial senza inviare il video originale. Leggi la guida →](https://digit-video.luopeike.com/it/video-contact-sheet)
+
+[Crea una copertina PNG o JPEG da un video Seleziona un fotogramma e usa Esporta copertina per ritagliarlo, scegliere PNG o JPEG e limitare eventualmente il JPEG a 2 MB. Prepara una miniatura per prodotti, presentazioni o post senza caricare il video online. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
+
+[Trasforma un video in immagini dei passaggi Usa la modalità Passaggi per raccogliere i cambiamenti di un tutorial o di una registrazione dello schermo. Esamina ed esporta PNG per appunti, documenti o presentazioni; crea un provino PDF con tempi per una panoramica. Leggi la guida →](https://digit-video.luopeike.com/it/turn-video-into-step-images)
 
 [Aiuto Scopri batch Mac, revisione fotogrammi, esportazione di provini a contatto, progetti salvati e differenze tra piattaforme di Dig It. Consulta la disponibilità della CLI.](https://digit-video.luopeike.com/it/help)
 

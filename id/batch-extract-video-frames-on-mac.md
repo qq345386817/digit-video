@@ -10,7 +10,7 @@ Tambahkan file video atau folder, pilih preset ekstraksi, lalu tinjau hasil atau
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-10-25
+Diperbarui: 2026-11-07
 
 ## Mulai
 
@@ -44,7 +44,7 @@ Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan D
 
 ## Ekstrak frame berdasarkan interval atau waktu di Mac
 
-Fitur baru ini memerlukan versi 1.4.3 atau lebih baru. Jika pembaruan belum tersedia di App Store Anda, opsi ekspor sebelumnya tetap bisa digunakan.
+Pengambilan sampel, ekspor resolusi sumber, pemotongan sampul, dan lembar PDF memerlukan Dig It 1.4.3 atau lebih baru. Sampel dan resolusi sumber hanya tersedia di Mac; sampul dan PDF tersedia di Mac, iPhone, dan iPad.
 
 Sebelum menambah video ke ruang kerja Mac, pilih Keyframe Otomatis, Interval Tetap, Waktu Tertentu, atau Jarak Merata dan batas 1–120 frame. Interval Tetap berhenti pada batas; Jarak Merata mencakup seluruh video. Waktu dapat berupa detik atau HH:MM:SS, misalnya 5, 00:12.5, 01:30. Aktifkan Resolusi Sumber untuk ekspor otomatis atau pilih hasil lalu Ekspor → Ekspor Resolusi Sumber → PNG/JPEG. Frame asli didekode dan disimpan satu per satu tanpa diperbesar. Output 4K memerlukan sumber 4K dan video sumber harus tetap tersedia di ruang kerja.
 
@@ -64,11 +64,15 @@ Di iPhone dan iPad, pilih satu video dari Foto atau File, tinjau gambar, ekspor 
 
 ## Simpan kumpulan frame untuk diedit kembali
 
-Simpan mempertahankan gambar hasil saat ini beserta stempel waktu dan skor yang tersedia di Riwayat lokal. Buka kembali proyek untuk meninjau, menghapus, mengekspor, dan menyimpan perubahan pada catatan yang sama. Video sumber tidak disimpan; catatan lama yang hanya berisi metadata tidak dapat membuat ulang gambar yang hilang.
+Gunakan Simpan untuk menyimpan seluruh kumpulan hasil saat ini beserta penanda waktu yang tersedia di Riwayat lokal. Buka kembali proyek untuk meninjau, menghapus, mengekspor, dan menyimpan perubahan pada catatan yang sama. Video sumber tidak disimpan; catatan lama yang hanya berisi metadata tidak dapat membuat ulang gambar yang hilang.
 
 ## Panduan terkait
 
-[Buat lembar kontak video Lembar kontak menggabungkan gambar video menjadi satu ikhtisar PNG. Gunakan untuk membandingkan sampul, berbagi ringkasan adegan, atau menyatukan langkah tutorial tanpa mengirim video asli. Baca panduan →](https://digit-video.luopeike.com/id/video-contact-sheet)
+[Buat lembar kontak video Susun gambar video dengan penanda waktu dalam ringkasan PNG atau lembar kontak PDF berhalaman otomatis. Bandingkan sampul, bagikan ringkasan adegan, atau kumpulkan langkah tutorial tanpa mengirim video asli. Baca panduan →](https://digit-video.luopeike.com/id/video-contact-sheet)
+
+[Buat sampul PNG atau JPEG dari video Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
+
+[Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
 [Bantuan Pelajari batch Mac, tinjauan frame, ekspor lembar kontak, proyek tersimpan, dan perbedaan platform Dig It. Lihat ketersediaan CLI serta contoh perintah.](https://digit-video.luopeike.com/id/help)
 

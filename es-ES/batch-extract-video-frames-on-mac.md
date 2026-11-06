@@ -10,7 +10,7 @@ Añade archivos o una carpeta, elige un ajuste de extracción y revisa cada resu
 
 [Ayuda](https://digit-video.luopeike.com/es-ES/help)
 
-Actualizado: 2026-10-25
+Actualizado: 2026-11-07
 
 ## Primeros pasos
 
@@ -44,7 +44,7 @@ Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organiz
 
 ## Extrae fotogramas por intervalo o tiempo en Mac
 
-Estas novedades requieren la versión 1.4.3 o posterior. Si aún no está disponible en tu App Store, puedes seguir usando las opciones de exportación anteriores.
+El muestreo, la exportación a resolución original, el recorte de portadas y las hojas PDF requieren Dig It 1.4.3 o posterior. El muestreo y la resolución original son exclusivos de Mac; las portadas y los PDF están disponibles en Mac, iPhone y iPad.
 
 Antes de añadir vídeos al espacio de Mac, elige fotogramas clave automáticos, intervalo fijo, tiempos específicos o distribución uniforme, con un límite de 1–120 fotogramas. El intervalo fijo se detiene en el límite; la distribución uniforme cubre todo el vídeo. Los tiempos aceptan segundos o HH:MM:SS, por ejemplo 5, 00:12.5, 01:30. Activa Resolución original para la exportación automática o selecciona resultados y usa Exportar → Exportar a resolución original → PNG/JPEG. Los originales se decodifican y guardan uno a uno, sin ampliarlos. La salida 4K requiere una fuente 4K y el vídeo original debe seguir disponible en el espacio de trabajo.
 
@@ -64,11 +64,15 @@ En iPhone y iPad, selecciona un vídeo de Fotos o Archivos, revisa las imágenes
 
 ## Guarda un conjunto que puedas seguir editando
 
-Guardar conserva las imágenes actuales, sus marcas de tiempo y puntuaciones disponibles en el historial local. Reabre un proyecto para revisar, eliminar, exportar y guardar cambios en el mismo registro. No se guarda el vídeo original; los registros antiguos que solo contienen metadatos no pueden reconstruir imágenes ausentes.
+Pulsa Guardar para conservar el conjunto completo de resultados y sus marcas de tiempo disponibles en el historial local. Reabre un proyecto para revisar, eliminar, exportar y guardar cambios en el mismo registro. No se guarda el vídeo original; los registros antiguos que solo contienen metadatos no pueden reconstruir imágenes ausentes.
 
 ## Guías relacionadas
 
-[Crear una hoja de contacto de vídeo Una hoja de contacto combina imágenes del vídeo en un único PNG. Sirve para comparar portadas, compartir un resumen de escenas o reunir pasos de un tutorial sin enviar el vídeo original. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-contact-sheet)
+[Crear una hoja de contacto de vídeo Organiza imágenes del vídeo con marcas de tiempo en un resumen PNG o una hoja PDF con paginación automática. Compara portadas, comparte escenas o reúne pasos de un tutorial sin enviar el vídeo original. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-contact-sheet)
+
+[Crea una portada PNG o JPEG desde un vídeo Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
+
+[Convierte un vídeo en imágenes de pasos Usa el modo Pasos para recoger cambios de un tutorial o una grabación de pantalla. Revisa y exporta imágenes PNG para notas, documentos o presentaciones; crea una hoja de contacto PDF con marcas de tiempo para ver el conjunto. Leer la guía →](https://digit-video.luopeike.com/es-ES/turn-video-into-step-images)
 
 [Ayuda Aprende a procesar lotes en Mac, revisar fotogramas, exportar hojas de contacto y editar proyectos guardados con Dig It. Consulta la disponibilidad de la CLI.](https://digit-video.luopeike.com/es-ES/help)
 

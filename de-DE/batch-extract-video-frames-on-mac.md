@@ -10,7 +10,7 @@ Füge Videodateien oder einen Ordner hinzu, wähle eine Extraktionsvorlage und p
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-10-25
+Aktualisiert: 2026-11-07
 
 ## Erste Schritte
 
@@ -44,7 +44,7 @@ Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It ang
 
 ## Video-Frames auf dem Mac nach Intervall oder Zeitpunkt extrahieren
 
-Diese neuen Funktionen benötigen Version 1.4.3 oder neuer. Falls das Update noch nicht im App Store verfügbar ist, kannst du die bisherigen Exportoptionen weiter nutzen.
+Sampling, Export in Quellauflösung, Cover-Zuschnitt und PDF-Kontaktabzüge benötigen Dig It 1.4.3 oder neuer. Sampling und Quellauflösung sind Mac-exklusiv; Cover und PDFs gibt es auf Mac, iPhone und iPad.
 
 Wähle vor dem Hinzufügen von Videos im Mac-Arbeitsbereich automatische Keyframes, festes Intervall, bestimmte Zeitpunkte oder gleichmäßige Verteilung und ein Limit von 1–120 Frames. Festes Intervall stoppt am Limit; gleichmäßige Verteilung deckt die ganze Zeitleiste ab. Zeitpunkte akzeptieren Sekunden oder HH:MM:SS, z. B. 5, 00:12.5, 01:30. Aktiviere Quellauflösung für automatische Exporte oder wähle Ergebnisse und Exportieren → In Quellauflösung exportieren → PNG/JPEG. Originalframes werden einzeln dekodiert und gespeichert, ohne Hochskalierung. 4K-Ausgabe benötigt eine 4K-Quelle; das Quellvideo muss im Arbeitsbereich verfügbar bleiben.
 
@@ -64,11 +64,15 @@ Wähle auf iPhone und iPad ein Video aus Fotos oder Dateien, prüfe Bilder, expo
 
 ## Ein Bildset zum späteren Bearbeiten speichern
 
-Speichern erhält aktuelle Ergebnisbilder und verfügbare Zeitstempel und Bewertungen im lokalen Verlauf. Öffne ein Projekt erneut, um Bilder zu prüfen, zu löschen, zu exportieren und Änderungen im selben Eintrag zu speichern. Das Quellvideo wird nicht gespeichert; alte reine Metadateneinträge können fehlende Bilder nicht wiederherstellen.
+Verwende Speichern, um das vollständige aktuelle Ergebnis und verfügbare Zeitstempel im lokalen Verlauf zu behalten. Öffne ein Projekt erneut, um Bilder zu prüfen, zu löschen, zu exportieren und Änderungen im selben Eintrag zu speichern. Das Quellvideo wird nicht gespeichert; alte reine Metadateneinträge können fehlende Bilder nicht wiederherstellen.
 
 ## Verwandte Anleitungen
 
-[Einen Kontaktbogen aus einem Video erstellen Ein Kontaktbogen vereint Videobilder in einer PNG-Übersicht. Vergleiche Titelbilder, teile Szenenzusammenfassungen oder sammle Tutorial-Schritte, ohne das Originalvideo zu versenden. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-contact-sheet)
+[Einen Kontaktbogen aus einem Video erstellen Ordne Videobilder mit Zeitangaben als PNG-Übersicht oder PDF-Kontaktabzug mit automatischen Seitenumbrüchen an. Vergleiche Cover, teile Szenen oder sammle Anleitungsschritte, ohne das Originalvideo zu versenden. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-contact-sheet)
+
+[Ein PNG- oder JPEG-Cover aus einem Video erstellen Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
+
+[Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
 [Hilfe Erfahre mehr über Mac-Stapelverarbeitung, Frame-Prüfung, Kontaktbögen, gespeicherte Projekte und Plattformunterschiede in Dig It sowie die CLI-Verfügbarkeit.](https://digit-video.luopeike.com/de-DE/help)
 
