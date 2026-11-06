@@ -2,7 +2,7 @@
   "en": {
     "eyebrow": "VIDEO TO IMAGES · ON YOUR DEVICE",
     "title": ["Your video.", "The frames worth keeping."],
-    "intro": "Find the stills that tell the story. Extract video frames, pick a cover and turn a clip into useful images, without uploading it.",
+    "intro": "Turn a moment into a photo, a cover or a tutorial step. Review the extracted frames together, choose what to keep and export images for your next project, without uploading the video.",
     "download": "Download on the App Store", "secondary": "Explore the workflow", "note": "Mac, iPhone and iPad. Local video processing.",
     "stepsTitle": "From a clip to something useful.", "stepsIntro": "Less scrubbing. More creating.",
     "steps": [["Bring your video", "Choose a clip on any device, or queue files and folders on Mac."], ["Find your moments", "Extract a focused set of frames. Review, select and fine-tune on Mac."], ["Make them yours", "Export stills, crop a cover or share a contact sheet. Save a result to revisit it."]],
@@ -13,29 +13,29 @@
   "zh-Hans": {
     "eyebrow": "视频转图片 · 全程本地处理",
     "title": ["你的视频，", "值得留下的每一帧。"],
-    "intro": "找到能讲好故事的画面。提取视频关键帧、挑选封面，把一段视频变成实用图片，无需上传素材。",
+    "intro": "把视频里的一个瞬间，变成照片、封面或教程步骤图。集中查看关键帧，先筛选，再导出，用到笔记、商品展示或演示文稿中，无需上传视频。",
     "download": "在 App Store 下载", "secondary": "了解使用流程", "note": "适用于 Mac、iPhone 和 iPad。视频在本机处理。",
     "stepsTitle": "从一段视频，到一组好图片。", "stepsIntro": "少一点拖动进度，多一点专注创作。",
-    "steps": [["导入视频", "在各设备上选择单个视频，或在 Mac 上添加多个文件和文件夹。"], ["找到精彩瞬间", "提取一组有代表性的画面，查看并选择，还可在 Mac 上细调具体帧。"], ["用到你的作品中", "导出图片、裁切封面或分享联系表，也可保存结果以便再次编辑。"]],
-    "showcaseTitle": "一段视频，换个角度看全貌。", "showcaseBody": "把画面放进一张联系表，比较不同瞬间、挑选封面，或分享视频概览，无需发送原始视频。",
+    "steps": [["导入视频", "在各设备上选择单个视频，或在 Mac 上添加多个文件和文件夹。"], ["找到精彩瞬间", "提取一组有代表性的画面，查看并选择，还可在 Mac 上细调具体帧。"], ["用到你的作品中", "导出所选 PNG 图片、裁切封面或制作 PDF 缩略图索引页，也可保存完整结果以便再次编辑。"]],
+    "showcaseTitle": "一段视频，换个角度看全貌。", "showcaseBody": "把画面整理成缩略图索引图，比较不同瞬间、挑选封面，或分享视频概览，无需发送原始视频。",
     "platformKicker": "贴合你的工作方式", "guideKicker": "轻松开始", "detailsLabel": "采样与导出详细说明", "faqTitle": "你可能想知道。",
     "ctaTitle": "下一张好图片，已经在你的视频里。", "ctaBody": "下载 Dig It: Video Keyframes，让视频素材发挥更多价值。", "skip": "跳转到正文"
   },
   "zh-Hant": {
     "eyebrow": "影片轉圖片 · 全程本機處理",
     "title": ["你的影片，", "值得留下的每一格。"],
-    "intro": "找到能說好故事的畫面。擷取影片關鍵影格、挑選封面，把一段影片變成實用圖片，無須上傳素材。",
+    "intro": "把影片裡的一個瞬間，變成照片、封面或教學步驟圖。集中檢視影格，先篩選，再匯出，用於筆記、商品展示或簡報，無須上傳影片。",
     "download": "在 App Store 下載", "secondary": "了解使用流程", "note": "適用於 Mac、iPhone 和 iPad。影片在本機處理。",
     "stepsTitle": "從一段影片，到一組好圖片。", "stepsIntro": "少一點拖動進度，多一點專注創作。",
-    "steps": [["匯入影片", "在各裝置上選擇單一影片，或在 Mac 上加入多個檔案和資料夾。"], ["找到精彩瞬間", "擷取一組有代表性的畫面，檢視並選取，還可在 Mac 上微調影格。"], ["用到你的作品中", "匯出圖片、裁切封面或分享聯絡表，也可儲存結果以便再次編輯。"]],
-    "showcaseTitle": "一段影片，換個角度看全貌。", "showcaseBody": "把畫面放進一張聯絡表，比較不同瞬間、挑選封面，或分享影片概覽，無須傳送原始影片。",
+    "steps": [["匯入影片", "在各裝置上選擇單一影片，或在 Mac 上加入多個檔案和資料夾。"], ["找到精彩瞬間", "擷取一組有代表性的畫面，檢視並選取，還可在 Mac 上微調影格。"], ["用到你的作品中", "匯出所選 PNG 圖片、裁切封面或製作 PDF 縮圖總覽，也可儲存完整結果以便再次編輯。"]],
+    "showcaseTitle": "一段影片，換個角度看全貌。", "showcaseBody": "把畫面整理成縮圖總覽圖，比較不同瞬間、挑選封面，或分享影片概覽，無須傳送原始影片。",
     "platformKicker": "貼合你的工作方式", "guideKicker": "輕鬆開始", "detailsLabel": "取樣與匯出詳細說明", "faqTitle": "你可能想知道。",
     "ctaTitle": "下一張好圖片，已經在你的影片裡。", "ctaBody": "下載 Dig It: Video Keyframes，讓影片素材發揮更多價值。", "skip": "跳至正文"
   },
   "es-ES": {
     "eyebrow": "DE VÍDEO A IMÁGENES · EN TU DISPOSITIVO",
     "title": ["Tu vídeo.", "Los fotogramas que merecen quedarse."],
-    "intro": "Encuentra las imágenes que cuentan la historia. Extrae fotogramas, elige una portada y aprovecha tus vídeos sin subirlos a ningún servidor.",
+    "intro": "Convierte un momento en una foto, una portada o un paso de tutorial. Revisa los fotogramas juntos, elige qué conservar y exporta imágenes para tus proyectos sin subir el vídeo.",
     "download": "Descargar en el App Store", "secondary": "Descubre cómo funciona", "note": "Mac, iPhone y iPad. Procesamiento local del vídeo.",
     "stepsTitle": "De un clip a imágenes útiles.", "stepsIntro": "Menos buscar. Más crear.",
     "steps": [["Importa tu vídeo", "Elige un clip en cualquier dispositivo o añade archivos y carpetas en Mac."], ["Encuentra tus momentos", "Extrae un conjunto de fotogramas, revísalos y selecciónalos. Afina la selección en Mac."], ["Dales un nuevo uso", "Exporta imágenes, recorta una portada o comparte una hoja de contacto. Guarda el resultado para retomarlo."]],
@@ -46,7 +46,7 @@
   "id": {
     "eyebrow": "VIDEO JADI GAMBAR · DI PERANGKAT ANDA",
     "title": ["Video Anda.", "Frame yang layak disimpan."],
-    "intro": "Temukan gambar yang bercerita. Ekstrak frame video, pilih sampul, dan ubah klip menjadi gambar berguna tanpa mengunggahnya.",
+    "intro": "Ubah momen menjadi foto, sampul, atau gambar langkah tutorial. Tinjau frame bersama, pilih yang ingin disimpan, lalu ekspor untuk proyek Anda tanpa mengunggah video.",
     "download": "Unduh di App Store", "secondary": "Lihat alur kerja", "note": "Mac, iPhone, dan iPad. Pemrosesan video secara lokal.",
     "stepsTitle": "Dari klip menjadi gambar berguna.", "stepsIntro": "Kurangi mencari. Perbanyak berkarya.",
     "steps": [["Masukkan video", "Pilih satu klip di perangkat Anda, atau antrekan file dan folder di Mac."], ["Temukan momen Anda", "Ekstrak kumpulan frame, tinjau, dan pilih. Sempurnakan pilihan di Mac."], ["Gunakan hasilnya", "Ekspor gambar, potong sampul, atau bagikan lembar kontak. Simpan hasil untuk dibuka lagi."]],
@@ -57,7 +57,7 @@
   "it": {
     "eyebrow": "DA VIDEO A IMMAGINI · SUL TUO DISPOSITIVO",
     "title": ["Il tuo video.", "I fotogrammi da tenere."],
-    "intro": "Trova le immagini che raccontano la storia. Estrai fotogrammi, scegli una copertina e trasforma un video in immagini utili, senza caricarlo online.",
+    "intro": "Trasforma un momento in una foto, una copertina o un passaggio illustrato. Esamina i fotogrammi insieme, scegli cosa tenere ed esporta immagini per i tuoi progetti senza caricare il video online.",
     "download": "Scarica su App Store", "secondary": "Scopri come funziona", "note": "Mac, iPhone e iPad. Elaborazione video locale.",
     "stepsTitle": "Da un video a qualcosa di utile.", "stepsIntro": "Meno ricerche. Più creatività.",
     "steps": [["Importa il video", "Scegli un video su qualsiasi dispositivo o aggiungi file e cartelle in coda sul Mac."], ["Trova i tuoi momenti", "Estrai una selezione di fotogrammi, esaminali e scegli i migliori. Perfeziona la scelta sul Mac."], ["Usali come vuoi", "Esporta immagini, ritaglia una copertina o condividi un provino. Salva il risultato per riprenderlo."]],
@@ -68,7 +68,7 @@
   "ar-SA": {
     "eyebrow": "من الفيديو إلى الصور · على جهازك",
     "title": ["الفيديو لك.", "واللقطات تستحق الاحتفاظ بها."],
-    "intro": "اعثر على الصور التي تحكي القصة. استخرج إطارات الفيديو واختر غلافًا وحوّل المقطع إلى صور مفيدة، دون رفعه إلى الإنترنت.",
+    "intro": "حوّل لحظة إلى صورة أو غلاف أو خطوة شرح مصورة. راجع الإطارات معًا واختر ما تريد الاحتفاظ به، ثم صدّر صورًا لمشاريعك دون رفع الفيديو إلى الإنترنت.",
     "download": "تنزيل من App Store", "secondary": "اكتشف طريقة العمل", "note": "لأجهزة Mac وiPhone وiPad. معالجة الفيديو محليًا.",
     "stepsTitle": "من مقطع فيديو إلى صور مفيدة.", "stepsIntro": "بحث أقل. إبداع أكثر.",
     "steps": [["أضف الفيديو", "اختر مقطعًا على جهازك، أو أضف ملفات ومجلدات إلى قائمة المعالجة على Mac."], ["اعثر على لحظاتك", "استخرج مجموعة مختارة من الإطارات وراجعها وحدد ما تريد. دقّق الاختيار على Mac."], ["استخدم النتائج", "صدّر الصور أو اقتصص غلافًا أو شارك ورقة صور مصغرة. احفظ النتيجة للعودة إليها."]],
@@ -79,7 +79,7 @@
   "ja": {
     "eyebrow": "動画から画像へ · デバイス内で処理",
     "title": ["あなたの動画から、", "残したくなる一枚を。"],
-    "intro": "伝えたい場面を、静止画に。動画のフレーム抽出、カバー選び、画像の活用まで。動画のアップロードは不要です。",
+    "intro": "動画の一場面を、写真やカバー、手順画像に。抽出した画像をまとめて確認し、必要な一枚を選んで次の作品に活用しましょう。動画のアップロードは不要です。",
     "download": "App Store からダウンロード", "secondary": "使い方を見る", "note": "Mac、iPhone、iPad に対応。動画はデバイス内で処理。",
     "stepsTitle": "一本の動画から、使える画像へ。", "stepsIntro": "探す時間を減らして、作る時間を。",
     "steps": [["動画を読み込む", "各デバイスで動画を選択。Mac なら複数のファイルやフォルダをキューに追加できます。"], ["場面を選ぶ", "代表的なフレームを抽出し、確認・選択。Mac では前後のフレームも細かく調整できます。"], ["作品に活かす", "静止画の書き出し、カバーの切り抜き、一覧画像の共有。結果を保存して後から見直せます。"]],
@@ -90,7 +90,7 @@
   "ko": {
     "eyebrow": "동영상에서 이미지로 · 기기 안에서 처리",
     "title": ["당신의 동영상에서,", "간직할 만한 장면을."],
-    "intro": "이야기를 담은 장면을 찾아보세요. 프레임을 추출하고 표지를 고르고, 동영상을 업로드하지 않고도 유용한 이미지로 바꿀 수 있습니다.",
+    "intro": "동영상의 한순간을 사진, 표지 또는 튜토리얼 단계 이미지로 만드세요. 추출한 프레임을 함께 살펴보고 필요한 장면을 골라 내보내세요. 동영상을 업로드할 필요가 없습니다.",
     "download": "App Store에서 다운로드", "secondary": "사용 흐름 살펴보기", "note": "Mac, iPhone, iPad 지원. 동영상은 기기에서 처리합니다.",
     "stepsTitle": "동영상 한 편에서 유용한 이미지로.", "stepsIntro": "찾는 시간은 줄이고, 만드는 시간은 늘리세요.",
     "steps": [["동영상 가져오기", "기기에서 동영상 하나를 선택하거나 Mac에서 파일과 폴더를 대기열에 추가하세요."], ["장면 고르기", "대표 프레임을 추출하고 확인한 뒤 선택하세요. Mac에서는 앞뒤 프레임도 세밀하게 조정할 수 있습니다."], ["작업에 활용하기", "이미지를 내보내고 표지를 자르거나 이미지 모음을 공유하세요. 결과를 저장하면 다시 열 수 있습니다."]],
@@ -101,7 +101,7 @@
   "de-DE": {
     "eyebrow": "VOM VIDEO ZUM BILD · AUF DEINEM GERÄT",
     "title": ["Dein Video.", "Die Bilder, die bleiben."],
-    "intro": "Finde die Bilder, die deine Geschichte erzählen. Extrahiere Einzelbilder, wähle ein Cover und mache mehr aus deinen Videos, ganz ohne Upload.",
+    "intro": "Mach aus einem Moment ein Foto, ein Cover oder einen Anleitungsschritt. Prüfe die extrahierten Bilder gemeinsam, wähle passende Aufnahmen und exportiere sie für dein nächstes Projekt, ohne Video-Upload.",
     "download": "Im App Store laden", "secondary": "So funktioniert es", "note": "Mac, iPhone und iPad. Lokale Videoverarbeitung.",
     "stepsTitle": "Vom Clip zu brauchbaren Bildern.", "stepsIntro": "Weniger suchen. Mehr gestalten.",
     "steps": [["Video hinzufügen", "Wähle einen Clip auf deinem Gerät oder reihe Dateien und Ordner auf dem Mac ein."], ["Momente finden", "Extrahiere eine gezielte Auswahl, prüfe und wähle deine Bilder. Auf dem Mac geht es bildgenau."], ["Bilder nutzen", "Exportiere Bilder, schneide ein Cover zu oder teile einen Kontaktabzug. Speichere das Ergebnis für später."]],
@@ -112,7 +112,7 @@
   "fr-FR": {
     "eyebrow": "DE LA VIDÉO À L’IMAGE · SUR VOTRE APPAREIL",
     "title": ["Votre vidéo.", "Les images à garder."],
-    "intro": "Trouvez les images qui racontent l’histoire. Extrayez des images, choisissez une couverture et exploitez vos vidéos, sans les envoyer en ligne.",
+    "intro": "Transformez un instant en photo, couverture ou étape illustrée. Examinez les images ensemble, choisissez celles à garder et exportez-les pour vos projets, sans envoyer la vidéo en ligne.",
     "download": "Télécharger sur l’App Store", "secondary": "Découvrir le fonctionnement", "note": "Mac, iPhone et iPad. Traitement vidéo en local.",
     "stepsTitle": "D’un clip à des images utiles.", "stepsIntro": "Moins de recherche. Plus de création.",
     "steps": [["Importez votre vidéo", "Choisissez un clip sur votre appareil ou ajoutez des fichiers et dossiers à la file sur Mac."], ["Trouvez vos moments", "Extrayez une sélection d’images, examinez-les et choisissez. Affinez la sélection sur Mac."], ["Donnez-leur vie", "Exportez les images, recadrez une couverture ou partagez une planche-contact. Enregistrez le résultat pour y revenir."]],
@@ -123,7 +123,7 @@
   "pt-BR": {
     "eyebrow": "DE VÍDEO A IMAGENS · NO SEU DISPOSITIVO",
     "title": ["Seu vídeo.", "Os quadros que vale guardar."],
-    "intro": "Encontre as imagens que contam a história. Extraia quadros, escolha uma capa e transforme um vídeo em imagens úteis, sem enviá-lo à internet.",
+    "intro": "Transforme um momento em foto, capa ou etapa ilustrada. Revise os quadros juntos, escolha o que guardar e exporte imagens para seus projetos, sem enviar o vídeo à internet.",
     "download": "Baixar na App Store", "secondary": "Conheça o fluxo de trabalho", "note": "Mac, iPhone e iPad. Processamento local de vídeo.",
     "stepsTitle": "De um clipe a imagens úteis.", "stepsIntro": "Menos procura. Mais criação.",
     "steps": [["Importe seu vídeo", "Escolha um clipe no seu dispositivo ou adicione arquivos e pastas à fila no Mac."], ["Encontre seus momentos", "Extraia uma seleção de quadros, revise e escolha. Ajuste a seleção com precisão no Mac."], ["Aproveite as imagens", "Exporte imagens, recorte uma capa ou compartilhe uma folha de contato. Salve o resultado para retomar depois."]],

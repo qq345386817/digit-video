@@ -31,6 +31,8 @@ LOCALES = {
 }
 BATCH = "batch-extract-video-frames-on-mac"
 CONTACT = "video-contact-sheet"
+COVER = "video-cover-image-from-video"
+STEPS = "turn-video-into-step-images"
 START = "<!-- digit-workflows:start -->"
 END = "<!-- digit-workflows:end -->"
 MAIN_RE = re.compile(r"<main(?:\s[^>]*)?>(.*?)</main>", re.S)
@@ -93,6 +95,8 @@ def guide_cards(locale, content, exclude=None):
     for path, title, intro in (
         (BATCH, "batchTitle", "batchIntro"),
         (CONTACT, "contactTitle", "contactIntro"),
+        (COVER, "coverTitle", "coverIntro"),
+        (STEPS, "stepsGuideTitle", "stepsGuideIntro"),
     ):
         if path == exclude:
             continue
@@ -174,6 +178,8 @@ def home_main(locale, content, copy):
         '<section class="landing-section" id="workflow"><div class="section-heading">'
         f'<h2>{escape(copy["stepsTitle"])}</h2>{paragraph(copy["stepsIntro"])}</div>'
         f'<ol class="step-grid">{steps}</ol></section>'
+        '<section class="landing-section" id="use-cases"><div class="section-heading">'
+        f'<h2>{escape(content["useTitle"])}</h2>{paragraph(content["useBody"])}</div></section>'
         '<section class="landing-section" id="mac-workflow"><div class="section-heading">'
         f'<p class="kicker">{escape(copy["platformKicker"])}</p>'
         f'<h2>{escape(content["workflowTitle"])}</h2>{paragraph(content["workflowIntro"])}</div>'
@@ -245,7 +251,7 @@ def faq(content, title):
         title,
         '<div class="faq-list">' + "".join(
             f'<details><summary>{escape(question)}</summary>{paragraph(answer)}</details>'
-            for question, answer in content["faq"]
+            for question, answer in content["faq"] + [[content['exportQuestion'], content['exportAnswer']]]
         ) + '</div>',
         "faq",
     )
@@ -426,6 +432,35 @@ def guide_page(locale, content, kind, template, date):
     return locale_navigation(html, locale, kind)
 
 
+def still_guide(locale, content, kind, original, date):
+    """Refresh existing cover/steps URLs without discarding their localized advice."""
+    prefix = 'cover' if kind == COVER else 'stepsGuide'
+    title, intro = content[prefix + 'Title'], content[prefix + 'Intro']
+    html = BLOCK_RE.sub('', original)
+    html = re.sub(r'<p class="article-meta">.*?</p>', lambda _: '<p class="article-meta">'
+                  + escape(content['guideLabel']) + '</p>', html, count=1, flags=re.S)
+    html = re.sub(r'<h1>.*?</h1>', lambda _: '<h1>' + escape(title) + '</h1>', html, count=1, flags=re.S)
+    html = re.sub(r'<p class="lead">.*?</p>', lambda _: '<p class="lead">' + escape(intro) + '</p>', html, count=1, flags=re.S)
+    article = re.search(r'<section class="section article-body">(.*?)</section>', html, re.S)
+    if article is None:
+        raise ValueError(f'Missing original guide body: {locale}/{kind}')
+    # The earlier cover guide only mentioned PNG; explain the current cover action.
+    body, replacements = re.subn(r'<p>[^<]*</p>\s*$', lambda _: paragraph(intro), article[1])
+    if replacements != 1:
+        raise ValueError(f'Unexpected final guide paragraph: {locale}/{kind}')
+    html = html[:article.start(1)] + body + html[article.end(1):]
+    related = (
+        START + section(content['useTitle'], paragraph(content['useBody']), 'practical-uses')
+        + section(content['deliveryTitle'], paragraph(content['deliveryBody']), 'frame-delivery')
+        + section(content['exportQuestion'], paragraph(content['exportAnswer']), 'export-formats')
+        + section(content['related'], guide_cards(locale, content, exclude=kind), 'related-workflows') + END
+    )
+    html = html.replace('</main>', related + '</main>')
+    html = metadata(html, title + ' | Dig It', intro)
+    html = update_schema(html, content, title + ' | Dig It', intro, date)
+    return locale_navigation(machine_links(html, locale, kind), locale, kind)
+
+
 class Markdown(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -511,9 +546,14 @@ def build(date):
             OUTPUTS[local_path(locale, kind, '.md')] = Markdown().render(html, url(locale, kind))
         OUTPUTS[local_path(locale, 'help', '.md')] = Markdown().render(help_html, url(locale, 'help'))
 
-        for name in ('extract-keyframes-from-video', 'video-cover-image-from-video', 'turn-video-into-step-images'):
+        for name in ('extract-keyframes-from-video', COVER, STEPS):
             path = local_path(locale, name)
             html = path.read_text(encoding='utf-8')
+            if name in (COVER, STEPS):
+                html = still_guide(locale, copy, name, html, date)
+                OUTPUTS[path] = html
+                OUTPUTS[local_path(locale, name, '.md')] = Markdown().render(html, url(locale, name))
+                continue
             related = START + section(copy['related'], guide_cards(locale, copy), 'related-workflows') + END
             html = BLOCK_RE.sub('', html).replace('</main>', related + '</main>')
             OUTPUTS[path] = machine_links(update_schema(html, copy, date=date), locale)
@@ -532,16 +572,22 @@ def build(date):
     llms = [
         '# Dig It: Video Keyframes',
         '> Official documentation for Dig It (DigIt), a local video-to-stills app for macOS, iPhone and iPad.',
-        '', content['en']['faq'][2][1], content['en']['faq'][0][1],
-        content['en']['macBody'], content['en']['iosBody'],
-        content['en']['contactLimit'], content['en']['saveBody'],
-        content['en']['faq'][4][1], content['en']['cliStatus'],
-        content['en']['availability'], content['en']['samplingBody'], content['en']['deliveryBody'],
+        '', '## Product and practical uses', content['en']['workflowIntro'], content['en']['useBody'],
+        '', '## Platform support', '### Mac', content['en']['macBody'], content['en']['samplingBody'],
+        '### iPhone and iPad', content['en']['iosBody'],
+        '', '## Image formats and overview limits', content['en']['exportAnswer'],
+        '', '## Source resolution', content['en']['faq'][4][1],
+        '', '## Saved projects', content['en']['saveBody'],
+        '', '## Local video processing', content['en']['faq'][0][1],
+        '', '## Pricing and version requirements', content['en']['faq'][2][1], content['en']['availability'],
+        '', '## Separate CLI and automation', content['en']['cliStatus'],
         'MCP integration is not provided.',
         '', '## Official documentation',
         f'- [Help and product facts]({BASE}/help.md): Platform differences, local processing, saved projects, limits and CLI availability.',
         f'- [Batch extract video frames on Mac]({BASE}/{BATCH}.md): Queue files or folders, choose presets, review and export.',
         f'- [Create a video contact sheet]({BASE}/{CONTACT}.md): PNG overviews (up to 40 frames) and printable paginated PDF sheets (up to 120 frames).',
+        f'- [Crop a PNG/JPEG cover from video]({BASE}/{COVER}.md): Pick one still, adjust the crop and optionally limit JPEG size.',
+        f'- [Turn video into tutorial step images]({BASE}/{STEPS}.md): Review extracted moments and export PNGs for notes or presentations.',
         f'- [App Store download]({STORE}): Official pricing and device compatibility.',
         f'- [Support]({BASE}/support): Contact the developer, including questions about the separate CLI.',
         f'- [Privacy policy]({BASE}/privacy-policy): The published privacy policy.',

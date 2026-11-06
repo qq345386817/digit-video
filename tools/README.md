@@ -9,9 +9,14 @@ python3 tools/build_site_design.py --check
 python3 tools/build_workflow_pages.py --date YYYY-MM-DD --check
 python3 tools/check_seo.py
 python3 -m unittest discover -s tools -p 'test_site_design.py' -v
+python3 -m unittest discover -s tools -p 'test_product_content.py' -v
 ```
 
 Use the actual content-update date. Existing guide publication dates are preserved. The generator renders the homepage and retains existing guide text; regenerated sections should be edited in the JSON source. It fingerprints both stylesheets, keeps localized navigation and adds a keyboard skip link. `design-system/README.md` documents the brand; `style/tokens.css` is generated, not edited by hand.
+
+Product descriptions follow the App's actual platform boundaries, not a copy of the hidden App Store keywords. Selected stills export as PNG; single cover crops support PNG/JPEG; Mac batch automatic export supports PNG/JPEG and optional JSON. The 40-frame PNG overview and 120-frame paginated PDF limits describe individual exports. Use approachable Chinese product names such as “PDF 缩略图索引页” / “PDF 縮圖總覽”, but keep literal App menu labels “PDF 联系表” / “PDF 聯絡表” in instructions. Keep the English `contact sheet` and Japanese `コンタクトシート` terminology.
+
+The existing cover and tutorial-step URLs are maintained alongside batch/contact-sheet guides. Their introductions, export details, metadata and Markdown companions share `workflow-content.json`; local advice is retained. `llms.txt` groups the same public facts under explicit headings. Keep CLI distribution limitations visible, do not present sampling as an iOS feature, and do not imply that source-resolution export upscales video. Version requirements are minimum versions, not a claim that a pending App Store update has been published.
 
 For a browser preview with production-style extensionless links, run `python3 tools/serve_preview.py` and open `http://127.0.0.1:8765`. The editable design draft is `design/canvas.json`; its embedded token snapshot should be refreshed whenever the design system changes. Design tools inject the draft's `support.js` runtime; it is not a public website entry point. Keep browser screenshots and run reports outside this repository.
 
