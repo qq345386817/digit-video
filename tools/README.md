@@ -25,3 +25,18 @@ The CLI is a separate tool with no public distribution at present. Update its av
 Workflow images show the real Mac app with sample data. Video frames are from Big Buck Bunny, © 2008 Blender Foundation, licensed under CC BY 3.0; retain the adjacent attribution when reusing them.
 
 The Markdown companions are directly readable by agents and marked `noindex` in `_headers` so the corresponding HTML remains the search entry point. `llms.txt` provides a documentation index, not a promise of search ranking or AI recommendations.
+
+## Search Engine Notifications
+
+`submit_indexnow.py` notifies participating search engines (including Bing) about published HTML updates. The root `<key>.txt` file is a publicly served IndexNow ownership proof, not an account/API secret. Keep it in the deployment. No Google/Bing account credentials or GitHub token are needed, and no new deployment Action is installed.
+
+```sh
+python3 tools/submit_indexnow.py                        # Offline dry run
+python3 tools/submit_indexnow.py --since HEAD~1         # Changed canonical HTML only
+python3 tools/submit_indexnow.py --url https://digit-video.luopeike.com/ --submit
+# Initial setup only: notify all current sitemap URLs after deploying the key.
+python3 tools/submit_indexnow.py --submit --receipt ../build/seo/indexnow-receipt.json
+python3 -m unittest discover -s tools -p 'test_indexnow.py' -v
+```
+
+For subsequent releases, deploy first, then use `--since <previous-published-commit> --submit` or repeat `--url` for the pages actually changed. This tool covers current canonical pages, not deleted URLs. It verifies the live key before notifying, rejects foreign URLs/aliases/Markdown, does not retry ambiguous submissions, and distinguishes HTTP 200 receipt from HTTP 202 key-validation-pending. Neither response proves indexing; check Bing's dashboard later. IndexNow does not replace Google Search Console or its sitemap.
