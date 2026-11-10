@@ -4,7 +4,7 @@ Dig It
 
 # Ajuda e suporte do Dig It
 
-Conheça os lotes no Mac, revisão de quadros, folhas de contato, projetos salvos e diferenças entre plataformas do Dig It, além da disponibilidade da CLI.
+Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -46,6 +46,8 @@ No iPhone e iPad, escolha um vídeo em Fotos ou Arquivos, revise as imagens, exp
 
 [Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
+[Crie GIF ou MP4 com quadros selecionados do vídeo Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4)
+
 ## Extraia quadros por intervalo ou tempo no Mac
 
 Amostragem, exportação na resolução original, recorte de capas e folhas PDF exigem Dig It 1.4.3 ou posterior. Amostragem e resolução original são exclusivas do Mac; capas e PDFs estão disponíveis no Mac, iPhone e iPad.
@@ -55,6 +57,22 @@ Antes de adicionar vídeos ao espaço do Mac, escolha quadros-chave automáticos
 ## Exporte capas e folhas de contato PDF para impressão
 
 No Mac, iPhone ou iPad, selecione um resultado e use Exportar → Exportar capa. Escolha proporção original, 16:9, 9:16, 1:1 ou 4:3, ajuste o corte e o lado máximo e salve PNG/JPEG. O JPEG pode ter limite de 2 MB; reduza as dimensões se não couber. As imagens não são ampliadas. Para uma folha PDF, escolha A4/Letter e 2–4 colunas. Até 120 quadros são ordenados cronologicamente e paginados com nome do vídeo e tempos. Sem seleção, todos os resultados restantes são usados. A folha PNG continua limitada a 40 quadros.
+
+## Crie GIF ou MP4 com quadros selecionados do vídeo
+
+Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad.
+
+A exportação de MP4 e GIF de quadros selecionados requer Dig It 1.4.5 ou posterior no Mac, iPhone ou iPad. Confira a versão disponível na App Store antes de baixar por esta função.
+
+1. Importe um vídeo, extraia os quadros e selecione de 2 a 60 imagens nos resultados.
+
+2. Abra Exportar e escolha Criar vídeo curto ou Criar GIF. Veja a prévia, ajuste a duração e o lado máximo e inverta a ordem se quiser. O GIF também oferece repetição.
+
+3. Exporte e salve ou compartilhe o arquivo. Os quadros seguem a ordem temporal original, salvo quando invertidos. Salve o projeto separadamente para mantê-lo no Histórico.
+
+Escolha 0,1, 0,25, 0,5, 1 ou 2 segundos por imagem. O lado máximo do MP4 é 720, 1280 ou 1920 pixels; do GIF, 320, 480 ou 640. A proporção é mantida em uma tela uniforme, sem ampliar as imagens. Cada exportação usa de 2 a 60 quadros. A função está na interface do app, não na CLI separada.
+
+Não. Ele mostra as imagens estáticas pela duração escolhida. O MP4 é sem som e GIF não tem áudio. O app não recria o movimento contínuo, interpola quadros nem gera movimento por IA. O resultado resume momentos ou processos, não converte o vídeo completo com todos os movimentos.
 
 ## Escolha uma imagem entre quadros próximos da fonte
 
@@ -103,6 +121,10 @@ Não. digit é uma ferramenta separada para Mac e ainda não tem download públi
 ### Why does it ask for Photos access?
 
 Dig It uses Photos access only so you can choose source media and save exported results when you ask it to.
+
+### O GIF ou MP4 mantém o movimento e o áudio originais?
+
+Não. Ele mostra as imagens estáticas pela duração escolhida. O MP4 é sem som e GIF não tem áudio. O app não recria o movimento contínuo, interpola quadros nem gera movimento por IA. O resultado resume momentos ou processos, não converte o vídeo completo com todos os movimentos.
 
 ### Quais formatos posso exportar para imagens e resumos?
 

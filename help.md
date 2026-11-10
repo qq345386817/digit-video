@@ -4,7 +4,7 @@ Dig It
 
 # Dig It Help and Support
 
-Learn Dig It's Mac batch workflow, frame review, contact-sheet export, saved projects and platform differences. Find CLI availability and practical examples.
+Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -46,6 +46,8 @@ On iPhone and iPad, choose one video from Photos or Files, review the extracted 
 
 [Turn a video into tutorial step images Use Steps mode to collect useful changes from a tutorial or screen recording. Review and export selected PNG images for your notes, documentation or presentations; use a PDF contact sheet for a timestamped overview. Read the guide →](https://digit-video.luopeike.com/turn-video-into-step-images)
 
+[Make a GIF or MP4 from selected video frames Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad. Read the guide →](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4)
+
 ## Sample video frames by interval or timestamp on Mac
 
 Frame sampling, source-resolution export, cropped covers and PDF contact sheets require Dig It 1.4.3 or later. Sampling and source-resolution export are Mac-only; covers and PDF contact sheets are available on Mac, iPhone and iPad.
@@ -55,6 +57,22 @@ Before adding videos to the Mac workspace, choose Frame Selection: Automatic Key
 ## Export cover images and printable PDF contact sheets
 
 On Mac, iPhone or iPad, select one result and choose Export → Export Cover. Choose the original ratio, 16:9, 9:16, 1:1 or 4:3, adjust the crop position and maximum edge, then save PNG or JPEG. JPEG can be limited to 2 MB; if it cannot fit, choose smaller dimensions. Images are never upscaled. For a printable overview, choose Export → PDF Contact Sheet, A4 or Letter, and 2–4 columns. Up to 120 selected frames are ordered chronologically and paginated automatically, with the video name and timestamps. With no selection, all remaining results are used. A PNG contact sheet still accepts at most 40 frames.
+
+## Make a GIF or MP4 from selected video frames
+
+Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad.
+
+Selected-frame MP4 and GIF export requires Dig It 1.4.5 or later on Mac, iPhone or iPad. Check the version available in your App Store before downloading for this feature.
+
+1. Import a video and extract its frames. Select 2–60 images in the results page.
+
+2. Open Export and choose Create Short Video or Create GIF. Preview the sequence, choose the time per frame and maximum edge, and optionally reverse playback. GIF also offers a loop switch.
+
+3. Export and save or share the file. Frames play in source-time order unless reversed. Use Save separately to keep the project in History.
+
+Choose 0.1, 0.25, 0.5, 1 or 2 seconds per frame. MP4 maximum-edge options are 720, 1280 and 1920 pixels; GIF options are 320, 480 and 640. The export preserves aspect ratio, fits stills on a consistent canvas and never upscales them. Use 2–60 frames per export. This workflow is in the graphical app, not the separate CLI.
+
+No. It displays the selected still images for the chosen duration. MP4 is silent; GIF has no audio. Dig It does not restore the source video's continuous movement, interpolate frames or generate AI motion. Use the result to share key moments or a process, not as a full-motion video conversion.
 
 ## Pick a still from nearby source frames
 
@@ -103,6 +121,10 @@ No. The digit CLI is a separate Mac tool and currently has no public download. C
 ### Why does it ask for Photos access?
 
 Dig It uses Photos access only so you can choose source media and save exported results when you ask it to.
+
+### Does the GIF or MP4 keep the original motion and audio?
+
+No. It displays the selected still images for the chosen duration. MP4 is silent; GIF has no audio. Dig It does not restore the source video's continuous movement, interpolate frames or generate AI motion. Use the result to share key moments or a process, not as a full-motion video conversion.
 
 ### Which image and overview formats can I export?
 

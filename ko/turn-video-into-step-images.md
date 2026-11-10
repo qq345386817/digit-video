@@ -42,4 +42,6 @@ Mac, iPhone 또는 iPad에서 결과 하나를 선택하고 내보내기 → 커
 
 [동영상에서 PNG 또는 JPEG 표지 만들기 추출된 프레임 하나를 선택하고 표지 내보내기에서 자르기 위치와 PNG 또는 JPEG를 고르세요. JPEG는 선택적으로 2 MB로 제한할 수 있습니다. 업로드 없이 상품, 발표 또는 게시물의 썸네일을 준비하세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
 
-[도움말 Dig It의 Mac 일괄 처리, 프레임 검토, 콘택트 시트, 저장 프로젝트와 플랫폼 차이를 알아보세요. CLI 제공 상태와 명령 예제도 확인할 수 있습니다.](https://digit-video.luopeike.com/ko/help)
+[선택한 동영상 프레임으로 GIF와 MP4 만들기 추출한 프레임 중 2–60장의 정지 이미지를 선택해 Mac, iPhone, iPad에서 소리 없는 짧은 MP4나 움직이는 GIF를 만드세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-frames-to-gif-and-mp4)
+
+[도움말 Dig It 사용법: 프레임 추출과 선택, 무음 MP4 및 GIF 만들기, 커버와 PDF 내보내기, 프로젝트 저장, Mac 작업 흐름과 내보내기 제한을 알아보세요.](https://digit-video.luopeike.com/ko/help)

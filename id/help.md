@@ -4,7 +4,7 @@ Dig It
 
 # Bantuan dan dukungan Dig It
 
-Pelajari batch Mac, tinjauan frame, ekspor lembar kontak, proyek tersimpan, dan perbedaan platform Dig It. Lihat ketersediaan CLI serta contoh perintah.
+Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -46,6 +46,8 @@ Di iPhone dan iPad, pilih satu video dari Foto atau File, tinjau gambar, ekspor 
 
 [Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
+[Buat GIF atau MP4 dari frame video pilihan Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF animasi di Mac, iPhone, atau iPad. Baca panduan →](https://digit-video.luopeike.com/id/video-frames-to-gif-and-mp4)
+
 ## Ekstrak frame berdasarkan interval atau waktu di Mac
 
 Pengambilan sampel, ekspor resolusi sumber, pemotongan sampul, dan lembar PDF memerlukan Dig It 1.4.3 atau lebih baru. Sampel dan resolusi sumber hanya tersedia di Mac; sampul dan PDF tersedia di Mac, iPhone, dan iPad.
@@ -55,6 +57,22 @@ Sebelum menambah video ke ruang kerja Mac, pilih Keyframe Otomatis, Interval Tet
 ## Ekspor sampul dan contact sheet PDF siap cetak
 
 Di Mac, iPhone, atau iPad, pilih satu hasil lalu Ekspor → Ekspor Sampul. Pilih rasio asli, 16:9, 9:16, 1:1, atau 4:3, sesuaikan posisi potong dan sisi maksimum, lalu simpan PNG/JPEG. JPEG bisa dibatasi 2 MB; pilih dimensi lebih kecil jika tidak muat. Gambar tidak diperbesar. Untuk contact sheet PDF, pilih A4/Letter dan 2–4 kolom. Hingga 120 frame diurutkan menurut waktu dan dibagi otomatis ke halaman, dengan nama video dan waktu. Tanpa pilihan, semua hasil tersisa digunakan. Contact sheet PNG tetap dibatasi 40 frame.
+
+## Buat GIF atau MP4 dari frame video pilihan
+
+Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF animasi di Mac, iPhone, atau iPad.
+
+Ekspor MP4 dan GIF dari frame pilihan memerlukan Dig It 1.4.5 atau lebih baru di Mac, iPhone, atau iPad. Periksa versi di App Store sebelum mengunduh untuk fitur ini.
+
+1. Impor video, ekstrak frame, lalu pilih 2–60 gambar di halaman hasil.
+
+2. Buka Ekspor dan pilih Buat Video Pendek atau Buat GIF. Pratinjau urutan, atur durasi per frame dan sisi maksimum, lalu balik urutan bila perlu. GIF juga memiliki pilihan pengulangan.
+
+3. Ekspor lalu simpan atau bagikan file. Frame mengikuti urutan waktu sumber kecuali dibalik. Simpan proyek secara terpisah untuk menyimpannya di Riwayat.
+
+Pilih 0,1, 0,25, 0,5, 1, atau 2 detik per frame. Sisi maksimum MP4: 720, 1280, atau 1920 piksel; GIF: 320, 480, atau 640. Rasio gambar dipertahankan pada kanvas yang sama tanpa memperbesar gambar. Setiap ekspor menggunakan 2–60 frame. Fitur ini ada di antarmuka app, bukan CLI terpisah.
+
+Tidak. Gambar diam ditampilkan selama durasi yang dipilih. MP4 tanpa suara dan GIF tidak memiliki audio. App tidak memulihkan gerakan asli, membuat frame perantara, atau menghasilkan gerakan AI. Gunakan untuk momen penting atau ringkasan proses, bukan konversi video dengan gerakan penuh.
 
 ## Pilih gambar dari frame sumber terdekat
 
@@ -103,6 +121,10 @@ Tidak. CLI digit adalah alat Mac terpisah yang saat ini belum memiliki unduhan p
 ### Mengapa perlu akses Foto?
 
 Akses Foto hanya digunakan untuk memilih media sumber dan menyimpan hasil saat diminta.
+
+### Apakah GIF atau MP4 mempertahankan gerakan dan audio asli?
+
+Tidak. Gambar diam ditampilkan selama durasi yang dipilih. MP4 tanpa suara dan GIF tidak memiliki audio. App tidak memulihkan gerakan asli, membuat frame perantara, atau menghasilkan gerakan AI. Gunakan untuk momen penting atau ringkasan proses, bukan konversi video dengan gerakan penuh.
 
 ### Format apa yang tersedia untuk gambar dan ringkasan visual?
 

@@ -42,4 +42,6 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/turn-video-into-step-imag
 
 [أنشئ غلاف PNG أو JPEG من الفيديو حدد إطارًا مستخرجًا واستخدم تصدير الغلاف لاقتصاصه واختيار PNG أو JPEG، مع حد اختياري لحجم JPEG يبلغ 2 MB. جهّز صورة مصغرة لمنتج أو عرض أو منشور دون رفع الفيديو. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
 
-[المساعدة تعرّف على دفعات Mac ومراجعة الإطارات وتصدير أوراق الصور والمشاريع المحفوظة واختلاف المنصات في Dig It، مع حالة توفر CLI وأمثلة الأوامر.](https://digit-video.luopeike.com/ar-SA/help)
+[أنشئ GIF أو MP4 من إطارات الفيديو المحددة استخرج الإطارات واختر من 2 إلى 60 صورة ثابتة، ثم أنشئ فيديو قصيرًا صامتًا أو GIF متحركًا على Mac أو iPhone أو iPad. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-mp4)
+
+[المساعدة دليل Dig It: استخراج الإطارات واختيارها وإنشاء MP4 صامت أو GIF وتصدير الأغلفة وPDF وحفظ المشاريع، مع سير عمل Mac وحدود التصدير.](https://digit-video.luopeike.com/ar-SA/help)

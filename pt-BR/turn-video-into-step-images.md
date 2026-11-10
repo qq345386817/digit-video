@@ -42,4 +42,6 @@ As imagens selecionadas são exportadas como PNGs separados. Exportar capa recor
 
 [Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
 
-[Ajuda Conheça os lotes no Mac, revisão de quadros, folhas de contato, projetos salvos e diferenças entre plataformas do Dig It, além da disponibilidade da CLI.](https://digit-video.luopeike.com/pt-BR/help)
+[Crie GIF ou MP4 com quadros selecionados do vídeo Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4)
+
+[Ajuda Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.](https://digit-video.luopeike.com/pt-BR/help)

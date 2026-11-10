@@ -42,4 +42,6 @@ Selected stills export as separate PNG files. Export Cover crops one frame to PN
 
 [Create a PNG or JPEG cover from video Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
 
-[Help Learn Dig It's Mac batch workflow, frame review, contact-sheet export, saved projects and platform differences. Find CLI availability and practical examples.](https://digit-video.luopeike.com/help)
+[Make a GIF or MP4 from selected video frames Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad. Read the guide →](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4)
+
+[Help Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.](https://digit-video.luopeike.com/help)

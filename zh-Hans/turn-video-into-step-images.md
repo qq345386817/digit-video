@@ -42,4 +42,6 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/turn-video-into-step-im
 
 [从视频制作 PNG 或 JPEG 封面 选中一张提取结果，使用“导出封面”调整裁切位置，选择 PNG 或 JPEG，还可将 JPEG 限制在 2 MB 内。为商品展示、演示文稿或帖子挑选缩略图，无需上传视频。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-video)
 
-[帮助 了解视频转照片、封面裁切、PDF 缩略图索引页和历史记录保存方式，区分 Mac 批量与原画导出、移动端 PNG 导出，并查看独立 CLI 的获取状态。](https://digit-video.luopeike.com/zh-Hans/help)
+[将选中的视频帧合成 GIF 或短视频 从视频提取画面，再挑选 2–60 张静态图，在 Mac、iPhone 或 iPad 上合成无声 MP4 或 GIF 动图。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-frames-to-gif-and-mp4)
+
+[帮助 Dig It 使用帮助：了解视频抽帧、选帧合成 MP4 与 GIF、封面和 PDF 导出、历史记录，以及 Mac 批量流程、尺寸与数量限制。](https://digit-video.luopeike.com/zh-Hans/help)

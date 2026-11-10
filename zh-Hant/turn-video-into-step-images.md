@@ -42,4 +42,6 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/turn-video-into-step-im
 
 [從影片製作 PNG 或 JPEG 封面 選取一張擷取結果，使用「匯出封面」調整裁切位置，選擇 PNG 或 JPEG，也可將 JPEG 限制在 2 MB 內。為商品展示、簡報或貼文挑選縮圖，無須上傳影片。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
 
-[幫助 了解影片轉照片、封面裁切、PDF 縮圖總覽與歷史紀錄儲存方式，區分 Mac 批次與原始尺寸匯出、行動版 PNG 匯出，並查看獨立 CLI 的取得狀態。](https://digit-video.luopeike.com/zh-Hant/help)
+[將選取的影片影格製作成 GIF 或短片 從影片擷取畫面，再挑選 2–60 張靜態圖，在 Mac、iPhone 或 iPad 上製作無聲 MP4 或 GIF 動圖。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-frames-to-gif-and-mp4)
+
+[幫助 Dig It 使用說明：瞭解影片擷取、選格製作 MP4 與 GIF、封面和 PDF 匯出、歷史記錄，以及 Mac 批次流程、尺寸與數量限制。](https://digit-video.luopeike.com/zh-Hant/help)

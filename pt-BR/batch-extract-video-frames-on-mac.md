@@ -10,7 +10,7 @@ Adicione vídeos ou uma pasta, escolha uma predefinição e revise cada resultad
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-11-07
+Atualizado: 2026-11-11
 
 ## Primeiros passos
 
@@ -74,6 +74,8 @@ Use Salvar para manter o conjunto completo de resultados atuais e os horários d
 
 [Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
-[Ajuda Conheça os lotes no Mac, revisão de quadros, folhas de contato, projetos salvos e diferenças entre plataformas do Dig It, além da disponibilidade da CLI.](https://digit-video.luopeike.com/pt-BR/help)
+[Crie GIF ou MP4 com quadros selecionados do vídeo Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4)
+
+[Ajuda Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.](https://digit-video.luopeike.com/pt-BR/help)
 
 [Ler em Markdown](https://digit-video.luopeike.com/pt-BR/batch-extract-video-frames-on-mac.md)

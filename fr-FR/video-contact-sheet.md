@@ -10,7 +10,7 @@ Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une p
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-11-07
+Mis à jour: 2026-11-11
 
 ## Premiers pas
 
@@ -64,6 +64,8 @@ Utilisez Enregistrer pour conserver tous les résultats actuels et les horodatag
 
 [Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
-[Aide Découvrez les lots Mac, la révision des images, les planches-contact, les projets enregistrés et les différences entre plateformes de Dig It, ainsi que la disponibilité de la CLI.](https://digit-video.luopeike.com/fr-FR/help)
+[Créer un GIF ou MP4 avec les images sélectionnées Extrayez les images, choisissez-en 2 à 60 et créez une courte vidéo sans son ou un GIF animé sur Mac, iPhone ou iPad. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-frames-to-gif-and-mp4)
+
+[Aide Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.](https://digit-video.luopeike.com/fr-FR/help)
 
 [Lire en Markdown](https://digit-video.luopeike.com/fr-FR/video-contact-sheet.md)

@@ -10,7 +10,7 @@ Queue video files or a folder, choose a reusable extraction preset, and review e
 
 [Help](https://digit-video.luopeike.com/help)
 
-Updated: 2026-11-07
+Updated: 2026-11-11
 
 ## Getting started
 
@@ -74,6 +74,8 @@ Use Save to keep the full current result set and available timestamps in local H
 
 [Turn a video into tutorial step images Use Steps mode to collect useful changes from a tutorial or screen recording. Review and export selected PNG images for your notes, documentation or presentations; use a PDF contact sheet for a timestamped overview. Read the guide →](https://digit-video.luopeike.com/turn-video-into-step-images)
 
-[Help Learn Dig It's Mac batch workflow, frame review, contact-sheet export, saved projects and platform differences. Find CLI availability and practical examples.](https://digit-video.luopeike.com/help)
+[Make a GIF or MP4 from selected video frames Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad. Read the guide →](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4)
+
+[Help Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.](https://digit-video.luopeike.com/help)
 
 [Read as Markdown](https://digit-video.luopeike.com/batch-extract-video-frames-on-mac.md)

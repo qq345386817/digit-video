@@ -4,7 +4,7 @@ Dig It
 
 # Dig It Hilfe und Support
 
-Erfahre mehr über Mac-Stapelverarbeitung, Frame-Prüfung, Kontaktbögen, gespeicherte Projekte und Plattformunterschiede in Dig It sowie die CLI-Verfügbarkeit.
+Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -46,6 +46,8 @@ Wähle auf iPhone und iPad ein Video aus Fotos oder Dateien, prüfe Bilder, expo
 
 [Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
+[GIF oder MP4 aus ausgewählten Videoframes erstellen Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder iPad ein stummes Kurzvideo oder animiertes GIF. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-frames-to-gif-and-mp4)
+
 ## Video-Frames auf dem Mac nach Intervall oder Zeitpunkt extrahieren
 
 Sampling, Export in Quellauflösung, Cover-Zuschnitt und PDF-Kontaktabzüge benötigen Dig It 1.4.3 oder neuer. Sampling und Quellauflösung sind Mac-exklusiv; Cover und PDFs gibt es auf Mac, iPhone und iPad.
@@ -55,6 +57,22 @@ Wähle vor dem Hinzufügen von Videos im Mac-Arbeitsbereich automatische Keyfram
 ## Coverbilder und druckbare PDF-Kontaktbögen exportieren
 
 Wähle auf Mac, iPhone oder iPad ein Ergebnis und Exportieren → Cover exportieren. Nutze Original, 16:9, 9:16, 1:1 oder 4:3, passe Zuschnittposition und maximale Kantenlänge an und speichere PNG/JPEG. JPEG lässt sich auf 2 MB begrenzen; wähle kleinere Abmessungen, wenn es nicht passt. Bilder werden nicht hochskaliert. Für PDF-Kontaktbögen wähle A4/Letter und 2–4 Spalten. Bis zu 120 Frames werden chronologisch mit Videoname und Zeitpunkten auf Seiten verteilt. Ohne Auswahl werden alle übrigen Ergebnisse verwendet. PNG-Kontaktbögen bleiben auf 40 Frames begrenzt.
+
+## GIF oder MP4 aus ausgewählten Videoframes erstellen
+
+Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder iPad ein stummes Kurzvideo oder animiertes GIF.
+
+MP4- und GIF-Export aus ausgewählten Frames erfordert Dig It 1.4.5 oder neuer auf Mac, iPhone oder iPad. Prüfe vor dem Download für diese Funktion die verfügbare App-Store-Version.
+
+1. Importiere ein Video, extrahiere die Frames und wähle 2–60 Bilder in den Ergebnissen.
+
+2. Öffne Exportieren und wähle Kurzvideo erstellen oder GIF erstellen. Prüfe die Vorschau, stelle Bilddauer und maximale Kantenlänge ein und kehre bei Bedarf die Reihenfolge um. GIF bietet auch eine Wiederholung.
+
+3. Exportiere und speichere oder teile die Datei. Die Bilder folgen der Quellzeit, außer bei umgekehrter Wiedergabe. Speichere das Projekt separat, um es im Verlauf zu behalten.
+
+Wähle 0,1, 0,25, 0,5, 1 oder 2 Sekunden pro Bild. Maximale Kantenlänge: MP4 mit 720, 1280 oder 1920 Pixeln, GIF mit 320, 480 oder 640. Das Seitenverhältnis bleibt auf einer einheitlichen Fläche erhalten; Bilder werden nicht hochskaliert. Pro Export sind 2–60 Frames möglich. Diese Funktion gehört zur App-Oberfläche, nicht zur separaten CLI.
+
+Nein. Die ausgewählten Standbilder werden für die eingestellte Dauer angezeigt. MP4 ist stumm und GIF enthält keinen Ton. Die App stellt keine durchgehende Bewegung wieder her, interpoliert keine Frames und erzeugt keine KI-Bewegung. Das Ergebnis fasst Momente oder Abläufe zusammen und ist keine vollständige Videokonvertierung.
 
 ## Ein Standbild aus benachbarten Quellframes wählen
 
@@ -103,6 +121,10 @@ Nein. digit ist ein eigenständiges Mac-Werkzeug ohne derzeitigen öffentlichen 
 ### Why does it ask for Photos access?
 
 Dig It uses Photos access only so you can choose source media and save exported results when you ask it to.
+
+### Bleiben die ursprüngliche Bewegung und der Ton erhalten?
+
+Nein. Die ausgewählten Standbilder werden für die eingestellte Dauer angezeigt. MP4 ist stumm und GIF enthält keinen Ton. Die App stellt keine durchgehende Bewegung wieder her, interpoliert keine Frames und erzeugt keine KI-Bewegung. Das Ergebnis fasst Momente oder Abläufe zusammen und ist keine vollständige Videokonvertierung.
 
 ### Welche Bild- und Übersichtsformate kann ich exportieren?
 

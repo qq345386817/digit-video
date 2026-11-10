@@ -42,4 +42,6 @@ Las imágenes seleccionadas se exportan como archivos PNG independientes. Export
 
 [Crea una portada PNG o JPEG desde un vídeo Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
 
-[Ayuda Aprende a procesar lotes en Mac, revisar fotogramas, exportar hojas de contacto y editar proyectos guardados con Dig It. Consulta la disponibilidad de la CLI.](https://digit-video.luopeike.com/es-ES/help)
+[Crea un GIF o MP4 con fotogramas seleccionados Extrae fotogramas, elige entre 2 y 60 imágenes y crea un vídeo corto sin sonido o un GIF animado en Mac, iPhone o iPad. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-frames-to-gif-and-mp4)
+
+[Ayuda Ayuda de Dig It: extrae y selecciona fotogramas, crea MP4 sin sonido o GIF, exporta portadas y PDF y guarda proyectos. Flujos de Mac y límites.](https://digit-video.luopeike.com/es-ES/help)

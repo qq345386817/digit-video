@@ -42,4 +42,6 @@ Mac、iPhone、iPad で結果を 1 枚選び、「書き出す → カバーを�
 
 [動画から PNG・JPEG カバーを作る 抽出した画像を一枚選び、カバーの書き出しで切り抜き位置と PNG・JPEG を選択。JPEG は任意で 2 MB に制限できます。動画をアップロードせず、商品紹介やプレゼン、投稿のサムネイルを用意できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
 
-[ヘルプ Dig ItのMac一括処理、フレーム確認、コンタクトシート出力、保存済みプロジェクト、端末の違いを解説。CLIの提供状況とコマンド例も確認できます。](https://digit-video.luopeike.com/ja/help)
+[選んだ動画フレームからGIF・MP4を作成 動画から抽出した静止画を2〜60枚選び、Mac・iPhone・iPadで無音の短いMP4やアニメーションGIFを作成できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-frames-to-gif-and-mp4)
+
+[ヘルプ Dig Itの使い方。動画フレームの抽出・選択、無音MP4やGIFの作成、カバー・PDFの書き出し、プロジェクト保存、Macのワークフローと各種上限を解説します。](https://digit-video.luopeike.com/ja/help)

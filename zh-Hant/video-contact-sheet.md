@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-contact-sheet
 
 [幫助](https://digit-video.luopeike.com/zh-Hant/help)
 
-更新日期: 2026-11-07
+更新日期: 2026-11-11
 
 ## 快速開始
 
@@ -64,6 +64,8 @@ Mac 提供批次佇列、資料夾匯入、擷取預設、自動 PNG/JPEG 匯出
 
 [把影片整理成教學步驟圖片 使用步驟模式擷取教學或螢幕錄影中的關鍵變化，檢視並匯出所選 PNG 圖片，用於筆記、文件或簡報；也可製作附時間戳記的 PDF 縮圖總覽。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/turn-video-into-step-images)
 
-[幫助 了解影片轉照片、封面裁切、PDF 縮圖總覽與歷史紀錄儲存方式，區分 Mac 批次與原始尺寸匯出、行動版 PNG 匯出，並查看獨立 CLI 的取得狀態。](https://digit-video.luopeike.com/zh-Hant/help)
+[將選取的影片影格製作成 GIF 或短片 從影片擷取畫面，再挑選 2–60 張靜態圖，在 Mac、iPhone 或 iPad 上製作無聲 MP4 或 GIF 動圖。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-frames-to-gif-and-mp4)
+
+[幫助 Dig It 使用說明：瞭解影片擷取、選格製作 MP4 與 GIF、封面和 PDF 匯出、歷史記錄，以及 Mac 批次流程、尺寸與數量限制。](https://digit-video.luopeike.com/zh-Hant/help)
 
 [閱讀 Markdown 版本](https://digit-video.luopeike.com/zh-Hant/video-contact-sheet.md)

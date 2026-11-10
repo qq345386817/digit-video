@@ -42,4 +42,6 @@ Le immagini selezionate vengono esportate come PNG separati. Esporta copertina r
 
 [Crea una copertina PNG o JPEG da un video Seleziona un fotogramma e usa Esporta copertina per ritagliarlo, scegliere PNG o JPEG e limitare eventualmente il JPEG a 2 MB. Prepara una miniatura per prodotti, presentazioni o post senza caricare il video online. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
 
-[Aiuto Scopri batch Mac, revisione fotogrammi, esportazione di provini a contatto, progetti salvati e differenze tra piattaforme di Dig It. Consulta la disponibilità della CLI.](https://digit-video.luopeike.com/it/help)
+[Crea GIF o MP4 dai fotogrammi selezionati Estrai i fotogrammi, scegli da 2 a 60 immagini e crea un breve video senza audio o una GIF animata su Mac, iPhone o iPad. Leggi la guida →](https://digit-video.luopeike.com/it/video-frames-to-gif-and-mp4)
+
+[Aiuto Guida Dig It: estrai e scegli fotogrammi, crea MP4 senza audio o GIF, esporta copertine e PDF e salva progetti. Flussi Mac e limiti di esportazione.](https://digit-video.luopeike.com/it/help)

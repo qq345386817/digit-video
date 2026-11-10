@@ -4,7 +4,7 @@ Dig It
 
 # Aiuto e supporto Dig It
 
-Scopri batch Mac, revisione fotogrammi, esportazione di provini a contatto, progetti salvati e differenze tra piattaforme di Dig It. Consulta la disponibilità della CLI.
+Guida Dig It: estrai e scegli fotogrammi, crea MP4 senza audio o GIF, esporta copertine e PDF e salva progetti. Flussi Mac e limiti di esportazione.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -46,6 +46,8 @@ Su iPhone e iPad, scegli un video da Foto o File, rivedi le immagini, esporta PN
 
 [Trasforma un video in immagini dei passaggi Usa la modalità Passaggi per raccogliere i cambiamenti di un tutorial o di una registrazione dello schermo. Esamina ed esporta PNG per appunti, documenti o presentazioni; crea un provino PDF con tempi per una panoramica. Leggi la guida →](https://digit-video.luopeike.com/it/turn-video-into-step-images)
 
+[Crea GIF o MP4 dai fotogrammi selezionati Estrai i fotogrammi, scegli da 2 a 60 immagini e crea un breve video senza audio o una GIF animata su Mac, iPhone o iPad. Leggi la guida →](https://digit-video.luopeike.com/it/video-frames-to-gif-and-mp4)
+
 ## Estrai fotogrammi per intervallo o tempo su Mac
 
 Campionamento, esportazione alla risoluzione originale, ritaglio copertine e provini PDF richiedono Dig It 1.4.3 o successivo. Campionamento e risoluzione originale sono solo per Mac; copertine e PDF sono disponibili su Mac, iPhone e iPad.
@@ -55,6 +57,22 @@ Prima di aggiungere video allo spazio Mac, scegli fotogrammi chiave automatici, 
 ## Esporta copertine e provini PDF stampabili
 
 Su Mac, iPhone o iPad, seleziona un risultato e usa Esporta → Esporta copertina. Scegli proporzioni originali, 16:9, 9:16, 1:1 o 4:3, regola ritaglio e lato massimo, poi salva PNG/JPEG. Il JPEG può essere limitato a 2 MB; riduci le dimensioni se non rientra. Le immagini non vengono ingrandite. Per un provino PDF scegli A4/Letter e 2–4 colonne. Fino a 120 fotogrammi sono ordinati cronologicamente e impaginati con nome del video e tempi. Senza selezione si usano tutti i risultati rimanenti. Il provino PNG rimane limitato a 40 fotogrammi.
+
+## Crea GIF o MP4 dai fotogrammi selezionati
+
+Estrai i fotogrammi, scegli da 2 a 60 immagini e crea un breve video senza audio o una GIF animata su Mac, iPhone o iPad.
+
+L'esportazione MP4 e GIF dai fotogrammi richiede Dig It 1.4.5 o successivo su Mac, iPhone o iPad. Controlla la versione disponibile nell'App Store prima di scaricare per questa funzione.
+
+1. Importa un video, estrai i fotogrammi e seleziona da 2 a 60 immagini nei risultati.
+
+2. Apri Esporta e scegli Crea un breve video o Crea GIF. Visualizza l'anteprima, imposta durata e lato massimo e, se vuoi, inverti l'ordine. Per le GIF puoi scegliere la ripetizione.
+
+3. Esporta e salva o condividi il file. I fotogrammi seguono l'ordine temporale originale, salvo inversione. Salva separatamente il progetto per conservarlo nella Cronologia.
+
+Scegli 0,1, 0,25, 0,5, 1 o 2 secondi per immagine. Il lato massimo MP4 è 720, 1280 o 1920 pixel; per GIF è 320, 480 o 640. Le proporzioni sono conservate su una tela uniforme, senza ingrandire le immagini. Ogni esportazione usa 2–60 fotogrammi. La funzione è nell'interfaccia dell'app, non nella CLI separata.
+
+No. Mostrano le immagini fisse per la durata scelta. L'MP4 è senza audio e le GIF non contengono audio. L'app non ricrea il movimento continuo, interpola fotogrammi né genera animazioni con IA. È un riepilogo di momenti o processi, non una conversione del video completo in movimento.
 
 ## Scegli un'immagine tra i fotogrammi sorgente vicini
 
@@ -103,6 +121,10 @@ No. digit è uno strumento separato per Mac e al momento non ha un download pubb
 ### Perché chiede accesso a Foto?
 
 Usa l’accesso a Foto solo per scegliere i contenuti di origine e salvare i risultati quando lo richiedi.
+
+### GIF e MP4 mantengono movimento e audio originali?
+
+No. Mostrano le immagini fisse per la durata scelta. L'MP4 è senza audio e le GIF non contengono audio. L'app non ricrea il movimento continuo, interpola fotogrammi né genera animazioni con IA. È un riepilogo di momenti o processi, non una conversione del video completo in movimento.
 
 ### Quali formati posso esportare per immagini e panoramiche?
 

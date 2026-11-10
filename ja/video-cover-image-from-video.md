@@ -42,4 +42,6 @@ Mac、iPhone、iPad で結果を 1 枚選び、「書き出す → カバーを�
 
 [動画をチュートリアルの手順画像に 手順モードで解説動画や画面収録の変化点を抽出。確認して選んだ PNG をノート、文書、プレゼンに活用できます。時刻付き PDF コンタクトシートで全体を確認することもできます。 ガイドを読む →](https://digit-video.luopeike.com/ja/turn-video-into-step-images)
 
-[ヘルプ Dig ItのMac一括処理、フレーム確認、コンタクトシート出力、保存済みプロジェクト、端末の違いを解説。CLIの提供状況とコマンド例も確認できます。](https://digit-video.luopeike.com/ja/help)
+[選んだ動画フレームからGIF・MP4を作成 動画から抽出した静止画を2〜60枚選び、Mac・iPhone・iPadで無音の短いMP4やアニメーションGIFを作成できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-frames-to-gif-and-mp4)
+
+[ヘルプ Dig Itの使い方。動画フレームの抽出・選択、無音MP4やGIFの作成、カバー・PDFの書き出し、プロジェクト保存、Macのワークフローと各種上限を解説します。](https://digit-video.luopeike.com/ja/help)

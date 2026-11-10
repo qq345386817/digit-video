@@ -42,4 +42,6 @@ Gambar terpilih diekspor sebagai file PNG terpisah. Ekspor Sampul memotong satu 
 
 [Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
-[Bantuan Pelajari batch Mac, tinjauan frame, ekspor lembar kontak, proyek tersimpan, dan perbedaan platform Dig It. Lihat ketersediaan CLI serta contoh perintah.](https://digit-video.luopeike.com/id/help)
+[Buat GIF atau MP4 dari frame video pilihan Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF animasi di Mac, iPhone, atau iPad. Baca panduan →](https://digit-video.luopeike.com/id/video-frames-to-gif-and-mp4)
+
+[Bantuan Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.](https://digit-video.luopeike.com/id/help)

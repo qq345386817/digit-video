@@ -42,4 +42,6 @@ Les images sélectionnées sont exportées en PNG séparés. Exporter la couvert
 
 [Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
 
-[Aide Découvrez les lots Mac, la révision des images, les planches-contact, les projets enregistrés et les différences entre plateformes de Dig It, ainsi que la disponibilité de la CLI.](https://digit-video.luopeike.com/fr-FR/help)
+[Créer un GIF ou MP4 avec les images sélectionnées Extrayez les images, choisissez-en 2 à 60 et créez une courte vidéo sans son ou un GIF animé sur Mac, iPhone ou iPad. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-frames-to-gif-and-mp4)
+
+[Aide Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.](https://digit-video.luopeike.com/fr-FR/help)

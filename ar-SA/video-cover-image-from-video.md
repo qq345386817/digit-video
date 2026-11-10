@@ -42,4 +42,6 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-cover-image-from-vi
 
 [حوّل الفيديو إلى صور لخطوات الشرح استخدم وضع الخطوات لالتقاط التغييرات من شرح أو تسجيل شاشة. راجع الصور وصدّر ما تختاره بصيغة PNG للملاحظات أو المستندات أو العروض، أو أنشئ ورقة PDF بطوابع زمنية لعرض شامل. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/turn-video-into-step-images)
 
-[المساعدة تعرّف على دفعات Mac ومراجعة الإطارات وتصدير أوراق الصور والمشاريع المحفوظة واختلاف المنصات في Dig It، مع حالة توفر CLI وأمثلة الأوامر.](https://digit-video.luopeike.com/ar-SA/help)
+[أنشئ GIF أو MP4 من إطارات الفيديو المحددة استخرج الإطارات واختر من 2 إلى 60 صورة ثابتة، ثم أنشئ فيديو قصيرًا صامتًا أو GIF متحركًا على Mac أو iPhone أو iPad. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-mp4)
+
+[المساعدة دليل Dig It: استخراج الإطارات واختيارها وإنشاء MP4 صامت أو GIF وتصدير الأغلفة وPDF وحفظ المشاريع، مع سير عمل Mac وحدود التصدير.](https://digit-video.luopeike.com/ar-SA/help)

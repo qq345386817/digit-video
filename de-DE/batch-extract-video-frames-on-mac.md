@@ -10,7 +10,7 @@ Füge Videodateien oder einen Ordner hinzu, wähle eine Extraktionsvorlage und p
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-11-07
+Aktualisiert: 2026-11-11
 
 ## Erste Schritte
 
@@ -74,6 +74,8 @@ Verwende Speichern, um das vollständige aktuelle Ergebnis und verfügbare Zeits
 
 [Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
-[Hilfe Erfahre mehr über Mac-Stapelverarbeitung, Frame-Prüfung, Kontaktbögen, gespeicherte Projekte und Plattformunterschiede in Dig It sowie die CLI-Verfügbarkeit.](https://digit-video.luopeike.com/de-DE/help)
+[GIF oder MP4 aus ausgewählten Videoframes erstellen Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder iPad ein stummes Kurzvideo oder animiertes GIF. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-frames-to-gif-and-mp4)
+
+[Hilfe Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.](https://digit-video.luopeike.com/de-DE/help)
 
 [Als Markdown lesen](https://digit-video.luopeike.com/de-DE/batch-extract-video-frames-on-mac.md)

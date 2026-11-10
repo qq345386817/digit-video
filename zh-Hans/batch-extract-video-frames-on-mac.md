@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/batch-extract-video-fra
 
 [帮助](https://digit-video.luopeike.com/zh-Hans/help)
 
-更新日期: 2026-11-07
+更新日期: 2026-11-11
 
 ## 快速开始
 
@@ -74,6 +74,8 @@ Mac 提供批量队列、文件夹导入、提取预设、自动 PNG/JPEG 导出
 
 [把视频整理成教程步骤图片 使用步骤模式提取教程或录屏中的关键变化，查看并导出所选 PNG 图片，用于笔记、文档或演示文稿；也可制作带时间戳的 PDF 缩略图索引页，方便总览。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/turn-video-into-step-images)
 
-[帮助 了解视频转照片、封面裁切、PDF 缩略图索引页和历史记录保存方式，区分 Mac 批量与原画导出、移动端 PNG 导出，并查看独立 CLI 的获取状态。](https://digit-video.luopeike.com/zh-Hans/help)
+[将选中的视频帧合成 GIF 或短视频 从视频提取画面，再挑选 2–60 张静态图，在 Mac、iPhone 或 iPad 上合成无声 MP4 或 GIF 动图。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-frames-to-gif-and-mp4)
+
+[帮助 Dig It 使用帮助：了解视频抽帧、选帧合成 MP4 与 GIF、封面和 PDF 导出、历史记录，以及 Mac 批量流程、尺寸与数量限制。](https://digit-video.luopeike.com/zh-Hans/help)
 
 [阅读 Markdown 版本](https://digit-video.luopeike.com/zh-Hans/batch-extract-video-frames-on-mac.md)

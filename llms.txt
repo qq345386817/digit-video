@@ -15,6 +15,13 @@ On iPhone and iPad, choose one video from Photos or Files, review the extracted 
 ## Image formats and overview limits
 Selected stills export as separate PNG files. Export Cover crops one frame to PNG or JPEG, with an optional 2 MB JPEG limit. A PNG contact sheet accepts up to 40 frames; an A4 or Letter PDF contact sheet accepts up to 120 with timestamps and automatic pagination. On Mac, batch automatic export additionally supports PNG/JPEG images and optional JSON metadata. Exporting does not save a project to History; use Save explicitly.
 
+## Selected-frame MP4 and GIF
+Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad.
+Choose 0.1, 0.25, 0.5, 1 or 2 seconds per frame. MP4 maximum-edge options are 720, 1280 and 1920 pixels; GIF options are 320, 480 and 640. The export preserves aspect ratio, fits stills on a consistent canvas and never upscales them. Use 2–60 frames per export. This workflow is in the graphical app, not the separate CLI.
+Selected-frame MP4 and GIF export requires Dig It 1.4.5 or later on Mac, iPhone or iPad. Check the version available in your App Store before downloading for this feature.
+### Motion and audio
+No. It displays the selected still images for the chosen duration. MP4 is silent; GIF has no audio. Dig It does not restore the source video's continuous movement, interpolate frames or generate AI motion. Use the result to share key moments or a process, not as a full-motion video conversion.
+
 ## Source resolution
 Previews fit within 720 × 720 pixels. On Mac, Source Resolution exports decode the original video on demand and preserve its image dimensions. Mac covers use an available source; otherwise covers use the saved image resolution. Output never upscales a preview or a low-resolution source.
 
@@ -38,6 +45,7 @@ MCP integration is not provided.
 - [Create a video contact sheet](https://digit-video.luopeike.com/video-contact-sheet.md): PNG overviews (up to 40 frames) and printable paginated PDF sheets (up to 120 frames).
 - [Crop a PNG/JPEG cover from video](https://digit-video.luopeike.com/video-cover-image-from-video.md): Pick one still, adjust the crop and optionally limit JPEG size.
 - [Turn video into tutorial step images](https://digit-video.luopeike.com/turn-video-into-step-images.md): Review extracted moments and export PNGs for notes or presentations.
+- [Make GIF or MP4 from selected video frames](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4.md): 2–60 stills, timing, reverse order, dimensions, looping and limitations. Requires 1.4.5 or later.
 - [App Store download](https://apps.apple.com/app/id6508171056): Official pricing and device compatibility.
 - [Support](https://digit-video.luopeike.com/support): Contact the developer, including questions about the separate CLI.
 - [Privacy policy](https://digit-video.luopeike.com/privacy-policy): The published privacy policy.

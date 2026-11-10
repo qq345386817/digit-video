@@ -42,4 +42,6 @@ Las imágenes seleccionadas se exportan como archivos PNG independientes. Export
 
 [Convierte un vídeo en imágenes de pasos Usa el modo Pasos para recoger cambios de un tutorial o una grabación de pantalla. Revisa y exporta imágenes PNG para notas, documentos o presentaciones; crea una hoja de contacto PDF con marcas de tiempo para ver el conjunto. Leer la guía →](https://digit-video.luopeike.com/es-ES/turn-video-into-step-images)
 
-[Ayuda Aprende a procesar lotes en Mac, revisar fotogramas, exportar hojas de contacto y editar proyectos guardados con Dig It. Consulta la disponibilidad de la CLI.](https://digit-video.luopeike.com/es-ES/help)
+[Crea un GIF o MP4 con fotogramas seleccionados Extrae fotogramas, elige entre 2 y 60 imágenes y crea un vídeo corto sin sonido o un GIF animado en Mac, iPhone o iPad. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-frames-to-gif-and-mp4)
+
+[Ayuda Ayuda de Dig It: extrae y selecciona fotogramas, crea MP4 sin sonido o GIF, exporta portadas y PDF y guarda proyectos. Flujos de Mac y límites.](https://digit-video.luopeike.com/es-ES/help)
