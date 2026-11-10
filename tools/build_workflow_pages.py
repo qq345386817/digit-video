@@ -33,12 +33,26 @@ BATCH = "batch-extract-video-frames-on-mac"
 CONTACT = "video-contact-sheet"
 COVER = "video-cover-image-from-video"
 STEPS = "turn-video-into-step-images"
+ANIMATION = "video-frames-to-gif-and-mp4"
 START = "<!-- digit-workflows:start -->"
 END = "<!-- digit-workflows:end -->"
 MAIN_RE = re.compile(r"<main(?:\s[^>]*)?>(.*?)</main>", re.S)
 SCHEMA_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
 BLOCK_RE = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
 OUTPUTS = {}
+
+
+def product_content():
+    content = json.loads((ROOT / 'tools/workflow-content.json').read_text(encoding='utf-8'))
+    animation = json.loads((ROOT / 'tools/animation-content.json').read_text(encoding='utf-8'))
+    assert set(animation) == set(LOCALES), 'Every locale needs animation translations'
+    keys = set(animation['en'])
+    for locale, copy in content.items():
+        assert set(animation[locale]) == keys, f'Incomplete animation translations: {locale}'
+        copy.update(animation[locale])
+        copy['helpDescription'] = copy['animationHelpDescription']
+        copy['faq'].append([copy['animationMotionQuestion'], copy['animationMotionAnswer']])
+    return content
 
 
 class Tag(HTMLParser):
@@ -97,6 +111,7 @@ def guide_cards(locale, content, exclude=None):
         (CONTACT, "contactTitle", "contactIntro"),
         (COVER, "coverTitle", "coverIntro"),
         (STEPS, "stepsGuideTitle", "stepsGuideIntro"),
+        (ANIMATION, "animationTitle", "animationIntro"),
     ):
         if path == exclude:
             continue
@@ -178,6 +193,10 @@ def home_main(locale, content, copy):
         '<section class="landing-section" id="workflow"><div class="section-heading">'
         f'<h2>{escape(copy["stepsTitle"])}</h2>{paragraph(copy["stepsIntro"])}</div>'
         f'<ol class="step-grid">{steps}</ol></section>'
+        '<section class="landing-section" id="frame-animation"><div class="section-heading">'
+        f'<h2>{escape(content["animationTitle"])}</h2>{paragraph(content["animationIntro"])}</div>'
+        f'<p class="availability-note">{escape(content["animationAvailability"])}</p>'
+        f'<a class="button" href="{url(locale, ANIMATION)}">{escape(content["readGuide"])}</a></section>'
         '<section class="landing-section" id="use-cases"><div class="section-heading">'
         f'<h2>{escape(content["useTitle"])}</h2>{paragraph(content["useBody"])}</div></section>'
         '<section class="landing-section" id="mac-workflow"><div class="section-heading">'
@@ -287,6 +306,10 @@ def help_main(locale, content, original):
         + section(content['modeTitle'], '<ul>' + ''.join('<li>' + escape(item) + '</li>' for item in content['modeItems']) + '</ul>', 'extraction-modes')
         + section(content["guidesTitle"], guide_cards(locale, content), "workflow-guides")
         + delivery_workflows(content)
+        + section(content['animationTitle'], paragraph(content['animationIntro'])
+                  + '<p class="availability-note">' + escape(content['animationAvailability']) + '</p>'
+                  + '<ol class="workflow-steps">' + ''.join('<li>' + escape(step) + '</li>' for step in content['animationSteps']) + '</ol>'
+                  + paragraph(content['animationLimit']) + paragraph(content['animationMotionAnswer']), 'frame-animation')
         + section(content["reviewTitle"], paragraph(content["reviewBody"]) + figure(content, "mac-frame-review.webp", content["reviewCaption"]), "source-frame-review")
         + section(content["saveTitle"], paragraph(content["saveBody"]), "saved-projects")
         + section(content["contactLimitTitle"], paragraph(content["contactLimit"]), "contact-sheet-limit")
@@ -316,6 +339,7 @@ def app_schema(content):
         "description": content["homeDescription"], "applicationCategory": "MultimediaApplication",
         "operatingSystem": "iOS, iPadOS, macOS", "url": BASE + "/", "downloadUrl": STORE,
         "image": BASE + "/images/app-icon.png", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "featureList": [content[key] for key in ('batchTitle', 'coverTitle', 'contactTitle', 'animationTitle')],
     }
 
 
@@ -364,7 +388,8 @@ def locale_navigation(html, locale, page):
 
 def guide_page(locale, content, kind, template, date):
     is_batch = kind == BATCH
-    prefix = "batch" if is_batch else "contact"
+    is_animation = kind == ANIMATION
+    prefix = "batch" if is_batch else "animation" if is_animation else "contact"
     title, intro = content[prefix + "Title"], content[prefix + "Intro"]
     steps = '<ol class="workflow-steps">' + ''.join('<li>' + escape(step) + '</li>' for step in content[prefix + "Steps"]) + '</ol>'
     action = f'<div class="actions"><a class="button primary" href="{STORE}"><img class="store-icon" src="/images/app-store-icon.svg" alt="">App Store</a><a class="button" href="{url(locale, "help")}">{escape(content["helpLabel"])}</a></div>'
@@ -373,7 +398,15 @@ def guide_page(locale, content, kind, template, date):
         f'<h1>{escape(title)}</h1><p class="lead">{escape(intro)}</p>{action}'
         f'<p class="updated">{escape(content["updatedLabel"])}: <time datetime="{date}">{date}</time></p></section>'
     )
-    if is_batch:
+    if is_animation:
+        body = (
+            '<p class="availability-note">' + escape(content['animationAvailability']) + '</p>'
+            + section(content['startTitle'], steps, 'steps')
+            + section(content['animationLimitTitle'], paragraph(content['animationLimit'])
+                      + figure(content, 'mac-frame-animation.webp', content['animationCaption'], 1208, 896), 'limits')
+            + section(content['animationMotionQuestion'], paragraph(content['animationMotionAnswer']), 'motion-and-audio')
+        )
+    elif is_batch:
         body = (
             section(content['startTitle'], steps, "steps")
             + section(content["batchOutputTitle"], paragraph(content["batchOutput"])
@@ -515,7 +548,7 @@ class Markdown(HTMLParser):
 
 
 def build(date):
-    content = json.loads((ROOT / 'tools/workflow-content.json').read_text(encoding='utf-8'))
+    content = product_content()
     landing = json.loads((ROOT / 'tools/landing-copy.json').read_text(encoding='utf-8'))
     assert set(content) == set(LOCALES), 'Every locale needs translated content'
     assert set(landing) == set(LOCALES), 'Every locale needs landing-page translations'
@@ -540,7 +573,7 @@ def build(date):
         OUTPUTS[help_path] = locale_navigation(help_html, locale, 'help')
 
         template = local_path(locale, 'extract-keyframes-from-video').read_text(encoding='utf-8')
-        for kind in (BATCH, CONTACT):
+        for kind in (BATCH, CONTACT, ANIMATION):
             html = guide_page(locale, copy, kind, template, date)
             OUTPUTS[local_path(locale, kind)] = html
             OUTPUTS[local_path(locale, kind, '.md')] = Markdown().render(html, url(locale, kind))
@@ -576,6 +609,9 @@ def build(date):
         '', '## Platform support', '### Mac', content['en']['macBody'], content['en']['samplingBody'],
         '### iPhone and iPad', content['en']['iosBody'],
         '', '## Image formats and overview limits', content['en']['exportAnswer'],
+        '', '## Selected-frame MP4 and GIF', content['en']['animationIntro'],
+        content['en']['animationLimit'], content['en']['animationAvailability'],
+        '### Motion and audio', content['en']['animationMotionAnswer'],
         '', '## Source resolution', content['en']['faq'][4][1],
         '', '## Saved projects', content['en']['saveBody'],
         '', '## Local video processing', content['en']['faq'][0][1],
@@ -588,6 +624,7 @@ def build(date):
         f'- [Create a video contact sheet]({BASE}/{CONTACT}.md): PNG overviews (up to 40 frames) and printable paginated PDF sheets (up to 120 frames).',
         f'- [Crop a PNG/JPEG cover from video]({BASE}/{COVER}.md): Pick one still, adjust the crop and optionally limit JPEG size.',
         f'- [Turn video into tutorial step images]({BASE}/{STEPS}.md): Review extracted moments and export PNGs for notes or presentations.',
+        f'- [Make GIF or MP4 from selected video frames]({BASE}/{ANIMATION}.md): 2–60 stills, timing, reverse order, dimensions, looping and limitations. Requires 1.4.5 or later.',
         f'- [App Store download]({STORE}): Official pricing and device compatibility.',
         f'- [Support]({BASE}/support): Contact the developer, including questions about the separate CLI.',
         f'- [Privacy policy]({BASE}/privacy-policy): The published privacy policy.',
@@ -601,7 +638,7 @@ def build(date):
     sitemap = ET.parse(ROOT / 'sitemap.xml').getroot()
     records = {node.find(f'{{{namespace}}}loc').text: node for node in sitemap}
     for locale in LOCALES:
-        for page in ('', 'help', 'extract-keyframes-from-video', 'video-cover-image-from-video', 'turn-video-into-step-images', BATCH, CONTACT):
+        for page in ('', 'help', 'extract-keyframes-from-video', 'video-cover-image-from-video', 'turn-video-into-step-images', BATCH, CONTACT, ANIMATION):
             location = url(locale, page)
             if location not in records:
                 node = ET.SubElement(sitemap, f'{{{namespace}}}url')

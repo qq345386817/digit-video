@@ -14,7 +14,7 @@ from check_seo import Page
 class ProductContentTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.content = json.loads((pages.ROOT / 'tools/workflow-content.json').read_text())
+        cls.content = pages.product_content()
 
     def test_all_locales_have_translated_product_facts(self):
         self.assertEqual(set(self.content), set(pages.LOCALES))
@@ -36,7 +36,7 @@ class ProductContentTests(unittest.TestCase):
             for page in ('index', 'help'):
                 html = pages.local_path(locale, page).read_text()
                 with self.subTest(locale=locale, page=page):
-                    for kind in (pages.BATCH, pages.CONTACT, pages.COVER, pages.STEPS):
+                    for kind in (pages.BATCH, pages.CONTACT, pages.COVER, pages.STEPS, pages.ANIMATION):
                         self.assertIn('href="' + urlparse(pages.url(locale, kind)).path + '"', html)
                     self.assertIn(content['exportQuestion'], html)
                     self.assertIn(escape(content['exportAnswer']), html)
@@ -85,9 +85,9 @@ class ProductContentTests(unittest.TestCase):
         ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
         sitemap = ET.parse(pages.ROOT / 'sitemap.xml')
         locations = [n.text for n in sitemap.findall('.//s:loc', ns)]
-        self.assertEqual(len(locations), 109)
+        self.assertEqual(len(locations), 121)
         for locale, content in self.content.items():
-            for kind in ('', 'help', pages.BATCH, pages.CONTACT, pages.COVER, pages.STEPS):
+            for kind in ('', 'help', pages.BATCH, pages.CONTACT, pages.COVER, pages.STEPS, pages.ANIMATION):
                 self.assertIn(pages.url(locale, kind), locations)
             html = pages.local_path(locale).read_text()
             nodes = json.loads(pages.SCHEMA_RE.search(html)[1])
@@ -96,6 +96,29 @@ class ProductContentTests(unittest.TestCase):
             self.assertEqual(app['description'], content['homeDescription'])
             self.assertIn('DigIt', app['alternateName'])
             self.assertFalse(re.search(r'<meta\b[^>]*name="keywords"', html))
+
+    def test_animation_facts_and_localized_machine_readable_guides(self):
+        for locale, content in self.content.items():
+            with self.subTest(locale=locale):
+                html = pages.local_path(locale, pages.ANIMATION).read_text()
+                self.assertIn(escape(content['animationAvailability']), html)
+                self.assertIn('1.4.5', content['animationAvailability'])
+                self.assertIn(escape(content['animationMotionAnswer']), html)
+                self.assertIn('1920', content['animationLimit'])
+                self.assertIn('640', content['animationLimit'])
+                self.assertIn('CLI', content['animationLimit'])
+                self.assertIn('id="frame-animation"', pages.local_path(locale).read_text())
+                self.assertIn('id="frame-animation"', pages.local_path(locale, 'help').read_text())
+                self.assertNotEqual(content['homeDescription'], content['helpDescription'])
+                self.assertNotEqual(content['helpDescription'], content['animationIntro'])
+                self.assertEqual(pages.local_path(locale, pages.ANIMATION, '.md').read_text(),
+                                 pages.Markdown().render(html, pages.url(locale, pages.ANIMATION)))
+                if locale != 'en':
+                    self.assertNotEqual(content['animationIntro'], self.content['en']['animationIntro'])
+        llms = (pages.ROOT / 'llms.txt').read_text()
+        self.assertIn('## Selected-frame MP4 and GIF', llms)
+        self.assertIn(self.content['en']['animationAvailability'], llms)
+        self.assertIn(self.content['en']['animationMotionAnswer'], llms)
 
 
 if __name__ == '__main__':

@@ -2,6 +2,7 @@ Workflow examples
 
 mac-batch-workspace.webp and mac-frame-review.webp show the Dig It Mac app
 with demonstration data. video-contact-sheet.webp shows an exported overview.
+mac-frame-animation.webp shows the real GIF export panel with selected frames.
 
 The video stills are from Big Buck Bunny:
 Copyright 2008, Blender Foundation / www.bigbuckbunny.org

@@ -1,5 +1,7 @@
 # Website Content
 
+`animation-content.json` adds the 1.4.5 selected-frame MP4/GIF workflow in all 12 languages. The generator merges it into product facts, landing metadata, help, FAQs, structured data and Markdown. Its explicit minimum-version notice must remain visible until and after App Store approval; do not present this as full-motion video-to-GIF conversion or a CLI feature.
+
 `workflow-content.json` contains the translated feature descriptions, help, FAQs and workflow guides for all 12 languages. `landing-copy.json` adds the homepage narrative. Reusable brand foundations live in `design-system/`. Regenerate shared tokens, HTML, Markdown, `llms.txt` and the sitemap from the website root:
 
 ```sh

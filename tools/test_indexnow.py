@@ -10,7 +10,7 @@ import submit_indexnow as indexnow
 class IndexNowTests(unittest.TestCase):
     def test_sitemap_only_contains_current_canonical_html(self):
         urls = indexnow.canonical_urls()
-        self.assertEqual(len(urls), 109)
+        self.assertEqual(len(urls), 121)
         self.assertIn(indexnow.BASE + "/", urls)
         self.assertIn(indexnow.BASE + "/zh-Hans/", urls)
         self.assertTrue(all(not url.endswith((".md", ".html")) for url in urls))
