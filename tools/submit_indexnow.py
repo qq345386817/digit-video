@@ -10,7 +10,7 @@ import subprocess
 import sys
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
-from urllib.request import Request, urlopen
+from urllib.request import ProxyHandler, Request, build_opener, urlopen
 import xml.etree.ElementTree as ET
 
 from check_seo import Page, file_for_url
@@ -21,7 +21,15 @@ HOST = "digit-video.luopeike.com"
 BASE = "https://" + HOST
 KEY_FILE = ROOT / "06aacb315549422782b8611275debae7.txt"
 ENDPOINT = "https://api.indexnow.org/indexnow"
+USER_AGENT = "DigItWebsiteIndexNow/1.0"
 MAX_URLS = 10000
+
+
+class SubmissionError(Exception):
+    def __init__(self, stage, cause):
+        super().__init__(str(cause))
+        self.stage = stage
+        self.cause = cause
 
 
 def canonical_urls():
@@ -74,18 +82,26 @@ def payload_for(urls):
             "urlList": urls}
 
 
-def submit(payload):
+def submit(payload, *, no_proxy=False):
     # Never notify before deployment, or mistake an HTML 404 fallback for a key.
-    with urlopen(payload["keyLocation"], timeout=30) as response:
-        if (response.status != 200 or response.geturl() != payload["keyLocation"]
-                or response.read(1024).decode("utf-8").strip() != payload["key"]):
-            raise ValueError("Live verification file is missing, redirected or incorrect; deploy first")
+    open_url = build_opener(ProxyHandler({})).open if no_proxy else urlopen
+    key_request = Request(payload["keyLocation"], headers={"User-Agent": USER_AGENT})
     request = Request(ENDPOINT, data=json.dumps(payload).encode("utf-8"),
-                      headers={"Content-Type": "application/json; charset=utf-8"}, method="POST")
-    with urlopen(request, timeout=60) as response:
-        status = response.status
-        if response.geturl() != ENDPOINT or status not in (200, 202):
-            raise ValueError("Unexpected IndexNow response: " + str(status))
+                      headers={"Content-Type": "application/json; charset=utf-8",
+                               "User-Agent": USER_AGENT}, method="POST")
+    stage = "verify_live_key"
+    try:
+        with open_url(key_request, timeout=30) as response:
+            if (response.status != 200 or response.geturl() != payload["keyLocation"]
+                    or response.read(1024).decode("utf-8").strip() != payload["key"]):
+                raise ValueError("Live verification file is missing, redirected or incorrect; deploy first")
+        stage = "notify_indexnow"
+        with open_url(request, timeout=60) as response:
+            status = response.status
+            if response.geturl() != ENDPOINT or status not in (200, 202):
+                raise ValueError("Unexpected IndexNow response: " + str(status))
+    except (OSError, URLError) as error:
+        raise SubmissionError(stage, error) from error
     return {"httpStatus": status,
             "status": "submitted" if status == 200 else "accepted_key_validation_pending",
             "indexed": "unknown"}
@@ -97,12 +113,13 @@ def main(argv=None):
     scope.add_argument("--url", action="append", help="Notify only these canonical URLs (repeatable)")
     scope.add_argument("--since", help="Notify current HTML pages changed since this Git revision")
     parser.add_argument("--submit", action="store_true", help="Verify the live key, then POST (default: offline dry run)")
+    parser.add_argument("--no-proxy", action="store_true", help="Use a direct connection for this run only; TLS verification remains enabled")
     parser.add_argument("--receipt", type=Path, help="Optional local JSON receipt; keep outside the website repository")
     args = parser.parse_args(argv)
     if args.receipt and args.receipt.resolve().is_relative_to(ROOT):
         parser.error("Keep receipts outside the published website repository")
     report = {"host": HOST, "endpoint": ENDPOINT, "submittedAt": None,
-              "mode": "submit" if args.submit else "dry_run"}
+              "mode": "submit" if args.submit else "dry_run", "directConnection": args.no_proxy}
     try:
         urls = select_urls(canonical_urls(), args.url, args.since)
         payload = payload_for(urls)
@@ -110,15 +127,21 @@ def main(argv=None):
         if not urls:
             report["status"] = "no_changed_canonical_pages"
         elif args.submit:
-            report.update(submit(payload))
+            report.update(submit(payload, no_proxy=args.no_proxy))
             report["submittedAt"] = datetime.now(timezone.utc).isoformat()
         else:
             report["status"] = "not_submitted"
         code = 0
-    except (ValueError, OSError, URLError, ET.ParseError, subprocess.CalledProcessError) as error:
+    except (SubmissionError, ValueError, OSError, URLError, ET.ParseError, subprocess.CalledProcessError) as error:
         report.update(status="failed_or_unconfirmed", error=str(error))
-        if isinstance(error, HTTPError):
-            report["httpStatus"] = error.code
+        cause = error
+        if isinstance(error, SubmissionError):
+            report["failedStage"] = error.stage
+            cause = error.cause
+        if isinstance(cause, HTTPError):
+            report["httpStatus"] = cause.code
+            report["failedUrl"] = cause.url
+            report["responseBody"] = cause.read(1024).decode("utf-8", errors="replace")
         # A timed-out POST may already have arrived. Do not retry automatically.
         code = 1
     if args.receipt:

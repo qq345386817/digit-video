@@ -81,14 +81,34 @@ class IndexNowTests(unittest.TestCase):
         self.assertEqual(receipt["indexed"], "unknown")
 
     def test_http_error_is_reported_without_retry(self):
-        with patch.object(indexnow, "submit", side_effect=HTTPError(indexnow.ENDPOINT, 429, "Too Many Requests", {}, None)), contextlib.redirect_stdout(io.StringIO()) as output:
+        with patch.object(indexnow, "submit", side_effect=HTTPError(indexnow.ENDPOINT, 429, "Too Many Requests", {}, io.BytesIO(b"rate limited"))), contextlib.redirect_stdout(io.StringIO()) as output:
             self.assertEqual(indexnow.main(["--submit"]), 1)
         self.assertIn('"httpStatus": 429', output.getvalue())
+        self.assertIn('"failedUrl": "' + indexnow.ENDPOINT + '"', output.getvalue())
+        self.assertIn("rate limited", output.getvalue())
 
     def test_empty_git_diff_does_not_submit(self):
         with patch.object(indexnow, "select_urls", return_value=[]), patch.object(indexnow, "urlopen") as network, contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(indexnow.main(["--since", "HEAD", "--submit"]), 0)
         network.assert_not_called()
+
+    def test_transport_failure_records_the_phase_and_does_not_retry(self):
+        with patch.object(indexnow, "urlopen", side_effect=OSError("connection closed")) as network, contextlib.redirect_stdout(io.StringIO()) as output:
+            self.assertEqual(indexnow.main(["--submit"]), 1)
+        self.assertEqual(network.call_count, 1)
+        self.assertIn('"failedStage": "verify_live_key"', output.getvalue())
+
+    def test_direct_mode_only_changes_this_request_opener(self):
+        payload = indexnow.payload_for([indexnow.BASE + "/"])
+        response = MagicMock(status=200)
+        response.geturl.side_effect = [payload["keyLocation"], indexnow.ENDPOINT]
+        response.read.return_value = payload["key"].encode()
+        with patch.object(indexnow, "build_opener") as factory, patch.object(indexnow, "urlopen") as default:
+            factory.return_value.open.return_value.__enter__.return_value = response
+            receipt = indexnow.submit(payload, no_proxy=True)
+        default.assert_not_called()
+        self.assertEqual(factory.call_args.args[0].proxies, {})
+        self.assertEqual(receipt["httpStatus"], 200)
 
 
 if __name__ == "__main__":

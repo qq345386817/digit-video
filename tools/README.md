@@ -40,3 +40,5 @@ python3 -m unittest discover -s tools -p 'test_indexnow.py' -v
 ```
 
 For subsequent releases, deploy first, then use `--since <previous-published-commit> --submit` or repeat `--url` for the pages actually changed. This tool covers current canonical pages, not deleted URLs. It verifies the live key before notifying, rejects foreign URLs/aliases/Markdown, does not retry ambiguous submissions, and distinguishes HTTP 200 receipt from HTTP 202 key-validation-pending. Neither response proves indexing; check Bing's dashboard later. IndexNow does not replace Google Search Console or its sitemap.
+
+If the local proxy interferes, add `--no-proxy` to bypass environment/system proxies for this command only. This does not change macOS network settings or disable TLS certificate checks. Failure receipts identify key-file verification versus IndexNow notification, so an interrupted POST is not silently treated as success or automatically repeated.
