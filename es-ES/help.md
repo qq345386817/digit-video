@@ -4,7 +4,7 @@ Dig It
 
 # Ayuda y soporte de Dig It
 
-Ayuda de Dig It: extrae y selecciona fotogramas, crea MP4 sin sonido o GIF, exporta portadas y PDF y guarda proyectos. Flujos de Mac y límites.
+Aprende a comparar fotogramas, revisar vídeos de frecuencia variable en el Mac, deshacer una edición y exportar portadas, hojas de contacto, GIF o MP4 sin sonido.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ En iPhone y iPad, selecciona un vídeo de Fotos o Archivos, revisa las imágenes
 
 [Crear una hoja de contacto de vídeo Organiza imágenes del vídeo con marcas de tiempo en un resumen PNG o una hoja PDF con paginación automática. Compara portadas, comparte escenas o reúne pasos de un tutorial sin enviar el vídeo original. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-contact-sheet)
 
-[Crea una portada PNG o JPEG desde un vídeo Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
+[Crea una portada PNG o JPEG desde un vídeo Compara dos posibles portadas en el iPhone o iPad, o recorre el vídeo original en el Mac. Elige un fotograma, recórtalo y exporta la miniatura en PNG o JPEG. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
 
 [Convierte un vídeo en imágenes de pasos Usa el modo Pasos para recoger cambios de un tutorial o una grabación de pantalla. Revisa y exporta imágenes PNG para notas, documentos o presentaciones; crea una hoja de contacto PDF con marcas de tiempo para ver el conjunto. Leer la guía →](https://digit-video.luopeike.com/es-ES/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Elige 0,1, 0,25, 0,5, 1 o 2 segundos por imagen. El lado máximo del MP4 puede s
 
 No. Muestra las imágenes fijas durante el tiempo elegido. El MP4 es silencioso y el GIF no tiene audio. No recupera el movimiento continuo, interpola fotogramas ni genera animación con IA. Sirve para compartir momentos o resumir un proceso, no para convertir un vídeo completo en movimiento.
 
-## Elige una imagen entre los fotogramas cercanos
+## ¿Qué fotograma queda mejor como portada?
 
-En Mac, selecciona un resultado, revisa los fotogramas cercanos del vídeo original y añade una imagen o sustituye la seleccionada. El vídeo de origen debe seguir disponible en el espacio de trabajo actual.
+### iPhone / iPad
 
-[![Resultados de Mac y revisión del vídeo de origen con un clip de ejemplo. Interfaz en inglés.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+A veces solo cambia un gesto entre dos posibles portadas. Extrae fotogramas en el iPhone o iPad, selecciona dos y toca «Comparar dos fotogramas» junto al contador. Verás ambas imágenes y el tiempo de cada una en milisegundos.
 
-Resultados de Mac y revisión del vídeo de origen con un clip de ejemplo. Interfaz en inglés.
+### Mac
 
-Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organizadas con Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+Si el instante que buscas cae entre dos muestras, abre «Revisión precisa de fotogramas» en el Mac con el vídeo original disponible. Avanza o retrocede un fotograma real, incluso con frecuencia variable. Añade el candidato o sustituye un único fotograma seleccionado.
+
+Cierra la comparación y deja un solo fotograma seleccionado para recortar la portada en PNG o JPEG. Antes de exportar una hoja de contacto PDF, comprueba la cantidad y el intervalo: se usa la selección o, si está vacía, todos los resultados restantes (máximo 120 por PDF).
 
 ## Guarda un conjunto que puedas seguir editando
 
@@ -125,6 +127,10 @@ Usa Fotos solo para elegir medios de origen y guardar resultados cuando lo solic
 ### ¿El GIF o MP4 conserva el movimiento y el audio originales?
 
 No. Muestra las imágenes fijas durante el tiempo elegido. El MP4 es silencioso y el GIF no tiene audio. No recupera el movimiento continuo, interpola fotogramas ni genera animación con IA. Sirve para compartir momentos o resumir un proceso, no para convertir un vídeo completo en movimiento.
+
+### ¿Puedo deshacer una edición?
+
+Puedes deshacer la última edición de la cuadrícula y recuperar su selección. En Mac también puedes deshacer la adición o sustitución de un fotograma original. Guardar, cerrar o cambiar de proyecto borra ese único paso; no hay opción de rehacer.
 
 ### ¿Qué formatos puedo exportar para imágenes y resúmenes?
 

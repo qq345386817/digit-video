@@ -10,7 +10,7 @@ Ordne Videobilder mit Zeitangaben als PNG-Übersicht oder PDF-Kontaktabzug mit a
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-11-11
+Aktualisiert: 2026-11-23
 
 ## Erste Schritte
 
@@ -23,6 +23,8 @@ Aktualisiert: 2026-11-11
 4. Speichere oder teile die PNG. Auswahl exportieren erstellt einzelne PNG-Dateien; nutze dies, wenn jedes Bild weiter bearbeitet werden soll.
 
 ## PNG-Kontaktbögen: bis zu 40 Frames
+
+Schließe den Vergleich und lasse nur ein Bild ausgewählt, um ein PNG- oder JPEG-Cover zuzuschneiden. Prüfe vor dem PDF-Export Anzahl und Zeitspanne: Der Kontaktbogen enthält die Auswahl, ohne Auswahl alle übrigen Ergebnisse (bis zu 120 pro PDF).
 
 Ein PNG-Kontaktbogen umfasst bis zu 40 Frames. Für größere druckbare Übersichten bietet PDF bis zu 120 Frames mit automatischer Seitenaufteilung. Der Mac-Arbeitsbereich kann auch PNG-Kontaktbögen und PDFs exportieren.
 
@@ -60,12 +62,12 @@ Verwende Speichern, um das vollständige aktuelle Ergebnis und verfügbare Zeits
 
 [Videobilder auf dem Mac im Stapel extrahieren Füge Videodateien oder einen Ordner hinzu, wähle eine Extraktionsvorlage und prüfe die Ergebnisse oder exportiere PNG/JPEG automatisch. Die Verarbeitung bleibt auf deinem Mac. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/batch-extract-video-frames-on-mac)
 
-[Ein PNG- oder JPEG-Cover aus einem Video erstellen Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
+[Ein PNG- oder JPEG-Cover aus einem Video erstellen Vergleiche zwei Coverbilder auf dem iPhone oder iPad oder prüfe das Originalvideo auf dem Mac. Wähle ein Bild, schneide es zu und exportiere es als PNG oder JPEG. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
 
 [Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
 [GIF oder MP4 aus ausgewählten Videoframes erstellen Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder iPad ein stummes Kurzvideo oder animiertes GIF. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-frames-to-gif-and-mp4)
 
-[Hilfe Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.](https://digit-video.luopeike.com/de-DE/help)
+[Hilfe So vergleichst du Standbilder, prüfst Videos mit variabler Bildrate auf dem Mac, nimmst Änderungen zurück und exportierst Cover, Kontaktbögen, GIFs oder stumme MP4s.](https://digit-video.luopeike.com/de-DE/help)
 
 [Als Markdown lesen](https://digit-video.luopeike.com/de-DE/video-contact-sheet.md)

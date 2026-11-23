@@ -40,8 +40,8 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/turn-video-into-step-im
 
 [从视频制作缩略图索引图与 PDF 总览 把多张视频静帧整理成带时间戳的 PNG 缩略图索引图或自动分页的 PDF 缩略图索引页，用来比较封面、分享场景摘要和整理教程步骤，无需发送原视频。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-contact-sheet)
 
-[从视频制作 PNG 或 JPEG 封面 选中一张提取结果，使用“导出封面”调整裁切位置，选择 PNG 或 JPEG，还可将 JPEG 限制在 2 MB 内。为商品展示、演示文稿或帖子挑选缩略图，无需上传视频。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-video)
+[从视频制作 PNG 或 JPEG 封面 在 iPhone 或 iPad 上对比两张封面候选图，或在 Mac 上逐帧查看原视频。选定一帧后裁切，导出 PNG 或 JPEG 视频封面。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-video)
 
 [将选中的视频帧合成 GIF 或短视频 从视频提取画面，再挑选 2–60 张静态图，在 Mac、iPhone 或 iPad 上合成无声 MP4 或 GIF 动图。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-frames-to-gif-and-mp4)
 
-[帮助 Dig It 使用帮助：了解视频抽帧、选帧合成 MP4 与 GIF、封面和 PDF 导出、历史记录，以及 Mac 批量流程、尺寸与数量限制。](https://digit-video.luopeike.com/zh-Hans/help)
+[帮助 了解如何对比两帧、在 Mac 上核对可变帧率原片、撤销编辑，并导出封面、联系表、GIF 或无声 MP4。](https://digit-video.luopeike.com/zh-Hans/help)

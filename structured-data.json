@@ -9,7 +9,7 @@
     "DigIt Video",
     "DigIt keyframes"
   ],
-  "description": "Extract video frames on Mac, iPhone and iPad. Export photos, covers and PDF contact sheets, or turn 2–60 stills into a silent MP4 or GIF. Process locally.",
+  "description": "Extract stills locally. Compare two frames on iPhone or iPad, or step through the original video on Mac. Export a cropped cover, PDF contact sheet, GIF or silent MP4.",
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "iOS, iPadOS, macOS",
   "url": "https://digit-video.luopeike.com/",
@@ -21,6 +21,8 @@
     "priceCurrency": "USD"
   },
   "featureList": [
+    "Compare Two Frames (iPhone / iPad)",
+    "Exact Frame Review (Mac)",
     "Batch extract video frames on Mac",
     "Create a PNG or JPEG cover from video",
     "Create a video contact sheet",

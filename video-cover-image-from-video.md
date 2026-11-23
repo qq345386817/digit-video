@@ -4,7 +4,7 @@ Workflow guide
 
 # Create a PNG or JPEG cover from video
 
-Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip.
+Compare cover candidates on iPhone or iPad, or step through the original video on Mac. Choose one still, crop it and export a PNG or JPEG thumbnail.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Choose frames where the subject is centered, text is readable, and the scene is 
 
 ## Export selected covers
 
-Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip.
+Close the comparison and leave just one frame selected to crop a PNG or JPEG cover. For a PDF contact sheet, check the frame count and time range: it uses the selection, or all remaining results when nothing is selected (up to 120 per PDF).
+
+## Which frame makes the better cover?
+
+### iPhone / iPad
+
+Select exactly two extracted stills and tap “Compare Two Frames” next to the selection count. Compare the expressions and millisecond timecodes. Closing the comparison leaves both images selected.
+
+[![Compare Two Frames · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/en-iphone.webp)](https://digit-video.luopeike.com/images/review/en-iphone.webp)
+
+Compare Two Frames · 00:50.375 / 00:51.125
+
+Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+A cut can fall between two samples. On Mac, open Exact Frame Review with the original video available and step to the previous or next source frame, even in variable-frame-rate footage. Add the candidate or replace one selected frame.
+
+[![Exact Frame Review · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/en-mac.webp)](https://digit-video.luopeike.com/images/review/en-mac.webp)
+
+Exact Frame Review · 00:50.375 / 00:50.417
+
+Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## Images you can put to work
 
@@ -44,4 +66,4 @@ Selected stills export as separate PNG files. Export Cover crops one frame to PN
 
 [Make a GIF or MP4 from selected video frames Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad. Read the guide →](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4)
 
-[Help Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.](https://digit-video.luopeike.com/help)
+[Help Learn to compare two frames, review variable-frame-rate video on Mac, undo an edit and export covers, contact sheets, GIFs or silent MP4s.](https://digit-video.luopeike.com/help)

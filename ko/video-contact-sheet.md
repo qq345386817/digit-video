@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ko/video-contact-sheet
 
 [도움말](https://digit-video.luopeike.com/ko/help)
 
-업데이트: 2026-11-11
+업데이트: 2026-11-23
 
 ## 시작하기
 
@@ -23,6 +23,8 @@ Canonical page: https://digit-video.luopeike.com/ko/video-contact-sheet
 4. 만들어진 PNG를 저장하거나 공유하세요. 선택 항목 내보내기는 개별 PNG 파일을 만드므로 각각 편집해야 할 때 사용하세요.
 
 ## PNG 시트: 최대 40개 프레임
+
+비교를 닫고 한 장만 선택하면 잘라서 PNG 또는 JPEG 표지로 내보낼 수 있습니다. PDF 콘택트 시트는 프레임 수와 시간 범위를 먼저 확인하세요. 선택한 프레임을 사용하며, 선택이 없을 때만 남은 결과 전체를 사용합니다(PDF당 최대 120장).
 
 PNG 시트는 최대 40개 프레임입니다. 더 큰 인쇄용 개요는 최대 120개를 자동 분할하는 PDF 콘택트 시트를 사용하세요. Mac 일괄 작업 공간에서도 PNG 시트와 PDF를 내보낼 수 있습니다.
 
@@ -60,12 +62,12 @@ iPhone·iPad에서는 사진이나 파일에서 하나의 동영상을 선택하
 
 [Mac에서 동영상 프레임 일괄 추출하기 동영상 파일이나 폴더를 추가하고 추출 프리셋을 선택한 뒤 결과를 검토하거나 PNG/JPEG를 자동으로 내보내세요. 처리는 Mac에서 이루어집니다. 가이드 읽기 →](https://digit-video.luopeike.com/ko/batch-extract-video-frames-on-mac)
 
-[동영상에서 PNG 또는 JPEG 표지 만들기 추출된 프레임 하나를 선택하고 표지 내보내기에서 자르기 위치와 PNG 또는 JPEG를 고르세요. JPEG는 선택적으로 2 MB로 제한할 수 있습니다. 업로드 없이 상품, 발표 또는 게시물의 썸네일을 준비하세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
+[동영상에서 PNG 또는 JPEG 표지 만들기 iPhone이나 iPad에서 두 표지 후보를 비교하거나 Mac에서 원본 영상을 한 프레임씩 확인하세요. 한 장을 골라 자른 뒤 PNG 또는 JPEG 표지로 내보내세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
 
 [동영상을 튜토리얼 단계 이미지로 단계 모드로 튜토리얼이나 화면 녹화의 변화 지점을 추출하세요. 선택한 PNG 이미지를 노트, 문서 또는 발표에 쓰거나 시간 정보가 있는 PDF 콘택트 시트로 전체를 살펴볼 수 있습니다. 가이드 읽기 →](https://digit-video.luopeike.com/ko/turn-video-into-step-images)
 
 [선택한 동영상 프레임으로 GIF와 MP4 만들기 추출한 프레임 중 2–60장의 정지 이미지를 선택해 Mac, iPhone, iPad에서 소리 없는 짧은 MP4나 움직이는 GIF를 만드세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-frames-to-gif-and-mp4)
 
-[도움말 Dig It 사용법: 프레임 추출과 선택, 무음 MP4 및 GIF 만들기, 커버와 PDF 내보내기, 프로젝트 저장, Mac 작업 흐름과 내보내기 제한을 알아보세요.](https://digit-video.luopeike.com/ko/help)
+[도움말 두 프레임 비교, Mac에서 가변 프레임률 영상 확인, 편집 취소, 표지·콘택트 시트·GIF·무음 MP4 내보내기 방법을 안내합니다.](https://digit-video.luopeike.com/ko/help)
 
 [Markdown으로 읽기](https://digit-video.luopeike.com/ko/video-contact-sheet.md)

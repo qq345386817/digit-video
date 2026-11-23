@@ -10,7 +10,7 @@ Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou 
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-11-11
+Atualizado: 2026-11-23
 
 A exportação de MP4 e GIF de quadros selecionados requer Dig It 1.4.5 ou posterior no Mac, iPhone ou iPad. Confira a versão disponível na App Store antes de baixar por esta função.
 
@@ -62,10 +62,10 @@ Use Salvar para manter o conjunto completo de resultados atuais e os horários d
 
 [Criar uma folha de contato de vídeo Organize imagens do vídeo com horários em um resumo PNG ou folha PDF com paginação automática. Compare capas, compartilhe cenas ou reúna etapas de um tutorial sem enviar o vídeo original. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-contact-sheet)
 
-[Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
+[Crie uma capa PNG ou JPEG a partir de um vídeo Compare duas opções de capa no iPhone ou iPad ou percorra o vídeo original no Mac. Escolha um quadro, recorte e exporte a miniatura em PNG ou JPEG. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
 
 [Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
-[Ajuda Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.](https://digit-video.luopeike.com/pt-BR/help)
+[Ajuda Aprenda a comparar quadros, revisar vídeos com taxa de quadros variável no Mac, desfazer uma edição e exportar capas, folhas de contato, GIFs ou MP4 sem som.](https://digit-video.luopeike.com/pt-BR/help)
 
 [Ler em Markdown](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4.md)

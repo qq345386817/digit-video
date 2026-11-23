@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ja/video-contact-sheet
 
 [ヘルプ](https://digit-video.luopeike.com/ja/help)
 
-更新日: 2026-11-11
+更新日: 2026-11-23
 
 ## はじめに
 
@@ -23,6 +23,8 @@ Canonical page: https://digit-video.luopeike.com/ja/video-contact-sheet
 4. 生成したPNGを保存または共有します。選択画像の書き出しは個別のPNGを作るため、画像を別々に編集したい場合はこちらを使います。
 
 ## PNG シート：最大 40 フレーム
+
+比較を閉じて1枚だけ選ぶと、トリミングしてPNGまたはJPEGの表紙に書き出せます。PDFコンタクトシートは枚数と時間範囲を確認してから書き出します。選択中の画像が対象で、未選択の場合のみ残りの全画像が対象です（1ファイル120枚まで）。
 
 PNG シートは最大 40 フレームです。より多くの画像を印刷する場合は、最大 120 フレームを自動ページ分けする PDF コンタクトシートを使ってください。Mac のバッチ処理でも PNG シートと PDF を出力できます。
 
@@ -60,12 +62,12 @@ iPhone・iPadでは写真やファイルから動画を1本選び、結果を確
 
 [Macで動画フレームを一括抽出する 動画ファイルやフォルダを追加し、抽出プリセットを選び、結果を確認するかPNG/JPEG画像を自動出力できます。処理はMac内で行われます。 ガイドを読む →](https://digit-video.luopeike.com/ja/batch-extract-video-frames-on-mac)
 
-[動画から PNG・JPEG カバーを作る 抽出した画像を一枚選び、カバーの書き出しで切り抜き位置と PNG・JPEG を選択。JPEG は任意で 2 MB に制限できます。動画をアップロードせず、商品紹介やプレゼン、投稿のサムネイルを用意できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
+[動画から PNG・JPEG カバーを作る iPhone・iPadでカバー候補を2枚比較するか、Macで元動画をコマ送り。選んだ1枚をトリミングし、PNGまたはJPEGのサムネイルを書き出します。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
 
 [動画をチュートリアルの手順画像に 手順モードで解説動画や画面収録の変化点を抽出。確認して選んだ PNG をノート、文書、プレゼンに活用できます。時刻付き PDF コンタクトシートで全体を確認することもできます。 ガイドを読む →](https://digit-video.luopeike.com/ja/turn-video-into-step-images)
 
 [選んだ動画フレームからGIF・MP4を作成 動画から抽出した静止画を2〜60枚選び、Mac・iPhone・iPadで無音の短いMP4やアニメーションGIFを作成できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-frames-to-gif-and-mp4)
 
-[ヘルプ Dig Itの使い方。動画フレームの抽出・選択、無音MP4やGIFの作成、カバー・PDFの書き出し、プロジェクト保存、Macのワークフローと各種上限を解説します。](https://digit-video.luopeike.com/ja/help)
+[ヘルプ 2枚のフレームの比較、Macでの可変フレームレート動画の確認、編集の取り消し、カバー・コンタクトシート・GIF・無音MP4の書き出し方法を紹介します。](https://digit-video.luopeike.com/ja/help)
 
 [Markdownで読む](https://digit-video.luopeike.com/ja/video-contact-sheet.md)

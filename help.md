@@ -4,7 +4,7 @@ Dig It
 
 # Dig It Help and Support
 
-Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.
+Learn to compare two frames, review variable-frame-rate video on Mac, undo an edit and export covers, contact sheets, GIFs or silent MP4s.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ On iPhone and iPad, choose one video from Photos or Files, review the extracted 
 
 [Create a video contact sheet Arrange video stills with timestamps in a PNG overview or an automatically paginated PDF contact sheet. Compare cover candidates, share a scene summary or collect tutorial steps without sending the original video. Read the guide →](https://digit-video.luopeike.com/video-contact-sheet)
 
-[Create a PNG or JPEG cover from video Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
+[Create a PNG or JPEG cover from video Compare cover candidates on iPhone or iPad, or step through the original video on Mac. Choose one still, crop it and export a PNG or JPEG thumbnail. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
 
 [Turn a video into tutorial step images Use Steps mode to collect useful changes from a tutorial or screen recording. Review and export selected PNG images for your notes, documentation or presentations; use a PDF contact sheet for a timestamped overview. Read the guide →](https://digit-video.luopeike.com/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Choose 0.1, 0.25, 0.5, 1 or 2 seconds per frame. MP4 maximum-edge options are 72
 
 No. It displays the selected still images for the chosen duration. MP4 is silent; GIF has no audio. Dig It does not restore the source video's continuous movement, interpolate frames or generate AI motion. Use the result to share key moments or a process, not as a full-motion video conversion.
 
-## Pick a still from nearby source frames
+## Which frame makes the better cover?
 
-On Mac, select one result, move through nearby source frames, and add a new still or replace the selected image. This review needs the source video to remain available in the current workspace.
+### iPhone / iPad
 
-[![Mac results and source-frame review using a sample video. English interface shown.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+Select exactly two extracted stills and tap “Compare Two Frames” next to the selection count. Compare the expressions and millisecond timecodes. Closing the comparison leaves both images selected.
 
-Mac results and source-frame review using a sample video. English interface shown.
+### Mac
 
-Sample video: Big Buck Bunny. © 2008 Blender Foundation. Frames arranged in Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+A cut can fall between two samples. On Mac, open Exact Frame Review with the original video available and step to the previous or next source frame, even in variable-frame-rate footage. Add the candidate or replace one selected frame.
+
+Close the comparison and leave just one frame selected to crop a PNG or JPEG cover. For a PDF contact sheet, check the frame count and time range: it uses the selection, or all remaining results when nothing is selected (up to 120 per PDF).
 
 ## Save a frame set you can return to
 
@@ -125,6 +127,10 @@ Dig It uses Photos access only so you can choose source media and save exported 
 ### Does the GIF or MP4 keep the original motion and audio?
 
 No. It displays the selected still images for the chosen duration. MP4 is silent; GIF has no audio. Dig It does not restore the source video's continuous movement, interpolate frames or generate AI motion. Use the result to share key moments or a process, not as a full-motion video conversion.
+
+### Can I undo a frame edit?
+
+Undo restores the last edit in the results grid, including its selection. On Mac this also works after adding or replacing a source frame. Saving, closing or switching projects clears that one undo step; there is no redo.
 
 ### Which image and overview formats can I export?
 

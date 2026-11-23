@@ -4,7 +4,7 @@ Dig It
 
 # Dig It 幫助與支援
 
-Dig It 使用說明：瞭解影片擷取、選格製作 MP4 與 GIF、封面和 PDF 匯出、歷史記錄，以及 Mac 批次流程、尺寸與數量限制。
+瞭解如何比較兩個影格、在 Mac 查看可變影格率原片、復原編輯，以及匯出封面、聯絡表、GIF 或無聲 MP4。
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ Mac 提供批次佇列、資料夾匯入、擷取預設、自動 PNG/JPEG 匯出
 
 [從影片製作 PNG 與 PDF 縮圖總覽 將多張影片影格整理成附時間戳記的 PNG 縮圖總覽圖或自動分頁的 PDF 縮圖總覽，用來比較封面、分享場景摘要及整理教學步驟，不必傳送原影片。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-contact-sheet)
 
-[從影片製作 PNG 或 JPEG 封面 選取一張擷取結果，使用「匯出封面」調整裁切位置，選擇 PNG 或 JPEG，也可將 JPEG 限制在 2 MB 內。為商品展示、簡報或貼文挑選縮圖，無須上傳影片。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
+[從影片製作 PNG 或 JPEG 封面 在 iPhone 或 iPad 比對兩張封面候選圖，或在 Mac 上逐格查看原始影片。選定一格後裁切，輸出 PNG 或 JPEG 封面。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
 
 [把影片整理成教學步驟圖片 使用步驟模式擷取教學或螢幕錄影中的關鍵變化，檢視並匯出所選 PNG 圖片，用於筆記、文件或簡報；也可製作附時間戳記的 PDF 縮圖總覽。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Mac、iPhone 與 iPad 的選格製作 MP4 / GIF 需要 Dig It 1.4.5 或更新版
 
 不會。成品按設定時長依序顯示所選靜態圖，MP4 為無聲影片，GIF 也不含音訊。它不會恢復原影片連續動作、補間或產生 AI 動畫，適合分享關鍵畫面與過程摘要，並非完整動態影片轉換。
 
-## 從來源影片附近畫面精確選取影格
+## 哪個影格最適合當封面？
 
-在 Mac 選取一張結果，逐格查看附近的來源畫面，再加入新圖片或替換所選圖片。此功能需要目前工作區的來源影片仍然可用。
+### iPhone / iPad
 
-[![使用範例影片的 Mac 結果頁與來源畫面檢視。截圖為英文介面。](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+從影片挑封面時，兩個影格可能只差一個表情。在 iPhone 或 iPad 擷取畫面後，選取兩張，點一下數量旁的「比較兩個影格」，就能比對畫面和各自的毫秒時間碼。
 
-使用範例影片的 Mac 結果頁與來源畫面檢視。截圖為英文介面。
+### Mac
 
-範例影片：Big Buck Bunny。© 2008 Blender Foundation。畫面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+想要的畫面可能剛好落在兩張取樣圖之間。在 Mac 上開啟原始影片，用「精確影格檢視」逐格往前或往後查看，可變影格率的素材也會依實際影格移動。找到後，可加入候選影格或取代目前選取的單一影格。
+
+關閉比較後，只選一格即可裁切並匯出 PNG 或 JPEG 封面。匯出 PDF 聯絡表前先核對張數與起訖時間：有選取就使用所選影格，未選取才使用所有剩餘結果，每份最多 120 格。
 
 ## 儲存之後還能繼續編輯的結果集
 
@@ -125,6 +127,10 @@ Dig It 目前在 App Store 免費提供。最新價格與裝置相容性請以�
 ### 製作的 GIF 或 MP4 會保留原影片動作與聲音嗎？
 
 不會。成品按設定時長依序顯示所選靜態圖，MP4 為無聲影片，GIF 也不含音訊。它不會恢復原影片連續動作、補間或產生 AI 動畫，適合分享關鍵畫面與過程摘要，並非完整動態影片轉換。
+
+### 刪錯影格，可以復原嗎？
+
+可以復原結果格狀檢視中的上一次編輯，連同當時的選取狀態一起還原。Mac 上新增或取代原始影格也適用。儲存、關閉或切換專案後就不能復原該步驟，也不支援重做。
 
 ### 圖片和畫面總覽分別支援哪些匯出格式？
 

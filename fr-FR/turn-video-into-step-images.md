@@ -40,8 +40,8 @@ Les images sélectionnées sont exportées en PNG séparés. Exporter la couvert
 
 [Créer une planche-contact à partir d'une vidéo Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une planche PDF à pagination automatique. Comparez des couvertures, partagez des scènes ou réunissez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
 
-[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Comparez deux images sur iPhone ou iPad ou parcourez la vidéo originale sur Mac. Choisissez une image, recadrez-la et exportez la couverture en PNG ou JPEG. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
 
 [Créer un GIF ou MP4 avec les images sélectionnées Extrayez les images, choisissez-en 2 à 60 et créez une courte vidéo sans son ou un GIF animé sur Mac, iPhone ou iPad. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-frames-to-gif-and-mp4)
 
-[Aide Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.](https://digit-video.luopeike.com/fr-FR/help)
+[Aide Comparez deux images, vérifiez une vidéo à fréquence variable sur Mac, annulez une modification et exportez couvertures, planches-contact, GIF ou MP4 muets.](https://digit-video.luopeike.com/fr-FR/help)

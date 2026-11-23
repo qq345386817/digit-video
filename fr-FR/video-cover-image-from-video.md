@@ -4,7 +4,7 @@ Guide de travail
 
 # Créer une couverture PNG ou JPEG à partir d'une vidéo
 
-Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne.
+Comparez deux images sur iPhone ou iPad ou parcourez la vidéo originale sur Mac. Choisissez une image, recadrez-la et exportez la couverture en PNG ou JPEG.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Utilisez Équilibré, Couverture ou Étapes selon votre besoin.
 
 ## Support
 
-Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne.
+Fermez la comparaison et ne gardez qu’une image sélectionnée pour recadrer la couverture en PNG ou JPEG. Pour une planche-contact PDF, vérifiez le nombre d’images et la plage de temps : la sélection est utilisée ou, à défaut, tous les résultats restants (120 maximum par PDF).
+
+## Quelle image choisir pour la couverture ?
+
+### iPhone / iPad
+
+Deux expressions se ressemblent, mais une seule convient à la couverture ? Extrayez les images sur iPhone ou iPad, sélectionnez-en deux et touchez « Comparer deux images » près du compteur. Le temps de chaque image s’affiche à la milliseconde.
+
+[![Comparer deux images · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/fr-FR-iphone.webp)](https://digit-video.luopeike.com/images/review/fr-FR-iphone.webp)
+
+Comparer deux images · 00:50.375 / 00:51.125
+
+Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisées avec Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+L’instant recherché se trouve parfois entre deux images extraites. Sur Mac, ouvrez « Sélection précise d’image » avec la vidéo d’origine accessible. Avancez ou reculez d’une image réelle, même à fréquence variable, puis ajoutez l’image trouvée ou remplacez celle qui est sélectionnée.
+
+[![Sélection précise d’image · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/fr-FR-mac.webp)](https://digit-video.luopeike.com/images/review/fr-FR-mac.webp)
+
+Sélection précise d’image · 00:50.375 / 00:50.417
+
+Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisées avec Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## Des images à mettre dans vos projets
 
@@ -44,4 +66,4 @@ Les images sélectionnées sont exportées en PNG séparés. Exporter la couvert
 
 [Créer un GIF ou MP4 avec les images sélectionnées Extrayez les images, choisissez-en 2 à 60 et créez une courte vidéo sans son ou un GIF animé sur Mac, iPhone ou iPad. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-frames-to-gif-and-mp4)
 
-[Aide Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.](https://digit-video.luopeike.com/fr-FR/help)
+[Aide Comparez deux images, vérifiez une vidéo à fréquence variable sur Mac, annulez une modification et exportez couvertures, planches-contact, GIF ou MP4 muets.](https://digit-video.luopeike.com/fr-FR/help)

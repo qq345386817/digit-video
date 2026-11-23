@@ -4,7 +4,7 @@ Guía de trabajo
 
 # Crea una portada PNG o JPEG desde un vídeo
 
-Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo.
+Compara dos posibles portadas en el iPhone o iPad, o recorre el vídeo original en el Mac. Elige un fotograma, recórtalo y exporta la miniatura en PNG o JPEG.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Equilibrado: un conjunto limpio y mediano para la mayoría de videos. Portada: m
 
 ## Soporte
 
-Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo.
+Cierra la comparación y deja un solo fotograma seleccionado para recortar la portada en PNG o JPEG. Antes de exportar una hoja de contacto PDF, comprueba la cantidad y el intervalo: se usa la selección o, si está vacía, todos los resultados restantes (máximo 120 por PDF).
+
+## ¿Qué fotograma queda mejor como portada?
+
+### iPhone / iPad
+
+A veces solo cambia un gesto entre dos posibles portadas. Extrae fotogramas en el iPhone o iPad, selecciona dos y toca «Comparar dos fotogramas» junto al contador. Verás ambas imágenes y el tiempo de cada una en milisegundos.
+
+[![Comparar dos fotogramas · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/es-ES-iphone.webp)](https://digit-video.luopeike.com/images/review/es-ES-iphone.webp)
+
+Comparar dos fotogramas · 00:50.375 / 00:51.125
+
+Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organizadas con Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+Si el instante que buscas cae entre dos muestras, abre «Revisión precisa de fotogramas» en el Mac con el vídeo original disponible. Avanza o retrocede un fotograma real, incluso con frecuencia variable. Añade el candidato o sustituye un único fotograma seleccionado.
+
+[![Revisión precisa de fotogramas · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/es-ES-mac.webp)](https://digit-video.luopeike.com/images/review/es-ES-mac.webp)
+
+Revisión precisa de fotogramas · 00:50.375 / 00:50.417
+
+Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organizadas con Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## Imágenes que puedes aprovechar
 
@@ -44,4 +66,4 @@ Las imágenes seleccionadas se exportan como archivos PNG independientes. Export
 
 [Crea un GIF o MP4 con fotogramas seleccionados Extrae fotogramas, elige entre 2 y 60 imágenes y crea un vídeo corto sin sonido o un GIF animado en Mac, iPhone o iPad. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-frames-to-gif-and-mp4)
 
-[Ayuda Ayuda de Dig It: extrae y selecciona fotogramas, crea MP4 sin sonido o GIF, exporta portadas y PDF y guarda proyectos. Flujos de Mac y límites.](https://digit-video.luopeike.com/es-ES/help)
+[Ayuda Aprende a comparar fotogramas, revisar vídeos de frecuencia variable en el Mac, deshacer una edición y exportar portadas, hojas de contacto, GIF o MP4 sin sonido.](https://digit-video.luopeike.com/es-ES/help)

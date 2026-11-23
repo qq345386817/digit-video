@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-m
 
 [المساعدة](https://digit-video.luopeike.com/ar-SA/help)
 
-آخر تحديث: 2026-11-11
+آخر تحديث: 2026-11-23
 
 يتطلب تصدير MP4 وGIF من الإطارات المحددة Dig It 1.4.5 أو أحدث على Mac أو iPhone أو iPad. تحقق من الإصدار المتاح في App Store قبل التنزيل لهذه الميزة.
 
@@ -62,10 +62,10 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-m
 
 [إنشاء ورقة صور من الفيديو رتّب لقطات الفيديو مع الطوابع الزمنية في ملخص PNG أو ورقة PDF بصفحات تلقائية. قارن الأغلفة أو شارك ملخص المشاهد أو اجمع خطوات الشرح دون إرسال الفيديو الأصلي. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-contact-sheet)
 
-[أنشئ غلاف PNG أو JPEG من الفيديو حدد إطارًا مستخرجًا واستخدم تصدير الغلاف لاقتصاصه واختيار PNG أو JPEG، مع حد اختياري لحجم JPEG يبلغ 2 MB. جهّز صورة مصغرة لمنتج أو عرض أو منشور دون رفع الفيديو. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
+[أنشئ غلاف PNG أو JPEG من الفيديو قارن صورتين للغلاف على iPhone أو iPad أو تصفّح الفيديو الأصلي على Mac. اختر إطارًا واحدًا واقتصّه ثم صدّر الغلاف بصيغة PNG أو JPEG. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
 
 [حوّل الفيديو إلى صور لخطوات الشرح استخدم وضع الخطوات لالتقاط التغييرات من شرح أو تسجيل شاشة. راجع الصور وصدّر ما تختاره بصيغة PNG للملاحظات أو المستندات أو العروض، أو أنشئ ورقة PDF بطوابع زمنية لعرض شامل. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/turn-video-into-step-images)
 
-[المساعدة دليل Dig It: استخراج الإطارات واختيارها وإنشاء MP4 صامت أو GIF وتصدير الأغلفة وPDF وحفظ المشاريع، مع سير عمل Mac وحدود التصدير.](https://digit-video.luopeike.com/ar-SA/help)
+[المساعدة تعرّف على كيفية مقارنة إطارين ومراجعة الفيديو ذي معدل الإطارات المتغيّر على Mac والتراجع عن تعديل وتصدير الأغلفة وأوراق المعاينة وملفات GIF أو MP4 الصامتة.](https://digit-video.luopeike.com/ar-SA/help)
 
 [اقرأ بصيغة Markdown](https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-mp4.md)

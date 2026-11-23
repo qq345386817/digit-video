@@ -4,7 +4,7 @@ Dig It
 
 # Bantuan dan dukungan Dig It
 
-Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.
+Pelajari cara membandingkan dua bingkai, meninjau video berlaju bingkai variabel di Mac, membatalkan edit, serta mengekspor sampul, lembar kontak, GIF, atau MP4 tanpa suara.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ Di iPhone dan iPad, pilih satu video dari Foto atau File, tinjau gambar, ekspor 
 
 [Buat lembar kontak video Susun gambar video dengan penanda waktu dalam ringkasan PNG atau lembar kontak PDF berhalaman otomatis. Bandingkan sampul, bagikan ringkasan adegan, atau kumpulkan langkah tutorial tanpa mengirim video asli. Baca panduan →](https://digit-video.luopeike.com/id/video-contact-sheet)
 
-[Buat sampul PNG atau JPEG dari video Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
+[Buat sampul PNG atau JPEG dari video Bandingkan dua calon sampul di iPhone atau iPad, atau telusuri video asli di Mac. Pilih satu bingkai, potong, lalu ekspor sampul PNG atau JPEG. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
 
 [Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Pilih 0,1, 0,25, 0,5, 1, atau 2 detik per frame. Sisi maksimum MP4: 720, 1280, a
 
 Tidak. Gambar diam ditampilkan selama durasi yang dipilih. MP4 tanpa suara dan GIF tidak memiliki audio. App tidak memulihkan gerakan asli, membuat frame perantara, atau menghasilkan gerakan AI. Gunakan untuk momen penting atau ringkasan proses, bukan konversi video dengan gerakan penuh.
 
-## Pilih gambar dari frame sumber terdekat
+## Bingkai mana yang cocok untuk sampul?
 
-Di Mac, pilih satu hasil, telusuri frame sumber di sekitarnya, lalu tambahkan gambar atau ganti gambar terpilih. Video sumber harus tetap tersedia di ruang kerja saat ini.
+### iPhone / iPad
 
-[![Hasil Mac dan tinjauan frame sumber menggunakan video contoh. Antarmuka berbahasa Inggris.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+Dua gambar terlihat mirip, tetapi ekspresinya sedikit berbeda? Ekstrak bingkai dari video di iPhone atau iPad, pilih dua, lalu ketuk “Bandingkan dua bingkai” di samping jumlah pilihan. Lihat kedua gambar dengan waktu masing-masing hingga milidetik.
 
-Hasil Mac dan tinjauan frame sumber menggunakan video contoh. Antarmuka berbahasa Inggris.
+### Mac
 
-Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+Jika momen yang dicari ada di antara dua hasil ekstraksi, buka “Tinjau Frame Secara Presisi” di Mac saat video asli tersedia. Maju atau mundur satu bingkai asli, termasuk pada video dengan laju bingkai variabel. Tambahkan kandidat atau gunakan untuk mengganti satu bingkai yang dipilih.
+
+Tutup perbandingan dan sisakan satu bingkai terpilih untuk memotong sampul PNG atau JPEG. Sebelum mengekspor lembar kontak PDF, periksa jumlah bingkai dan rentang waktunya. PDF memakai bingkai terpilih, atau semua hasil yang tersisa jika tidak ada pilihan (maksimal 120 per PDF).
 
 ## Simpan kumpulan frame untuk diedit kembali
 
@@ -125,6 +127,10 @@ Akses Foto hanya digunakan untuk memilih media sumber dan menyimpan hasil saat d
 ### Apakah GIF atau MP4 mempertahankan gerakan dan audio asli?
 
 Tidak. Gambar diam ditampilkan selama durasi yang dipilih. MP4 tanpa suara dan GIF tidak memiliki audio. App tidak memulihkan gerakan asli, membuat frame perantara, atau menghasilkan gerakan AI. Gunakan untuk momen penting atau ringkasan proses, bukan konversi video dengan gerakan penuh.
+
+### Bisakah saya membatalkan edit terakhir?
+
+Anda bisa membatalkan satu edit terakhir di kisi hasil dan memulihkan pilihan sebelumnya. Di Mac ini juga berlaku untuk penambahan atau penggantian bingkai sumber. Menyimpan, menutup, atau berganti proyek menghapus langkah tersebut. Tidak ada perintah untuk mengulanginya.
 
 ### Format apa yang tersedia untuk gambar dan ringkasan visual?
 

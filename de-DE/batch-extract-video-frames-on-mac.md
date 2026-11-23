@@ -10,7 +10,7 @@ Füge Videodateien oder einen Ordner hinzu, wähle eine Extraktionsvorlage und p
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-11-11
+Aktualisiert: 2026-11-23
 
 ## Erste Schritte
 
@@ -34,7 +34,7 @@ Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It ang
 
 ## Eine gezielte Auswahl nützlicher Momente prüfen
 
-Die Modi wählen repräsentative Momente statt jedes Videoframes. Titelbild bevorzugt wenige Kandidaten, Schritte bewahrt mehr Änderungen für Tutorials. Prüfe die Bilder vor der Verwendung in Produktseiten oder Dokumenten. Auf Mac kannst du ein Ergebnis wählen und anhand benachbarter Quellframes genauer ersetzen.
+Liegt der richtige Moment zwischen zwei entnommenen Bildern, öffne auf dem Mac mit dem Originalvideo „Frame präzise prüfen“. Gehe auch bei variabler Bildrate ein tatsächliches Bild vor oder zurück. Füge den Treffer hinzu oder ersetze ein einzelnes ausgewähltes Bild.
 
 [![Mac-Ergebnisse und Quellframe-Prüfung mit einem Beispielvideo. Oberfläche auf Englisch.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
 
@@ -70,12 +70,12 @@ Verwende Speichern, um das vollständige aktuelle Ergebnis und verfügbare Zeits
 
 [Einen Kontaktbogen aus einem Video erstellen Ordne Videobilder mit Zeitangaben als PNG-Übersicht oder PDF-Kontaktabzug mit automatischen Seitenumbrüchen an. Vergleiche Cover, teile Szenen oder sammle Anleitungsschritte, ohne das Originalvideo zu versenden. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-contact-sheet)
 
-[Ein PNG- oder JPEG-Cover aus einem Video erstellen Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
+[Ein PNG- oder JPEG-Cover aus einem Video erstellen Vergleiche zwei Coverbilder auf dem iPhone oder iPad oder prüfe das Originalvideo auf dem Mac. Wähle ein Bild, schneide es zu und exportiere es als PNG oder JPEG. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
 
 [Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
 [GIF oder MP4 aus ausgewählten Videoframes erstellen Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder iPad ein stummes Kurzvideo oder animiertes GIF. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-frames-to-gif-and-mp4)
 
-[Hilfe Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.](https://digit-video.luopeike.com/de-DE/help)
+[Hilfe So vergleichst du Standbilder, prüfst Videos mit variabler Bildrate auf dem Mac, nimmst Änderungen zurück und exportierst Cover, Kontaktbögen, GIFs oder stumme MP4s.](https://digit-video.luopeike.com/de-DE/help)
 
 [Als Markdown lesen](https://digit-video.luopeike.com/de-DE/batch-extract-video-frames-on-mac.md)

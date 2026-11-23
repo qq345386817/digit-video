@@ -40,8 +40,8 @@ Las imágenes seleccionadas se exportan como archivos PNG independientes. Export
 
 [Crear una hoja de contacto de vídeo Organiza imágenes del vídeo con marcas de tiempo en un resumen PNG o una hoja PDF con paginación automática. Compara portadas, comparte escenas o reúne pasos de un tutorial sin enviar el vídeo original. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-contact-sheet)
 
-[Crea una portada PNG o JPEG desde un vídeo Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
+[Crea una portada PNG o JPEG desde un vídeo Compara dos posibles portadas en el iPhone o iPad, o recorre el vídeo original en el Mac. Elige un fotograma, recórtalo y exporta la miniatura en PNG o JPEG. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
 
 [Crea un GIF o MP4 con fotogramas seleccionados Extrae fotogramas, elige entre 2 y 60 imágenes y crea un vídeo corto sin sonido o un GIF animado en Mac, iPhone o iPad. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-frames-to-gif-and-mp4)
 
-[Ayuda Ayuda de Dig It: extrae y selecciona fotogramas, crea MP4 sin sonido o GIF, exporta portadas y PDF y guarda proyectos. Flujos de Mac y límites.](https://digit-video.luopeike.com/es-ES/help)
+[Ayuda Aprende a comparar fotogramas, revisar vídeos de frecuencia variable en el Mac, deshacer una edición y exportar portadas, hojas de contacto, GIF o MP4 sin sonido.](https://digit-video.luopeike.com/es-ES/help)

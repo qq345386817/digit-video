@@ -10,7 +10,7 @@ Estrai i fotogrammi, scegli da 2 a 60 immagini e crea un breve video senza audio
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-11-11
+Aggiornato: 2026-11-23
 
 L'esportazione MP4 e GIF dai fotogrammi richiede Dig It 1.4.5 o successivo su Mac, iPhone o iPad. Controlla la versione disponibile nell'App Store prima di scaricare per questa funzione.
 
@@ -62,10 +62,10 @@ Usa Salva per conservare tutti i risultati attuali e i tempi disponibili nella c
 
 [Creare un provino a contatto da un video Disponi immagini video con i tempi in una panoramica PNG o un provino PDF con pagine automatiche. Confronta copertine, condividi scene o raccogli passaggi di un tutorial senza inviare il video originale. Leggi la guida →](https://digit-video.luopeike.com/it/video-contact-sheet)
 
-[Crea una copertina PNG o JPEG da un video Seleziona un fotogramma e usa Esporta copertina per ritagliarlo, scegliere PNG o JPEG e limitare eventualmente il JPEG a 2 MB. Prepara una miniatura per prodotti, presentazioni o post senza caricare il video online. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
+[Crea una copertina PNG o JPEG da un video Confronta due possibili copertine su iPhone o iPad o scorri il video originale su Mac. Scegli un fotogramma, ritaglialo ed esporta la miniatura in PNG o JPEG. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
 
 [Trasforma un video in immagini dei passaggi Usa la modalità Passaggi per raccogliere i cambiamenti di un tutorial o di una registrazione dello schermo. Esamina ed esporta PNG per appunti, documenti o presentazioni; crea un provino PDF con tempi per una panoramica. Leggi la guida →](https://digit-video.luopeike.com/it/turn-video-into-step-images)
 
-[Aiuto Guida Dig It: estrai e scegli fotogrammi, crea MP4 senza audio o GIF, esporta copertine e PDF e salva progetti. Flussi Mac e limiti di esportazione.](https://digit-video.luopeike.com/it/help)
+[Aiuto Scopri come confrontare due fotogrammi, verificare video con frequenza variabile su Mac, annullare una modifica ed esportare copertine, provini, GIF o MP4 senza audio.](https://digit-video.luopeike.com/it/help)
 
 [Leggi in Markdown](https://digit-video.luopeike.com/it/video-frames-to-gif-and-mp4.md)

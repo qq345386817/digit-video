@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ko/batch-extract-video-frames-o
 
 [도움말](https://digit-video.luopeike.com/ko/help)
 
-업데이트: 2026-11-11
+업데이트: 2026-11-23
 
 ## 시작하기
 
@@ -34,7 +34,7 @@ Canonical page: https://digit-video.luopeike.com/ko/batch-extract-video-frames-o
 
 ## 유용한 순간을 모아 검토하세요
 
-추출 모드는 대표적인 순간을 선택하며 모든 프레임을 내보내지는 않습니다. 표지는 적은 수의 후보를, 단계는 튜토리얼의 더 많은 변화를 유지합니다. 상품 페이지나 문서에 쓰기 전에 확인하세요. Mac에서 하나의 결과를 선택하고 주변 원본 프레임을 검토하면 더 적절한 이미지로 교체할 수 있습니다.
+원하는 장면이 추출된 두 이미지 사이에 있다면 Mac에서 원본 영상을 열고 ‘정밀 프레임 검토’를 사용하세요. 가변 프레임률 영상에서도 실제 프레임을 앞뒤로 한 장씩 확인해 후보를 추가하거나 선택한 한 장을 교체할 수 있습니다.
 
 [![예시 동영상으로 보는 Mac 결과와 원본 프레임 검토입니다. 영어 인터페이스를 표시합니다.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
 
@@ -70,12 +70,12 @@ iPhone·iPad에서는 사진이나 파일에서 하나의 동영상을 선택하
 
 [동영상 콘택트 시트 만들기 시간 정보와 함께 동영상 이미지를 PNG 요약이나 자동 페이지 나누기 PDF 콘택트 시트로 정리하세요. 원본을 보내지 않고 표지를 비교하거나 장면과 튜토리얼 단계를 공유할 수 있습니다. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-contact-sheet)
 
-[동영상에서 PNG 또는 JPEG 표지 만들기 추출된 프레임 하나를 선택하고 표지 내보내기에서 자르기 위치와 PNG 또는 JPEG를 고르세요. JPEG는 선택적으로 2 MB로 제한할 수 있습니다. 업로드 없이 상품, 발표 또는 게시물의 썸네일을 준비하세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
+[동영상에서 PNG 또는 JPEG 표지 만들기 iPhone이나 iPad에서 두 표지 후보를 비교하거나 Mac에서 원본 영상을 한 프레임씩 확인하세요. 한 장을 골라 자른 뒤 PNG 또는 JPEG 표지로 내보내세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
 
 [동영상을 튜토리얼 단계 이미지로 단계 모드로 튜토리얼이나 화면 녹화의 변화 지점을 추출하세요. 선택한 PNG 이미지를 노트, 문서 또는 발표에 쓰거나 시간 정보가 있는 PDF 콘택트 시트로 전체를 살펴볼 수 있습니다. 가이드 읽기 →](https://digit-video.luopeike.com/ko/turn-video-into-step-images)
 
 [선택한 동영상 프레임으로 GIF와 MP4 만들기 추출한 프레임 중 2–60장의 정지 이미지를 선택해 Mac, iPhone, iPad에서 소리 없는 짧은 MP4나 움직이는 GIF를 만드세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-frames-to-gif-and-mp4)
 
-[도움말 Dig It 사용법: 프레임 추출과 선택, 무음 MP4 및 GIF 만들기, 커버와 PDF 내보내기, 프로젝트 저장, Mac 작업 흐름과 내보내기 제한을 알아보세요.](https://digit-video.luopeike.com/ko/help)
+[도움말 두 프레임 비교, Mac에서 가변 프레임률 영상 확인, 편집 취소, 표지·콘택트 시트·GIF·무음 MP4 내보내기 방법을 안내합니다.](https://digit-video.luopeike.com/ko/help)
 
 [Markdown으로 읽기](https://digit-video.luopeike.com/ko/batch-extract-video-frames-on-mac.md)

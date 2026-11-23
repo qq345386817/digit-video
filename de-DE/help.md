@@ -4,7 +4,7 @@ Dig It
 
 # Dig It Hilfe und Support
 
-Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.
+So vergleichst du Standbilder, prüfst Videos mit variabler Bildrate auf dem Mac, nimmst Änderungen zurück und exportierst Cover, Kontaktbögen, GIFs oder stumme MP4s.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ Wähle auf iPhone und iPad ein Video aus Fotos oder Dateien, prüfe Bilder, expo
 
 [Einen Kontaktbogen aus einem Video erstellen Ordne Videobilder mit Zeitangaben als PNG-Übersicht oder PDF-Kontaktabzug mit automatischen Seitenumbrüchen an. Vergleiche Cover, teile Szenen oder sammle Anleitungsschritte, ohne das Originalvideo zu versenden. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-contact-sheet)
 
-[Ein PNG- oder JPEG-Cover aus einem Video erstellen Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
+[Ein PNG- oder JPEG-Cover aus einem Video erstellen Vergleiche zwei Coverbilder auf dem iPhone oder iPad oder prüfe das Originalvideo auf dem Mac. Wähle ein Bild, schneide es zu und exportiere es als PNG oder JPEG. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
 
 [Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Wähle 0,1, 0,25, 0,5, 1 oder 2 Sekunden pro Bild. Maximale Kantenlänge: MP4 mi
 
 Nein. Die ausgewählten Standbilder werden für die eingestellte Dauer angezeigt. MP4 ist stumm und GIF enthält keinen Ton. Die App stellt keine durchgehende Bewegung wieder her, interpoliert keine Frames und erzeugt keine KI-Bewegung. Das Ergebnis fasst Momente oder Abläufe zusammen und ist keine vollständige Videokonvertierung.
 
-## Ein Standbild aus benachbarten Quellframes wählen
+## Welches Bild eignet sich als Cover?
 
-Wähle auf Mac ein Ergebnis, gehe durch benachbarte Quellframes und füge ein Bild hinzu oder ersetze die Auswahl. Das Quellvideo muss im aktuellen Arbeitsbereich weiterhin verfügbar sein.
+### iPhone / iPad
 
-[![Mac-Ergebnisse und Quellframe-Prüfung mit einem Beispielvideo. Oberfläche auf Englisch.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+Zwei fast gleiche Bilder, aber nur auf einem stimmt der Gesichtsausdruck? Extrahiere Standbilder auf dem iPhone oder iPad, wähle zwei aus und tippe neben dem Zähler auf „Zwei Bilder vergleichen“. Beide Zeitcodes zeigen auch die Millisekunden.
 
-Mac-Ergebnisse und Quellframe-Prüfung mit einem Beispielvideo. Oberfläche auf Englisch.
+### Mac
 
-Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It angeordnet. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+Liegt der richtige Moment zwischen zwei entnommenen Bildern, öffne auf dem Mac mit dem Originalvideo „Frame präzise prüfen“. Gehe auch bei variabler Bildrate ein tatsächliches Bild vor oder zurück. Füge den Treffer hinzu oder ersetze ein einzelnes ausgewähltes Bild.
+
+Schließe den Vergleich und lasse nur ein Bild ausgewählt, um ein PNG- oder JPEG-Cover zuzuschneiden. Prüfe vor dem PDF-Export Anzahl und Zeitspanne: Der Kontaktbogen enthält die Auswahl, ohne Auswahl alle übrigen Ergebnisse (bis zu 120 pro PDF).
 
 ## Ein Bildset zum späteren Bearbeiten speichern
 
@@ -125,6 +127,10 @@ Dig It uses Photos access only so you can choose source media and save exported 
 ### Bleiben die ursprüngliche Bewegung und der Ton erhalten?
 
 Nein. Die ausgewählten Standbilder werden für die eingestellte Dauer angezeigt. MP4 ist stumm und GIF enthält keinen Ton. Die App stellt keine durchgehende Bewegung wieder her, interpoliert keine Frames und erzeugt keine KI-Bewegung. Das Ergebnis fasst Momente oder Abläufe zusammen und ist keine vollständige Videokonvertierung.
+
+### Kann ich eine Bearbeitung rückgängig machen?
+
+Der letzte Bearbeitungsschritt im Raster lässt sich mitsamt der vorherigen Auswahl zurücknehmen. Auf dem Mac gilt das auch nach dem Hinzufügen oder Ersetzen eines Quellbilds. Speichern, Schließen oder ein Projektwechsel löscht diesen Schritt. Wiederholen ist nicht möglich.
 
 ### Welche Bild- und Übersichtsformate kann ich exportieren?
 

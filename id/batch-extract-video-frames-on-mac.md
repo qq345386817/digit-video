@@ -10,7 +10,7 @@ Tambahkan file video atau folder, pilih preset ekstraksi, lalu tinjau hasil atau
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-11-11
+Diperbarui: 2026-11-23
 
 ## Mulai
 
@@ -34,7 +34,7 @@ Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan D
 
 ## Tinjau kumpulan momen yang lebih ringkas
 
-Mode ekstraksi memilih momen representatif, bukan mengekspor setiap frame video. Sampul mengutamakan pilihan lebih sedikit; Langkah mempertahankan lebih banyak perubahan tutorial. Tinjau gambar sebelum menggunakannya untuk produk atau dokumentasi. Di Mac, pilih satu hasil dan telusuri frame sumber di sekitarnya untuk penggantian yang lebih tepat.
+Jika momen yang dicari ada di antara dua hasil ekstraksi, buka “Tinjau Frame Secara Presisi” di Mac saat video asli tersedia. Maju atau mundur satu bingkai asli, termasuk pada video dengan laju bingkai variabel. Tambahkan kandidat atau gunakan untuk mengganti satu bingkai yang dipilih.
 
 [![Hasil Mac dan tinjauan frame sumber menggunakan video contoh. Antarmuka berbahasa Inggris.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
 
@@ -70,12 +70,12 @@ Gunakan Simpan untuk menyimpan seluruh kumpulan hasil saat ini beserta penanda w
 
 [Buat lembar kontak video Susun gambar video dengan penanda waktu dalam ringkasan PNG atau lembar kontak PDF berhalaman otomatis. Bandingkan sampul, bagikan ringkasan adegan, atau kumpulkan langkah tutorial tanpa mengirim video asli. Baca panduan →](https://digit-video.luopeike.com/id/video-contact-sheet)
 
-[Buat sampul PNG atau JPEG dari video Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
+[Buat sampul PNG atau JPEG dari video Bandingkan dua calon sampul di iPhone atau iPad, atau telusuri video asli di Mac. Pilih satu bingkai, potong, lalu ekspor sampul PNG atau JPEG. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
 
 [Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
 [Buat GIF atau MP4 dari frame video pilihan Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF animasi di Mac, iPhone, atau iPad. Baca panduan →](https://digit-video.luopeike.com/id/video-frames-to-gif-and-mp4)
 
-[Bantuan Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.](https://digit-video.luopeike.com/id/help)
+[Bantuan Pelajari cara membandingkan dua bingkai, meninjau video berlaju bingkai variabel di Mac, membatalkan edit, serta mengekspor sampul, lembar kontak, GIF, atau MP4 tanpa suara.](https://digit-video.luopeike.com/id/help)
 
 [Baca sebagai Markdown](https://digit-video.luopeike.com/id/batch-extract-video-frames-on-mac.md)

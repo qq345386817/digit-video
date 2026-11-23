@@ -4,7 +4,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-
 
 # 從影片製作 PNG 或 JPEG 封面
 
-選取一張擷取結果，使用「匯出封面」調整裁切位置，選擇 PNG 或 JPEG，也可將 JPEG 限制在 2 MB 內。為商品展示、簡報或貼文挑選縮圖，無須上傳影片。
+在 iPhone 或 iPad 比對兩張封面候選圖，或在 Mac 上逐格查看原始影片。選定一格後裁切，輸出 PNG 或 JPEG 封面。
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-
 
 ## 支援
 
-選取一張擷取結果，使用「匯出封面」調整裁切位置，選擇 PNG 或 JPEG，也可將 JPEG 限制在 2 MB 內。為商品展示、簡報或貼文挑選縮圖，無須上傳影片。
+關閉比較後，只選一格即可裁切並匯出 PNG 或 JPEG 封面。匯出 PDF 聯絡表前先核對張數與起訖時間：有選取就使用所選影格，未選取才使用所有剩餘結果，每份最多 120 格。
+
+## 哪個影格最適合當封面？
+
+### iPhone / iPad
+
+從影片挑封面時，兩個影格可能只差一個表情。在 iPhone 或 iPad 擷取畫面後，選取兩張，點一下數量旁的「比較兩個影格」，就能比對畫面和各自的毫秒時間碼。
+
+[![比較兩個影格 · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/zh-Hant-iphone.webp)](https://digit-video.luopeike.com/images/review/zh-Hant-iphone.webp)
+
+比較兩個影格 · 00:50.375 / 00:51.125
+
+範例影片：Big Buck Bunny。© 2008 Blender Foundation。畫面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+想要的畫面可能剛好落在兩張取樣圖之間。在 Mac 上開啟原始影片，用「精確影格檢視」逐格往前或往後查看，可變影格率的素材也會依實際影格移動。找到後，可加入候選影格或取代目前選取的單一影格。
+
+[![精確影格檢視 · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/zh-Hant-mac.webp)](https://digit-video.luopeike.com/images/review/zh-Hant-mac.webp)
+
+精確影格檢視 · 00:50.375 / 00:50.417
+
+範例影片：Big Buck Bunny。© 2008 Blender Foundation。畫面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## 把影片畫面，用在你的作品中
 
@@ -44,4 +66,4 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-
 
 [將選取的影片影格製作成 GIF 或短片 從影片擷取畫面，再挑選 2–60 張靜態圖，在 Mac、iPhone 或 iPad 上製作無聲 MP4 或 GIF 動圖。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-frames-to-gif-and-mp4)
 
-[幫助 Dig It 使用說明：瞭解影片擷取、選格製作 MP4 與 GIF、封面和 PDF 匯出、歷史記錄，以及 Mac 批次流程、尺寸與數量限制。](https://digit-video.luopeike.com/zh-Hant/help)
+[幫助 瞭解如何比較兩個影格、在 Mac 查看可變影格率原片、復原編輯，以及匯出封面、聯絡表、GIF 或無聲 MP4。](https://digit-video.luopeike.com/zh-Hant/help)

@@ -12,6 +12,15 @@ Before adding videos to the Mac workspace, choose Frame Selection: Automatic Key
 ### iPhone and iPad
 On iPhone and iPad, choose one video from Photos or Files, review the extracted images, export selected PNGs or a contact sheet, and explicitly save results to History.
 
+## Choosing a video cover
+### Compare two extracted images on iPhone or iPad
+Select exactly two extracted stills and tap “Compare Two Frames” next to the selection count. Compare the expressions and millisecond timecodes. Closing the comparison leaves both images selected.
+### Step through the original on Mac
+A cut can fall between two samples. On Mac, open Exact Frame Review with the original video available and step to the previous or next source frame, even in variable-frame-rate footage. Add the candidate or replace one selected frame.
+### Selection, time range and undo
+Close the comparison and leave just one frame selected to crop a PNG or JPEG cover. For a PDF contact sheet, check the frame count and time range: it uses the selection, or all remaining results when nothing is selected (up to 120 per PDF).
+Undo restores the last edit in the results grid, including its selection. On Mac this also works after adding or replacing a source frame. Saving, closing or switching projects clears that one undo step; there is no redo.
+
 ## Image formats and overview limits
 Selected stills export as separate PNG files. Export Cover crops one frame to PNG or JPEG, with an optional 2 MB JPEG limit. A PNG contact sheet accepts up to 40 frames; an A4 or Letter PDF contact sheet accepts up to 120 with timestamps and automatic pagination. On Mac, batch automatic export additionally supports PNG/JPEG images and optional JSON metadata. Exporting does not save a project to History; use Save explicitly.
 

@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ja/video-frames-to-gif-and-mp4
 
 [ヘルプ](https://digit-video.luopeike.com/ja/help)
 
-更新日: 2026-11-11
+更新日: 2026-11-23
 
 選択フレームからのMP4・GIF作成には、Mac・iPhone・iPad版Dig It 1.4.5以降が必要です。この機能を目的にダウンロードする前に、App Storeで利用可能なバージョンをご確認ください。
 
@@ -62,10 +62,10 @@ iPhone・iPadでは写真やファイルから動画を1本選び、結果を確
 
 [動画のコンタクトシートを作る 動画の静止画と時刻を、PNG の一覧や自動改ページ付き PDF コンタクトシートに整理。カバー比較、場面の共有、チュートリアル手順の確認に活用でき、元動画を送る必要はありません。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-contact-sheet)
 
-[動画から PNG・JPEG カバーを作る 抽出した画像を一枚選び、カバーの書き出しで切り抜き位置と PNG・JPEG を選択。JPEG は任意で 2 MB に制限できます。動画をアップロードせず、商品紹介やプレゼン、投稿のサムネイルを用意できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
+[動画から PNG・JPEG カバーを作る iPhone・iPadでカバー候補を2枚比較するか、Macで元動画をコマ送り。選んだ1枚をトリミングし、PNGまたはJPEGのサムネイルを書き出します。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
 
 [動画をチュートリアルの手順画像に 手順モードで解説動画や画面収録の変化点を抽出。確認して選んだ PNG をノート、文書、プレゼンに活用できます。時刻付き PDF コンタクトシートで全体を確認することもできます。 ガイドを読む →](https://digit-video.luopeike.com/ja/turn-video-into-step-images)
 
-[ヘルプ Dig Itの使い方。動画フレームの抽出・選択、無音MP4やGIFの作成、カバー・PDFの書き出し、プロジェクト保存、Macのワークフローと各種上限を解説します。](https://digit-video.luopeike.com/ja/help)
+[ヘルプ 2枚のフレームの比較、Macでの可変フレームレート動画の確認、編集の取り消し、カバー・コンタクトシート・GIF・無音MP4の書き出し方法を紹介します。](https://digit-video.luopeike.com/ja/help)
 
 [Markdownで読む](https://digit-video.luopeike.com/ja/video-frames-to-gif-and-mp4.md)

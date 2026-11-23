@@ -45,13 +45,17 @@ OUTPUTS = {}
 def product_content():
     content = json.loads((ROOT / 'tools/workflow-content.json').read_text(encoding='utf-8'))
     animation = json.loads((ROOT / 'tools/animation-content.json').read_text(encoding='utf-8'))
+    review = json.loads((ROOT / 'tools/frame-review-content.json').read_text(encoding='utf-8'))
+    assert set(review) == set(LOCALES), 'Every locale needs frame-review translations'
     assert set(animation) == set(LOCALES), 'Every locale needs animation translations'
     keys = set(animation['en'])
     for locale, copy in content.items():
         assert set(animation[locale]) == keys, f'Incomplete animation translations: {locale}'
         copy.update(animation[locale])
-        copy['helpDescription'] = copy['animationHelpDescription']
+        assert set(review[locale]) == set(review['en'])
+        copy.update(review[locale])
         copy['faq'].append([copy['animationMotionQuestion'], copy['animationMotionAnswer']])
+        copy['faq'].append([copy['undoQuestion'], copy['undoAnswer']])
     return content
 
 
@@ -164,6 +168,18 @@ def image_credit(content):
     )
 
 
+def compare_frames(locale, content, examples=False):
+    panels = []
+    for device, key, label, slug, width, height, times in (
+        ('iPhone / iPad', 'mobileReview', 'mobileLabel', 'iphone', 396, 860, '00:50.375 / 00:51.125'),
+        ('Mac', 'macReview', 'macLabel', 'mac', 1280, 384, '00:50.375 / 00:50.417'),
+    ):
+        image = figure(content, f'review/{locale}-{slug}.webp', f'{content[label]} · {times}', width, height) if examples else ''
+        anchor = ' id="source-frame-review"' if device == 'Mac' and not examples else ''
+        panels.append(f'<div{anchor}><h3>' + device + '</h3>' + paragraph(content[key]) + image + '</div>')
+    return section(content['compareTitle'], '<div class="comparison-examples">' + ''.join(panels) + '</div>', 'compare-frames')
+
+
 def home_main(locale, content, copy):
     title = ''.join('<span>' + escape(line) + '</span>' for line in copy['title'])
     steps = ''.join(
@@ -181,7 +197,7 @@ def home_main(locale, content, copy):
     return (
         '<section class="hero"><div class="hero-copy">'
         f'<p class="kicker">{escape(copy["eyebrow"])}</p><h1>{title}</h1>'
-        f'<p class="lead">{escape(copy["intro"])}</p><div class="actions">'
+        f'<p class="lead">{escape(content["heroIntro"])}</p><div class="actions">'
         + download_action(copy)
         + f'<a class="text-action" href="#workflow">{escape(copy["secondary"])} <span aria-hidden="true">↗</span></a></div>'
         + f'<p class="device-note">{escape(copy["note"])}</p></div>'
@@ -192,7 +208,8 @@ def home_main(locale, content, copy):
         f'<figcaption>{escape(content["workspaceCaption"])}{image_credit(content)}</figcaption></figure></section>'
         '<section class="landing-section" id="workflow"><div class="section-heading">'
         f'<h2>{escape(copy["stepsTitle"])}</h2>{paragraph(copy["stepsIntro"])}</div>'
-        f'<ol class="step-grid">{steps}</ol></section>'
+        f'<ol class="step-grid">{steps}</ol>'
+        f'<p><a href="{url(locale, COVER)}#compare-frames">{escape(content["compareTitle"])}</a></p></section>'
         '<section class="landing-section" id="frame-animation"><div class="section-heading">'
         f'<h2>{escape(content["animationTitle"])}</h2>{paragraph(content["animationIntro"])}</div>'
         f'<p class="availability-note">{escape(content["animationAvailability"])}</p>'
@@ -310,7 +327,8 @@ def help_main(locale, content, original):
                   + '<p class="availability-note">' + escape(content['animationAvailability']) + '</p>'
                   + '<ol class="workflow-steps">' + ''.join('<li>' + escape(step) + '</li>' for step in content['animationSteps']) + '</ol>'
                   + paragraph(content['animationLimit']) + paragraph(content['animationMotionAnswer']), 'frame-animation')
-        + section(content["reviewTitle"], paragraph(content["reviewBody"]) + figure(content, "mac-frame-review.webp", content["reviewCaption"]), "source-frame-review")
+        + compare_frames(locale, content)
+        + paragraph(content["exportScope"])
         + section(content["saveTitle"], paragraph(content["saveBody"]), "saved-projects")
         + section(content["contactLimitTitle"], paragraph(content["contactLimit"]), "contact-sheet-limit")
         + faq(content, faq_title) + cli
@@ -339,7 +357,8 @@ def app_schema(content):
         "description": content["homeDescription"], "applicationCategory": "MultimediaApplication",
         "operatingSystem": "iOS, iPadOS, macOS", "url": BASE + "/", "downloadUrl": STORE,
         "image": BASE + "/images/app-icon.png", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-        "featureList": [content[key] for key in ('batchTitle', 'coverTitle', 'contactTitle', 'animationTitle')],
+        "featureList": [content['mobileLabel'] + ' (iPhone / iPad)', content['macLabel'] + ' (Mac)']
+                       + [content[key] for key in ('batchTitle', 'coverTitle', 'contactTitle', 'animationTitle')],
     }
 
 
@@ -411,13 +430,13 @@ def guide_page(locale, content, kind, template, date):
             section(content['startTitle'], steps, "steps")
             + section(content["batchOutputTitle"], paragraph(content["batchOutput"])
                       + figure(content, "mac-batch-workspace.webp", content["workspaceCaption"]), "batch-exports")
-            + section(content["batchReviewTitle"], paragraph(content["batchReview"])
+            + section(content["batchReviewTitle"], paragraph(content["macReview"])
                       + figure(content, "mac-frame-review.webp", content["reviewCaption"]), "review")
         )
     else:
         body = (
             section(content['startTitle'], steps, "steps")
-            + section(content["contactLimitTitle"], paragraph(content["contactLimit"])
+            + section(content["contactLimitTitle"], paragraph(content["exportScope"]) + paragraph(content["contactLimit"])
                       + figure(content, "video-contact-sheet.webp", content["contactCaption"], 1550, 554), "limits")
             + section(content["contactUseTitle"], paragraph(content["contactUse"]), "use-the-results")
         )
@@ -478,12 +497,13 @@ def still_guide(locale, content, kind, original, date):
     if article is None:
         raise ValueError(f'Missing original guide body: {locale}/{kind}')
     # The earlier cover guide only mentioned PNG; explain the current cover action.
-    body, replacements = re.subn(r'<p>[^<]*</p>\s*$', lambda _: paragraph(intro), article[1])
+    body, replacements = re.subn(r'<p>[^<]*</p>\s*$', lambda _: paragraph(content['exportScope'] if kind == COVER else intro), article[1])
     if replacements != 1:
         raise ValueError(f'Unexpected final guide paragraph: {locale}/{kind}')
     html = html[:article.start(1)] + body + html[article.end(1):]
     related = (
-        START + section(content['useTitle'], paragraph(content['useBody']), 'practical-uses')
+        START + (compare_frames(locale, content, examples=True) if kind == COVER else '')
+        + section(content['useTitle'], paragraph(content['useBody']), 'practical-uses')
         + section(content['deliveryTitle'], paragraph(content['deliveryBody']), 'frame-delivery')
         + section(content['exportQuestion'], paragraph(content['exportAnswer']), 'export-formats')
         + section(content['related'], guide_cards(locale, content, exclude=kind), 'related-workflows') + END
@@ -608,6 +628,9 @@ def build(date):
         '', '## Product and practical uses', content['en']['workflowIntro'], content['en']['useBody'],
         '', '## Platform support', '### Mac', content['en']['macBody'], content['en']['samplingBody'],
         '### iPhone and iPad', content['en']['iosBody'],
+        '', '## Choosing a video cover', '### Compare two extracted images on iPhone or iPad',
+        content['en']['mobileReview'], '### Step through the original on Mac', content['en']['macReview'],
+        '### Selection, time range and undo', content['en']['exportScope'], content['en']['undoAnswer'],
         '', '## Image formats and overview limits', content['en']['exportAnswer'],
         '', '## Selected-frame MP4 and GIF', content['en']['animationIntro'],
         content['en']['animationLimit'], content['en']['animationAvailability'],

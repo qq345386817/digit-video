@@ -4,7 +4,7 @@ Guia de fluxo de trabalho
 
 # Crie uma capa PNG ou JPEG a partir de um vídeo
 
-Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet.
+Compare duas opções de capa no iPhone ou iPad ou percorra o vídeo original no Mac. Escolha um quadro, recorte e exporte a miniatura em PNG ou JPEG.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Equilibrado: conjunto médio e limpo para a maioria dos vídeos. Capa: menos qua
 
 ## Suporte
 
-Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet.
+Feche a comparação e deixe só um quadro selecionado para recortar a capa em PNG ou JPEG. Antes de exportar a folha de contato em PDF, confira a quantidade e o intervalo de tempo. Ela usa a seleção ou, se não houver seleção, todos os resultados restantes (até 120 por PDF).
+
+## Qual quadro funciona melhor como capa?
+
+### iPhone / iPad
+
+Às vezes, só a expressão muda entre duas opções de capa. Extraia os quadros no iPhone ou iPad, selecione dois e toque em “Comparar dois quadros” ao lado da contagem. Veja as imagens com o tempo de cada uma em milissegundos.
+
+[![Comparar dois quadros · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/pt-BR-iphone.webp)](https://digit-video.luopeike.com/images/review/pt-BR-iphone.webp)
+
+Comparar dois quadros · 00:50.375 / 00:51.125
+
+Vídeo de exemplo: Big Buck Bunny. © 2008 Blender Foundation. Quadros organizados com Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+O instante desejado pode estar entre dois quadros extraídos. Com o vídeo original disponível no Mac, abra “Revisão precisa de quadros”. Avance ou recue pelos quadros reais, mesmo com taxa variável, e adicione o candidato ou substitua um único quadro selecionado.
+
+[![Revisão precisa de quadros · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/pt-BR-mac.webp)](https://digit-video.luopeike.com/images/review/pt-BR-mac.webp)
+
+Revisão precisa de quadros · 00:50.375 / 00:50.417
+
+Vídeo de exemplo: Big Buck Bunny. © 2008 Blender Foundation. Quadros organizados com Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## Imagens para aproveitar nos seus projetos
 
@@ -44,4 +66,4 @@ As imagens selecionadas são exportadas como PNGs separados. Exportar capa recor
 
 [Crie GIF ou MP4 com quadros selecionados do vídeo Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4)
 
-[Ajuda Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.](https://digit-video.luopeike.com/pt-BR/help)
+[Ajuda Aprenda a comparar quadros, revisar vídeos com taxa de quadros variável no Mac, desfazer uma edição e exportar capas, folhas de contato, GIFs ou MP4 sem som.](https://digit-video.luopeike.com/pt-BR/help)

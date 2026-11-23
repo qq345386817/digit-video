@@ -4,7 +4,7 @@ Canonical page: https://digit-video.luopeike.com/ko/video-cover-image-from-video
 
 # 동영상에서 PNG 또는 JPEG 표지 만들기
 
-추출된 프레임 하나를 선택하고 표지 내보내기에서 자르기 위치와 PNG 또는 JPEG를 고르세요. JPEG는 선택적으로 2 MB로 제한할 수 있습니다. 업로드 없이 상품, 발표 또는 게시물의 썸네일을 준비하세요.
+iPhone이나 iPad에서 두 표지 후보를 비교하거나 Mac에서 원본 영상을 한 프레임씩 확인하세요. 한 장을 골라 자른 뒤 PNG 또는 JPEG 표지로 내보내세요.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Canonical page: https://digit-video.luopeike.com/ko/video-cover-image-from-video
 
 ## 지원
 
-추출된 프레임 하나를 선택하고 표지 내보내기에서 자르기 위치와 PNG 또는 JPEG를 고르세요. JPEG는 선택적으로 2 MB로 제한할 수 있습니다. 업로드 없이 상품, 발표 또는 게시물의 썸네일을 준비하세요.
+비교를 닫고 한 장만 선택하면 잘라서 PNG 또는 JPEG 표지로 내보낼 수 있습니다. PDF 콘택트 시트는 프레임 수와 시간 범위를 먼저 확인하세요. 선택한 프레임을 사용하며, 선택이 없을 때만 남은 결과 전체를 사용합니다(PDF당 최대 120장).
+
+## 어느 프레임이 표지에 어울릴까요?
+
+### iPhone / iPad
+
+영상에서 표지로 쓸 한 장을 고르세요. iPhone이나 iPad에서 프레임을 추출하고 두 장을 선택한 다음 선택 개수 옆의 ‘두 프레임 비교’를 누르세요. 두 이미지와 각각의 타임코드를 밀리초 단위로 볼 수 있습니다.
+
+[![두 프레임 비교 · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/ko-iphone.webp)](https://digit-video.luopeike.com/images/review/ko-iphone.webp)
+
+두 프레임 비교 · 00:50.375 / 00:51.125
+
+예시 동영상: Big Buck Bunny. © 2008 Blender Foundation. Dig It에서 프레임을 배치했습니다. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+원하는 장면이 추출된 두 이미지 사이에 있다면 Mac에서 원본 영상을 열고 ‘정밀 프레임 검토’를 사용하세요. 가변 프레임률 영상에서도 실제 프레임을 앞뒤로 한 장씩 확인해 후보를 추가하거나 선택한 한 장을 교체할 수 있습니다.
+
+[![정밀 프레임 검토 · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/ko-mac.webp)](https://digit-video.luopeike.com/images/review/ko-mac.webp)
+
+정밀 프레임 검토 · 00:50.375 / 00:50.417
+
+예시 동영상: Big Buck Bunny. © 2008 Blender Foundation. Dig It에서 프레임을 배치했습니다. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## 작업에 바로 활용할 이미지
 
@@ -44,4 +66,4 @@ Mac, iPhone 또는 iPad에서 결과 하나를 선택하고 내보내기 → 커
 
 [선택한 동영상 프레임으로 GIF와 MP4 만들기 추출한 프레임 중 2–60장의 정지 이미지를 선택해 Mac, iPhone, iPad에서 소리 없는 짧은 MP4나 움직이는 GIF를 만드세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-frames-to-gif-and-mp4)
 
-[도움말 Dig It 사용법: 프레임 추출과 선택, 무음 MP4 및 GIF 만들기, 커버와 PDF 내보내기, 프로젝트 저장, Mac 작업 흐름과 내보내기 제한을 알아보세요.](https://digit-video.luopeike.com/ko/help)
+[도움말 두 프레임 비교, Mac에서 가변 프레임률 영상 확인, 편집 취소, 표지·콘택트 시트·GIF·무음 MP4 내보내기 방법을 안내합니다.](https://digit-video.luopeike.com/ko/help)

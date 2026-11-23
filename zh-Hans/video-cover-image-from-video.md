@@ -4,7 +4,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-
 
 # 从视频制作 PNG 或 JPEG 封面
 
-选中一张提取结果，使用“导出封面”调整裁切位置，选择 PNG 或 JPEG，还可将 JPEG 限制在 2 MB 内。为商品展示、演示文稿或帖子挑选缩略图，无需上传视频。
+在 iPhone 或 iPad 上对比两张封面候选图，或在 Mac 上逐帧查看原视频。选定一帧后裁切，导出 PNG 或 JPEG 视频封面。
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-
 
 ## 支持
 
-选中一张提取结果，使用“导出封面”调整裁切位置，选择 PNG 或 JPEG，还可将 JPEG 限制在 2 MB 内。为商品展示、演示文稿或帖子挑选缩略图，无需上传视频。
+关闭对比后只选一帧，即可裁切并导出 PNG 或 JPEG 封面。导出 PDF 联系表前，先核对帧数和起止时间：有选择就用所选帧，没有选择才用全部剩余结果，每份最多 120 帧。
+
+## 哪一帧更适合做封面？
+
+### iPhone / iPad
+
+从视频里挑封面时，两帧可能只差一个表情。在 iPhone 或 iPad 上提取画面，选中两张，轻点数量旁的“对比两帧”，即可对照两幅图和各自的毫秒时间码。
+
+[![对比两帧 · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/zh-Hans-iphone.webp)](https://digit-video.luopeike.com/images/review/zh-Hans-iphone.webp)
+
+对比两帧 · 00:50.375 / 00:51.125
+
+示例视频：Big Buck Bunny。© 2008 Blender Foundation。画面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+想要的画面可能正好在两张抽样图之间。在 Mac 上打开原视频，用“精确帧审查”前后逐帧核对，即使素材是可变帧率也按实际源帧步进。找到后，可添加候选帧，或替换当前单选的一帧。
+
+[![精确帧审查 · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/zh-Hans-mac.webp)](https://digit-video.luopeike.com/images/review/zh-Hans-mac.webp)
+
+精确帧审查 · 00:50.375 / 00:50.417
+
+示例视频：Big Buck Bunny。© 2008 Blender Foundation。画面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## 把视频画面，用到你的作品中
 
@@ -44,4 +66,4 @@ Canonical page: https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-
 
 [将选中的视频帧合成 GIF 或短视频 从视频提取画面，再挑选 2–60 张静态图，在 Mac、iPhone 或 iPad 上合成无声 MP4 或 GIF 动图。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-frames-to-gif-and-mp4)
 
-[帮助 Dig It 使用帮助：了解视频抽帧、选帧合成 MP4 与 GIF、封面和 PDF 导出、历史记录，以及 Mac 批量流程、尺寸与数量限制。](https://digit-video.luopeike.com/zh-Hans/help)
+[帮助 了解如何对比两帧、在 Mac 上核对可变帧率原片、撤销编辑，并导出封面、联系表、GIF 或无声 MP4。](https://digit-video.luopeike.com/zh-Hans/help)

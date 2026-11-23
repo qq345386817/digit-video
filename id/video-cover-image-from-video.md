@@ -4,7 +4,7 @@ Panduan alur kerja
 
 # Buat sampul PNG atau JPEG dari video
 
-Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video.
+Bandingkan dua calon sampul di iPhone atau iPad, atau telusuri video asli di Mac. Pilih satu bingkai, potong, lalu ekspor sampul PNG atau JPEG.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Seimbang: kumpulan bersih berukuran sedang untuk sebagian besar video. Cover: fr
 
 ## Dukungan
 
-Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video.
+Tutup perbandingan dan sisakan satu bingkai terpilih untuk memotong sampul PNG atau JPEG. Sebelum mengekspor lembar kontak PDF, periksa jumlah bingkai dan rentang waktunya. PDF memakai bingkai terpilih, atau semua hasil yang tersisa jika tidak ada pilihan (maksimal 120 per PDF).
+
+## Bingkai mana yang cocok untuk sampul?
+
+### iPhone / iPad
+
+Dua gambar terlihat mirip, tetapi ekspresinya sedikit berbeda? Ekstrak bingkai dari video di iPhone atau iPad, pilih dua, lalu ketuk “Bandingkan dua bingkai” di samping jumlah pilihan. Lihat kedua gambar dengan waktu masing-masing hingga milidetik.
+
+[![Bandingkan dua bingkai · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/id-iphone.webp)](https://digit-video.luopeike.com/images/review/id-iphone.webp)
+
+Bandingkan dua bingkai · 00:50.375 / 00:51.125
+
+Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+Jika momen yang dicari ada di antara dua hasil ekstraksi, buka “Tinjau Frame Secara Presisi” di Mac saat video asli tersedia. Maju atau mundur satu bingkai asli, termasuk pada video dengan laju bingkai variabel. Tambahkan kandidat atau gunakan untuk mengganti satu bingkai yang dipilih.
+
+[![Tinjau Frame Secara Presisi · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/id-mac.webp)](https://digit-video.luopeike.com/images/review/id-mac.webp)
+
+Tinjau Frame Secara Presisi · 00:50.375 / 00:50.417
+
+Video contoh: Big Buck Bunny. © 2008 Blender Foundation. Frame disusun dengan Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## Gambar yang bisa langsung dimanfaatkan
 
@@ -44,4 +66,4 @@ Gambar terpilih diekspor sebagai file PNG terpisah. Ekspor Sampul memotong satu 
 
 [Buat GIF atau MP4 dari frame video pilihan Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF animasi di Mac, iPhone, atau iPad. Baca panduan →](https://digit-video.luopeike.com/id/video-frames-to-gif-and-mp4)
 
-[Bantuan Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.](https://digit-video.luopeike.com/id/help)
+[Bantuan Pelajari cara membandingkan dua bingkai, meninjau video berlaju bingkai variabel di Mac, membatalkan edit, serta mengekspor sampul, lembar kontak, GIF, atau MP4 tanpa suara.](https://digit-video.luopeike.com/id/help)

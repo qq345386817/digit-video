@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-contact-sheet
 
 [幫助](https://digit-video.luopeike.com/zh-Hant/help)
 
-更新日期: 2026-11-11
+更新日期: 2026-11-23
 
 ## 快速開始
 
@@ -23,6 +23,8 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/video-contact-sheet
 4. 儲存或分享產生的 PNG 或 PDF。需要分別編輯圖片時，使用「匯出所選」，它會產生多個獨立 PNG 檔案。
 
 ## PNG 總覽圖最多 40 個影格，PDF 最多 120 個
+
+關閉比較後，只選一格即可裁切並匯出 PNG 或 JPEG 封面。匯出 PDF 聯絡表前先核對張數與起訖時間：有選取就使用所選影格，未選取才使用所有剩餘結果，每份最多 120 格。
 
 每張 PNG 縮圖總覽圖最多包含 40 個影格。更多畫面可選擇「PDF 聯絡表」（PDF 縮圖總覽），最多 120 個影格並自動分頁。Mac 批次工作區也可自動匯出 PNG 總覽圖及 PDF。
 
@@ -60,12 +62,12 @@ Mac 提供批次佇列、資料夾匯入、擷取預設、自動 PNG/JPEG 匯出
 
 [在 Mac 上批次擷取影片圖片 加入多個影片或整個資料夾，選好擷取預設，再逐一查看結果或自動匯出 PNG/JPEG 圖片。處理在 Mac 本機完成。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/batch-extract-video-frames-on-mac)
 
-[從影片製作 PNG 或 JPEG 封面 選取一張擷取結果，使用「匯出封面」調整裁切位置，選擇 PNG 或 JPEG，也可將 JPEG 限制在 2 MB 內。為商品展示、簡報或貼文挑選縮圖，無須上傳影片。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
+[從影片製作 PNG 或 JPEG 封面 在 iPhone 或 iPad 比對兩張封面候選圖，或在 Mac 上逐格查看原始影片。選定一格後裁切，輸出 PNG 或 JPEG 封面。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
 
 [把影片整理成教學步驟圖片 使用步驟模式擷取教學或螢幕錄影中的關鍵變化，檢視並匯出所選 PNG 圖片，用於筆記、文件或簡報；也可製作附時間戳記的 PDF 縮圖總覽。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/turn-video-into-step-images)
 
 [將選取的影片影格製作成 GIF 或短片 從影片擷取畫面，再挑選 2–60 張靜態圖，在 Mac、iPhone 或 iPad 上製作無聲 MP4 或 GIF 動圖。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-frames-to-gif-and-mp4)
 
-[幫助 Dig It 使用說明：瞭解影片擷取、選格製作 MP4 與 GIF、封面和 PDF 匯出、歷史記錄，以及 Mac 批次流程、尺寸與數量限制。](https://digit-video.luopeike.com/zh-Hant/help)
+[幫助 瞭解如何比較兩個影格、在 Mac 查看可變影格率原片、復原編輯，以及匯出封面、聯絡表、GIF 或無聲 MP4。](https://digit-video.luopeike.com/zh-Hant/help)
 
 [閱讀 Markdown 版本](https://digit-video.luopeike.com/zh-Hant/video-contact-sheet.md)

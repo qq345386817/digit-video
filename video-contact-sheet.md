@@ -10,7 +10,7 @@ Arrange video stills with timestamps in a PNG overview or an automatically pagin
 
 [Help](https://digit-video.luopeike.com/help)
 
-Updated: 2026-11-11
+Updated: 2026-11-23
 
 ## Getting started
 
@@ -23,6 +23,8 @@ Updated: 2026-11-11
 4. Save or share the generated PNG. Export Selected creates separate PNG files instead; choose that option when each still needs further editing.
 
 ## PNG contact sheets: up to 40 frames
+
+Close the comparison and leave just one frame selected to crop a PNG or JPEG cover. For a PDF contact sheet, check the frame count and time range: it uses the selection, or all remaining results when nothing is selected (up to 120 per PDF).
 
 A PNG contact sheet accepts up to 40 frames. For a larger printable overview, use PDF Contact Sheet: up to 120 frames with automatic pagination. The Mac batch workspace can also export PNG sheets and PDFs.
 
@@ -60,12 +62,12 @@ Use Save to keep the full current result set and available timestamps in local H
 
 [Batch extract video frames on Mac Queue video files or a folder, choose a reusable extraction preset, and review each result or export PNG/JPEG images automatically. Processing stays on your Mac. Read the guide →](https://digit-video.luopeike.com/batch-extract-video-frames-on-mac)
 
-[Create a PNG or JPEG cover from video Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
+[Create a PNG or JPEG cover from video Compare cover candidates on iPhone or iPad, or step through the original video on Mac. Choose one still, crop it and export a PNG or JPEG thumbnail. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
 
 [Turn a video into tutorial step images Use Steps mode to collect useful changes from a tutorial or screen recording. Review and export selected PNG images for your notes, documentation or presentations; use a PDF contact sheet for a timestamped overview. Read the guide →](https://digit-video.luopeike.com/turn-video-into-step-images)
 
 [Make a GIF or MP4 from selected video frames Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad. Read the guide →](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4)
 
-[Help Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.](https://digit-video.luopeike.com/help)
+[Help Learn to compare two frames, review variable-frame-rate video on Mac, undo an edit and export covers, contact sheets, GIFs or silent MP4s.](https://digit-video.luopeike.com/help)
 
 [Read as Markdown](https://digit-video.luopeike.com/video-contact-sheet.md)

@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-contact-sheet
 
 [المساعدة](https://digit-video.luopeike.com/ar-SA/help)
 
-آخر تحديث: 2026-11-11
+آخر تحديث: 2026-11-23
 
 ## البدء
 
@@ -23,6 +23,8 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-contact-sheet
 4. احفظ صورة PNG أو شاركها. ينشئ تصدير المحدد ملفات PNG منفصلة؛ استخدمه عندما تحتاج إلى تعديل كل صورة على حدة.
 
 ## أوراق PNG: حتى 40 إطارًا
+
+أغلق المقارنة واترك إطارًا واحدًا محددًا لاقتصاص غلاف بصيغة PNG أو JPEG. قبل تصدير ورقة معاينة PDF، راجع عدد الإطارات والنطاق الزمني. يُستخدم التحديد، أو كل النتائج المتبقية إذا لم تحدد شيئًا، بحد أقصى 120 إطارًا لكل ملف PDF.
 
 تقبل ورقة PNG حتى 40 إطارًا. لعرض أكبر للطباعة اختر PDF: حتى 120 إطارًا مع تقسيم تلقائي للصفحات. يمكن لمساحة Mac أيضًا تصدير أوراق PNG وPDF.
 
@@ -60,12 +62,12 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-contact-sheet
 
 [استخراج إطارات الفيديو على Mac على دفعات أضف ملفات فيديو أو مجلدًا، واختر إعداد استخراج مسبقًا، ثم راجع النتائج أو صدّر صور PNG/JPEG تلقائيًا. تتم المعالجة على جهاز Mac محليًا. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/batch-extract-video-frames-on-mac)
 
-[أنشئ غلاف PNG أو JPEG من الفيديو حدد إطارًا مستخرجًا واستخدم تصدير الغلاف لاقتصاصه واختيار PNG أو JPEG، مع حد اختياري لحجم JPEG يبلغ 2 MB. جهّز صورة مصغرة لمنتج أو عرض أو منشور دون رفع الفيديو. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
+[أنشئ غلاف PNG أو JPEG من الفيديو قارن صورتين للغلاف على iPhone أو iPad أو تصفّح الفيديو الأصلي على Mac. اختر إطارًا واحدًا واقتصّه ثم صدّر الغلاف بصيغة PNG أو JPEG. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
 
 [حوّل الفيديو إلى صور لخطوات الشرح استخدم وضع الخطوات لالتقاط التغييرات من شرح أو تسجيل شاشة. راجع الصور وصدّر ما تختاره بصيغة PNG للملاحظات أو المستندات أو العروض، أو أنشئ ورقة PDF بطوابع زمنية لعرض شامل. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/turn-video-into-step-images)
 
 [أنشئ GIF أو MP4 من إطارات الفيديو المحددة استخرج الإطارات واختر من 2 إلى 60 صورة ثابتة، ثم أنشئ فيديو قصيرًا صامتًا أو GIF متحركًا على Mac أو iPhone أو iPad. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-mp4)
 
-[المساعدة دليل Dig It: استخراج الإطارات واختيارها وإنشاء MP4 صامت أو GIF وتصدير الأغلفة وPDF وحفظ المشاريع، مع سير عمل Mac وحدود التصدير.](https://digit-video.luopeike.com/ar-SA/help)
+[المساعدة تعرّف على كيفية مقارنة إطارين ومراجعة الفيديو ذي معدل الإطارات المتغيّر على Mac والتراجع عن تعديل وتصدير الأغلفة وأوراق المعاينة وملفات GIF أو MP4 الصامتة.](https://digit-video.luopeike.com/ar-SA/help)
 
 [اقرأ بصيغة Markdown](https://digit-video.luopeike.com/ar-SA/video-contact-sheet.md)

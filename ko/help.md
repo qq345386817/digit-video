@@ -4,7 +4,7 @@ Dig It
 
 # Dig It 도움말 및 지원
 
-Dig It 사용법: 프레임 추출과 선택, 무음 MP4 및 GIF 만들기, 커버와 PDF 내보내기, 프로젝트 저장, Mac 작업 흐름과 내보내기 제한을 알아보세요.
+두 프레임 비교, Mac에서 가변 프레임률 영상 확인, 편집 취소, 표지·콘택트 시트·GIF·무음 MP4 내보내기 방법을 안내합니다.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ iPhone·iPad에서는 사진이나 파일에서 하나의 동영상을 선택하
 
 [동영상 콘택트 시트 만들기 시간 정보와 함께 동영상 이미지를 PNG 요약이나 자동 페이지 나누기 PDF 콘택트 시트로 정리하세요. 원본을 보내지 않고 표지를 비교하거나 장면과 튜토리얼 단계를 공유할 수 있습니다. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-contact-sheet)
 
-[동영상에서 PNG 또는 JPEG 표지 만들기 추출된 프레임 하나를 선택하고 표지 내보내기에서 자르기 위치와 PNG 또는 JPEG를 고르세요. JPEG는 선택적으로 2 MB로 제한할 수 있습니다. 업로드 없이 상품, 발표 또는 게시물의 썸네일을 준비하세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
+[동영상에서 PNG 또는 JPEG 표지 만들기 iPhone이나 iPad에서 두 표지 후보를 비교하거나 Mac에서 원본 영상을 한 프레임씩 확인하세요. 한 장을 골라 자른 뒤 PNG 또는 JPEG 표지로 내보내세요. 가이드 읽기 →](https://digit-video.luopeike.com/ko/video-cover-image-from-video)
 
 [동영상을 튜토리얼 단계 이미지로 단계 모드로 튜토리얼이나 화면 녹화의 변화 지점을 추출하세요. 선택한 PNG 이미지를 노트, 문서 또는 발표에 쓰거나 시간 정보가 있는 PDF 콘택트 시트로 전체를 살펴볼 수 있습니다. 가이드 읽기 →](https://digit-video.luopeike.com/ko/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Mac, iPhone 또는 iPad에서 결과 하나를 선택하고 내보내기 → 커
 
 아니요. 선택한 정지 이미지를 설정한 시간 동안 차례로 보여 줍니다. MP4는 무음이며 GIF에도 소리가 없습니다. 원본의 연속 움직임 복원, 프레임 보간, AI 움직임 생성은 하지 않습니다. 장면이나 과정을 요약하는 기능으로, 원본 움직임 전체를 변환하지 않습니다.
 
-## 주변 원본 프레임에서 이미지 선택하기
+## 어느 프레임이 표지에 어울릴까요?
 
-Mac에서 하나의 결과를 선택하고 가까운 원본 프레임을 살펴본 뒤 이미지를 추가하거나 교체하세요. 현재 작업 공간에서 원본 동영상을 계속 사용할 수 있어야 합니다.
+### iPhone / iPad
 
-[![예시 동영상으로 보는 Mac 결과와 원본 프레임 검토입니다. 영어 인터페이스를 표시합니다.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+영상에서 표지로 쓸 한 장을 고르세요. iPhone이나 iPad에서 프레임을 추출하고 두 장을 선택한 다음 선택 개수 옆의 ‘두 프레임 비교’를 누르세요. 두 이미지와 각각의 타임코드를 밀리초 단위로 볼 수 있습니다.
 
-예시 동영상으로 보는 Mac 결과와 원본 프레임 검토입니다. 영어 인터페이스를 표시합니다.
+### Mac
 
-예시 동영상: Big Buck Bunny. © 2008 Blender Foundation. Dig It에서 프레임을 배치했습니다. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+원하는 장면이 추출된 두 이미지 사이에 있다면 Mac에서 원본 영상을 열고 ‘정밀 프레임 검토’를 사용하세요. 가변 프레임률 영상에서도 실제 프레임을 앞뒤로 한 장씩 확인해 후보를 추가하거나 선택한 한 장을 교체할 수 있습니다.
+
+비교를 닫고 한 장만 선택하면 잘라서 PNG 또는 JPEG 표지로 내보낼 수 있습니다. PDF 콘택트 시트는 프레임 수와 시간 범위를 먼저 확인하세요. 선택한 프레임을 사용하며, 선택이 없을 때만 남은 결과 전체를 사용합니다(PDF당 최대 120장).
 
 ## 다시 편집할 수 있는 프레임 모음 저장
 
@@ -125,6 +127,10 @@ Dig It uses Photos access only so you can choose source media and save exported 
 ### GIF와 MP4에 원본 움직임과 소리가 유지되나요?
 
 아니요. 선택한 정지 이미지를 설정한 시간 동안 차례로 보여 줍니다. MP4는 무음이며 GIF에도 소리가 없습니다. 원본의 연속 움직임 복원, 프레임 보간, AI 움직임 생성은 하지 않습니다. 장면이나 과정을 요약하는 기능으로, 원본 움직임 전체를 변환하지 않습니다.
+
+### 잘못 편집한 프레임을 복원할 수 있나요?
+
+결과 격자에서 마지막 편집 한 번을 취소하면 이전 선택 상태도 복원됩니다. Mac에서 원본 프레임을 추가하거나 교체한 경우에도 적용됩니다. 저장하거나 프로젝트를 닫거나 전환하면 실행 취소 기록이 지워지며 다시 실행은 지원하지 않습니다.
 
 ### 이미지와 요약은 어떤 형식으로 내보낼 수 있나요?
 

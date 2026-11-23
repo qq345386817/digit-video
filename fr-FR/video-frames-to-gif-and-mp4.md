@@ -10,7 +10,7 @@ Extrayez les images, choisissez-en 2 à 60 et créez une courte vidéo sans son 
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-11-11
+Mis à jour: 2026-11-23
 
 L'export MP4 et GIF depuis les images sélectionnées nécessite Dig It 1.4.5 ou ultérieur sur Mac, iPhone ou iPad. Vérifiez la version disponible sur votre App Store avant de télécharger pour cette fonction.
 
@@ -62,10 +62,10 @@ Utilisez Enregistrer pour conserver tous les résultats actuels et les horodatag
 
 [Créer une planche-contact à partir d'une vidéo Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une planche PDF à pagination automatique. Comparez des couvertures, partagez des scènes ou réunissez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
 
-[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Comparez deux images sur iPhone ou iPad ou parcourez la vidéo originale sur Mac. Choisissez une image, recadrez-la et exportez la couverture en PNG ou JPEG. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
 
 [Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
-[Aide Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.](https://digit-video.luopeike.com/fr-FR/help)
+[Aide Comparez deux images, vérifiez une vidéo à fréquence variable sur Mac, annulez une modification et exportez couvertures, planches-contact, GIF ou MP4 muets.](https://digit-video.luopeike.com/fr-FR/help)
 
 [Lire en Markdown](https://digit-video.luopeike.com/fr-FR/video-frames-to-gif-and-mp4.md)

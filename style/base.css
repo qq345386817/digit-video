@@ -103,6 +103,10 @@ h3 { font-size: var(--font-subheading-size); line-height: var(--font-subheading-
 .workflow-steps li + li { margin-top: 16px; }
 .workflow-figure { margin: 28px 0 0; max-width: 1000px; }
 .workflow-figure img { display: block; width: 100%; height: auto; }
+.comparison-examples { display: grid; gap: 24px; grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr); }
+.comparison-examples .workflow-figure { margin-block-start: 16px; }
+.comparison-examples img[width="396"] { max-width: 230px; }
+@media (max-width: 700px) { .comparison-examples { grid-template-columns: 1fr; } }
 .workflow-figure figcaption { margin-top: var(--space-2); font-size: var(--font-caption-size); color: var(--muted); }
 .updated { font-size: 12px; }
 .availability-note { padding: 16px 20px; background: var(--surface-strong); border-radius: var(--radius-sm); font-size: 14px; }

@@ -40,8 +40,8 @@ Mac、iPhone、iPad で結果を 1 枚選び、「書き出す → カバーを�
 
 [動画のコンタクトシートを作る 動画の静止画と時刻を、PNG の一覧や自動改ページ付き PDF コンタクトシートに整理。カバー比較、場面の共有、チュートリアル手順の確認に活用でき、元動画を送る必要はありません。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-contact-sheet)
 
-[動画から PNG・JPEG カバーを作る 抽出した画像を一枚選び、カバーの書き出しで切り抜き位置と PNG・JPEG を選択。JPEG は任意で 2 MB に制限できます。動画をアップロードせず、商品紹介やプレゼン、投稿のサムネイルを用意できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
+[動画から PNG・JPEG カバーを作る iPhone・iPadでカバー候補を2枚比較するか、Macで元動画をコマ送り。選んだ1枚をトリミングし、PNGまたはJPEGのサムネイルを書き出します。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-cover-image-from-video)
 
 [選んだ動画フレームからGIF・MP4を作成 動画から抽出した静止画を2〜60枚選び、Mac・iPhone・iPadで無音の短いMP4やアニメーションGIFを作成できます。 ガイドを読む →](https://digit-video.luopeike.com/ja/video-frames-to-gif-and-mp4)
 
-[ヘルプ Dig Itの使い方。動画フレームの抽出・選択、無音MP4やGIFの作成、カバー・PDFの書き出し、プロジェクト保存、Macのワークフローと各種上限を解説します。](https://digit-video.luopeike.com/ja/help)
+[ヘルプ 2枚のフレームの比較、Macでの可変フレームレート動画の確認、編集の取り消し、カバー・コンタクトシート・GIF・無音MP4の書き出し方法を紹介します。](https://digit-video.luopeike.com/ja/help)

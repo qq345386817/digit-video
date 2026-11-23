@@ -16,6 +16,29 @@ class ProductContentTests(unittest.TestCase):
     def setUpClass(cls):
         cls.content = pages.product_content()
 
+    def test_frame_review_matches_visible_guides_and_machine_readable_copy(self):
+        for locale, c in self.content.items():
+            with self.subTest(locale=locale):
+                home = pages.local_path(locale).read_text()
+                self.assertIn(escape(c['heroIntro']), home)
+                self.assertIn(pages.COVER + '#compare-frames', home)
+                for slug in ('help', pages.COVER):
+                    html = pages.local_path(locale, slug).read_text()
+                    md = pages.local_path(locale, slug, '.md').read_text()
+                    for key in ('mobileReview', 'macReview', 'exportScope'):
+                        self.assertIn(escape(c[key]), html)
+                        self.assertIn(c[key], md)
+                self.assertIn(c['undoAnswer'], pages.local_path(locale,'help','.md').read_text())
+                for device in ('iphone', 'mac'):
+                    asset = f'images/review/{locale}-{device}.webp'
+                    self.assertTrue((pages.ROOT / asset).is_file())
+                    self.assertIn('src="/' + asset + '"', html)
+                for label in ('mobileLabel', 'macLabel'):
+                    self.assertTrue(any(c[label] in f for f in pages.app_schema(c)['featureList']))
+        llms = (pages.ROOT/'llms.txt').read_text()
+        for key in ('mobileReview', 'macReview', 'exportScope', 'undoAnswer'):
+            self.assertIn(self.content['en'][key], llms)
+
     def test_all_locales_have_translated_product_facts(self):
         self.assertEqual(set(self.content), set(pages.LOCALES))
         keys = set(self.content['en'])

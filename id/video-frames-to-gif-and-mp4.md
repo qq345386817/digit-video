@@ -10,7 +10,7 @@ Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF 
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-11-11
+Diperbarui: 2026-11-23
 
 Ekspor MP4 dan GIF dari frame pilihan memerlukan Dig It 1.4.5 atau lebih baru di Mac, iPhone, atau iPad. Periksa versi di App Store sebelum mengunduh untuk fitur ini.
 
@@ -62,10 +62,10 @@ Gunakan Simpan untuk menyimpan seluruh kumpulan hasil saat ini beserta penanda w
 
 [Buat lembar kontak video Susun gambar video dengan penanda waktu dalam ringkasan PNG atau lembar kontak PDF berhalaman otomatis. Bandingkan sampul, bagikan ringkasan adegan, atau kumpulkan langkah tutorial tanpa mengirim video asli. Baca panduan →](https://digit-video.luopeike.com/id/video-contact-sheet)
 
-[Buat sampul PNG atau JPEG dari video Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
+[Buat sampul PNG atau JPEG dari video Bandingkan dua calon sampul di iPhone atau iPad, atau telusuri video asli di Mac. Pilih satu bingkai, potong, lalu ekspor sampul PNG atau JPEG. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
 
 [Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
-[Bantuan Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.](https://digit-video.luopeike.com/id/help)
+[Bantuan Pelajari cara membandingkan dua bingkai, meninjau video berlaju bingkai variabel di Mac, membatalkan edit, serta mengekspor sampul, lembar kontak, GIF, atau MP4 tanpa suara.](https://digit-video.luopeike.com/id/help)
 
 [Baca sebagai Markdown](https://digit-video.luopeike.com/id/video-frames-to-gif-and-mp4.md)

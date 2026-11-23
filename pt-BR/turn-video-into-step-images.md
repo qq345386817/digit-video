@@ -40,8 +40,8 @@ As imagens selecionadas são exportadas como PNGs separados. Exportar capa recor
 
 [Criar uma folha de contato de vídeo Organize imagens do vídeo com horários em um resumo PNG ou folha PDF com paginação automática. Compare capas, compartilhe cenas ou reúna etapas de um tutorial sem enviar o vídeo original. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-contact-sheet)
 
-[Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
+[Crie uma capa PNG ou JPEG a partir de um vídeo Compare duas opções de capa no iPhone ou iPad ou percorra o vídeo original no Mac. Escolha um quadro, recorte e exporte a miniatura em PNG ou JPEG. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
 
 [Crie GIF ou MP4 com quadros selecionados do vídeo Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4)
 
-[Ajuda Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.](https://digit-video.luopeike.com/pt-BR/help)
+[Ajuda Aprenda a comparar quadros, revisar vídeos com taxa de quadros variável no Mac, desfazer uma edição e exportar capas, folhas de contato, GIFs ou MP4 sem som.](https://digit-video.luopeike.com/pt-BR/help)

@@ -4,7 +4,7 @@ Workflow-Anleitung
 
 # Ein PNG- oder JPEG-Cover aus einem Video erstellen
 
-Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload.
+Vergleiche zwei Coverbilder auf dem iPhone oder iPad oder prüfe das Originalvideo auf dem Mac. Wähle ein Bild, schneide es zu und exportiere es als PNG oder JPEG.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Ausgewogen: ein sauberes mittelgroßes Set für die meisten Videos. Cover: wenig
 
 ## Support
 
-Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload.
+Schließe den Vergleich und lasse nur ein Bild ausgewählt, um ein PNG- oder JPEG-Cover zuzuschneiden. Prüfe vor dem PDF-Export Anzahl und Zeitspanne: Der Kontaktbogen enthält die Auswahl, ohne Auswahl alle übrigen Ergebnisse (bis zu 120 pro PDF).
+
+## Welches Bild eignet sich als Cover?
+
+### iPhone / iPad
+
+Zwei fast gleiche Bilder, aber nur auf einem stimmt der Gesichtsausdruck? Extrahiere Standbilder auf dem iPhone oder iPad, wähle zwei aus und tippe neben dem Zähler auf „Zwei Bilder vergleichen“. Beide Zeitcodes zeigen auch die Millisekunden.
+
+[![Zwei Bilder vergleichen · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/de-DE-iphone.webp)](https://digit-video.luopeike.com/images/review/de-DE-iphone.webp)
+
+Zwei Bilder vergleichen · 00:50.375 / 00:51.125
+
+Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It angeordnet. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+Liegt der richtige Moment zwischen zwei entnommenen Bildern, öffne auf dem Mac mit dem Originalvideo „Frame präzise prüfen“. Gehe auch bei variabler Bildrate ein tatsächliches Bild vor oder zurück. Füge den Treffer hinzu oder ersetze ein einzelnes ausgewähltes Bild.
+
+[![Frame präzise prüfen · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/de-DE-mac.webp)](https://digit-video.luopeike.com/images/review/de-DE-mac.webp)
+
+Frame präzise prüfen · 00:50.375 / 00:50.417
+
+Beispielvideo: Big Buck Bunny. © 2008 Blender Foundation. Bilder mit Dig It angeordnet. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## Bilder für deine nächsten Projekte
 
@@ -44,4 +66,4 @@ Ausgewählte Standbilder werden als einzelne PNGs exportiert. Cover exportieren 
 
 [GIF oder MP4 aus ausgewählten Videoframes erstellen Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder iPad ein stummes Kurzvideo oder animiertes GIF. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-frames-to-gif-and-mp4)
 
-[Hilfe Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.](https://digit-video.luopeike.com/de-DE/help)
+[Hilfe So vergleichst du Standbilder, prüfst Videos mit variabler Bildrate auf dem Mac, nimmst Änderungen zurück und exportierst Cover, Kontaktbögen, GIFs oder stumme MP4s.](https://digit-video.luopeike.com/de-DE/help)

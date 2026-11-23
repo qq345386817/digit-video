@@ -10,7 +10,7 @@ Extrahiere Frames, wähle 2–60 Standbilder und erstelle auf Mac, iPhone oder i
 
 [Hilfe](https://digit-video.luopeike.com/de-DE/help)
 
-Aktualisiert: 2026-11-11
+Aktualisiert: 2026-11-23
 
 MP4- und GIF-Export aus ausgewählten Frames erfordert Dig It 1.4.5 oder neuer auf Mac, iPhone oder iPad. Prüfe vor dem Download für diese Funktion die verfügbare App-Store-Version.
 
@@ -62,10 +62,10 @@ Verwende Speichern, um das vollständige aktuelle Ergebnis und verfügbare Zeits
 
 [Einen Kontaktbogen aus einem Video erstellen Ordne Videobilder mit Zeitangaben als PNG-Übersicht oder PDF-Kontaktabzug mit automatischen Seitenumbrüchen an. Vergleiche Cover, teile Szenen oder sammle Anleitungsschritte, ohne das Originalvideo zu versenden. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-contact-sheet)
 
-[Ein PNG- oder JPEG-Cover aus einem Video erstellen Wähle ein extrahiertes Bild und nutze Cover exportieren für Zuschnitt und PNG oder JPEG. Optional lässt sich JPEG auf 2 MB begrenzen. Erstelle ein Vorschaubild für Produkte, Präsentationen oder Beiträge ohne Video-Upload. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
+[Ein PNG- oder JPEG-Cover aus einem Video erstellen Vergleiche zwei Coverbilder auf dem iPhone oder iPad oder prüfe das Originalvideo auf dem Mac. Wähle ein Bild, schneide es zu und exportiere es als PNG oder JPEG. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/video-cover-image-from-video)
 
 [Ein Video in Bilder für eine Anleitung umwandeln Nutze den Schritte-Modus für Änderungen in Tutorials oder Bildschirmaufnahmen. Prüfe und exportiere ausgewählte PNGs für Notizen, Dokumentation oder Präsentationen; ein PDF-Kontaktabzug mit Zeitangaben bietet die Übersicht. Anleitung lesen →](https://digit-video.luopeike.com/de-DE/turn-video-into-step-images)
 
-[Hilfe Dig-It-Hilfe: Frames auswählen, stumme MP4 oder GIF erstellen, Cover und PDFs exportieren und Projekte speichern. Mac-Abläufe und Exportgrenzen.](https://digit-video.luopeike.com/de-DE/help)
+[Hilfe So vergleichst du Standbilder, prüfst Videos mit variabler Bildrate auf dem Mac, nimmst Änderungen zurück und exportierst Cover, Kontaktbögen, GIFs oder stumme MP4s.](https://digit-video.luopeike.com/de-DE/help)
 
 [Als Markdown lesen](https://digit-video.luopeike.com/de-DE/video-frames-to-gif-and-mp4.md)

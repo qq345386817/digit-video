@@ -10,7 +10,7 @@ Disponi immagini video con i tempi in una panoramica PNG o un provino PDF con pa
 
 [Aiuto](https://digit-video.luopeike.com/it/help)
 
-Aggiornato: 2026-11-11
+Aggiornato: 2026-11-23
 
 ## Per iniziare
 
@@ -23,6 +23,8 @@ Aggiornato: 2026-11-11
 4. Salva o condividi il PNG. Esporta selezionati crea PNG separati: scegli questa opzione quando ogni immagine richiede ulteriori modifiche.
 
 ## Provini PNG: fino a 40 fotogrammi
+
+Chiudi il confronto e lascia selezionato un solo fotogramma per ritagliare una copertina PNG o JPEG. Prima di esportare un provino a contatto PDF, controlla il numero di fotogrammi e l’intervallo: si usa la selezione o, se vuota, tutti i risultati rimasti (fino a 120 per PDF).
 
 Un provino PNG accetta fino a 40 fotogrammi. Per una panoramica stampabile più ampia scegli PDF: fino a 120 fotogrammi con paginazione automatica. Lo spazio Mac può anche esportare provini PNG e PDF.
 
@@ -60,12 +62,12 @@ Usa Salva per conservare tutti i risultati attuali e i tempi disponibili nella c
 
 [Estrarre fotogrammi video in batch su Mac Aggiungi file video o una cartella, scegli un preset e rivedi ogni risultato o esporta immagini PNG/JPEG automaticamente. L'elaborazione rimane sul Mac. Leggi la guida →](https://digit-video.luopeike.com/it/batch-extract-video-frames-on-mac)
 
-[Crea una copertina PNG o JPEG da un video Seleziona un fotogramma e usa Esporta copertina per ritagliarlo, scegliere PNG o JPEG e limitare eventualmente il JPEG a 2 MB. Prepara una miniatura per prodotti, presentazioni o post senza caricare il video online. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
+[Crea una copertina PNG o JPEG da un video Confronta due possibili copertine su iPhone o iPad o scorri il video originale su Mac. Scegli un fotogramma, ritaglialo ed esporta la miniatura in PNG o JPEG. Leggi la guida →](https://digit-video.luopeike.com/it/video-cover-image-from-video)
 
 [Trasforma un video in immagini dei passaggi Usa la modalità Passaggi per raccogliere i cambiamenti di un tutorial o di una registrazione dello schermo. Esamina ed esporta PNG per appunti, documenti o presentazioni; crea un provino PDF con tempi per una panoramica. Leggi la guida →](https://digit-video.luopeike.com/it/turn-video-into-step-images)
 
 [Crea GIF o MP4 dai fotogrammi selezionati Estrai i fotogrammi, scegli da 2 a 60 immagini e crea un breve video senza audio o una GIF animata su Mac, iPhone o iPad. Leggi la guida →](https://digit-video.luopeike.com/it/video-frames-to-gif-and-mp4)
 
-[Aiuto Guida Dig It: estrai e scegli fotogrammi, crea MP4 senza audio o GIF, esporta copertine e PDF e salva progetti. Flussi Mac e limiti di esportazione.](https://digit-video.luopeike.com/it/help)
+[Aiuto Scopri come confrontare due fotogrammi, verificare video con frequenza variabile su Mac, annullare una modifica ed esportare copertine, provini, GIF o MP4 senza audio.](https://digit-video.luopeike.com/it/help)
 
 [Leggi in Markdown](https://digit-video.luopeike.com/it/video-contact-sheet.md)

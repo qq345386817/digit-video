@@ -10,7 +10,7 @@ Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une p
 
 [Aide](https://digit-video.luopeike.com/fr-FR/help)
 
-Mis à jour: 2026-11-11
+Mis à jour: 2026-11-23
 
 ## Premiers pas
 
@@ -23,6 +23,8 @@ Mis à jour: 2026-11-11
 4. Enregistrez ou partagez le PNG. Exporter la sélection crée des PNG séparés : choisissez cette option pour modifier chaque image indépendamment.
 
 ## Planches PNG : jusqu’à 40 images
+
+Fermez la comparaison et ne gardez qu’une image sélectionnée pour recadrer la couverture en PNG ou JPEG. Pour une planche-contact PDF, vérifiez le nombre d’images et la plage de temps : la sélection est utilisée ou, à défaut, tous les résultats restants (120 maximum par PDF).
 
 Une planche PNG accepte jusqu’à 40 images. Pour une vue imprimable plus grande, choisissez PDF : jusqu’à 120 images avec pagination automatique. L’espace Mac peut aussi exporter des planches PNG et des PDF.
 
@@ -60,12 +62,12 @@ Utilisez Enregistrer pour conserver tous les résultats actuels et les horodatag
 
 [Extraire des images vidéo par lots sur Mac Ajoutez des vidéos ou un dossier, choisissez un préréglage, puis examinez chaque résultat ou exportez des PNG/JPEG automatiquement. Le traitement reste sur votre Mac. Lire le guide →](https://digit-video.luopeike.com/fr-FR/batch-extract-video-frames-on-mac)
 
-[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Comparez deux images sur iPhone ou iPad ou parcourez la vidéo originale sur Mac. Choisissez une image, recadrez-la et exportez la couverture en PNG ou JPEG. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
 
 [Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
 [Créer un GIF ou MP4 avec les images sélectionnées Extrayez les images, choisissez-en 2 à 60 et créez une courte vidéo sans son ou un GIF animé sur Mac, iPhone ou iPad. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-frames-to-gif-and-mp4)
 
-[Aide Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.](https://digit-video.luopeike.com/fr-FR/help)
+[Aide Comparez deux images, vérifiez une vidéo à fréquence variable sur Mac, annulez une modification et exportez couvertures, planches-contact, GIF ou MP4 muets.](https://digit-video.luopeike.com/fr-FR/help)
 
 [Lire en Markdown](https://digit-video.luopeike.com/fr-FR/video-contact-sheet.md)

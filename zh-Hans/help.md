@@ -4,7 +4,7 @@ Dig It
 
 # Dig It 帮助与支持
 
-Dig It 使用帮助：了解视频抽帧、选帧合成 MP4 与 GIF、封面和 PDF 导出、历史记录，以及 Mac 批量流程、尺寸与数量限制。
+了解如何对比两帧、在 Mac 上核对可变帧率原片、撤销编辑，并导出封面、联系表、GIF 或无声 MP4。
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ Mac 提供批量队列、文件夹导入、提取预设、自动 PNG/JPEG 导出
 
 [从视频制作缩略图索引图与 PDF 总览 把多张视频静帧整理成带时间戳的 PNG 缩略图索引图或自动分页的 PDF 缩略图索引页，用来比较封面、分享场景摘要和整理教程步骤，无需发送原视频。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-contact-sheet)
 
-[从视频制作 PNG 或 JPEG 封面 选中一张提取结果，使用“导出封面”调整裁切位置，选择 PNG 或 JPEG，还可将 JPEG 限制在 2 MB 内。为商品展示、演示文稿或帖子挑选缩略图，无需上传视频。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-video)
+[从视频制作 PNG 或 JPEG 封面 在 iPhone 或 iPad 上对比两张封面候选图，或在 Mac 上逐帧查看原视频。选定一帧后裁切，导出 PNG 或 JPEG 视频封面。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/video-cover-image-from-video)
 
 [把视频整理成教程步骤图片 使用步骤模式提取教程或录屏中的关键变化，查看并导出所选 PNG 图片，用于笔记、文档或演示文稿；也可制作带时间戳的 PDF 缩略图索引页，方便总览。 查看指南 →](https://digit-video.luopeike.com/zh-Hans/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Mac、iPhone 与 iPad 上的选帧合成 MP4 / GIF 需要 Dig It 1.4.5 或更新
 
 不会。成品按设定时长依次展示所选静态图，MP4 为无声视频，GIF 也不含音频。它不会恢复原视频连续动作、补间或生成 AI 动画，适合分享关键画面与过程摘要，不是完整动态视频转换。
 
-## 从源视频附近画面中精确选帧
+## 哪一帧更适合做封面？
 
-在 Mac 上选中一张结果，逐帧查看附近的源画面，再添加新图片或替换所选图片。这项查看功能需要当前工作区中的源视频仍然可用。
+### iPhone / iPad
 
-[![使用示例视频的 Mac 结果页与源画面查看。截图为英文界面。](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+从视频里挑封面时，两帧可能只差一个表情。在 iPhone 或 iPad 上提取画面，选中两张，轻点数量旁的“对比两帧”，即可对照两幅图和各自的毫秒时间码。
 
-使用示例视频的 Mac 结果页与源画面查看。截图为英文界面。
+### Mac
 
-示例视频：Big Buck Bunny。© 2008 Blender Foundation。画面由 Dig It 排列。 [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+想要的画面可能正好在两张抽样图之间。在 Mac 上打开原视频，用“精确帧审查”前后逐帧核对，即使素材是可变帧率也按实际源帧步进。找到后，可添加候选帧，或替换当前单选的一帧。
+
+关闭对比后只选一帧，即可裁切并导出 PNG 或 JPEG 封面。导出 PDF 联系表前，先核对帧数和起止时间：有选择就用所选帧，没有选择才用全部剩余结果，每份最多 120 帧。
 
 ## 保存以后还能继续编辑的结果集
 
@@ -125,6 +127,10 @@ Dig It 目前在 App Store 免费提供。最新价格和设备兼容性请以�
 ### 合成的 GIF 或 MP4 会保留原视频动作和声音吗？
 
 不会。成品按设定时长依次展示所选静态图，MP4 为无声视频，GIF 也不含音频。它不会恢复原视频连续动作、补间或生成 AI 动画，适合分享关键画面与过程摘要，不是完整动态视频转换。
+
+### 选帧时误删了画面，可以撤销吗？
+
+可以撤销结果网格中的上一次编辑，并恢复当时的选择。Mac 上添加或替换源帧也可以撤销。保存、关闭或切换项目后，这一步撤销就会清除；不支持重做。
 
 ### 图片和画面总览分别支持哪些导出格式？
 

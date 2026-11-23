@@ -10,7 +10,7 @@ Añade archivos o una carpeta, elige un ajuste de extracción y revisa cada resu
 
 [Ayuda](https://digit-video.luopeike.com/es-ES/help)
 
-Actualizado: 2026-11-11
+Actualizado: 2026-11-23
 
 ## Primeros pasos
 
@@ -34,7 +34,7 @@ Vídeo de ejemplo: Big Buck Bunny. © 2008 Blender Foundation. Imágenes organiz
 
 ## Revisa una selección de momentos útiles
 
-Los modos eligen momentos representativos, no todos los fotogramas. Portada prioriza una selección pequeña; Pasos conserva más cambios para tutoriales. Revisa las imágenes antes de usarlas en fichas de producto o documentos. En Mac, selecciona un resultado y recorre los fotogramas cercanos del vídeo original para sustituirlo con más precisión.
+Si el instante que buscas cae entre dos muestras, abre «Revisión precisa de fotogramas» en el Mac con el vídeo original disponible. Avanza o retrocede un fotograma real, incluso con frecuencia variable. Añade el candidato o sustituye un único fotograma seleccionado.
 
 [![Resultados de Mac y revisión del vídeo de origen con un clip de ejemplo. Interfaz en inglés.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
 
@@ -70,12 +70,12 @@ Pulsa Guardar para conservar el conjunto completo de resultados y sus marcas de 
 
 [Crear una hoja de contacto de vídeo Organiza imágenes del vídeo con marcas de tiempo en un resumen PNG o una hoja PDF con paginación automática. Compara portadas, comparte escenas o reúne pasos de un tutorial sin enviar el vídeo original. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-contact-sheet)
 
-[Crea una portada PNG o JPEG desde un vídeo Selecciona un fotograma y usa Exportar portada para recortarlo, elegir PNG o JPEG y limitar opcionalmente el JPEG a 2 MB. Prepara una miniatura para un producto, una presentación o una publicación sin subir el vídeo. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
+[Crea una portada PNG o JPEG desde un vídeo Compara dos posibles portadas en el iPhone o iPad, o recorre el vídeo original en el Mac. Elige un fotograma, recórtalo y exporta la miniatura en PNG o JPEG. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-cover-image-from-video)
 
 [Convierte un vídeo en imágenes de pasos Usa el modo Pasos para recoger cambios de un tutorial o una grabación de pantalla. Revisa y exporta imágenes PNG para notas, documentos o presentaciones; crea una hoja de contacto PDF con marcas de tiempo para ver el conjunto. Leer la guía →](https://digit-video.luopeike.com/es-ES/turn-video-into-step-images)
 
 [Crea un GIF o MP4 con fotogramas seleccionados Extrae fotogramas, elige entre 2 y 60 imágenes y crea un vídeo corto sin sonido o un GIF animado en Mac, iPhone o iPad. Leer la guía →](https://digit-video.luopeike.com/es-ES/video-frames-to-gif-and-mp4)
 
-[Ayuda Ayuda de Dig It: extrae y selecciona fotogramas, crea MP4 sin sonido o GIF, exporta portadas y PDF y guarda proyectos. Flujos de Mac y límites.](https://digit-video.luopeike.com/es-ES/help)
+[Ayuda Aprende a comparar fotogramas, revisar vídeos de frecuencia variable en el Mac, deshacer una edición y exportar portadas, hojas de contacto, GIF o MP4 sin sonido.](https://digit-video.luopeike.com/es-ES/help)
 
 [Leer en Markdown](https://digit-video.luopeike.com/es-ES/batch-extract-video-frames-on-mac.md)

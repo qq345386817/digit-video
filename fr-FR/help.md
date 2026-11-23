@@ -4,7 +4,7 @@ Dig It
 
 # Aide et support Dig It
 
-Aide Dig It : extraire et choisir des images, créer MP4 muets ou GIF, exporter couvertures et PDF et sauvegarder des projets. Flux Mac et limites.
+Comparez deux images, vérifiez une vidéo à fréquence variable sur Mac, annulez une modification et exportez couvertures, planches-contact, GIF ou MP4 muets.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ Sur iPhone et iPad, choisissez une vidéo dans Photos ou Fichiers, examinez les 
 
 [Créer une planche-contact à partir d'une vidéo Rassemblez les images vidéo avec leurs horodatages dans un aperçu PNG ou une planche PDF à pagination automatique. Comparez des couvertures, partagez des scènes ou réunissez les étapes d'un tutoriel sans envoyer la vidéo originale. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-contact-sheet)
 
-[Créer une couverture PNG ou JPEG à partir d'une vidéo Sélectionnez une image extraite et utilisez Exporter la couverture pour la recadrer et choisir PNG ou JPEG, avec une limite JPEG facultative de 2 Mo. Préparez une miniature pour un produit, une présentation ou une publication sans envoyer la vidéo en ligne. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
+[Créer une couverture PNG ou JPEG à partir d'une vidéo Comparez deux images sur iPhone ou iPad ou parcourez la vidéo originale sur Mac. Choisissez une image, recadrez-la et exportez la couverture en PNG ou JPEG. Lire le guide →](https://digit-video.luopeike.com/fr-FR/video-cover-image-from-video)
 
 [Transformer une vidéo en images d'étapes Utilisez le mode Étapes pour extraire les changements d'un tutoriel ou d'une capture d'écran vidéo. Examinez et exportez des PNG pour vos notes, documents ou présentations, ou créez une planche PDF horodatée pour une vue d'ensemble. Lire le guide →](https://digit-video.luopeike.com/fr-FR/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Choisissez 0,1, 0,25, 0,5, 1 ou 2 secondes par image. Le côté maximal est de 7
 
 Non. Il affiche les images fixes pendant la durée choisie. Le MP4 est muet et le GIF n'a pas de son. L'app ne restaure pas le mouvement continu, n'interpole pas d'images et ne génère pas de mouvement par IA. Le résultat résume des moments ou une procédure, sans convertir toute la vidéo en mouvement.
 
-## Choisissez une image parmi les images sources voisines
+## Quelle image choisir pour la couverture ?
 
-Sur Mac, sélectionnez un résultat, parcourez les images sources voisines et ajoutez une image ou remplacez la sélection. La vidéo source doit rester disponible dans l'espace de travail actuel.
+### iPhone / iPad
 
-[![Résultats Mac et révision de la source avec une vidéo d'exemple. Interface en anglais.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+Deux expressions se ressemblent, mais une seule convient à la couverture ? Extrayez les images sur iPhone ou iPad, sélectionnez-en deux et touchez « Comparer deux images » près du compteur. Le temps de chaque image s’affiche à la milliseconde.
 
-Résultats Mac et révision de la source avec une vidéo d'exemple. Interface en anglais.
+### Mac
 
-Vidéo d'exemple : Big Buck Bunny. © 2008 Blender Foundation. Images organisées avec Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+L’instant recherché se trouve parfois entre deux images extraites. Sur Mac, ouvrez « Sélection précise d’image » avec la vidéo d’origine accessible. Avancez ou reculez d’une image réelle, même à fréquence variable, puis ajoutez l’image trouvée ou remplacez celle qui est sélectionnée.
+
+Fermez la comparaison et ne gardez qu’une image sélectionnée pour recadrer la couverture en PNG ou JPEG. Pour une planche-contact PDF, vérifiez le nombre d’images et la plage de temps : la sélection est utilisée ou, à défaut, tous les résultats restants (120 maximum par PDF).
 
 ## Enregistrez un ensemble d'images à rééditer
 
@@ -125,6 +127,10 @@ Dig It uses Photos access only so you can choose source media and save exported 
 ### Le GIF ou MP4 conserve-t-il le mouvement et le son d'origine ?
 
 Non. Il affiche les images fixes pendant la durée choisie. Le MP4 est muet et le GIF n'a pas de son. L'app ne restaure pas le mouvement continu, n'interpole pas d'images et ne génère pas de mouvement par IA. Le résultat résume des moments ou une procédure, sans convertir toute la vidéo en mouvement.
+
+### Puis-je annuler une modification ?
+
+Annuler rétablit la dernière modification de la grille et la sélection précédente. Sur Mac, cela vaut aussi pour l’ajout ou le remplacement d’une image source. Enregistrer, fermer ou changer de projet efface cette possibilité. Il n’y a pas de rétablissement.
 
 ### Quels formats puis-je exporter pour les images et les aperçus ?
 

@@ -10,7 +10,7 @@ Organize imagens do vídeo com horários em um resumo PNG ou folha PDF com pagin
 
 [Ajuda](https://digit-video.luopeike.com/pt-BR/help)
 
-Atualizado: 2026-11-11
+Atualizado: 2026-11-23
 
 ## Primeiros passos
 
@@ -23,6 +23,8 @@ Atualizado: 2026-11-11
 4. Salve ou compartilhe o PNG. Exportar selecionados cria arquivos PNG separados; escolha essa opção quando precisar editar cada imagem individualmente.
 
 ## Folhas PNG: até 40 quadros
+
+Feche a comparação e deixe só um quadro selecionado para recortar a capa em PNG ou JPEG. Antes de exportar a folha de contato em PDF, confira a quantidade e o intervalo de tempo. Ela usa a seleção ou, se não houver seleção, todos os resultados restantes (até 120 por PDF).
 
 Uma folha PNG aceita até 40 quadros. Para uma visão maior para impressão, escolha PDF: até 120 quadros com paginação automática. O espaço do Mac também exporta folhas PNG e PDF.
 
@@ -60,12 +62,12 @@ Use Salvar para manter o conjunto completo de resultados atuais e os horários d
 
 [Extrair quadros de vídeo em lote no Mac Adicione vídeos ou uma pasta, escolha uma predefinição e revise cada resultado ou exporte PNG/JPEG automaticamente. Todo o processamento acontece no Mac. Ler o guia →](https://digit-video.luopeike.com/pt-BR/batch-extract-video-frames-on-mac)
 
-[Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
+[Crie uma capa PNG ou JPEG a partir de um vídeo Compare duas opções de capa no iPhone ou iPad ou percorra o vídeo original no Mac. Escolha um quadro, recorte e exporte a miniatura em PNG ou JPEG. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
 
 [Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
 [Crie GIF ou MP4 com quadros selecionados do vídeo Extraia os quadros, escolha de 2 a 60 imagens e crie um vídeo curto sem som ou GIF animado no Mac, iPhone ou iPad. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-frames-to-gif-and-mp4)
 
-[Ajuda Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.](https://digit-video.luopeike.com/pt-BR/help)
+[Ajuda Aprenda a comparar quadros, revisar vídeos com taxa de quadros variável no Mac, desfazer uma edição e exportar capas, folhas de contato, GIFs ou MP4 sem som.](https://digit-video.luopeike.com/pt-BR/help)
 
 [Ler em Markdown](https://digit-video.luopeike.com/pt-BR/video-contact-sheet.md)

@@ -4,7 +4,7 @@ Dig It
 
 # Ajuda e suporte do Dig It
 
-Ajuda do Dig It: extraia e selecione quadros, crie MP4 sem som ou GIF, exporte capas e PDF e salve projetos. Fluxos do Mac e limites de exportação.
+Aprenda a comparar quadros, revisar vídeos com taxa de quadros variável no Mac, desfazer uma edição e exportar capas, folhas de contato, GIFs ou MP4 sem som.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -42,7 +42,7 @@ No iPhone e iPad, escolha um vídeo em Fotos ou Arquivos, revise as imagens, exp
 
 [Criar uma folha de contato de vídeo Organize imagens do vídeo com horários em um resumo PNG ou folha PDF com paginação automática. Compare capas, compartilhe cenas ou reúna etapas de um tutorial sem enviar o vídeo original. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-contact-sheet)
 
-[Crie uma capa PNG ou JPEG a partir de um vídeo Selecione um quadro extraído e use Exportar capa para recortá-lo, escolher PNG ou JPEG e limitar opcionalmente o JPEG a 2 MB. Prepare uma miniatura para produtos, apresentações ou posts sem enviar o vídeo à internet. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
+[Crie uma capa PNG ou JPEG a partir de um vídeo Compare duas opções de capa no iPhone ou iPad ou percorra o vídeo original no Mac. Escolha um quadro, recorte e exporte a miniatura em PNG ou JPEG. Ler o guia →](https://digit-video.luopeike.com/pt-BR/video-cover-image-from-video)
 
 [Transforme um vídeo em imagens de etapas Use o modo Etapas para capturar mudanças de um tutorial ou gravação de tela. Revise e exporte PNGs para notas, documentos ou apresentações; use uma folha de contato PDF com horários para ver o conjunto. Ler o guia →](https://digit-video.luopeike.com/pt-BR/turn-video-into-step-images)
 
@@ -74,15 +74,17 @@ Escolha 0,1, 0,25, 0,5, 1 ou 2 segundos por imagem. O lado máximo do MP4 é 720
 
 Não. Ele mostra as imagens estáticas pela duração escolhida. O MP4 é sem som e GIF não tem áudio. O app não recria o movimento contínuo, interpola quadros nem gera movimento por IA. O resultado resume momentos ou processos, não converte o vídeo completo com todos os movimentos.
 
-## Escolha uma imagem entre quadros próximos da fonte
+## Qual quadro funciona melhor como capa?
 
-No Mac, selecione um resultado, percorra quadros próximos da fonte e adicione uma imagem ou substitua a selecionada. O vídeo original precisa continuar disponível no espaço de trabalho atual.
+### iPhone / iPad
 
-[![Resultados do Mac e revisão da fonte com um vídeo de exemplo. Interface em inglês.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
+Às vezes, só a expressão muda entre duas opções de capa. Extraia os quadros no iPhone ou iPad, selecione dois e toque em “Comparar dois quadros” ao lado da contagem. Veja as imagens com o tempo de cada uma em milissegundos.
 
-Resultados do Mac e revisão da fonte com um vídeo de exemplo. Interface em inglês.
+### Mac
 
-Vídeo de exemplo: Big Buck Bunny. © 2008 Blender Foundation. Quadros organizados com Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+O instante desejado pode estar entre dois quadros extraídos. Com o vídeo original disponível no Mac, abra “Revisão precisa de quadros”. Avance ou recue pelos quadros reais, mesmo com taxa variável, e adicione o candidato ou substitua um único quadro selecionado.
+
+Feche a comparação e deixe só um quadro selecionado para recortar a capa em PNG ou JPEG. Antes de exportar a folha de contato em PDF, confira a quantidade e o intervalo de tempo. Ela usa a seleção ou, se não houver seleção, todos os resultados restantes (até 120 por PDF).
 
 ## Salve um conjunto de quadros para editar novamente
 
@@ -125,6 +127,10 @@ Dig It uses Photos access only so you can choose source media and save exported 
 ### O GIF ou MP4 mantém o movimento e o áudio originais?
 
 Não. Ele mostra as imagens estáticas pela duração escolhida. O MP4 é sem som e GIF não tem áudio. O app não recria o movimento contínuo, interpola quadros nem gera movimento por IA. O resultado resume momentos ou processos, não converte o vídeo completo com todos os movimentos.
+
+### Posso desfazer uma edição?
+
+Desfazer restaura a última edição na grade e a seleção anterior. No Mac também funciona após adicionar ou substituir um quadro do vídeo original. Salvar, fechar ou trocar de projeto apaga esse único passo; não há opção de refazer.
 
 ### Quais formatos posso exportar para imagens e resumos?
 

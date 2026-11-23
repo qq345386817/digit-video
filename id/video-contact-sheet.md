@@ -10,7 +10,7 @@ Susun gambar video dengan penanda waktu dalam ringkasan PNG atau lembar kontak P
 
 [Bantuan](https://digit-video.luopeike.com/id/help)
 
-Diperbarui: 2026-11-11
+Diperbarui: 2026-11-23
 
 ## Mulai
 
@@ -23,6 +23,8 @@ Diperbarui: 2026-11-11
 4. Simpan atau bagikan PNG yang dibuat. Ekspor Terpilih menghasilkan file PNG terpisah; gunakan pilihan itu jika setiap gambar perlu diedit sendiri.
 
 ## Contact sheet PNG: maksimal 40 frame
+
+Tutup perbandingan dan sisakan satu bingkai terpilih untuk memotong sampul PNG atau JPEG. Sebelum mengekspor lembar kontak PDF, periksa jumlah bingkai dan rentang waktunya. PDF memakai bingkai terpilih, atau semua hasil yang tersisa jika tidak ada pilihan (maksimal 120 per PDF).
 
 Contact sheet PNG menerima hingga 40 frame. Untuk tampilan cetak lebih besar, pilih PDF: hingga 120 frame dengan halaman otomatis. Ruang kerja Mac juga dapat mengekspor contact sheet PNG dan PDF.
 
@@ -60,12 +62,12 @@ Gunakan Simpan untuk menyimpan seluruh kumpulan hasil saat ini beserta penanda w
 
 [Ekstrak frame video secara batch di Mac Tambahkan file video atau folder, pilih preset ekstraksi, lalu tinjau hasil atau ekspor gambar PNG/JPEG secara otomatis. Semua pemrosesan berlangsung di Mac Anda. Baca panduan →](https://digit-video.luopeike.com/id/batch-extract-video-frames-on-mac)
 
-[Buat sampul PNG atau JPEG dari video Pilih satu frame hasil ekstraksi dan gunakan Ekspor Sampul untuk memotongnya, memilih PNG atau JPEG, serta membatasi JPEG hingga 2 MB jika diperlukan. Siapkan thumbnail untuk produk, presentasi, atau posting tanpa mengunggah video. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
+[Buat sampul PNG atau JPEG dari video Bandingkan dua calon sampul di iPhone atau iPad, atau telusuri video asli di Mac. Pilih satu bingkai, potong, lalu ekspor sampul PNG atau JPEG. Baca panduan →](https://digit-video.luopeike.com/id/video-cover-image-from-video)
 
 [Ubah video menjadi gambar langkah tutorial Gunakan mode Langkah untuk mengambil perubahan dari tutorial atau rekaman layar. Tinjau dan ekspor gambar PNG untuk catatan, dokumentasi, atau presentasi; buat lembar kontak PDF dengan penanda waktu untuk melihat keseluruhan. Baca panduan →](https://digit-video.luopeike.com/id/turn-video-into-step-images)
 
 [Buat GIF atau MP4 dari frame video pilihan Ekstrak frame, pilih 2–60 gambar, lalu buat video pendek tanpa suara atau GIF animasi di Mac, iPhone, atau iPad. Baca panduan →](https://digit-video.luopeike.com/id/video-frames-to-gif-and-mp4)
 
-[Bantuan Panduan Dig It: ekstrak dan pilih frame, buat MP4 tanpa suara atau GIF, ekspor sampul dan PDF, serta simpan proyek. Alur Mac dan batas ekspor.](https://digit-video.luopeike.com/id/help)
+[Bantuan Pelajari cara membandingkan dua bingkai, meninjau video berlaju bingkai variabel di Mac, membatalkan edit, serta mengekspor sampul, lembar kontak, GIF, atau MP4 tanpa suara.](https://digit-video.luopeike.com/id/help)
 
 [Baca sebagai Markdown](https://digit-video.luopeike.com/id/video-contact-sheet.md)

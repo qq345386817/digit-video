@@ -40,8 +40,8 @@ Canonical page: https://digit-video.luopeike.com/zh-Hant/turn-video-into-step-im
 
 [從影片製作 PNG 與 PDF 縮圖總覽 將多張影片影格整理成附時間戳記的 PNG 縮圖總覽圖或自動分頁的 PDF 縮圖總覽，用來比較封面、分享場景摘要及整理教學步驟，不必傳送原影片。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-contact-sheet)
 
-[從影片製作 PNG 或 JPEG 封面 選取一張擷取結果，使用「匯出封面」調整裁切位置，選擇 PNG 或 JPEG，也可將 JPEG 限制在 2 MB 內。為商品展示、簡報或貼文挑選縮圖，無須上傳影片。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
+[從影片製作 PNG 或 JPEG 封面 在 iPhone 或 iPad 比對兩張封面候選圖，或在 Mac 上逐格查看原始影片。選定一格後裁切，輸出 PNG 或 JPEG 封面。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-cover-image-from-video)
 
 [將選取的影片影格製作成 GIF 或短片 從影片擷取畫面，再挑選 2–60 張靜態圖，在 Mac、iPhone 或 iPad 上製作無聲 MP4 或 GIF 動圖。 查看指南 →](https://digit-video.luopeike.com/zh-Hant/video-frames-to-gif-and-mp4)
 
-[幫助 Dig It 使用說明：瞭解影片擷取、選格製作 MP4 與 GIF、封面和 PDF 匯出、歷史記錄，以及 Mac 批次流程、尺寸與數量限制。](https://digit-video.luopeike.com/zh-Hant/help)
+[幫助 瞭解如何比較兩個影格、在 Mac 查看可變影格率原片、復原編輯，以及匯出封面、聯絡表、GIF 或無聲 MP4。](https://digit-video.luopeike.com/zh-Hant/help)

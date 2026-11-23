@@ -4,7 +4,7 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-cover-image-from-vi
 
 # أنشئ غلاف PNG أو JPEG من الفيديو
 
-حدد إطارًا مستخرجًا واستخدم تصدير الغلاف لاقتصاصه واختيار PNG أو JPEG، مع حد اختياري لحجم JPEG يبلغ 2 MB. جهّز صورة مصغرة لمنتج أو عرض أو منشور دون رفع الفيديو.
+قارن صورتين للغلاف على iPhone أو iPad أو تصفّح الفيديو الأصلي على Mac. اختر إطارًا واحدًا واقتصّه ثم صدّر الغلاف بصيغة PNG أو JPEG.
 
 [App Store](https://apps.apple.com/app/id6508171056)
 
@@ -20,7 +20,29 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-cover-image-from-vi
 
 ## الدعم
 
-حدد إطارًا مستخرجًا واستخدم تصدير الغلاف لاقتصاصه واختيار PNG أو JPEG، مع حد اختياري لحجم JPEG يبلغ 2 MB. جهّز صورة مصغرة لمنتج أو عرض أو منشور دون رفع الفيديو.
+أغلق المقارنة واترك إطارًا واحدًا محددًا لاقتصاص غلاف بصيغة PNG أو JPEG. قبل تصدير ورقة معاينة PDF، راجع عدد الإطارات والنطاق الزمني. يُستخدم التحديد، أو كل النتائج المتبقية إذا لم تحدد شيئًا، بحد أقصى 120 إطارًا لكل ملف PDF.
+
+## أي إطار أنسب للغلاف؟
+
+### iPhone / iPad
+
+قد تختلف صورتان بتعبير وجه واحد فقط. استخرج الإطارات على iPhone أو iPad وحدد صورتين، ثم اضغط على «مقارنة إطارين» بجوار عدد الصور المحددة. يمكنك رؤية الصورتين وتوقيت كل منهما بالمللي ثانية قبل اختيار الغلاف.
+
+[![مقارنة إطارين · 00:50.375 / 00:51.125](https://digit-video.luopeike.com/images/review/ar-SA-iphone.webp)](https://digit-video.luopeike.com/images/review/ar-SA-iphone.webp)
+
+مقارنة إطارين · 00:50.375 / 00:51.125
+
+الفيديو التوضيحي: Big Buck Bunny. © 2008 Blender Foundation. رُتّبت الإطارات باستخدام Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+### Mac
+
+إذا وقعت اللحظة المطلوبة بين لقطتين مستخرجتين، افتح «مراجعة الإطار بدقة» على Mac مع توفر الفيديو الأصلي. تقدم أو ارجع إطارًا فعليًا واحدًا حتى في المقاطع ذات معدل الإطارات المتغير، ثم أضف الإطار المرشح أو استبدل به إطارًا واحدًا محددًا.
+
+[![مراجعة الإطار بدقة · 00:50.375 / 00:50.417](https://digit-video.luopeike.com/images/review/ar-SA-mac.webp)](https://digit-video.luopeike.com/images/review/ar-SA-mac.webp)
+
+مراجعة الإطار بدقة · 00:50.375 / 00:50.417
+
+الفيديو التوضيحي: Big Buck Bunny. © 2008 Blender Foundation. رُتّبت الإطارات باستخدام Dig It. [Big Buck Bunny](https://peach.blender.org/about/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## صور تستفيد منها في أعمالك
 
@@ -44,4 +66,4 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/video-cover-image-from-vi
 
 [أنشئ GIF أو MP4 من إطارات الفيديو المحددة استخرج الإطارات واختر من 2 إلى 60 صورة ثابتة، ثم أنشئ فيديو قصيرًا صامتًا أو GIF متحركًا على Mac أو iPhone أو iPad. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-mp4)
 
-[المساعدة دليل Dig It: استخراج الإطارات واختيارها وإنشاء MP4 صامت أو GIF وتصدير الأغلفة وPDF وحفظ المشاريع، مع سير عمل Mac وحدود التصدير.](https://digit-video.luopeike.com/ar-SA/help)
+[المساعدة تعرّف على كيفية مقارنة إطارين ومراجعة الفيديو ذي معدل الإطارات المتغيّر على Mac والتراجع عن تعديل وتصدير الأغلفة وأوراق المعاينة وملفات GIF أو MP4 الصامتة.](https://digit-video.luopeike.com/ar-SA/help)

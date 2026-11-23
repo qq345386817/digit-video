@@ -40,8 +40,8 @@ Selected stills export as separate PNG files. Export Cover crops one frame to PN
 
 [Create a video contact sheet Arrange video stills with timestamps in a PNG overview or an automatically paginated PDF contact sheet. Compare cover candidates, share a scene summary or collect tutorial steps without sending the original video. Read the guide →](https://digit-video.luopeike.com/video-contact-sheet)
 
-[Create a PNG or JPEG cover from video Select one extracted frame and use Export Cover to crop it, choose PNG or JPEG and optionally limit JPEG to 2 MB. Make a thumbnail for a listing, presentation or post without uploading your clip. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
+[Create a PNG or JPEG cover from video Compare cover candidates on iPhone or iPad, or step through the original video on Mac. Choose one still, crop it and export a PNG or JPEG thumbnail. Read the guide →](https://digit-video.luopeike.com/video-cover-image-from-video)
 
 [Make a GIF or MP4 from selected video frames Extract frames, choose 2–60 useful stills, then turn them into a silent short video or animated GIF on Mac, iPhone or iPad. Read the guide →](https://digit-video.luopeike.com/video-frames-to-gif-and-mp4)
 
-[Help Learn to extract and select frames, make silent MP4s or GIFs, export covers and PDFs, and save projects. Includes Mac workflows and export limits.](https://digit-video.luopeike.com/help)
+[Help Learn to compare two frames, review variable-frame-rate video on Mac, undo an edit and export covers, contact sheets, GIFs or silent MP4s.](https://digit-video.luopeike.com/help)

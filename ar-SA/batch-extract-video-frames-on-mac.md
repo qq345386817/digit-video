@@ -10,7 +10,7 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/batch-extract-video-frame
 
 [المساعدة](https://digit-video.luopeike.com/ar-SA/help)
 
-آخر تحديث: 2026-11-11
+آخر تحديث: 2026-11-23
 
 ## البدء
 
@@ -34,7 +34,7 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/batch-extract-video-frame
 
 ## راجع مجموعة أصغر من اللحظات المفيدة
 
-تختار أوضاع الاستخراج لحظات ممثلة، ولا تصدّر كل إطار. يركز وضع الغلاف على مجموعة أصغر، ويحتفظ وضع الخطوات بتغييرات أكثر للشروحات. راجع الصور قبل استخدامها للمنتجات أو التوثيق. على Mac، حدد نتيجة واحدة وتنقل بين إطارات المصدر القريبة لاستبدالها بدقة أكبر.
+إذا وقعت اللحظة المطلوبة بين لقطتين مستخرجتين، افتح «مراجعة الإطار بدقة» على Mac مع توفر الفيديو الأصلي. تقدم أو ارجع إطارًا فعليًا واحدًا حتى في المقاطع ذات معدل الإطارات المتغير، ثم أضف الإطار المرشح أو استبدل به إطارًا واحدًا محددًا.
 
 [![نتائج Mac ومراجعة إطارات المصدر باستخدام فيديو توضيحي. الواجهة المعروضة باللغة الإنجليزية.](https://digit-video.luopeike.com/images/mac-frame-review.webp)](https://digit-video.luopeike.com/images/mac-frame-review.webp)
 
@@ -70,12 +70,12 @@ Canonical page: https://digit-video.luopeike.com/ar-SA/batch-extract-video-frame
 
 [إنشاء ورقة صور من الفيديو رتّب لقطات الفيديو مع الطوابع الزمنية في ملخص PNG أو ورقة PDF بصفحات تلقائية. قارن الأغلفة أو شارك ملخص المشاهد أو اجمع خطوات الشرح دون إرسال الفيديو الأصلي. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-contact-sheet)
 
-[أنشئ غلاف PNG أو JPEG من الفيديو حدد إطارًا مستخرجًا واستخدم تصدير الغلاف لاقتصاصه واختيار PNG أو JPEG، مع حد اختياري لحجم JPEG يبلغ 2 MB. جهّز صورة مصغرة لمنتج أو عرض أو منشور دون رفع الفيديو. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
+[أنشئ غلاف PNG أو JPEG من الفيديو قارن صورتين للغلاف على iPhone أو iPad أو تصفّح الفيديو الأصلي على Mac. اختر إطارًا واحدًا واقتصّه ثم صدّر الغلاف بصيغة PNG أو JPEG. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-cover-image-from-video)
 
 [حوّل الفيديو إلى صور لخطوات الشرح استخدم وضع الخطوات لالتقاط التغييرات من شرح أو تسجيل شاشة. راجع الصور وصدّر ما تختاره بصيغة PNG للملاحظات أو المستندات أو العروض، أو أنشئ ورقة PDF بطوابع زمنية لعرض شامل. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/turn-video-into-step-images)
 
 [أنشئ GIF أو MP4 من إطارات الفيديو المحددة استخرج الإطارات واختر من 2 إلى 60 صورة ثابتة، ثم أنشئ فيديو قصيرًا صامتًا أو GIF متحركًا على Mac أو iPhone أو iPad. اقرأ الدليل →](https://digit-video.luopeike.com/ar-SA/video-frames-to-gif-and-mp4)
 
-[المساعدة دليل Dig It: استخراج الإطارات واختيارها وإنشاء MP4 صامت أو GIF وتصدير الأغلفة وPDF وحفظ المشاريع، مع سير عمل Mac وحدود التصدير.](https://digit-video.luopeike.com/ar-SA/help)
+[المساعدة تعرّف على كيفية مقارنة إطارين ومراجعة الفيديو ذي معدل الإطارات المتغيّر على Mac والتراجع عن تعديل وتصدير الأغلفة وأوراق المعاينة وملفات GIF أو MP4 الصامتة.](https://digit-video.luopeike.com/ar-SA/help)
 
 [اقرأ بصيغة Markdown](https://digit-video.luopeike.com/ar-SA/batch-extract-video-frames-on-mac.md)
